@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings />
+      <phpunit_by_deployment server_id="d523d824-e02b-4409-a626-88c7de513790" bootstrap_file_path="/" configuration_file_path="/" custom_loader_path="" phpunit_phar_path="" use_bootstrap_file="true" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
+</project>

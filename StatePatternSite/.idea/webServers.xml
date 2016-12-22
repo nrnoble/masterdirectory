@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ddf2d907-ce17-485d-8ecb-94014602e305" name="azure" url="http://waws-prod-sn1-049.ftp.azurewebsites.windows.net">
+        <fileTransfer host="waws-prod-sn1-049.ftp.azurewebsites.windows.net" port="21" username="phpnrnoble\nrnoble">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="04749696-7104-451b-ae11-655ddec2d4a4" name="Azure-FTPS" url="http://waws-prod-sn1-049.ftp.azurewebsites.windows.net">
+        <fileTransfer host="waws-prod-sn1-049.ftp.azurewebsites.windows.net" port="21" rootFolder="/site" accessType="FTPS" password="dfe0df8edfdadf9bdfdedfcfdfd8df98" username="phpnrnoble\nrnoble">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
