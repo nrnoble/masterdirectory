@@ -2,7 +2,7 @@ from Library import GRCGraphics as GRC
 from Library import nrnoble as Util
 
 
-import random
+import random, time, sys
 
 windowWidth = 300
 windowHeight = 300
@@ -14,82 +14,75 @@ gWindow = GRC.GraphicsWindow("Clock", windowWidth, windowHeight)
 
 def main():
 
+
+
     circlePoints = pointsOnCircle(150,150,100)
-
-    # angle = 0
-    # for point in circlePoints:
-    #     print ("Angle%: ",angle, point)
-    #     angle += 1
-
-
-    lineStartPoint = GRC.Point(150, 150)
+    HourHandcirclePoints = pointsOnCircle(150, 150, 90)
+    minuteHandcirclePoints = pointsOnCircle(150, 150, 95)
+    secondHandEndPoint = circlePoints[0]
+    clockCenter = GRC.Point(150, 150)
+    secondHand = GRC.Line(secondHandEndPoint, clockCenter)
+    gWindow.addItem(secondHand)
+    gWindow.setBackground("Black")
 
     for tick in range (0,360,6):
+        gWindow.plotPixel(circlePoints[tick].getX(), circlePoints[tick].getY(), "Yellow")
 
-        lineEndPoint = circlePoints[tick]
-        line = GRC.Line(lineStartPoint, lineEndPoint)
+    while(True):
+        sec = int (time.strftime("%S".zfill(3), time.localtime()))
+        minute = int(time.strftime("%M".zfill(3), time.localtime()))
+        hour = int(time.strftime("%I".zfill(3), time.localtime()))
+
+        #print (hour, minute, sec)
+
+        hourHandEndPoint = HourHandcirclePoints[hour * 30]
+        minuteHandEndPoint = minuteHandcirclePoints[minute * 6]
+        secondHandEndPoint = circlePoints[sec * 6]
+
+        hourHand = clockHand(hourHandEndPoint, 3, "red", clockCenter)
+        # hourHand = GRC.Line(hourHandEndPoint, clockCenter)
+        # hourHand.setWidth(3)
+        # hourHand.setFill("red")
+        # hourHand.setArrow("first")
+
+        MinuteHand = clockHand(minuteHandEndPoint, 2, "Blue", clockCenter)
+        # MinuteHand = GRC.Line(minuteHandEndPoint, clockCenter)
+        # MinuteHand.setWidth(2)
+        # MinuteHand.setFill("Blue")
+        # MinuteHand.setArrow("first")
+
+        secondHand = clockHand(secondHandEndPoint, 1, "White", clockCenter)
+
+        # secondHand = GRC.Line(secondHandEndPoint, clockCenter)
+        # secondHand.setWidth(1)
+        # secondHand.setFill("white")
+        # secondHand.setArrow("first")
+
+
+        hourHand.draw(gWindow)
+        secondHand.draw(gWindow)
+        MinuteHand.draw(gWindow)
+
+        message = GRC.Text(GRC.Point(150, 290), str(hour).zfill(2) + ":" + str(minute).zfill(2) + ":" + str(sec).zfill(2))
+        message.setFill("Green")
+        message.draw(gWindow)
         GRC.time.sleep(interval)
-        gWindow.addItem(line)
-        gWindow.redraw()
+
+        message.undraw()
+        hourHand.undraw()
+        secondHand.undraw()
+        MinuteHand.undraw()
 
 
+Util.pause(gWindow)
 
 
-
-
-    #seconds(center, 150)
-
-    # for tick in range (1,16):
-    #     # line.move(GRC.Point(150,150),GRC.Point(10,1))
-    #     gWindow.items.remove(line)
-    #     gWindow.redraw()
-    #     line = GRC.Line(GRC.Point(150, 150), GRC.Point(150+(tick*10), tick*10))
-    #     GRC.time.sleep(interval)
-    #     gWindow.addItem(line)
-    #     gWindow.redraw()
-
-    # # 16 - 30
-    # lineStartPoint = GRC.Point(150, 150)
-    # for tick in range (1,16,1):
-    #     # line.move(GRC.Point(150,150),GRC.Point(10,1))
-    #     gWindow.items.remove(line)
-    #     gWindow.redraw()
-    #
-    #     lineEndPoint = GRC.Point(300 - (tick*10), 150 + tick*10 )
-    #     line = GRC.Line(lineStartPoint, lineEndPoint)
-    #     GRC.time.sleep(interval)
-    #     gWindow.addItem(line)
-    #     gWindow.redraw()
-    #
-    # # 31 - 45
-    # lineStartPoint = GRC.Point(150, 150)
-    # for tick in range (1,16,1):
-    #     # line.move(GRC.Point(150,150),GRC.Point(10,1))
-    #     gWindow.items.remove(line)
-    #     gWindow.redraw()
-    #
-    #     lineEndPoint = GRC.Point(150 - (tick*10), 300 - tick*10 )
-    #     line = GRC.Line(lineStartPoint, lineEndPoint)
-    #     GRC.time.sleep(interval)
-    #     gWindow.addItem(line)
-    #     gWindow.redraw()
-    #
-    # # 46 - 60
-    # for tick in range(1, 16, 1):
-    #     # line.move(GRC.Point(150,150),GRC.Point(10,1))
-    #     gWindow.items.remove(line)
-    #     gWindow.redraw()
-    #
-    #     lineEndPoint = GRC.Point(0 + (tick * 10), 150 - tick * 10)
-    #     line = GRC.Line(lineStartPoint, lineEndPoint)
-    #     GRC.time.sleep(interval)
-    #     gWindow.addItem(line)
-    #     gWindow.redraw()
-
-    Util.pause(gWindow)
-
-
-
+def clockHand (endPoint, handWidth, handColor, clockCenter):
+    hourHand = GRC.Line(endPoint, clockCenter)
+    hourHand.setWidth(handWidth)
+    hourHand.setFill(handColor)
+    hourHand.setArrow("first")
+    return hourHand
 
 
 def pointsOnCircle(x,y,radius):
@@ -141,15 +134,9 @@ def point_on_circle(center,Degree,radius):
         Finding the x,y coordinates on circle, based on given angle
     '''
     from math import cos, sin, pi
-    #center of circle, angle in degree and radius of circle
-    #center = [150,150]
-    # angle = 90
-    # radius = 15
+
     angle = (pi * 2) / 360
-    #x = offsetX + radius * Cosine(Degree)
-    #x = center[0] + (radius * cos(angle))
-    #y = offsetY + radius * Sine(Degree)
-    #y = center[1] + (radius * sin(angle))
+
 
     x = center[0] + (radius * cos(Degree * pi / 180))
     y = center[1] + (radius * sin(Degree * pi / 180))

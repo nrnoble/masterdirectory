@@ -1,0 +1,1 @@
+win = GraphicsWindow("My Circle", 500, 500)
