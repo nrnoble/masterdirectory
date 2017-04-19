@@ -1,73 +1,213 @@
+/*
+ * Neal Noble
+ * April 2017
+ * Assignment: Linked List (Part 1)
+ * Instructor: Josh Archer
+ */
+
 package part2;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
-public class UniqueList <T> implements List<T>
+public class UniqueList <T> implements List<T>, Iterable<T>
 {
 
+	private int nodeCount = 0;
+	public Node nodes = null;
+
+
+	/**
+	 * Add element to the end of linked List
+	 * @param element is any object
+	 * @return true if object has been added to the end of the linked list
+	 */
 	@Override
 	public boolean add(T element)
 	{
-		return false;
+		// execute this only when the first node is added
+		// to list or when the list has been cleared
+		if (nodes == null)
+		{
+			nodes = new Node(element);
+			nodeCount++;
+			return true;
+		}
+
+
+		//Check to determine if element is already in list
+		Node nodeSearchgResults = nodes.findNode(element);
+		if (nodeSearchgResults!= null) {
+			return false;
+		}
+
+		Node lastNode = nodes.getLastNode();
+		lastNode.addNode(element);
+		nodeCount++;
+
+		return true;
 	}
 
+
+	/**
+	 * Clear call data from list. Reset counter
+	 */
 	@Override
 	public void clear()
 	{
-		
+		nodes = null;
+		nodeCount = 0;
 	}
 
+
+	/**
+	 * Check if current element is already in list
+	 * @param element value
+	 * @return true if the element is already in list
+	 */
 	@Override
 	public boolean contains(Object element)
 	{
-		return false;
+		Node currentNode = nodes.getFirstNode();
+
+		while (!currentNode.isEqual(element))
+		{
+			if (!currentNode.isLastNode())
+			{
+				currentNode = currentNode.getNextNode();
+			}
+			else
+			{
+				return false;
+			}
+		}
+
+		return true;
 	}
 
+
+	/**
+	 * Check if the list has zero elements.
+	 * @return true if there are no elements in list
+	 */
 	@Override
 	public boolean isEmpty()
 	{
+		if (nodes == null)
+			return true;
+
 		return false;
 	}
 
+
+	/**
+	 * remove and element by value from list
+	 * @param element to be removed
+	 * @return true if the element was removed
+	 */
 	@Override
 	public boolean remove(Object element)
 	{
-		return false;
+		Node resultNode = nodes.findNode(element);
+
+		if (resultNode == null)
+		{
+			return false ;
+		}
+
+		if (resultNode.isLastNode() && resultNode.isFirstNode())
+		{
+			this.clear();
+			return true;
+		}
+
+		nodes.remove(element);
+		nodeCount--;
+
+		return true;
 	}
 
+
+	/**
+	 * Get the number of elements in list
+	 * @return number of elements in list
+	 */
 	@Override
 	public int size()
 	{
-		return 0;
+		return nodeCount;
 	}
 
+
+	/**
+	 * Return the list as array of objects
+	 * @return array of objects
+	 */
 	@Override
 	public Object[] toArray()
 	{
-		return null;
+		Node currentNode = nodes.getFirstNode();
+		int count = nodeCount;
+		Object[] collection = new Object[count];
+		for (int i = 0; i < count ; i++)
+		{
+			collection[i] = currentNode.getNodeValue();
+			currentNode = currentNode.getNextNode();
+		}
+
+		return collection;
 	}
+
 
 	@Override
 	public Iterator<T> iterator()
 	{
-		return null;
+		return nodes.iterator();
 	}
-	
+
 	// ****** INDEX-BASED METHODS ******
 
 	@Override
 	public void add(int index, T element)
 	{
-		
+		//IndexOutOfBoundsException (Links to an external site.) - if the index is out of range (index < 0 || index > size())
+		if (index < 0 || index > nodeCount)
+		{
+			throw new IndexOutOfBoundsException("Index is out of bounds");
+		}
+
+
+		//Node currentIndexNode = this.get(index);
+
+		//nodes.addNode(index,element);
+
+
+
+
+
 	}
 
 	@Override
 	public T get(int index)
 	{
-		return null;
+
+		//return (T) nodes.getNodeByIndex(index).getNodeValue();
+
+		if  (index < 0 || index > this.nodeCount-1)
+		{
+			throw new IndexOutOfBoundsException("The index value is out of bounds");
+		}
+
+
+		Node currentNode = nodes.getFirstNode();
+		int count = 0;
+		while (count != index)
+		{
+			currentNode = currentNode.getNextNode();
+			count++;
+		}
+
+		return (T)currentNode.getNodeValue();
+
 	}
 
 	@Override
@@ -79,21 +219,39 @@ public class UniqueList <T> implements List<T>
 	@Override
 	public int indexOf(Object element)
 	{
-		return 0;
+		return nodes.getNodeIndex(element);
 	}
 
-	@Override
+	//@Override
 	public T remove(int index)
 	{
-		return null;
+
+		if (index > nodeCount)
+			return null;
+
+		Node firstNode = nodes.getFirstNode();
+		if (index == 0)
+		{
+			nodeCount--;
+			return (T) firstNode;
+
+		}
+
+		Node indexNode = null;
+		for (int i = 1; i <=index ; i++)
+		{
+			indexNode = nodes.getNextNode();
+		}
+		nodeCount--;
+		return (T) indexNode;
 	}
 
 	@Override
 	public int lastIndexOf(Object element)
 	{
-		return 0;
+		return nodes.getNodeIndex(element);
 	}
-	
+
 	// ****** SET METHODS ******
 
 	@Override
@@ -125,7 +283,17 @@ public class UniqueList <T> implements List<T>
 	{
 		return false;
 	}
-	
+
+
+
+
+
+
+
+
+
+
+
 	// ****** DO NOT IMPLEMENT ******
 
 	@Override

@@ -10,7 +10,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import part1.UniqueList;
 
 /**
  * Runs several tests against a custom UniqueList class that
@@ -459,8 +458,8 @@ public class ListTests extends TestClassFacade
 		list.add("z");
 		
 		//test bounds (no duplicates)
-		equals("lastIndexOf() does not return the last index for an element", 0, list.lastIndexOf("a"));
 		equals("lastIndexOf() does not return the last index for an element", 25, list.lastIndexOf("z"));
+		equals("lastIndexOf() does not return the last index for an element", 0, list.lastIndexOf("a"));
 		equals("lastIndexOf() does not return the last index for an element", 11, list.lastIndexOf("l"));
 		
 		//test missing element
