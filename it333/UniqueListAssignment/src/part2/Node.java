@@ -63,17 +63,53 @@ public class Node<E> implements Iterable<E>
 
     /**
      * Constuctor
-     * @param _theLastNode that is currently the last node.
+     * @param currentNode that is currently the last node.
      * @param element value of new node
      */
-    public Node(Node _theLastNode, Object element)
+    public Node(Node currentNode, Object element)
     {
         value = element;
         hash = ShaHash.getShaHash(element);
-        this.setPreviousNode(_theLastNode);
-        _theLastNode.setNextNode (this);
-        _theLastNode.setLastNode(this);
-        _theLastNode.setLastNode(false);
+        this.setFirstNode(currentNode.getFirstNode());
+        this.setLastNode(currentNode.getLastNode());
+
+        if (currentNode.isLastNode())
+        {
+            this.setPreviousNode(currentNode);
+            currentNode.setNextNode(this);
+            currentNode.setLastNode(this);
+            currentNode.setLastNode(false);
+            resetIndex = true;
+            return;
+        }
+
+        if (currentNode.isFirstNode())
+        {
+
+            this.setPreviousNode(currentNode);
+            this.setLastNode(currentNode.getLastNode());
+            this.setLastNode(currentNode.isTheLastNode);
+            this.setNextNode(currentNode.getNextNode());
+
+            currentNode.setNextNode(this);
+            resetIndex = true;
+            return;
+        }
+
+
+        Node previousNode = currentNode.getPreviousNode();
+        Node nextNode = currentNode.getNextNode();
+
+        this.setNextNode(currentNode);
+        this.setPreviousNode(currentNode.getPreviousNode());
+
+        previousNode.setNextNode(this);
+
+        currentNode.setPreviousNode(this);
+        resetIndex = true;
+        return;
+
+
 
 
 //        this.nodeIndex = 0;
@@ -203,6 +239,22 @@ public class Node<E> implements Iterable<E>
         newNode.nodeIndex = this.nodeIndex+1;
         return newNode;
     }
+
+
+
+    public Node addNode (Node insertNode, Object element)
+    {
+        // check if nodes are equal, if true, skip adding.
+        if (isEqual(element))
+        {
+            return null;
+        }
+
+        Node newNode = new Node(insertNode,element);
+        return newNode;
+    }
+
+
 
 
     /**
@@ -564,6 +616,16 @@ public class Node<E> implements Iterable<E>
     public Object getNodeValue()
     {
         return this.value;
+    }
+
+
+    /**
+     * Set the value of node
+     * @param element value
+     */
+    public void setNodeValue (Object element)
+    {
+        this.value = element;
     }
 
 

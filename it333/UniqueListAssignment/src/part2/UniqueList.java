@@ -158,6 +158,10 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	}
 
 
+	/**
+	 * Gets the Iterator of the list
+	 * @return Interator
+     */
 	@Override
 	public Iterator<T> iterator()
 	{
@@ -175,10 +179,11 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 			throw new IndexOutOfBoundsException("Index is out of bounds");
 		}
 
+		Node currentNodeTest = getNodeAtIndex(index);
 
-		//Node currentIndexNode = this.get(index);
-
-		//nodes.addNode(index,element);
+		Node currentNode = nodes.getNodeByIndex(index);
+		Node insertedNode = nodes.addNode(currentNode,element);
+		nodeCount++;
 
 
 
@@ -186,10 +191,9 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 
 	}
 
-	@Override
-	public T get(int index)
-	{
 
+	private Node getNodeAtIndex(int index)
+	{
 		//return (T) nodes.getNodeByIndex(index).getNodeValue();
 
 		if  (index < 0 || index > this.nodeCount-1)
@@ -206,14 +210,27 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 			count++;
 		}
 
-		return (T)currentNode.getNodeValue();
+		return currentNode;
+	}
+
+
+	@Override
+	public T get(int index)
+	{
+
+		//return (T) nodes.getNodeByIndex(index).getNodeValue();
+
+		return (T) getNodeAtIndex(index).getNodeValue();
 
 	}
 
 	@Override
 	public T set(int index, T element)
 	{
-		return null;
+
+		Node indexNode = getNodeAtIndex(index);
+		indexNode.setNodeValue(element);
+		return  element;
 	}
 
 	@Override
@@ -226,24 +243,52 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	public T remove(int index)
 	{
 
-		if (index > nodeCount)
-			return null;
+		if (index < 0 || index >= size())
+		{
+			throw new IndexOutOfBoundsException  ("Index out of bounds");
+		}
+
+
 
 		Node firstNode = nodes.getFirstNode();
 		if (index == 0)
 		{
+
+			T firstNodeValue = (T) nodes.getFirstNode();
+			nodes.remove(nodes.getFirstNode());
 			nodeCount--;
-			return (T) firstNode;
+			return firstNodeValue;
 
 		}
+
+		if (index == nodeCount-1)
+		{
+
+			T lastNodeValue = (T) nodes.getLastNode();
+			nodes.remove(nodes.getLastNode());
+			nodeCount--;
+			return lastNodeValue;
+
+		}
+
+
 
 		Node indexNode = null;
-		for (int i = 1; i <=index ; i++)
+		indexNode = nodes.getFirstNode();
+		for (int i = 0; i <=index ; i++)
 		{
-			indexNode = nodes.getNextNode();
+
+			if (index == i)
+			{
+				T value = (T) indexNode;
+				nodes.remove (indexNode);
+				nodeCount--;
+				return value;
+			}
+			indexNode = indexNode.getNextNode();
 		}
-		nodeCount--;
-		return (T) indexNode;
+
+		return  null;
 	}
 
 	@Override

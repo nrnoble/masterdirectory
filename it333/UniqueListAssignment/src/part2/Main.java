@@ -158,8 +158,8 @@ public class Main
         System.out.println();
         System.out.println();
 
-//        myList2.add("insert test");
-//        myList2.add(3,"insert test2");
+        myList2.add("insert test");
+        myList2.add(3,"insert test2");
 
         alphList = myList2.iterator();
 
@@ -169,8 +169,6 @@ public class Main
             System.out.print(alphList.next() + ", ");
         }
         System.out.println();
-
-
 
         System.out.println("All done");
     }
