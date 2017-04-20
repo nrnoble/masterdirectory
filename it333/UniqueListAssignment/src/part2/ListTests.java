@@ -349,7 +349,7 @@ public class ListTests extends TestClassFacade
 		{
 			Utils.debugPrint("union[" + i + "]=" + union[i] + "  list.get(" + i + ")=" + list.get(i));
 			equals("elements cannot be found in the linked list after calling addAll(index)", union[i], list.get(i));
-			
+
 		}
 		
 		//verify that elements are unique

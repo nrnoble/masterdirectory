@@ -436,8 +436,10 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 			if (!nodes.isDuplicate(node))
 			{
 				debugPrintln("nodeCount:" + nodeCount + " Adding Node=" + node);
+
 				newNode = nodes.addNode(InsertNode,node);
-				InsertNode = newNode;
+
+				//InsertNode = newNode;
 				this.nodeCount++;
 				result = true;
 				printNodeList(nodes);
@@ -455,9 +457,9 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		newNode.setNextNode(InsertNode);
 		InsertNode.setPreviousNode(newNode);
 
-
-		currentNode = nodes.getFirstNode();
-		printNodeList(nodes);
+//
+//		currentNode = nodes.getFirstNode();
+//		printNodeList(nodes);
 
 
 
