@@ -1,14 +1,20 @@
+/*
+ * Neal Noble
+ * April 2017
+ * Assignment: Linked List (Part 1)
+ * Instructor: Josh Archer
+ */
+
 package part1;
 
-import java.io.IOException;
-import java.security.NoSuchAlgorithmException;
 import java.util.*;
 
 public class UniqueList <T> implements List<T>
 {
 
 	private int nodeCount = 0;
-	public Node nodes = null;
+	public Node1 nodes = null;
+
 
 	/**
 	 * Add element to the end of linked List
@@ -22,27 +28,25 @@ public class UniqueList <T> implements List<T>
 		// to list or when the list has been cleared
 		if (nodes == null)
 		{
-			nodes = new Node(element);
+			nodes = new Node1(element);
 			nodeCount++;
 			return true;
 		}
 
-		//Check to determine if element is already in list
 
-		Node nodeSearchgResults = nodes.findNode(element);
-		if (nodeSearchgResults!= null) {
+		//Check to determine if element is already in list
+		Node1 node1SearchgResults = nodes.findNode(element);
+		if (node1SearchgResults != null) {
 			return false;
 		}
 
-		// If not in list, continue
-
-		Node lastNode = nodes.getLastNode();
-
-		lastNode.addNode(element);
+		Node1 lastNode1 = nodes.getLastNode();
+		lastNode1.addNode(element);
 		nodeCount++;
 
 		return true;
 	}
+
 
 	/**
 	 * Clear call data from list. Reset counter
@@ -54,21 +58,22 @@ public class UniqueList <T> implements List<T>
 		nodeCount = 0;
 	}
 
+
 	/**
 	 * Check if current element is already in list
-	 * @param element
+	 * @param element value
 	 * @return true if the element is already in list
      */
 	@Override
 	public boolean contains(Object element)
 	{
-		Node currentNode = nodes.getFirstNode();
+		Node1 currentNode1 = nodes.getFirstNode();
 
-			while (!currentNode.isEqual(element))
+			while (!currentNode1.isEqual(element))
             {
-                if (!currentNode.isLastNode())
+                if (!currentNode1.isLastNode())
                 {
-                    currentNode = currentNode.getNextNode();
+                    currentNode1 = currentNode1.getNextNode1();
                 }
                 else
                 {
@@ -78,6 +83,7 @@ public class UniqueList <T> implements List<T>
 
 		return true;
 	}
+
 
 	/**
 	 * Check if the list has zero elements.
@@ -92,6 +98,7 @@ public class UniqueList <T> implements List<T>
 		return false;
 	}
 
+
 	/**
 	 * remove and element by value from list
 	 * @param element to be removed
@@ -100,8 +107,14 @@ public class UniqueList <T> implements List<T>
 	@Override
 	public boolean remove(Object element)
 	{
-		Node searchNode = nodes.findNode(element);
-		if (searchNode.isLastNode() && searchNode.isFirstNode())
+		Node1 resultNode1 = nodes.findNode(element);
+
+		if (resultNode1 == null)
+		{
+			return false ;
+		}
+
+		if (resultNode1.isLastNode() && resultNode1.isFirstNode())
 		{
 			this.clear();
 			return true;
@@ -113,6 +126,7 @@ public class UniqueList <T> implements List<T>
 		return true;
 	}
 
+
 	/**
 	 * Get the number of elements in list
 	 * @return number of elements in list
@@ -121,8 +135,8 @@ public class UniqueList <T> implements List<T>
 	public int size()
 	{
 		return nodeCount;
-
 	}
+
 
 	/**
 	 * Return the list as array of objects
@@ -131,23 +145,18 @@ public class UniqueList <T> implements List<T>
 	@Override
 	public Object[] toArray()
 	{
-		Node currentNode = nodes.getFirstNode();
-		//System.out.println("currentNode.getNodeValue():" + currentNode.getNodeValue());
+		Node1 currentNode1 = nodes.getFirstNode();
 		int count = nodeCount;
 		Object[] collection = new Object[count];
 		for (int i = 0; i < count ; i++)
 		{
-
-			collection[i] = currentNode.getNodeValue();
-			System.out.println(collection[i]);
-			currentNode = currentNode.getNextNode();
+			collection[i] = currentNode1.getNodeValue();
+			currentNode1 = currentNode1.getNextNode1();
 		}
-
-		// System.out.println("currentNode.getNodeValue():" + currentNode.getNodeValue());
-		// collection[count] = currentNode.getNodeValue();
 
 		return collection;
 	}
+
 
 	@Override
 	public Iterator<T> iterator()
@@ -167,15 +176,21 @@ public class UniqueList <T> implements List<T>
 	public T get(int index)
 	{
 
-		Node currentNode = nodes.getFirstNode();
+		if  (index < 0 || index > this.nodeCount-1)
+		{
+			throw new IndexOutOfBoundsException("The index value is out of bounds");
+		}
+
+
+		Node1 currentNode1 = nodes.getFirstNode();
 		int count = 0;
 		while (count != index)
 		{
-			currentNode = currentNode.getNextNode();
+			currentNode1 = currentNode1.getNextNode1();
 			count++;
 		}
 
-		return (T)currentNode.getNodeValue();
+		return (T) currentNode1.getNodeValue();
 
 	}
 
@@ -198,21 +213,21 @@ public class UniqueList <T> implements List<T>
 		if (index > nodeCount)
 			return null;
 
-		Node firstNode = nodes.getFirstNode();
+		Node1 firstNode1 = nodes.getFirstNode();
 		if (index == 0)
 		{
 			nodeCount--;
-			return (T) firstNode;
+			return (T) firstNode1;
 
 		}
 
-		Node indexNode = null;
+		Node1 indexNode1 = null;
 		for (int i = 1; i <=index ; i++)
 		{
-			indexNode = nodes.getNextNode();
+			indexNode1 = nodes.getNextNode1();
 		}
 		nodeCount--;
-		return (T) indexNode;
+		return (T) indexNode1;
 	}
 
 	@Override

@@ -1,12 +1,15 @@
+/*
+ * Neal Noble
+ * April 2017
+ * Assignment: Linked List (Part 1)
+ * Instructor: Josh Archer
+ */
 package part1;
 
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
-import java.util.*;
 
-/**
- * Created by Neal on 4/9/2017.
- */
+
 public class Main
 {
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
@@ -33,8 +36,8 @@ public class Main
 
 
 
-        Node foundNode = myList.nodes.findNode(5);
-        System.out.println("Found Node Value: " + foundNode.getNodeValue());
+        Node1 foundNode1 = myList.nodes.findNode(5);
+        System.out.println("Found Node1 Value: " + foundNode1.getNodeValue());
 
 
         myList.clear();
@@ -43,11 +46,7 @@ public class Main
         System.out.println("isEmpty: " + myList.isEmpty());
 
 
-//        for (int i = 1; i <=10 ; i++)
-//        {
-//            myList.add(i);
-//            System.out.print(i +", ");
-//        }
+
 
         myList.add(12); // 1
         myList.add(11); // 2
@@ -112,11 +111,9 @@ public class Main
             System.out.println("element[" + i + "]=" + alist[i]);
         }
 
-        int result = myList.get(-1);
-        System.out.println("myList.get(-1): " + result);
+        int result = myList.get(3);
+        System.out.println("myList.get(3): " + result);
         System.out.println("all done!");
-
-
 
         System.out.println("All done");
     }

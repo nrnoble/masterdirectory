@@ -12,6 +12,7 @@ import java.util.*;
 
 import static part2.Utils.debugPrintNodes;
 import static part2.Utils.debugPrintln;
+import static part2.Utils.debugging;
 
 public class UniqueList <T> implements List<T>, Iterable<T>
 {
@@ -51,6 +52,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 
 		return true;
 	}
+
 
 
 	/**
@@ -239,6 +241,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 
 	}
 
+
 	/**
 	 * Set the value of element at index
 	 * @param index value
@@ -367,7 +370,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	}
 
 
-
 	private void printNodeList(Node listofNodes)
 	{
 		if(!debugging)
@@ -383,6 +385,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		System.out.println();
 
 	}
+
 
 	/**
 	 * Add all elements from collection to list at index
@@ -466,6 +469,11 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		return false;
 	}
 
+    /**
+     * The list verifies that it contains a collection of elements
+     * @param other a collection of elements
+     * @return true if list contains all elements in the collection
+     */
 	@Override
 	public boolean containsAll(Collection<?> other)
 	{
@@ -484,6 +492,12 @@ public class UniqueList <T> implements List<T>, Iterable<T>
             return true;
 	}
 
+
+    /**
+     * Remove a collection of elements from list
+     * @param other collection of elements
+     * @return true if list has changede
+     */
 	@Override
 	public boolean removeAll(Collection<?> other)
 	{
@@ -503,10 +517,67 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		return result;
 	}
 
+
+    /**
+     * Keep only the elements in the collection paramenter
+     * @param other the elments collect that will remain in list
+     * @return true if list has changed
+     */
 	@Override
 	public boolean retainAll(Collection<?> other)
 	{
-		return false;
+        Iterator<T> mainListIterator = (Iterator<T>) nodes.iterator();
+        Iterator<T> otherIterator = (Iterator<T>) other.iterator();
+        boolean listHasChanged = false;
+
+        debugPrintNodes(nodes,"main");
+        debugPrintln();
+
+        Iterator<Node> alphList = (Iterator<Node>) other.iterator();
+
+
+        while (alphList.hasNext())
+        {
+            System.out.print(alphList.next() + ", ");
+
+        }
+        debugPrintln();
+
+        debugPrintln("Value at firstNode: " + nodes.getFirstNode().getNodeValue());
+        debugPrintln("Value at lastNode: " + nodes.getLastNode().getNodeValue());
+
+
+
+
+        while (mainListIterator.hasNext())
+        {
+            boolean removeElement = true;
+            Object element = mainListIterator.next();
+            otherIterator = (Iterator<T>) other.iterator();
+            while (otherIterator.hasNext())
+            {
+                T nextElement = otherIterator.next();
+                if (nextElement == element)
+                {
+                    removeElement = false;
+                    break;
+                }
+
+            }
+
+            if (removeElement)
+            {
+                this.remove(element);
+               // this.nodeCount--;
+                removeElement = true;
+                listHasChanged = true;
+                if (debugging)
+                    printNodeList(nodes);
+            }
+
+        }
+
+		return listHasChanged;
 	}
 
 
