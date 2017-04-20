@@ -568,7 +568,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
             if (removeElement)
             {
                 this.remove(element);
-               // this.nodeCount--;
                 removeElement = true;
                 listHasChanged = true;
                 if (debugging)
