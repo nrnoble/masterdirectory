@@ -170,6 +170,11 @@ public class Main
         }
         System.out.println();
 
+
+        UniqueList<String> myList3= new UniqueList<>();
+        myList3.clear();
+        myList2.addAll(myList3);
+
         System.out.println("All done");
     }
 

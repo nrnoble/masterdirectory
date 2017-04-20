@@ -20,6 +20,10 @@ import org.junit.Test;
  */
 public class ListTests extends TestClassFacade
 {
+	// returns true if debugger is active.
+	public static boolean debugging = java.lang.management.ManagementFactory.getRuntimeMXBean().
+			getInputArguments().toString().indexOf("-agentlib:jdwp") > 0;
+
 	//the list to test
 	private UniqueList<String> list;
 	
@@ -268,7 +272,7 @@ public class ListTests extends TestClassFacade
 		
 		String[] letterValues1 = {"a", "d", "q", "r", "z"};
 		String[] letterValues2 = {"a", "b", "q", "e", "s"};
-		String[] union = {"a", "d", "q", "r", "z", "b", "e", "s"};
+		        String[] union = {"a", "d", "q", "r", "z", "b", "e", "s"};
 		
 		for (int i = 0; i < letterValues1.length; i++)
 		{
@@ -312,7 +316,7 @@ public class ListTests extends TestClassFacade
 		
 		String[] letterValues1 = {"a", "d", "q", "r", "z"};
 		String[] letterValues2 = {"a", "b", "q", "e", "s"};
-		String[] union = {"a", "d", "q", "b", "e", "s", "r", "z"};
+		        String[] union = {"a", "d", "q", "b", "e", "s", "r", "z"};
 		
 		for (int i = 0; i < letterValues1.length; i++)
 		{
@@ -329,10 +333,23 @@ public class ListTests extends TestClassFacade
 		
 		//verify the new size (26 alphabetic characters plus the 5 above
 		equals("size() is not correct after calling addAll(index)", union.length, list.size());
-		
+
+		if (debugging)
+		{
+			for (int i = 0; i < union.length; i++) {
+				System.out.println("union[" + i + "]=" + union[i] + "  list.get(" + i + ")=" + list.get(i));
+				//equals("elements cannot be found in the linked list after calling addAll(index)", union[i], list.get(i));
+
+			}
+
+			System.out.println();
+			System.out.println();
+		}
 		for (int i = 0; i < union.length; i++)
 		{
+			Utils.debugPrint("union[" + i + "]=" + union[i] + "  list.get(" + i + ")=" + list.get(i));
 			equals("elements cannot be found in the linked list after calling addAll(index)", union[i], list.get(i));
+			
 		}
 		
 		//verify that elements are unique

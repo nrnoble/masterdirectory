@@ -86,6 +86,7 @@ public class Node<E> implements Iterable<E>
         if (currentNode.isFirstNode())
         {
 
+
             this.setPreviousNode(currentNode);
             this.setLastNode(currentNode.getLastNode());
             this.setLastNode(currentNode.isTheLastNode);
@@ -216,7 +217,14 @@ public class Node<E> implements Iterable<E>
 //    }
 
 
+    public Node addToLastNode (Object element)
+    {
 
+        Node newNode = new Node(lastNode,element);
+        lastNode.setNextNode(newNode);
+        newNode.nodeIndex = this.nodeIndex+1;
+        return newNode;
+    }
 
 
 
@@ -239,6 +247,28 @@ public class Node<E> implements Iterable<E>
         newNode.nodeIndex = this.nodeIndex+1;
         return newNode;
     }
+
+
+    public boolean isDuplicate(Object element)
+    {
+        Node currentNode = this.firstNode;
+        if (currentNode.isEqual(element))
+        {
+            return true;
+        }
+
+        while (!currentNode.isTheLastNode)
+        {
+            currentNode  = currentNode.getNextNode();
+            if (currentNode.isEqual(element))
+            {
+                return true;
+            }
+        }
+        return false;
+
+    }
+
 
 
 
@@ -364,10 +394,11 @@ public class Node<E> implements Iterable<E>
             return firstNode;
         }
 
-        if (index == firstNode.nodeCount-1)
-        {
-            return lastNode;
-        }
+            //TODO This is broken, causes problems when nodes are 3 or less
+//        if (index == firstNode.nodeCount-1)
+//        {
+//            return lastNode;
+//        }
 
         if (index >= firstNode.nodeCount)
         {
@@ -447,6 +478,7 @@ public class Node<E> implements Iterable<E>
 
         int index = 0;
         Node currentNode = firstNode;
+        firstNode.nodeCount++;
         currentNode.nodeIndex = index;
         while (!currentNode.isLastNode())
         {
@@ -727,7 +759,10 @@ public class Node<E> implements Iterable<E>
 
         public void remove()
         {
-            throw new UnsupportedOperationException();
+            Node rNode = iNode;
+                    iNode.remove(rNode);
+
+            //throw new UnsupportedOperationException();
         }
     }
 
