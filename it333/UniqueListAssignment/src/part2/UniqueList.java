@@ -469,7 +469,19 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	@Override
 	public boolean containsAll(Collection<?> other)
 	{
-		return false;
+
+        Iterator<T> containsList = (Iterator<T>) other.iterator();
+
+        while (containsList.hasNext())
+        {
+            Object element = containsList.next();
+            boolean result = this.contains(element);
+            if (!result)
+            {
+                return false;
+            }
+        }
+            return true;
 	}
 
 	@Override
