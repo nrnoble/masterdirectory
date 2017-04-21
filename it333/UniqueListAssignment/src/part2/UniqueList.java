@@ -19,8 +19,11 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 
 	private int nodeCount = 0;
 	public Node nodes = null;
-	public static boolean debugging = java.lang.management.ManagementFactory.getRuntimeMXBean().
-			getInputArguments().toString().indexOf("-agentlib:jdwp") > 0;
+
+    // returns true if debugger is active.
+    // http://stackoverflow.com/questions/2755445/how-can-i-write-an-anonymous-function-in-java
+    public static boolean debugging = java.lang.management.ManagementFactory.getRuntimeMXBean().
+            getInputArguments().toString().indexOf("-agentlib:jdwp") > 0;
 
 			
 	/**
@@ -202,10 +205,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		Node currentNode = nodes.getNodeByIndex(index);
 		Node insertedNode = nodes.addNode(currentNode,element);
 		nodeCount++;
-
-
-
-
 
 	}
 

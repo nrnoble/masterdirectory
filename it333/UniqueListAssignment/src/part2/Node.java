@@ -444,7 +444,7 @@ public class Node<E> implements Iterable<E>
     public int getNodeIndex(Object element)
     {
         // do a reindex if nodes have been added\removed.
-        reIndex();
+        this.reIndex();
 
         Node foundNode = this.findNode(element);
 
@@ -464,6 +464,7 @@ public class Node<E> implements Iterable<E>
      */
     public int getNodeIndex(Node node)
     {
+        // do a reindex if nodes have been added\remove
         this.reIndex();
         return node.nodeIndex;
     }
@@ -479,6 +480,7 @@ public class Node<E> implements Iterable<E>
      */
     public void setLastNode(boolean _value)
     {
+        resetIndex = true;
         isTheLastNode = _value;
     }
 
@@ -522,6 +524,7 @@ public class Node<E> implements Iterable<E>
      */
     public void setFirstNode(Node _node)
     {
+        resetIndex = true;
         _node.isFirstNode = true;
         this.firstNode = _node;
     }
@@ -543,6 +546,7 @@ public class Node<E> implements Iterable<E>
      */
     public void setLastNode(Node _node)
     {
+        resetIndex = true;
         _node.isTheLastNode = true;
         this.lastNode = _node;
     }
@@ -575,6 +579,7 @@ public class Node<E> implements Iterable<E>
      */
     public void  setPreviousNode(Node _node)
     {
+        resetIndex = true;
         this.PreviousNode = _node;
     }
 
@@ -585,6 +590,7 @@ public class Node<E> implements Iterable<E>
      */
     public void setNextNode(Node _node)
     {
+        resetIndex = true;
         this.nextNode = _node;
     }
 
@@ -605,6 +611,7 @@ public class Node<E> implements Iterable<E>
      */
     public void setNodeValue (Object element)
     {
+        resetIndex = true;
         this.value = element;
     }
 
@@ -656,11 +663,6 @@ public class Node<E> implements Iterable<E>
         public T next()
         {
 
-//            if (iNode != null)
-//            {
-//                value1 = iNode.getNodeValue();
-//            }
-
             Object value1 =null;
             if (iNode.isLastNode())
             {
@@ -675,22 +677,6 @@ public class Node<E> implements Iterable<E>
                 return (T)value1;
             }
 
-//            if(this.hasNext())
-//            {
-//                if (iNode.isFirstNode)
-//                {
-//                    value = iNode.getNodeValue();
-//                    iNode = iNode.getNextNode();
-//                }
-//                else
-//                {
-//                    iNode = iNode.getNextNode();
-//                    value = iNode.getNodeValue();
-//                }
-//                    return (T)value;
-//            }
-
-            //throw new NoSuchElementException();
         }
 
 
