@@ -6,13 +6,8 @@
  */
 
 package part2;
-
-import javax.rmi.CORBA.Util;
 import java.util.*;
-
-import static part2.Utils.debugPrintNodes;
-import static part2.Utils.debugPrintln;
-import static part2.Utils.debugging;
+import static part2.Utils.*;
 
 public class UniqueList <T> implements List<T>, Iterable<T>
 {
@@ -28,7 +23,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 			
 	/**
 	 * Add element to the end of linked List
-	 * @param element is any object
+	 * @param element is any object of type T
 	 * @return true if object has been added to the end of the linked list
 	 */
 	@Override
@@ -53,7 +48,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		Node lastNode = nodes.getLastNode();
 		lastNode.addNode(element);
 		nodeCount++;
-
 		return true;
 	}
 
@@ -92,7 +86,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 				return false;
 			}
 		}
-
 		return true;
 	}
 
@@ -201,7 +194,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		}
 
 		Node currentNodeTest = getNodeAtIndex(index);
-
 		Node currentNode = nodes.getNodeByIndex(index);
 		Node insertedNode = nodes.addNode(currentNode,element);
 		nodeCount++;
@@ -211,7 +203,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 
 	private Node getNodeAtIndex(int index)
 	{
-		//return (T) nodes.getNodeByIndex(index).getNodeValue();
 
 		if  (index < 0 || index > this.nodeCount-1)
 		{
@@ -229,6 +220,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 
 		return currentNode;
 	}
+
 
 
 	/**
@@ -281,8 +273,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 			throw new IndexOutOfBoundsException  ("Index out of bounds");
 		}
 
-
-
 		Node firstNode = nodes.getFirstNode();
 		if (index == 0)
 		{
@@ -296,12 +286,10 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 
 		if (index == nodeCount-1)
 		{
-
 			T lastNodeValue = (T) nodes.getLastNode();
 			nodes.remove(nodes.getLastNode());
 			nodeCount--;
 			return lastNodeValue;
-
 		}
 
 
@@ -361,33 +349,16 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 
 			if (!nodes.isDuplicate(node))
 			{
-//				System.out.println("nodeCount:" + nodeCount + " Node=" + node);
 				nodes.addToLastNode(node);
 				this.nodeCount++;
 				result = true;
 			}
 
 		}
-
 		return result;
 	}
 
 
-	private void printNodeList(Node listofNodes)
-	{
-		if(!debugging)
-			return;
-
-		Node currentnode = listofNodes.getFirstNode();
-		System.out.print(currentnode.getNodeValue() + ", ");
-		while (!currentnode.isLastNode())
-		{
-			currentnode = currentnode.getNextNode();
-			System.out.print(currentnode.getNodeValue() + ", ");
-		}
-		System.out.println();
-
-	}
 
 
 	/**
@@ -400,36 +371,37 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	public boolean addAll(int index, Collection<? extends T> other)
 	{
 
-		debugPrintNodes(nodes,"main");
-		debugPrintln();
-		Node InsertNode = nodes.getNodeByIndex(index);
-		debugPrintln("Value at index: " + InsertNode.getNodeValue());
-		Node previousNode = InsertNode.getPreviousNode();
-		Node nextNode = InsertNode.getNextNode();
-		debugPrintln("Value at previousNode: " + previousNode.getNodeValue());
-		debugPrintln("Value at firstNode: " + nodes.getFirstNode().getNodeValue());
-		debugPrintln("Value at lastNode: " + nodes.getLastNode().getNodeValue());
+        Node InsertNode = nodes.getNodeByIndex(index);
+//		debugPrintNodes(nodes,"main");
+//		debugPrintln();
+//
+//		debugPrintln("Value at index: " + InsertNode.getNodeValue());
+//		Node previousNode = InsertNode.getPreviousNode();
+//		Node nextNode = InsertNode.getNextNode();
+//		debugPrintln("Value at previousNode: " + previousNode.getNodeValue());
+//		debugPrintln("Value at firstNode: " + nodes.getFirstNode().getNodeValue());
+//		debugPrintln("Value at lastNode: " + nodes.getLastNode().getNodeValue());
 
 		Iterator<T> addListiterator1 = (Iterator<T>) other.iterator();
 
 		Node currentNode = nodes.getFirstNode();
-		Utils.debugPrint(currentNode.getNodeValue() + ", ");
+//		Utils.debugPrint(currentNode.getNodeValue() + ", ");
 		while (!currentNode.isLastNode())
 		{
 			currentNode = currentNode.getNextNode();
-			Utils.debugPrint(currentNode.getNodeValue() + ", ");
+//			Utils.debugPrint(currentNode.getNodeValue() + ", ");
 		}
 		System.out.println();
 		
-
-
-		while (addListiterator1.hasNext())
-		{
-			Utils.debugPrint(addListiterator1.next() + ", ");
-		}
-		
-		System.out.println();
-		System.out.println();
+//
+//
+//		while (addListiterator1.hasNext())
+//		{
+//			Utils.debugPrint(addListiterator1.next() + ", ");
+//		}
+//
+//		System.out.println();
+//		System.out.println();
 
 		Iterator<T> addListiterator = (Iterator<T>) other.iterator();
 

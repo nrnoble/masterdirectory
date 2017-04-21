@@ -62,6 +62,25 @@ public class Utils
         }
 
 
+
+
+    }
+
+
+    // use strictly for debugging
+    public static void printNodeList(Node listofNodes)
+    {
+        if(!debugging)
+            return;
+
+        Node currentnode = listofNodes.getFirstNode();
+        System.out.print(currentnode.getNodeValue() + ", ");
+        while (!currentnode.isLastNode())
+        {
+            currentnode = currentnode.getNextNode();
+            System.out.print(currentnode.getNodeValue() + ", ");
+        }
+        System.out.println();
     }
 
 }
