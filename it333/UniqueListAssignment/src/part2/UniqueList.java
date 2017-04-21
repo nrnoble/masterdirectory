@@ -187,7 +187,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	@Override
 	public void add(int index, T element)
 	{
-		//IndexOutOfBoundsException (Links to an external site.) - if the index is out of range (index < 0 || index > size())
 		if (index < 0 || index > nodeCount)
 		{
 			throw new IndexOutOfBoundsException("Index is out of bounds");
@@ -252,6 +251,12 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		return  element;
 	}
 
+
+    /**
+     * Retreive the first index of the element
+     * @param element
+     * @return index of the element in the chain
+     */
 	@Override
 	public int indexOf(Object element)
 	{
@@ -276,12 +281,10 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		Node firstNode = nodes.getFirstNode();
 		if (index == 0)
 		{
-
 			T firstNodeValue = (T) nodes.getFirstNode();
 			nodes.remove(nodes.getFirstNode());
 			nodeCount--;
 			return firstNodeValue;
-
 		}
 
 		if (index == nodeCount-1)
@@ -292,13 +295,10 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 			return lastNodeValue;
 		}
 
-
-
 		Node indexNode = null;
 		indexNode = nodes.getFirstNode();
 		for (int i = 0; i <=index ; i++)
 		{
-
 			if (index == i)
 			{
 				T value = (T) indexNode;
@@ -308,7 +308,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 			}
 			indexNode = indexNode.getNextNode();
 		}
-
 		return  null;
 	}
 
@@ -323,6 +322,11 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	{
 		return nodes.getNodeIndex(element);
 	}
+
+
+
+
+
 
 	// ****** SET METHODS ******
 
@@ -360,8 +364,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 
 
 
-
-	/**
+    /**
 	 * Add all elements from collection to list at index
 	 * @param index location
 	 * @param other collection
@@ -372,68 +375,26 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	{
 
         Node InsertNode = nodes.getNodeByIndex(index);
-//		debugPrintNodes(nodes,"main");
-//		debugPrintln();
-//
-//		debugPrintln("Value at index: " + InsertNode.getNodeValue());
-//		Node previousNode = InsertNode.getPreviousNode();
-//		Node nextNode = InsertNode.getNextNode();
-//		debugPrintln("Value at previousNode: " + previousNode.getNodeValue());
-//		debugPrintln("Value at firstNode: " + nodes.getFirstNode().getNodeValue());
-//		debugPrintln("Value at lastNode: " + nodes.getLastNode().getNodeValue());
-
-		Iterator<T> addListiterator1 = (Iterator<T>) other.iterator();
-
-		Node currentNode = nodes.getFirstNode();
-//		Utils.debugPrint(currentNode.getNodeValue() + ", ");
-		while (!currentNode.isLastNode())
-		{
-			currentNode = currentNode.getNextNode();
-//			Utils.debugPrint(currentNode.getNodeValue() + ", ");
-		}
-		System.out.println();
-		
-//
-//
-//		while (addListiterator1.hasNext())
-//		{
-//			Utils.debugPrint(addListiterator1.next() + ", ");
-//		}
-//
-//		System.out.println();
-//		System.out.println();
-
+		@SuppressWarnings("unchecked")
 		Iterator<T> addListiterator = (Iterator<T>) other.iterator();
-
 		boolean result = false;
 		Node newNode = null;
+		
 		while (addListiterator.hasNext())
 		{
 			T node  =  addListiterator.next();
 
 			if (!nodes.isDuplicate(node))
 			{
-				debugPrintln("nodeCount:" + nodeCount + " Adding Node=" + node);
-
 				newNode = nodes.addNode(InsertNode,node);
 				this.nodeCount++;
 				result = true;
-				printNodeList(nodes);
 			}
-			else
-			{
-				if (debugging)
-				{
-					System.out.println("nodeCount: " + nodeCount + " Node=" + node);
-					printNodeList(nodes);
-				}
-			}
-
 		}
+
+        // reconnect remaining nodes
 		newNode.setNextNode(InsertNode);
 		InsertNode.setPreviousNode(newNode);
-
-
 
 		return false;
 	}
@@ -478,7 +439,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		while (removIterator.hasNext())
 		{
 				T node  =  removIterator.next();
-				//System.out.println(node);
 				nodes.remove(node);
 				nodeCount--;
 				result = true;
@@ -501,25 +461,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
         Iterator<T> otherIterator = (Iterator<T>) other.iterator();
         boolean listHasChanged = false;
 
-        debugPrintNodes(nodes,"main");
-        debugPrintln();
-
-        Iterator<Node> alphList = (Iterator<Node>) other.iterator();
-
-
-        while (alphList.hasNext())
-        {
-            System.out.print(alphList.next() + ", ");
-
-        }
-        debugPrintln();
-
-        debugPrintln("Value at firstNode: " + nodes.getFirstNode().getNodeValue());
-        debugPrintln("Value at lastNode: " + nodes.getLastNode().getNodeValue());
-
-
-
-
         while (mainListIterator.hasNext())
         {
             boolean removeElement = true;
@@ -533,7 +474,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
                     removeElement = false;
                     break;
                 }
-
             }
 
             if (removeElement)
@@ -541,8 +481,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
                 this.remove(element);
                 removeElement = true;
                 listHasChanged = true;
-                if (debugging)
-                    printNodeList(nodes);
             }
 
         }
