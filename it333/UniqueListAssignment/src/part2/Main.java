@@ -16,6 +16,7 @@ import java.util.Iterator;
 import static javafx.scene.input.KeyCode.T;
 
 
+@SuppressWarnings("unused")
 public class Main
 {
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {

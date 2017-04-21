@@ -22,6 +22,7 @@ import static javafx.scene.input.KeyCode.T;
   * @author Neal Noble
   * @version 1.0
   */
+@SuppressWarnings("unused")
 public class Node<E> implements Iterable<E>
 {
 
@@ -56,7 +57,6 @@ public class Node<E> implements Iterable<E>
         lastNode = this;
         nodeIndex = 0;
         nodeCount = 0;
-
     }
 
 
@@ -85,8 +85,6 @@ public class Node<E> implements Iterable<E>
 
         if (currentNode.isFirstNode())
         {
-
-
             this.setPreviousNode(currentNode);
             this.setLastNode(currentNode.getLastNode());
             this.setLastNode(currentNode.isTheLastNode);
@@ -103,49 +101,12 @@ public class Node<E> implements Iterable<E>
 
         this.setNextNode(currentNode);
         this.setPreviousNode(currentNode.getPreviousNode());
-
         previousNode.setNextNode(this);
-
         currentNode.setPreviousNode(this);
         resetIndex = true;
         return;
 
-
-
-
-//        this.nodeIndex = 0;
-//        this.nodeCount = 0;
-
     }
-
-
-
-//    /**
-//     * Constuctor
-//     * @param _theLastNode that is currently the last node.
-//     * @param element value of new node
-//     */
-//    public Node(Node _theLastNode, Object element)
-//    {
-//        value = element;
-//        hash = ShaHash.getShaHash(element);
-//        this.setPreviousNode(_theLastNode);
-//        _theLastNode.setNextNode (this);
-//        _theLastNode.setLastNode(this);
-//        _theLastNode.setLastNode(false);
-//
-//
-////        this.nodeIndex = 0;
-////        this.nodeCount = 0;
-//
-//    }
-
-    /**
-     * Constuctor
-     * @param _theLastNode that is currently the last node.
-     * @param element value of new node
-     */
-
 
 
     /**
@@ -195,28 +156,6 @@ public class Node<E> implements Iterable<E>
 
 
 
-//    /**
-//     * Add a new node at the end of chain
-//     * @param element value
-//     * @return the node that has been created.
-//     */
-//    public Node addNode (int index, Object element)
-//    {
-//        // check if nodes are equal, if true, skip adding.
-//        if (isEqual(element))
-//        {
-//            return null;
-//        }
-//
-//
-//
-//
-//       // Node newNode = new Node(index,element);
-////        this.setNextNode(newNode);
-//         return newNode;
-//    }
-
-
     public Node addToLastNode (Object element)
     {
 
@@ -225,7 +164,6 @@ public class Node<E> implements Iterable<E>
         newNode.nodeIndex = this.nodeIndex+1;
         return newNode;
     }
-
 
 
 
@@ -247,6 +185,7 @@ public class Node<E> implements Iterable<E>
         newNode.nodeIndex = this.nodeIndex+1;
         return newNode;
     }
+
 
 
     public boolean isDuplicate(Object element)
@@ -283,7 +222,6 @@ public class Node<E> implements Iterable<E>
         Node newNode = new Node(insertNode,element);
         return newNode;
     }
-
 
 
 
@@ -380,6 +318,7 @@ public class Node<E> implements Iterable<E>
     }
 
 
+
     /**
      * Find the node as a specific index
      * @param index of the node
@@ -416,6 +355,7 @@ public class Node<E> implements Iterable<E>
     }
 
 
+
     /**
      * Remove Node at a specific index
      * @param index of the node that will be removed
@@ -449,7 +389,11 @@ public class Node<E> implements Iterable<E>
 
 
 
-
+    // Reindex occurs after a node has been added or removed, and then the
+    // index value is accessed through getNodeIndex. Adding\removing sets
+    // resetIndex to true. When get call getNodeIdex, it will reindex the
+    // chain of node if resetIndex = true, or return the index value when
+    // has been nodes added\removed.
     private void reIndex()
     {
 
@@ -465,13 +409,14 @@ public class Node<E> implements Iterable<E>
     {
         if (forceReindex)
         {
-           // continue;
+           // continue with a full re-indexing of all nodes;
         }
         else
         {
             // check if one or more nodes has been removed
             if (!resetIndex)
             {
+                // if no nodes have been added\removed.
                 return;
             }
         }
@@ -498,6 +443,9 @@ public class Node<E> implements Iterable<E>
      */
     public int getNodeIndex(Object element)
     {
+        // do a reindex if nodes have been added\removed.
+        reIndex();
+
         Node foundNode = this.findNode(element);
 
         if (foundNode == null)

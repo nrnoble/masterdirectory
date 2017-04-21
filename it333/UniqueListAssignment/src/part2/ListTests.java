@@ -21,6 +21,7 @@ import org.junit.Test;
 public class ListTests extends TestClassFacade
 {
 	// returns true if debugger is active.
+	// http://stackoverflow.com/questions/2755445/how-can-i-write-an-anonymous-function-in-java
 	public static boolean debugging = java.lang.management.ManagementFactory.getRuntimeMXBean().
 			getInputArguments().toString().indexOf("-agentlib:jdwp") > 0;
 

@@ -22,6 +22,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	public static boolean debugging = java.lang.management.ManagementFactory.getRuntimeMXBean().
 			getInputArguments().toString().indexOf("-agentlib:jdwp") > 0;
 
+			
 	/**
 	 * Add element to the end of linked List
 	 * @param element is any object
@@ -38,8 +39,8 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 			nodeCount++;
 			return true;
 		}
-
-
+		
+		
 		//Check to determine if element is already in list
 		Node nodeSearchgResults = nodes.findNode(element);
 		if (nodeSearchgResults!= null) {
@@ -66,6 +67,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	}
 
 
+	
 	/**
 	 * Check if current element is already in list
 	 * @param element value
@@ -92,6 +94,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	}
 
 
+	
 	/**
 	 * Check if the list has zero elements.
 	 * @return true if there are no elements in list
@@ -105,6 +108,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		return false;
 	}
 
+	
 
 	/**
 	 * remove and element by value from list
@@ -441,8 +445,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 				debugPrintln("nodeCount:" + nodeCount + " Adding Node=" + node);
 
 				newNode = nodes.addNode(InsertNode,node);
-
-				//InsertNode = newNode;
 				this.nodeCount++;
 				result = true;
 				printNodeList(nodes);
@@ -459,10 +461,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		}
 		newNode.setNextNode(InsertNode);
 		InsertNode.setPreviousNode(newNode);
-
-//
-//		currentNode = nodes.getFirstNode();
-//		printNodeList(nodes);
 
 
 
@@ -496,8 +494,9 @@ public class UniqueList <T> implements List<T>, Iterable<T>
     /**
      * Remove a collection of elements from list
      * @param other collection of elements
-     * @return true if list has changede
+     * @return true if list has changed
      */
+	@SuppressWarnings("unchecked")
 	@Override
 	public boolean removeAll(Collection<?> other)
 	{
@@ -519,10 +518,11 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 
 
     /**
-     * Keep only the elements in the collection paramenter
-     * @param other the elments collect that will remain in list
+     * Keep only the elements in the collection parameter
+     * @param other the elements collect that will remain in list
      * @return true if list has changed
      */
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public boolean retainAll(Collection<?> other)
 	{
