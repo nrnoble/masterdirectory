@@ -1,0 +1,44 @@
+.mynavbar {
+    min-height: 20px;
+    padding: 10px;
+    /*margin-bottom: 20px;*/
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    width: 88%;
+    -moz-box-shadow: 2px 2px 2px #999;
+    -webkit-box-shadow: 2px 2px 2px #999;
+    box-shadow: 1px 1px 1px #999;
+    margin-bottom: 10px;
+}
+
+
+.box1{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #e3e3e3;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #e3e3e3;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #e3e3e3;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e3e3e3;
+    /*border-radius: 1px;*/
+}
+
+.myDiv2 {
+
+    padding: 9px;
+    /*font-size: 12px;*/
+    margin: 0 10px 20px;
+    /*line-height: 15px;*/
+    /*word-break: break-all;*/
+    /*word-wrap: break-word;*/
+    /*white-space: pre-wrap;*/
+    /*background-color: #f5f5f5;*/
+    border: 1px solid #ccc;
+    width: 87%;
+    border-radius: 3px;
+}
