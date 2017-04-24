@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <!---->
     <!--        Neal Noble                                                                                                                              -->
     <!--        Course: IT 328 - Full-Stack Web Development                                                                                             -->
@@ -44,28 +43,28 @@
                 <span class="boldText">In-door interests</span><BR>
                 <div class="col-md-3" >
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="tv" class="custom-control-input" checked value="tv">
+                        <input type="checkbox" name="indoor[]" class="custom-control-input" <?php echo $_SESSION['dchecked'] ?>  value="tv">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">tv</span>
                     </label>
                </div>
                 <div class="col-md-3" >
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="movies" class="custom-control-input" value="movies">
+                        <input type="checkbox" name="indoor[]" class="custom-control-input" value="movies">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">movies</span>
                     </label>
                 </div>
                 <div class="col-md-3" >
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="cooking" class="custom-control-input" checked value="cooking">
+                        <input type="checkbox" name="indoor[]" class="custom-control-input" <?php echo $_SESSION['dchecked'] ?>  value="cooking">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">cooking</span>
                     </label>
                 </div>
                 <div class="col-md-3" >
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="boardgames" class="custom-control-input" value="board games">
+                        <input type="checkbox" name="indoor[]" class="custom-control-input" value="board games">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">board games</span>
                     </label>
@@ -74,14 +73,14 @@
                     <div class="col-md-3" >
 
                         <label class="custom-control custom-checkbox">
-                            <input type="checkbox" name="puzzles" class="custom-control-input"  value="puzzles">
+                            <input type="checkbox" name="indoor[]" class="custom-control-input"  value="puzzles">
                             <span class="custom-control-indicator"></span>
                             <span class="custom-control-description">puzzles</span>
                         </label>
                     </div>
                     <div class="col-md-3" >
                         <label class="custom-control custom-checkbox">
-                            <input type="checkbox" name="reading" class="custom-control-input" value="reading">
+                            <input type="checkbox" name="indoor[]" class="custom-control-input" value="reading">
                             <span class="custom-control-indicator"></span>
                             <span class="custom-control-description">reading</span>
                         </label>
@@ -90,14 +89,14 @@
                 <div class="col-md-3" >
 
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="playing card" class="custom-control-input" checked value="playing cards">
+                        <input type="checkbox" name="indoor[]" class="custom-control-input" <?php echo $_SESSION['dchecked'] ?>  value="playing cards">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">playing cards</span>
                     </label>
                 </div>
                 <div class="col-md-3" >
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="video games" class="custom-control-input" checked value="video games">
+                        <input type="checkbox" name="indoor[]" class="custom-control-input" <?php echo $_SESSION['dchecked'] ?>  value="video games">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">video games</span>
                     </label>
@@ -110,28 +109,28 @@
                 <span class="boldText">Out-door interests</span><BR>
                 <div class="col-md-3" >
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="hiking" class="custom-control-input" checked value="hiking">
+                        <input type="checkbox" name="outdoor[]" class="custom-control-input" <?php echo $_SESSION['dchecked'] ?>  value="hiking">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">hiking</span>
                     </label>
                 </div>
                 <div class="col-md-3" >
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="biking"  class="custom-control-input" value="biking">
+                        <input type="checkbox" name="outdoor[]"  class="custom-control-input" value="biking">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">biking</span>
                     </label>
                 </div>
                 <div class="col-md-3" >
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="swimming" class="custom-control-input" checked value="swimming">
+                        <input type="checkbox" name="outdoor[]" class="custom-control-input" <?php echo $_SESSION['dchecked'] ?>  value="swimming">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">swimming</span>
                     </label>
                 </div>
                 <div class="col-md-3" >
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="collecting" class="custom-control-input" value="collecting">
+                        <input type="checkbox" name="outdoor[]" class="custom-control-input" value="collecting">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">collecting</span>
                     </label>
@@ -140,14 +139,14 @@
                 <div class="col-md-3" >
 
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="walking" class="custom-control-input" checked value="walking">
+                        <input type="checkbox" name="outdoor[]" class="custom-control-input" <?php echo $_SESSION['dchecked'] ?>  value="walking">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">walking</span>
                     </label>
                 </div>
                 <div class="col-md-3" >
                     <label class="custom-control custom-checkbox">
-                        <input type="checkbox" name="climbing" class="custom-control-input" checked value="climbing">
+                        <input type="checkbox" name="outdoor[]" class="custom-control-input" <?php echo $_SESSION['dchecked'] ?>  value="climbing">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">climbing</span>
                     </label>

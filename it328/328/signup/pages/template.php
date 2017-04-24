@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!---->
-<!--        Neal Noble-->
-<!--        Course: IT 328 - Full-Stack Web Development-->
-<!--        Assignment: The sign-up form-->
-<!--        April 2017-->
-<!--        Instructor: Tina Ostrander-->
-
-
-
 <head>
     <meta charset="UTF-8">
+    <!---->
+    <!--        Neal Noble-->
+    <!--        Course: IT 328 - Full-Stack Web Development-->
+    <!--        Assignment: The sign-up form-->
+    <!--        April 2017-->
+    <!--        Instructor: Tina Ostrander-->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

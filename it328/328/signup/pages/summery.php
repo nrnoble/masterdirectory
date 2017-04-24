@@ -1,15 +1,8 @@
-<?php
-$_SESSION['interests-data'] = $_POST;
-
-$myName = $_SESSION['name'];
-$flavor = $_SESSION['flavor'];
-?>
-
+<?php session_start();?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-
     <!---->
     <!--        Neal Noble                                                                                                                              -->
     <!--        Course: IT 328 - Full-Stack Web Development                                                                                             -->
@@ -52,7 +45,7 @@ $flavor = $_SESSION['flavor'];
                                 <div class="myborder">Email: <?= $email ?></div>
                                 <div class="myborder">State: <?= $state ?></div>
                                 <div class="myborder">Seeking: <?= $seeking ?></div>
-                                <div class="myborder nobottomborder">Interests:  </div>
+                                <div class="myborder nobottomborder">Interests: <?= $interests ?> </div>
                             </div>
                             <?php else : ?>
                             <div class="box1">
@@ -68,10 +61,24 @@ $flavor = $_SESSION['flavor'];
 
                         </div>
                         <div class="indent col-md-5" >
-                            <img src="http://nnoble.greenrivertech.net/328/signup/images/placeholder.png" alt="placeholder">
+                            <?php if( $membership == "true") : ?>
+<!--                            <img src="http://nnoble.greenrivertech.net/328/signup/images/placeholder.png" alt="placeholder">-->
+                                <img src=" <?= $imagePath ?>" alt="placeholder">
+                                <form action="/328/signup/upload" method="post" enctype="multipart/form-data">
+
+                                    <label class="control-label">Change your profile picture</label>
+                                    <input type="file" name="fileToUpload" id="fileToUpload" class=" btn btn-primary">
+                                    <input type="submit" class=" btn btn-primary" value="Upload Image" name="submit">
+                                </form>
+
+
+                            <?php else : ?>
+                                <img src="http://nnoble.greenrivertech.net/328/signup/images/placeholder.png" alt="placeholder">
+
+                            <?php endif; ?>
                             <span class="boldText">Biography</span>
                             <div >
-                                <?= $_SESSION['bio'] ?>
+                                <?= $bio ?>
                             </div>
                         </div>
                         <br>

@@ -1,24 +1,7 @@
-<?php
-//print_r($_SESSION['name']);
-//print_r($_SESSION);
-//
-//$_SESSION['info-data'] = $_POST;
-//print_r($_POST['FirstName']);
-//print_r($_SESSION['info-data']['FirstName']);
-//print_r($_SESSION['info-data']['lastName']);
-//print_r($_SESSION['info-data']['age']);
-
-$_SESSION['name'] = 'fred';
-$firstName =$_POST['FirstName'];
-$lastName =$_POST['lirstName'];
-$age = $_POST['age'];
-$gender = $_POST['gender'];;
-?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-
     <!---->
     <!--        Neal Noble                                                                                                                              -->
     <!--        Course: IT 328 - Full-Stack Web Development                                                                                             -->
@@ -61,7 +44,7 @@ $gender = $_POST['gender'];;
                                 <div class="form-group row">
                                     <label for="emailID" class="col-1 col-form-label">Email</label>
                                     <div class="col-10">
-                                        <input class="form-control" type="email" name="email" value="myemail@gmail.com" id="emailID">
+                                        <input class="form-control" type="email" name="email" value="<?php echo $_SESSION['demail']; ?>" id="emailID">
                                     </div>
                                 </div>
 
@@ -119,7 +102,7 @@ $gender = $_POST['gender'];;
                                             <option value="UT">Utah</option>
                                             <option value="VA">Virginia</option>
                                             <option value="VT">Vermont</option>
-                                            <option selected="Selected" value="WA">Washington</option>
+                                            <option <?php echo $_SESSION['dstate']; ?> value="WA">Washington</option>
                                             <option value="WI">Wisconsin</option>
                                             <option value="WV">West Virginia</option>
                                             <option value="WY">Wyoming</option>
@@ -132,7 +115,7 @@ $gender = $_POST['gender'];;
                                     <span class = boldText>Seeking</span>
                                     <div class="form-check-inline">
                                         <label class="form-check-label">
-                                            <input class="form-check-input" type="radio" name="seeking" id="SeekingMale" value="male" checked="checked"> Male
+                                            <input class="form-check-input" type="radio" name="seeking" id="SeekingMale" value="male" <?php echo $_SESSION['dseeking']; ?>> Male
                                         </label>
 
                                         <label class="form-check-label">
@@ -145,11 +128,7 @@ $gender = $_POST['gender'];;
                         <div class="col-md-4">
                             <div class="form-group">
                   <label for="bio">Biography</label>
-                  <textarea class="form-control" name="bio" id="bio" rows="7">
-            orum eloquentiam ut sed, usu ut iudico regione. Te cum porro sententiae, aeque clita facilisis sit et.
-            Cum partem melius detraxit ex, sea et graeci scripta adversarium. No pri unum dicit vituperatoribus,
-            alterum principes repudiare ad pro.
-                  </textarea>
+                  <textarea class="form-control" name="bio" id="bio" rows="7"><?php echo $_SESSION['dbio']; ?></textarea>
               </div>
                             <div class="wrapper profilepagenextbutton">
                                 <input type="submit" class="bet_time btn btn-primary" value="Next >">

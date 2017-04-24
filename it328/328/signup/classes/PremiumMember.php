@@ -1,16 +1,36 @@
 <?php
+/**
+ * Neal Noble
+ * Course: IT 328 - Full-Stack Web Development
+ * Assignment: The sign-up form
+ * April 2017
+ * Instructor: Tina Ostrander
+ */
 
 namespace DatingSite;
 
-
+/**
+ * Class PremiumMember extendsd Member class
+ * 
+ * PremiumMember extends by add the follow properties
+ *   inDoorInterests
+ *   outDoorInterests
+ * 
+ * @package DatingSite
+ * @author Neal Noble <nnoble2@mail.greenriver.edu>
+ * @copyright 2017
+ * @license https://opensource.org/licenses/MIT
+ * 
+ */
 class PremiumMember extends Member
 {
 
-    private $inDoorInterests;
-    private $outDoorInterests;
+    private $inDoorInterests = null;
+    private $outDoorInterests = null;
 
     /**
-     * @return mixed
+     * Get list of indoor interestes
+     * @return array of indoor interests
      */
     public function getInDoorInterests()
     {
@@ -18,6 +38,7 @@ class PremiumMember extends Member
     }
 
     /**
+     * Set list of indoor interests
      * @param mixed $inDoorInterests
      */
     public function setInDoorInterests($inDoorInterests)
@@ -25,8 +46,10 @@ class PremiumMember extends Member
         $this->inDoorInterests = $inDoorInterests;
     }
 
+    
     /**
-     * @return mixed
+     * Get list of outdoor interests
+     * @return array of outdoor interests
      */
     public function getOutDoorInterests()
     {
@@ -34,7 +57,8 @@ class PremiumMember extends Member
     }
 
     /**
-     * @param mixed $outDoorInterests
+     * Set out door interests
+     * @param array $outDoorInterests
      */
     public function setOutDoorInterests($outDoorInterests)
     {

@@ -1,17 +1,34 @@
 <?php
 /**
- * @category IT328
- * @package DatingSite
- * @author Neal Noble
- * @license https://opensource.org/licenses/MIT
+ * Neal Noble
+ * Course: IT 328 - Full-Stack Web Development
+ * Assignment: The sign-up form
+ * April 2017
+ * Instructor: Tina Ostrander
  */
 
 
 namespace DatingSite;
 
 /**
- * Class Member
- * @package DatingSite
+ * The Member class represents a basic member of the dating site
+ *
+ * The Member class represents a basic member use to create a
+ * user profile. It has the following properities
+ *     First Name
+ *     Last Name
+ *     Age
+ *     Gender
+ *     Phone
+ *     Email
+ *     State
+ *     SeekingGender;
+ *     Bio;
+ *     PremiumMember;
+ *     imageLocation
+ *
+ * @author Neal Noble <nnoble2@mail.greenriver.edu>
+ * @copyright 2017
  */
 class Member
 {
@@ -24,11 +41,19 @@ class Member
     private $state;
     private $seekingGender;
     private $bio;
-    private $premiumMember;
+    private $premiumMember = null;
+    private $imageLocation = "http://nnoble.greenrivertech.net/328/signup/images/placeholder.png";
 
 
-
-
+    /**
+     * Member constructor.
+     * @param $first name of user profile
+     * @param $last name  of user profile
+     * @param $yearsOld of user profile
+     * @param $sexualIdentity of user profile
+     * @param $telephone contact of user
+     * @param $premium is true if Premium member. default is null
+     */
     function __construct($first, $last, $yearsOld, $sexualIdentity, $telephone, $premium)
     {
         $this->firstName = $first;
@@ -40,49 +65,10 @@ class Member
     }
 
 
-    /**
-     * @return mixed
-     */
-    public function getBio()
-    {
-        return $this->bio;
-    }
 
     /**
-     * @param mixed $bio
-     */
-    public function setBio($bio)
-    {
-        $this->bio = $bio;
-    }
-
-
-
-    /**
-     * @return mixed
-     */
-    public function getPremiumMember()
-    {
-        return $this->premiumMember;
-    }
-
-    /**
-     * @param mixed $premiumMember
-     */
-    public function setPremiumMember($premiumMember)
-    {
-        $this->premiumMember = $premiumMember;
-    }
-
-
-    public function getFullName()
-    {
-        return $this->firstName . " " . $this->lastName;
-    }
-
-
-    /**
-     * @return mixed first and last name
+     * Get first name
+     * @return String first name
      */
     public function getFirstName()
     {
@@ -91,7 +77,8 @@ class Member
 
 
     /**
-     * @param mixed $firstName
+     * Set first name
+     * @param String $firstName
      */
     public function setFirstName($firstName)
     {
@@ -100,7 +87,8 @@ class Member
 
 
     /**
-     * @return mixed
+     * Get last name
+     * @return String $lastname
      */
     public function getLastName()
     {
@@ -109,7 +97,8 @@ class Member
 
 
     /**
-     * @param mixed $lastName
+     * Set last name
+     * @param String $lastName
      */
     public function setLastName($lastName)
     {
@@ -118,7 +107,19 @@ class Member
 
 
     /**
-     * @return mixed
+     * Get full name
+     * @return string FullName
+     */
+    public function getFullName()
+    {
+        return $this->firstName . " " . $this->lastName;
+    }
+    
+
+
+    /**
+     * Get age
+     * @return int age
      */
     public function getAge()
     {
@@ -127,7 +128,8 @@ class Member
 
 
     /**
-     * @param mixed $age
+     * Set age
+     * @param int $age
      */
     public function setAge($age)
     {
@@ -136,8 +138,8 @@ class Member
 
 
     /**
-     *
-     * @return mixed
+     * Get Gender either as male or female
+     * @return String Gender
      */
     public function getGender()
     {
@@ -145,7 +147,8 @@ class Member
     }
 
     /**
-     * @param mixed $gender
+     * Set Gender as male or female
+     * @param String $gender
      */
     public function setGender($gender)
     {
@@ -154,7 +157,8 @@ class Member
 
 
     /**
-     * @return mixed
+     * Get contact phone number
+     * @return String phone number
      */
     public function getPhone()
     {
@@ -163,7 +167,8 @@ class Member
 
 
     /**
-     * @param mixed $phone
+     * Set contact phone number
+     * @param String $phone
      */
     public function setPhone($phone)
     {
@@ -172,7 +177,8 @@ class Member
 
 
     /**
-     * @return mixed
+     * Get email address
+     * @return String email
      */
     public function getEmail()
     {
@@ -181,7 +187,8 @@ class Member
 
 
     /**
-     * @param mixed $email
+     * Set email address
+     * @param String $email
      */
     public function setEmail($email)
     {
@@ -190,7 +197,8 @@ class Member
 
 
     /**
-     * @return mixed
+     * Get State location
+     * @return String state
      */
     public function getState()
     {
@@ -199,7 +207,8 @@ class Member
 
 
     /**
-     * @param mixed $state
+     * Sets state location
+     * @param String $state
      */
     public function setState($state)
     {
@@ -208,7 +217,8 @@ class Member
 
 
     /**
-     * @return mixed
+     * get seeking gender
+     * @return string gender
      */
     public function getSeekingGender()
     {
@@ -217,29 +227,72 @@ class Member
 
 
     /**
-     * @param mixed $seekingGender
+     * Sets seeking gender
+     * @param String $seekingGender
      */
     public function setSeekingGender($seekingGender)
     {
         $this->seekingGender = $seekingGender;
     }
 
+    /**
+     * Get location of profile image
+     * @return string Image location
+     */
+    public function getImageLocation()
+    {
+        return $this->imageLocation;
+    }
+
+
 
     /**
-     * @return mixed
+     * Set location of profile image
+     * @param string $imageLocation
      */
-    public function getInterests()
+    public function setImageLocation($imageLocation)
     {
-        return $this->interests;
+        $this->imageLocation = $imageLocation;
     }
 
 
     /**
-     * @param mixed $interests
+     * Get the biography
+     * @return String $bio
      */
-    public function setInterests($interests)
+    public function getBio()
     {
-        $this->interests = $interests;
+        return $this->bio;
     }
+
+
+    /**
+     * Set the biography
+     * @param String $bio
+     */
+    public function setBio($bio)
+    {
+        $this->bio = $bio;
+    }
+
+
+    /**
+     * Get PremiumMember Status
+     * @return Boolean $PremiumMember
+     */
+    public function getPremiumMember()
+    {
+        return $this->premiumMember;
+    }
+
+
+    /**
+     * @param mixed $premiumMember
+     */
+    public function setPremiumMember($premiumMember)
+    {
+        $this->premiumMember = $premiumMember;
+    }
+    
 
 }
