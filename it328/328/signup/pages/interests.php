@@ -38,7 +38,7 @@
         <div class="mynavbar">My Dating site</div>
         <form action="/328/signup/summery" method="post">
             <div class="row myDiv2">
-            <div class="indent row ">
+            <div class="HomePageIndent row ">
                 <h2>Interests</h2><hr>
                 <span class="boldText">In-door interests</span><BR>
                 <div class="col-md-3" >
@@ -101,10 +101,18 @@
                         <span class="custom-control-description">video games</span>
                     </label>
                 </div>
-
+                <div class="col-md-3" >
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" name="indoor[]" class="custom-control-input" <?php echo $_SESSION['dchecked'] ?>  value="bdsm">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">bdsm</span>
+                    </label>
                 </div>
+
+
+            </div>
                 
-            <div class="indent row">
+            <div class="HomePageIndent row">
 
                 <span class="boldText">Out-door interests</span><BR>
                 <div class="col-md-3" >
@@ -149,6 +157,13 @@
                         <input type="checkbox" name="outdoor[]" class="custom-control-input" <?php echo $_SESSION['dchecked'] ?>  value="climbing">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">climbing</span>
+                    </label>
+                </div>
+                <div class="col-md-3" >
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" name="outdoor[]" class="custom-control-input" <?php echo $_SESSION['dchecked'] ?>  value="UFO chasing">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">UFO chasing</span>
                     </label>
                 </div>
             </div>

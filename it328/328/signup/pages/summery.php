@@ -45,7 +45,13 @@
                                 <div class="myborder">Email: <?= $email ?></div>
                                 <div class="myborder">State: <?= $state ?></div>
                                 <div class="myborder">Seeking: <?= $seeking ?></div>
-                                <div class="myborder nobottomborder">Interests: <?= $interests ?> </div>
+                                <div class="myborder nobottomborder">
+                                    Interests
+                                    <div class="indent">
+                                        <span class="underline">Indoor</span>: <?= $indoorInterests ?><br>
+                                        <span class="underline">Outdoor</span>: <?= $outdoorInterests ?>
+                                    </div>
+                                </div>
                             </div>
                             <?php else : ?>
                             <div class="box1">
@@ -60,21 +66,16 @@
                             <?php endif; ?>
 
                         </div>
-                        <div class="indent col-md-5" >
+                        <div class="HomePageIndent col-md-5" >
                             <?php if( $membership == "true") : ?>
-<!--                            <img src="http://nnoble.greenrivertech.net/328/signup/images/placeholder.png" alt="placeholder">-->
                                 <img src=" <?= $imagePath ?>" alt="placeholder">
                                 <form action="/328/signup/upload" method="post" enctype="multipart/form-data">
-
                                     <label class="control-label">Change your profile picture</label>
-                                    <input type="file" name="fileToUpload" id="fileToUpload" class=" btn btn-primary">
-                                    <input type="submit" class=" btn btn-primary" value="Upload Image" name="submit">
+                                    <input type="file" name="fileToUpload" id="fileToUpload" class="btn btn-primary inline">
+                                    <input type="submit" id="idimageSummit" class="inline btn btn-primary" value="Upload Image" name="submit">
                                 </form>
-
-
                             <?php else : ?>
                                 <img src="http://nnoble.greenrivertech.net/328/signup/images/placeholder.png" alt="placeholder">
-
                             <?php endif; ?>
                             <span class="boldText">Biography</span>
                             <div >
