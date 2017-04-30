@@ -64,5 +64,39 @@ class PremiumMember extends Member
     {
         $this->outDoorInterests = $outDoorInterests;
     }
+
+
+    /**
+     * @return null|string return a string that contains indoor interests
+     */
+    public function indoorInterestsToString()
+    {
+
+        if ($this->outDoorInterests == null)
+            return null;
+
+        $indoorInterest = "";
+        foreach ($this->getInDoorInterests() as $value) {
+            $indoorInterest = $indoorInterest . " " . $value;
+        }
+        return $indoorInterest;
+    }
+
+
+    /**
+     * @return null|string return a string that contains outdoor interests
+     */
+    public function outdoorInterestsToString()
+    {
+        if ($this->inDoorInterests == null)
+            return null;
+
+        $outdoorInterest = "";
+
+        foreach ($this->getOutDoorInterests() as $value) {
+            $outdoorInterest = $outdoorInterest . " " . $value;
+        }
+        return $outdoorInterest;
+    }
 }
 

@@ -9,7 +9,32 @@
 namespace DatingSite;
 use PDO;
 use PDOException;
-//CONNECT
+
+
+//
+// CREATE TABLE `nnoble_grcc`.`Members`  ( `member_id` INT NOT NULL AUTO_INCREMENT ,
+//											PRIMARY KEY (`member_id`),
+//	                                       `fname` VARCHAR(80) NOT NULL,
+//										   `lname` VARCHAR(80) NOT NULL,
+//										   `age` TINYINT NOT NULL,
+//										   `gender` VARCHAR(10) NOT NULL,
+//										   `phone` VARCHAR(25) NOT NULL,
+//										   `email` VARCHAR (254)NOT NULL,
+//										   `state` VARCHAR(5) NOT NULL,
+//										   `seeking` VARCHAR(10)NOT NULL,
+//										   `bio` TEXT NOT NULL,
+//										   `premium` TINYINT NOT NULL,
+//										   `indoorinterests` VARCHAR(80) NOT NULL,
+//										   `outdoorinterests` VARCHAR(80) NOT NULL,
+//										   `image` VARCHAR(254) NOT NULL)
+
+
+// ALTER TABLE `members` CHANGE `image` `image` VARCHAR(128) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+//                       CHANGE `indoor` `indoor` VARCHAR(128) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+//                       CHANGE `outdoor` `outdoor` VARCHAR(128) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL;
+
+
+
 class MembersDB 
 {
     private $_dbConnection;
@@ -53,33 +78,28 @@ class MembersDB
      * @return true if the insert was successful, otherwise false
      */
 
-    function addMember($fname,$lname,$age, $gender, $phone, $premium, $email, $state, $seeking,  $bio,  $indoor,  $outdoor, $image)
+    function addMember($fname ,$lname, $age, $gender, $phone, $premium, $email, $state, $seeking,  $bio,  $indoor,  $outdoor, $image)
     {
-//        $insert = 'INSERT INTO members  (fname,  lname,  age,  gender,  phone,  premium,  email,  state,  seeking,  bio,  indoor,  outdoor, image)
-//                             VALUES (:fName, :lName, :age, :gender, :phone, :premium, :email, :state, :seeking, :bio, :indoor, :outdoor, image)';
-//
-//        $insert = 'INSERT INTO members  (fname,  lname,  age)
-//                             VALUES (:fName, :lName, :age)';
+        $insert = 'INSERT INTO members  (fName,   lName,  age,  gender,  phone,  premium,  email,  state,  seeking,  bio,  indoor,  outdoor, image)
+                                 VALUES (:fName, :lName, :age, :gender, :phone, :premium, :email, :state, :seeking, :bio, :indoor, :outdoor, :image)';
 
+ //               $insert = "INSERT INTO members  (fname,  lname,  age,  gender, phone, premium, email, state,  seeking,  bio,  indoor,  outdoor, image)
+ //                            VALUES ('$fname','$lname',$age,'$gender', '$phone', premium, '$email', '$state', '$seeking',  '$bio',  '$indoor',  '$outdoor', '$image' )";
 
-                $insert = "INSERT INTO members  (fname,  lname,  age,  gender, phone, premium, email, state,  seeking,  bio,  indoor,  outdoor, image) 
-                             VALUES ('$fname','$lname',$age,'$gender', '$phone', premium, '$email', '$state', 'seeking',  'bio',  'indoor',  'outdoor', 'image' )";
-
-        echo $insert;
         $statement = $this->_dbConnection->prepare($insert);
-        $statement->bindValue(':fname',   $fname, PDO::PARAM_STR);
-//        $statement->bindValue(':lname',   $lname, PDO::PARAM_STR);
-//        $statement->bindValue(':age',     $age, PDO::PARAM_INT);
-//        $statement->bindValue(':gender',  $gender, PDO::PARAM_STR);
-//        $statement->bindValue(':phone',   $phone, PDO::PARAM_STR);
-//        $statement->bindValue(':premium', $premium, PDO::PARAM_INT);
-//        $statement->bindValue(':email',   $email, PDO::PARAM_STR);
-//        $statement->bindValue(':state',   $state, PDO::PARAM_STR);
-//        $statement->bindValue(':seeking', $seeking, PDO::PARAM_STR);
-//        $statement->bindValue(':bio',     $bio, PDO::PARAM_STR);
-//        $statement->bindValue(':indoor',  $indoor, PDO::PARAM_STR);
-//        $statement->bindValue(':outdoor', $outdoor, PDO::PARAM_STR);
-//        $statement->bindValue(':image',   $image, PDO::PARAM_STR);
+        $statement->bindValue(':fName',   $fname, PDO::PARAM_STR);
+        $statement->bindValue(':lName',   $lname, PDO::PARAM_STR);
+        $statement->bindValue(':age',     $age, PDO::PARAM_INT);
+        $statement->bindValue(':gender',  $gender, PDO::PARAM_STR);
+        $statement->bindValue(':phone',   $phone, PDO::PARAM_STR);
+        $statement->bindValue(':premium', $premium, PDO::PARAM_INT);
+        $statement->bindValue(':email',   $email, PDO::PARAM_STR);
+        $statement->bindValue(':state',   $state, PDO::PARAM_STR);
+        $statement->bindValue(':seeking', $seeking, PDO::PARAM_STR);
+        $statement->bindValue(':bio',     $bio, PDO::PARAM_STR);
+        $statement->bindValue(':indoor',  $indoor, PDO::PARAM_STR);
+        $statement->bindValue(':outdoor', $outdoor, PDO::PARAM_STR);
+        $statement->bindValue(':image',   $image, PDO::PARAM_STR);
 
         $statement->execute();
 
@@ -122,16 +142,16 @@ class MembersDB
      * @return an associative array of pet attributes, or false if
      * the pet was not found
      */
-public function memberById($id)
-{
-    $select = 'SELECT id, name, type, color FROM pets WHERE id=:id';
+    public function memberById($id)
+    {
+        $select = 'SELECT id, name, type, color FROM pets WHERE id=:id';
 
-    $statement = $this->_dbConnection->prepare($select);
-    $statement->bindValue(':id', $id, PDO::PARAM_INT);
-    $statement->execute();
+        $statement = $this->_dbConnection->prepare($select);
+        $statement->bindValue(':id', $id, PDO::PARAM_INT);
+        $statement->execute();
 
-    return $statement->fetch(PDO::FETCH_ASSOC);
-}
+        return $statement->fetch(PDO::FETCH_ASSOC);
+    }
 
     /**
      * Returns true if the name is used by a pet in the database.
