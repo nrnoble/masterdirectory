@@ -36,7 +36,7 @@
                     <div class="row myDiv2">
                         <div class="col-md-5" >
                         <br>
-                            <?php if( $membership == "true") : ?>
+                            <?php if( $membership == 1) : ?>
                             <div class="box1">
                                 <div class="myborder notopborder">Name: <?= $fullName ?></div>
                                 <div class="myborder">Gender: <?= $gender ?></div>
@@ -67,7 +67,7 @@
 
                         </div>
                         <div class="HomePageIndent col-md-5" >
-                            <?php if( $membership == "true") : ?>
+                            <?php if( $membership == 1) : ?>
                                 <img src=" <?= $imagePath ?>" alt="placeholder">
                                 <form action="/328/signup/upload" method="post" enctype="multipart/form-data">
                                     <label class="control-label">Change your profile picture</label>

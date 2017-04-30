@@ -62,6 +62,7 @@ class Member
         $this->gender = $sexualIdentity;
         $this->phone = $telephone;
         $this->premiumMember = $premium;
+        $this->imageLocation = "http://nnoble.greenrivertech.net/328/signup/images/placeholder.png";
     }
 
 

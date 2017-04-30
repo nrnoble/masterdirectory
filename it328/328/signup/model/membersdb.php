@@ -176,16 +176,8 @@ class MembersDB
 
     //UPDATE
 
-    /**
-     * Updates the attributes for a pet in the database.
-     *
-     * @access public
-     * @param int $id the id of the pet
-     * @param string $name the name of the pet
-     * @param string $type the type of pet (giraffe, turtle, bear, ...)
-     * @param string $color the color of the animal
-     */
-    function updatePet($id, $name, $type, $color)
+
+    function updateMember($id, $name, $type, $color)
     {
         $update = 'UPDATE pets SET name=:name, type=:type, color=:color
                                    WHERE id=:id';
@@ -209,7 +201,7 @@ class MembersDB
      *
      * @return true if the delete was successful, otherwise false
      */
-    function deletePet($id)
+    function deleteMembers($id)
     {
         $delete = 'DELETE FROM pets WHERE id=:id';
 
@@ -218,4 +210,18 @@ class MembersDB
 
         return $statement->execute();
     }
+
+    function updateImageLocations($imageLocation, $id)
+    {
+
+        $update = 'UPDATE members SET image=:imageLocation
+                                   WHERE member_id=:id';
+
+        $statement = $this->_dbConnection->prepare($update);
+        $statement->bindValue(':imageLocation', $imageLocation, PDO::PARAM_STR);
+        $statement->bindValue(':id', $id, PDO::PARAM_INT);
+       // echo "<br>Running image location update<br>";
+        $statement->execute();
+    }
+
 }
