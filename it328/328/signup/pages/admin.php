@@ -44,7 +44,7 @@
             <div class="col-md-12">
                 <div class="mynavbar"><?=  \DatingSite\Utilities::getAdminLinkHeader() ?></div>
                 <div class="row myDiv2">
-                    <table id="table_id" class="display tabledata" data-order='[[ 1, "asc" ]]' data-page-length='5'>
+                    <table id="table_id" class="display tabledata" data-order='[[ 1, "asc" ]]' data-page-length='10'>
                         <thead>
                         <tr>
                             <th class = "tableIdColumn">ID</th>
@@ -83,7 +83,7 @@
 
 <script>
     $(document).ready( function () {
-        $('#table_id').DataTable({scrollY: 200});
+        $('#table_id').DataTable({scrollY: 400});
     } );
 </script>
 
