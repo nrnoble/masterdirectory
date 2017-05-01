@@ -22,6 +22,11 @@
     <link rel="stylesheet" type="text/css" href="http://nnoble.greenrivertech.net/328/signup/styles/summery.css">
     <link rel="stylesheet" href="http://nnoble.greenrivertech.net/328/signup/styles/navbar.css">
 
+    <style>
+
+    </style>
+
+
     <title>Dating Summery</title>
 
 </head>
@@ -32,7 +37,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="mynavbar">My Dating site</div>
+                <div class="mynavbar"><?=  $_SESSION ['adminPageHeaderLink'] ?></div>
                     <div class="row myDiv2">
                         <div class="col-md-5" >
                         <br>
@@ -68,7 +73,7 @@
                         </div>
                         <div class="HomePageIndent col-md-5" >
                             <?php if( $membership == 1) : ?>
-                                <img src=" <?= $imagePath ?>" alt="placeholder">
+                                <img src=" <?= $_SESSION['imagePath'] ?>" alt="placeholder">
                                 <form action="/328/signup/upload" method="post" enctype="multipart/form-data">
                                     <label class="control-label">Change your profile picture</label>
                                     <input type="file" name="fileToUpload" id="fileToUpload" class="btn btn-primary inline">

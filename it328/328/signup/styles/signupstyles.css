@@ -121,3 +121,7 @@ pre {
 .mycenter {
     text-align: center;
 }
+
+.alignright{
+    float:right;
+}

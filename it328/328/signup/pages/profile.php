@@ -34,7 +34,7 @@
 
 <header class="bgimage">
     <div class="container">
-        <div class="mynavbar">My Dating site</div>
+        <div class="mynavbar"><?=  $_SESSION ['adminPageHeaderLink'] ?></div>
 
             <form action="/328/signup/interests" method="post">
 

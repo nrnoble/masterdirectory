@@ -56,6 +56,7 @@ class Member
      */
     function __construct($first, $last, $yearsOld, $sexualIdentity, $telephone, $premium)
     {
+        Utilities::debug( "calling Member constructer: " . $first . ", " . $last .  ", " . $yearsOld . ", " . $sexualIdentity . ", " . $telephone . ", " . $premium);
         $this->firstName = $first;
         $this->lastName = $last;
         $this->age = $yearsOld;
@@ -249,7 +250,7 @@ class Member
 
     /**
      * Set location of profile image
-     * @param string $imageLocation
+     * @param String $imageLocation
      */
     public function setImageLocation($imageLocation)
     {
@@ -283,15 +284,18 @@ class Member
      */
     public function getPremiumMember()
     {
+        //echo  "getting getPremiumMember(): " . $this->premiumMember . "<BR>";
         return $this->premiumMember;
     }
 
 
     /**
-     * @param mixed $premiumMember
+     * Set the status of premium membership.
+     * @param boolean $premiumMember
      */
     public function setPremiumMember($premiumMember)
     {
+        //echo  "setting getPremiumMember(): " . $premiumMember . "<BR>";
         $this->premiumMember = $premiumMember;
     }
     
