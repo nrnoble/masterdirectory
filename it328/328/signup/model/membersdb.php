@@ -1,9 +1,10 @@
 <?php
 /**
-
- *
- * @author Neal Noble <nrnoble@hotmail.com>
- * @version 1.0
+ * Neal Noble
+ * Course: IT 328 - Full-Stack Web Development
+ * Assignment: The sign-up form
+ * April 2017
+ * Instructor: Tina Ostrander
  */
 
 namespace DatingSite;
@@ -115,95 +116,98 @@ class MembersDB
      *
      * @return an associative array of members indexed by id
      */
-//    public function allPets()
-//    {
-//        $select = 'SELECT id, name, type, color FROM pets';
-//        $statement = this->_pdo->prepare($select);
-//            $results $statement->fetchall(pdo::FETCH_ASSOC);
-//            $results = $this->_dbConnection->query($select);
-//            return $results;
-//
-//            $resultsArray = array();
-//
-//            //map each pet id to a row of data for that pet
-//            while ($row = $results->fetch(PDO::FETCH_ASSOC)) {
-//                $resultsArray[$row['id']] = $row;
-//            }
-//
-//            return $resultsArray;
-//        }
+    public function getAllMembers(){
+        $select = 'SELECT member_id, fname, lname, age, phone, email, state, gender, seeking, premium, indoor, outdoor FROM members';
+        //$select = 'SELECT *  FROM members';
+        $statement = $this->_dbConnection->prepare($select);
+        //$results = $statement->fetchall(PDO::FETCH_ASSOC);
+        $results = $this->_dbConnection->query($select);
+        return $results;
+
+        $resultsArray = array();
+
+        //map each members id to a row of data for that pet
+        while ($row = $results->fetchAll(PDO::FETCH_COLUMN, 0)) {
+            $resultsArray[$row['id']] = $row;
+            //echo $row;
+
+        }
+
+        return $resultsArray;
+    }
+
+
+    public function getTableRows()
+    {
+        $select = 'SELECT member_id, fname, lname, age, phone, email, state, gender, seeking, premium, indoor, outdoor FROM members';
+        $statement = $this->_dbConnection->prepare($select);
+        $results = $this->_dbConnection->query($select);
+        $rows = array();
+        $rowdata = "";
+
+        foreach ($results as $row){
+
+            $rowdata = $rowdata . "<tr>";
+            $rowdata = $rowdata . "<td>" . $row['member_id'] . "</td>";
+            $rowdata = $rowdata . "<td>" . $row['fname'] . " " .$row['lname'] . "</td>";
+//            $rowdata = $rowdata . "<td>" . $row['lname'] . "</td>";
+            $rowdata = $rowdata . "<td>" . $row['age'] . "</td>";
+            $rowdata = $rowdata . "<td>" . $row['phone'] ."</td>";
+            $rowdata = $rowdata . "<td>" . $row['email'] .  "</td>";
+            $rowdata = $rowdata . "<td>" . $row['state'] .  "</td>";
+            $rowdata = $rowdata . "<td>" . $row['gender'] .  "</td>";
+            $rowdata = $rowdata . "<td>" . $row['seeking'] .  "</td>";
+            $rowdata = $rowdata . "<td>" . $row['premium'] . "</td>";
+
+            $rowdata = $rowdata . "<td>" . $row['indoor'] ." " . $row['outdoor'] . "</td>";
+            //$rowdata = $rowdata . "<td>" . $row['outdoor'] .  "</td>";
+
+            $rowdata = $rowdata . "</tr>\n";
+
+            //array_push($rows,$rowdata);
+            //$rowdata ="";
+
+        }
+
+        return $rowdata;
+    }
+
+
+
 
     /**
-     * Returns a pet that has the given id.
+     * Returns a member that has the given id.
      *
      * @access public
-     * @param int $id the id of the pet
+     * @param int $id the id of the members
      *
      * @return an associative array of pet attributes, or false if
-     * the pet was not found
+     * the member was not found
      */
-    public function memberById($id)
+    public function memberById($member_id)
     {
-        $select = 'SELECT id, name, type, color FROM pets WHERE id=:id';
+        $select = 'SELECT fname, lname, age FROM members WHERE member_id=:member_id';
 
         $statement = $this->_dbConnection->prepare($select);
-        $statement->bindValue(':id', $id, PDO::PARAM_INT);
+        $statement->bindValue(':member_id', $member_id, PDO::PARAM_INT);
         $statement->execute();
 
         return $statement->fetch(PDO::FETCH_ASSOC);
     }
+    
+
 
     /**
-     * Returns true if the name is used by a pet in the database.
+     * Deletes the member associated with the input id.
      *
      * @access public
-     * @param string $name the name of the pet to look for
-     *
-     * @return true if the name already exists, otherwise false
-     */
-    function petNameExists($name)
-    {
-        $select = 'SELECT id, name, type, color FROM pets WHERE name=:name';
-
-        $statement = $this->_dbConnection->prepare($select);
-        $statement->bindValue(':name', $name, PDO::PARAM_STR);
-        $statement->execute();
-
-        $row = $statement->fetch(PDO::FETCH_ASSOC);
-
-        return !empty($row);
-    }
-
-    //UPDATE
-
-
-    function updateMember($id, $name, $type, $color)
-    {
-        $update = 'UPDATE pets SET name=:name, type=:type, color=:color
-                                   WHERE id=:id';
-
-        $statement = $this->_dbConnection->prepare($update);
-        $statement->bindValue(':name', $name, PDO::PARAM_STR);
-        $statement->bindValue(':type', $type, PDO::PARAM_STR);
-        $statement->bindValue(':color', $color, PDO::PARAM_STR);
-        $statement->bindValue(':id', $id, PDO::PARAM_INT);
-
-        $statement->execute();
-    }
-
-    //DELETE
-
-    /**
-     * Deletes the pet associated with the input id.
-     *
-     * @access public
-     * @param int $id the id of the pet
+     * @param int $id the id of the member
      *
      * @return true if the delete was successful, otherwise false
      */
     function deleteMembers($id)
     {
-        $delete = 'DELETE FROM pets WHERE id=:id';
+        $delete = 'DELETE FROM members WHERE id=:id';
 
         $statement = $this->_dbConnection->prepare($delete);
         $statement->bindValue(':id', $id, PDO::PARAM_INT);
@@ -211,6 +215,12 @@ class MembersDB
         return $statement->execute();
     }
 
+    /**
+     * updates the image path
+     *
+     * @param String $imageLocation on server where the images is stored
+     * @param int $id member id
+     */
     function updateImageLocations($imageLocation, $id)
     {
 

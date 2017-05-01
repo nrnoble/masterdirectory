@@ -1,12 +1,15 @@
 <?php
 
 /**
- * Created by PhpStorm.
- * User: Neal
- * Date: 4/29/2017
- * Time: 2:39 PM
+ * Neal Noble
+ * Course: IT 328 - Full-Stack Web Development
+ * Assignment: The sign-up form
+ * April 2017
+ * Instructor: Tina Ostrander
  */
+
 class UploadImage
 {
 
+    // toDo move upload code here
 }

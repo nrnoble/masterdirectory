@@ -1,10 +1,12 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Neal
- * Date: 4/30/2017
- * Time: 6:47 AM
+ * Neal Noble
+ * Course: IT 328 - Full-Stack Web Development
+ * Assignment: The sign-up form
+ * April 2017
+ * Instructor: Tina Ostrander
  */
+
 
 namespace DatingSite;
 
@@ -12,7 +14,7 @@ namespace DatingSite;
 class Utilities
 {
     public static function getAdminLinkHeader(){
-        return "<span>My Dating site</span><span class='alignright'><a href='\\admin'>Adminstrative</a></span>";
+        return "<span><a href='/328/signup/'>My Dating site</a></span><span class='alignright'><a href='/328/signup/admin'>Administration</a></span>";
     }
 
     /**

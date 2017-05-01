@@ -37,7 +37,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="mynavbar"><?=  $_SESSION ['adminPageHeaderLink'] ?></div>
+                <div class="mynavbar"><?=  \DatingSite\Utilities::getAdminLinkHeader()  ?></div>
                     <div class="row myDiv2">
                         <div class="col-md-5" >
                         <br>
@@ -91,7 +91,8 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="mycenter">
-                                    <button type="button" class=" btn btn-primary">Contact Me!</button>
+<!--                                    <button type="button" class=" btn btn-primary">Contact Me!</button>-->
+                                    <a href="/328/signup"><button type="button" class=" btn btn-primary">Contact Me!</button></a>
                                 </div>
                             </div>
                         </div>

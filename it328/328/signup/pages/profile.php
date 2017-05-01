@@ -34,7 +34,7 @@
 
 <header class="bgimage">
     <div class="container">
-        <div class="mynavbar"><?=  $_SESSION ['adminPageHeaderLink'] ?></div>
+        <div class="mynavbar"><?=  \DatingSite\Utilities::getAdminLinkHeader() ?></div>
 
             <form action="/328/signup/interests" method="post">
 

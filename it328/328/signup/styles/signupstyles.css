@@ -125,3 +125,30 @@ pre {
 .alignright{
     float:right;
 }
+
+.tabledata{
+    font-family: Verdana;
+    font-size: 9pt;
+}
+
+.tablePhoneColumn
+{
+    width: 70px;
+}
+
+.tableAgeColumn
+ {
+     width: 1px;
+ }
+
+.tableIdColumn
+{
+    float: left;
+    width: 1px;
+}
+
+.tableNameColumn
+{
+
+    width: 90px;
+}
