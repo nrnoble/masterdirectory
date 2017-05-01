@@ -147,7 +147,7 @@ class MembersDB
 
         foreach ($results as $row){
 
-            $rowdata = $rowdata . "<tr>";
+            $rowdata = $rowdata . "<tr onclick = getID(this) class='tablerow' id='"  . $row['member_id'] .  "'>";
             $rowdata = $rowdata . "<td>" . $row['member_id'] . "</td>";
             $rowdata = $rowdata . "<td>" . $row['fname'] . " " .$row['lname'] . "</td>";
 //            $rowdata = $rowdata . "<td>" . $row['lname'] . "</td>";
@@ -157,9 +157,34 @@ class MembersDB
             $rowdata = $rowdata . "<td>" . $row['state'] .  "</td>";
             $rowdata = $rowdata . "<td>" . $row['gender'] .  "</td>";
             $rowdata = $rowdata . "<td>" . $row['seeking'] .  "</td>";
-            $rowdata = $rowdata . "<td>" . $row['premium'] . "</td>";
+
+            $premiumRow = "";
+            if ($row['premium'] == 1)
+            {
+                $premiumRow = "<input type='checkbox' name='premiumbox' class='custom-control-input' checked value='true' disabled='disabled'>";
+            }
+            else
+            {
+                $premiumRow = "<input type='checkbox' name='premiumbox' class='custom-control-input'  disabled='disabled'>";
+            }
+
+
+//            $rowdata = $rowdata . "<td>" . $row['premium'] . "</td>";
+            $rowdata = $rowdata . "<td>" . $premiumRow . "</td>";
 
             $rowdata = $rowdata . "<td>" . $row['indoor'] ." " . $row['outdoor'] . "</td>";
+
+//            $intestests =  "<td>" . $row['indoor'] . $row['outdoor'] . "</td>";
+//            $intestests1 =  trim($intestests);
+//            $intestests2 = "test" . $intestests1 . "test";
+//            $t = str_replace(" " , ".", $intestests2);
+//
+//           print_r($t);
+//           // $results2 = str_replace("." , ", ", $results);
+           // print_r($results2);
+
+       //     print_r($results2);
+
             //$rowdata = $rowdata . "<td>" . $row['outdoor'] .  "</td>";
 
             $rowdata = $rowdata . "</tr>\n";
@@ -186,13 +211,13 @@ class MembersDB
      */
     public function memberById($member_id)
     {
-        $select = 'SELECT fname, lname, age FROM members WHERE member_id=:member_id';
+        $select = 'SELECT * FROM members WHERE member_id=:member_id';
 
         $statement = $this->_dbConnection->prepare($select);
         $statement->bindValue(':member_id', $member_id, PDO::PARAM_INT);
         $statement->execute();
-
-        return $statement->fetch(PDO::FETCH_ASSOC);
+        $statement->fetch(PDO::FETCH_ASSOC);
+        print_r($statement);
     }
     
 

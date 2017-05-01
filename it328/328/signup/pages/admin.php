@@ -87,6 +87,22 @@
     } );
 </script>
 
+
+<script>
+    jQuery("tablerow").click(function() {
+        var contentPanelId = jQuery(this).attr("id");
+        alert(contentPanelId);
+
+    });
+
+    function getID(row)
+    {
+        var id = row.id;
+        window.open('http://nnoble.greenrivertech.net/328/signup', '_blank');
+        //alert("This object's ID attribute is set to \"" + id + "\".");
+    }
+
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.js"></script>
