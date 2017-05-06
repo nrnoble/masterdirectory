@@ -307,15 +307,14 @@ public class BinarySearchTree<T extends Comparable<T>>
         public T next()
         {
             Node next = nodeStack.pop();
-
             if(next.right!= null)
             {
                 nodeStack.push(next.right);
-                Node current = next.right;
-                while (current.left != null)
+                Node currentNode = next.right;
+                while (currentNode.left != null)
                 {
-                    nodeStack.push(current.left);
-                    current = current.left;
+                    nodeStack.push(currentNode.left);
+                    currentNode = currentNode.left;
                 }
             }
             return next.data;

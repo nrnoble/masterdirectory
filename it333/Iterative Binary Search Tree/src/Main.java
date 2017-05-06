@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
+import static javafx.scene.input.KeyCode.T;
+
 public class Main {
 
     private static  String indent = "      ";
@@ -123,8 +125,6 @@ public class Main {
     public static void bstSymTableTests()
     {
 
-//        String indent = "      ";
-
         // Test data
         List<String>names = new ArrayList<>();
         names.add("Jared");
@@ -141,7 +141,6 @@ public class Main {
         names.add("Red");
         names.add("Green");
         names.add("Blue");
-
 
 
 
@@ -249,18 +248,6 @@ public class Main {
 
         System.out.println();
         System.out.println("--------------------------------------");
-//        System.out.println("bst.contains(7)" + bst.contains(7));
-//        System.out.println("bst.contains(3)" + bst.contains(3));
-//        System.out.println("bst.contains(9)" + bst.contains(9));
-//        System.out.println("bst.contains(1)" + bst.contains(1));
-//        System.out.println("bst.contains(5)" + bst.contains(5));
-//        System.out.println("bst.contains(10)" + bst.contains(10));
-//        System.out.println("bst.contains(-7)" + bst.contains(-7));
-//        System.out.println("bst.contains(66)" + bst.contains(66));
-//        System.out.println("bst.contains(6)" + bst.contains(6));
-//        System.out.println("bst.contains(24)" + bst.contains(24));
-//        System.out.println("bst.contains(12)" + bst.contains(12));
-
 
 
         System.out.println();
@@ -302,8 +289,6 @@ public class Main {
         }
         System.out.println();
         System.out.println();
-
-
 
     }
 }
