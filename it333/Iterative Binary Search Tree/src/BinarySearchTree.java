@@ -71,13 +71,12 @@ public class BinarySearchTree<T extends Comparable<T>>
                 break;
             }
         }
-
         return true;
     }
 
 
     /**
-     *  Searches Binary tree for an element.
+     * Searches Binary tree for an element.
      * @param element that is to be searched for in tree
      * @return
      */
@@ -140,7 +139,6 @@ public class BinarySearchTree<T extends Comparable<T>>
     }
 
 
-
     /**
      * 	The number of elements in the tree.
      * @return 	the number of elements in the tree.
@@ -160,6 +158,7 @@ public class BinarySearchTree<T extends Comparable<T>>
         return size == 0;
     }
 
+
     /**
      * This removes all elements in the tree. Sets size to zero
      */
@@ -168,7 +167,6 @@ public class BinarySearchTree<T extends Comparable<T>>
         root = null;
         size = 0;
     }
-
 
 
     /**
@@ -181,9 +179,9 @@ public class BinarySearchTree<T extends Comparable<T>>
        return postOrder(this.root, elementList);
     }
 
+
     private  List<T> postOrder(Node currentNode, List<T> list)
     {
-
         Stack<Node> stackOfNodes = new Stack<>();
 
         while (true)
@@ -203,12 +201,11 @@ public class BinarySearchTree<T extends Comparable<T>>
             list.add(currentNode.data);
             currentNode = currentNode.left;
         }
-
     }
 
 
     /**
-     * return a list of items in order
+     * Returns a Post order sorted list of all elements in the tree, using the post-Order tree traversal of the underlying structure.
      * @return order list of items
      */
     public  List<T> inOrder()
@@ -220,7 +217,6 @@ public class BinarySearchTree<T extends Comparable<T>>
     private  List<T> inOrder(Node currentNode, List<T> list)
     {
         Stack<Node> stackOfNodes = new Stack<>();
-        //stackOfNodes.push(currentNode);
 
         while (true)
         {
@@ -228,7 +224,6 @@ public class BinarySearchTree<T extends Comparable<T>>
             {
                 stackOfNodes.push(currentNode);
                 currentNode = currentNode.left;
-
             }
 
             if (stackOfNodes.isEmpty())
@@ -240,23 +235,12 @@ public class BinarySearchTree<T extends Comparable<T>>
             list.add(currentNode.data);
             currentNode = currentNode.right;
         }
-
-
-
-
-//        if (currentNode != null)
-//        {
-//            inOrder(currentNode.left,list);
-//            list.add(currentNode.data);
-//            //System.out.println(currentNode.data);
-//            inOrder(currentNode.right,list);
-//        }
-        //return list;
     }
 
-
-
-
+    /**
+     * Returns a pre order sorted list of all elements in the tree, using the pre-Order tree traversal of the underlying structure.
+     * @return List<T> of elements sorted in pre-order
+     */
     public  List<T> preOrder()
     {
         List<T> elementList = new ArrayList<T>();
@@ -265,39 +249,11 @@ public class BinarySearchTree<T extends Comparable<T>>
 
     private  List<T> preOrder(Node currentNode, List<T> list)
     {
-//        if (current != null)
-//        {
-//            System.out.println(current.data);
-//            preOrder(current.left);
-//            preOrder(current.right);
-//        }
-
         Stack<Node> stackOfNodes = new Stack<>();
-
-//        while (true)
-//        {
-////            while (currentNode != null)
-////            {
-////                stackOfNodes.push(currentNode);
-////                list.add(currentNode.data);
-////                currentNode = currentNode.left;
-////                currentNode = currentNode.right;
-////            }
-//
-////            if (stackOfNodes.isEmpty())
-////            {
-////                return list;
-////            }
-//        }
-
-
         stackOfNodes.push(currentNode);
-
 
         while (stackOfNodes.empty() == false)
         {
-
-
             currentNode = stackOfNodes.peek();
             list.add(currentNode.data);
 
@@ -313,16 +269,14 @@ public class BinarySearchTree<T extends Comparable<T>>
                 stackOfNodes.push(currentNode.left);
             }
         }
-
             return list;
-
-
     }
 
 
-
-
-
+    /**
+     * create the iterator for the class
+     * @return the iterator
+     */
     public Iterator<T> iterator()
     {
         return new BSTIterator(root);
@@ -364,13 +318,9 @@ public class BinarySearchTree<T extends Comparable<T>>
                     current = current.left;
                 }
             }
-
             return next.data;
         }
     }
-
-
-
 
 
     private class Node

@@ -3,14 +3,16 @@ import java.util.List;
 
 import static javafx.scene.input.KeyCode.T;
 
-// Completed - Your symbol table correctly stores Entry objects.
-// Completed - The put() and get() methods of your symbol table allow you to store and retrieve key/value pairs.
-// Completed - The containsKey() and containsValue() methods allow you to query for keys or values in the symbol table.
-// Completed - The keys() and values() methods correctly return lists of keys or values.
-// Completed - The size(), isEmpty() and clear() methods allow you to track or remove elements in the symbol table.
-// Completed - Your informal tests on the symbol table test each of the listed scenarios.
-// Completed - Styles: naming conventions, brace placement, spacing, commented code, redundancy, packages and magic numbers.
-// Completed - Formal documentation: full Javadocs & comment block header.
+    /*
+         Completed - Your symbol table correctly stores Entry objects.
+         Completed - The put() and get() methods of your symbol table allow you to store and retrieve key/value pairs.
+         Completed - The containsKey() and containsValue() methods allow you to query for keys or values in the symbol table.
+         Completed - The keys() and values() methods correctly return lists of keys or values.
+         Completed - The size(), isEmpty() and clear() methods allow you to track or remove elements in the symbol table.
+         Completed - Your informal tests on the symbol table test each of the listed scenarios.
+         Completed - Styles: naming conventions, brace placement, spacing, commented code, redundancy, packages and magic numbers.
+         Completed - Formal documentation: full Javadocs & comment block header.
+    */
 
 public class BSTSymbolTable<K extends Comparable<K>, V>
 {
@@ -54,7 +56,7 @@ public class BSTSymbolTable<K extends Comparable<K>, V>
 
 
     /**
-     * 	Returns true if the input key is located in the map, otherwise false.
+     * Returns true if the input key is located in the map, otherwise false.
      * @param key identifier
      * @return 	 true if the input key is located in the map, otherwise false.
      */
@@ -126,7 +128,6 @@ public class BSTSymbolTable<K extends Comparable<K>, V>
     public boolean isEmpty()
     {
         return bst.isEmpty();
-
     }
 
 
@@ -143,7 +144,6 @@ public class BSTSymbolTable<K extends Comparable<K>, V>
     {
         private K key;
         private V value;
-
 
         public Entry(K key, V value)
         {
