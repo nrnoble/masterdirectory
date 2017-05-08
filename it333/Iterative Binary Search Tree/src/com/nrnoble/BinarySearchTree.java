@@ -1,9 +1,15 @@
-import sun.plugin2.applet.context.NoopExecutionContext;
-
+package com.nrnoble;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Stack;
+
+/*
+* Neal Noble
+* May 2017
+* Assignment: Trees Part1
+* Instructor: Josh Archer
+*/
 
 // Done - The addUpdate() method adds a new element to your tree or updates an existing element.
 // Done - The size(), isEmpty() and clear() methods correctly track or remove elements in the BST.
@@ -11,14 +17,18 @@ import java.util.Stack;
 // Done - Your informal tests on the BST test each of the listed scenarios.
 
 
+/**
+ * Binary Search tree
+ * @author Neal Noble
+ *
+ * @param <T> Elment for the nodes in the BST.
+ */
 public class BinarySearchTree<T extends Comparable<T>>
 {
-    private Node root;
-    private int size;
 
     public BinarySearchTree()
     {
-
+        // empty default constructor
     }
 
     /**
@@ -26,6 +36,8 @@ public class BinarySearchTree<T extends Comparable<T>>
      * @param element to be added or updated.
      * @return  true when a new element is added and false if an update occurred.
      */
+    private Node root;
+    private int size;
     public boolean addUpdate(T element)
     {
         Node node = new Node(element);
@@ -45,30 +57,100 @@ public class BinarySearchTree<T extends Comparable<T>>
             if (compare > 0)
             {
                 if (currentNode.left != null)
+                {
                     currentNode = currentNode.left;
+                }
                 else
                 {
                     currentNode.left = node;
                     size++;
-                    break;
+                    return true;
                 }
             }
             else if (compare < 0)
             {
                 if (currentNode.right != null)
+                {
                     currentNode = currentNode.right;
+                }
                 else
                 {
                     currentNode.right = node;
                     size++;
-                    break;
+                    return true;
                 }
             }
             else
             {
                 currentNode.data = node.data;
                 size++;
+                return true;
+            }
+        }
+    }
+
+
+    public boolean addUpdate3(T element)
+    {
+        Node current = root;
+        if(root == null)
+        {
+            root = new Node(element);
+            size++;
+            return true;
+        }
+
+        current = new Node(element);
+        while(!current.equals(null))
+        {
+
+            int compare = current.data.compareTo(element);
+            if(current.data.compareTo(element) < 0)
+            {
+                current = current.right;
+                size++;
                 break;
+            }
+            else if(current.data.compareTo(element) > 0)
+            {
+                current = current.left;
+                size++;
+                break;
+            }
+            else 
+            {
+                return true;
+            }
+        }
+        return true;
+    }
+
+
+    public boolean addUpdate4(T element)
+    {
+        Node current = new Node(element);
+
+        while(!current.equals(null))
+        {
+            if(root == null)
+            {
+                root = current;
+                size++;
+                return true;
+            }
+
+            int compare = current.data.compareTo(element);
+            if(current.data.compareTo(element) < 0)
+            {
+                current = current.right;
+            }
+            else if(current.data.compareTo(element) > 0)
+            {
+                current = current.left;
+            }
+            else
+            {
+                return false;
             }
         }
         return true;
@@ -78,7 +160,7 @@ public class BinarySearchTree<T extends Comparable<T>>
     /**
      * Searches Binary tree for an element.
      * @param element that is to be searched for in tree
-     * @return
+     * @return  true if element exists
      */
     public boolean contains(T element)
     {
@@ -239,7 +321,7 @@ public class BinarySearchTree<T extends Comparable<T>>
 
     /**
      * Returns a pre order sorted list of all elements in the tree, using the pre-Order tree traversal of the underlying structure.
-     * @return List<T> of elements sorted in pre-order
+     * @return List of elements sorted in pre-order
      */
     public  List<T> preOrder()
     {
