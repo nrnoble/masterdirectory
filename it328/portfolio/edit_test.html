@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/froala_editor.min.css" rel="stylesheet" type="text/css">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            text-align: center;
+        }
+        section {
+            width: 80%;
+            margin: 150px auto;
+            text-align: left;
+        }
+    </style>
+    <title>jQuery Froala Editor Inline Demo</title>
+</head>
+
+<body>
+<div id="jquery-script-menu">
+    <div class="jquery-script-center">
+        <ul>
+            <li><a href="http://www.jqueryscript.net/text/jQuery-WYSIWYG-Rich-Text-Editor-Plugin-Froala-Editor.html">Download This Plugin</a></li>
+            <li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+        </ul>
+        <div class="jquery-script-ads"><script type="text/javascript"><!--
+        google_ad_client = "ca-pub-2783044520727903";
+        /* jQuery_demo */
+        google_ad_slot = "2780937993";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        //-->
+        </script>
+            <script type="text/javascript"
+                    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script></div>
+        <div class="jquery-script-clear"></div>
+    </div>
+</div>
+<section id="editor">
+    <div id='edit' style="margin-top: 30px;"> <img src="img/cute_cat.jpg" alt="Cute cat" width="300" style="float: left; margin-right: 10px; margin-bottom: 10px"/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis diam in odio iaculis blandit. Nunc eu mauris sit amet purus viverra gravida ut a dui. Vivamus nec rutrum augue, pharetra faucibus purus. Maecenas non orci sagittis, vehicula lorem et, dignissim nunc. Suspendisse suscipit, diam non varius facilisis, enim libero tincidunt magna, sit amet iaculis eros libero sit amet eros. Vestibulum a rhoncus felis. Nam lacus nulla, consequat ac lacus sit amet, accumsan pellentesque risus. Aenean viverra mi at urna mattis fermentum. Curabitur porta metus in tortor elementum, in semper nulla ullamcorper. Vestibulum mattis tempor tortor quis gravida. In rhoncus risus nibh. Nullam condimentum dapibus massa vel fringilla. Sed hendrerit sed est quis facilisis. Ut sit amet nibh sem. Pellentesque imperdiet mollis libero.</p>
+        <p>Aenean sed hendrerit velit. Nullam eu mi dolor. Maecenas et erat risus. Nulla ac auctor diam, non aliquet ante. Fusce ullamcorper, ipsum id tempor lacinia, sem tellus malesuada libero, quis ornare sem massa in orci. Sed dictum dictum tristique. Proin eros turpis, ultricies eu sapien eget, ornare rutrum ipsum. Pellentesque eros nisl, ornare nec ipsum sed, aliquet sollicitudin erat. Nulla tincidunt porta vehicula.</p>
+        <p>Nullam laoreet imperdiet orci ac euismod. Curabitur vel lectus nisi. Phasellus accumsan aliquet augue, eu rutrum tellus iaculis in. Nunc viverra ultrices mollis. Curabitur malesuada nunc massa, ut imperdiet arcu lobortis sed. Cras ac arcu mauris. Maecenas id lectus nisl. Donec consectetur scelerisque quam at ultricies. Nam quis magna iaculis, condimentum metus ut, elementum metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus id tempus nisi.</p>
+    </div>
+</section>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/froala_editor.min.js"></script>
+<script>
+    $(function(){
+        $('#edit').editable({inlineMode: false, autosave:true})
+    });
+</script>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</body>
+</html>

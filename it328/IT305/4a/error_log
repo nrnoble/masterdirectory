@@ -1,0 +1,16 @@
+[25-Jan-2016 19:52:17 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/nnoble/public_html/4a/4a.php on line 70
+[25-Jan-2016 19:57:25 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/nnoble/public_html/4a/4a.php on line 67
+[25-Jan-2016 19:58:03 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/4a/4a.php on line 68
+[25-Jan-2016 19:58:17 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/nnoble/public_html/4a/4a.php on line 70
+[25-Jan-2016 20:07:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/4a/4a.php on line 68
+[25-Jan-2016 20:07:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/4a/4a.php on line 68
+[25-Jan-2016 20:07:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/4a/4a.php on line 68
+[25-Jan-2016 20:16:09 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/nnoble/public_html/4a/4a.php on line 72
+[25-Jan-2016 20:51:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/4a/4a.php on line 80
+[25-Jan-2016 20:52:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/4a/4a.php on line 80
+[25-Jan-2016 20:52:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/4a/4a.php on line 80
+[25-Jan-2016 20:52:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/4a/4a.php on line 81
+[25-Jan-2016 20:52:29 America/Chicago] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/nnoble/public_html/4a/4a.php on line 79
+[25-Jan-2016 22:06:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'lower' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/4a/4a.php on line 72
+[25-Jan-2016 22:16:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'I' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/4a/4a.php on line 70
+[25-Jan-2016 22:36:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/4a/4a.php on line 95

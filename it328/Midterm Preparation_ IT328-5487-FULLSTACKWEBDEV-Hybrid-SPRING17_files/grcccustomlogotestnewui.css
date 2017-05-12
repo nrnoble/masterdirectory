@@ -1,0 +1,96 @@
+﻿
+ 
+
+/* Module add content - wider select */
+.module_item_select {
+   width: 300px;
+}
+
+#ic-login-footer_links {
+	color:white
+}
+/* removes the Common Pages, Recent Changes and All Pages areas from the right-hand sidebar, but doesn't 
+
+remove the Edit this Page and similar buttons for instructors AND keeps the Recent Feedback area for 
+
+students and instructors */
+#wiki_show_view_secondary div { display: none !important; }
+#wiki_show_view_secondary .rs-margin-bottom { display: block !important; }
+#wiki_show_view_secondary #wiki_page_new { display: block !important; }
+
+
+/*Formatting of login instructions below Footer*/
+div.loginNote {
+                margin-left:auto;
+                margin-right:auto;
+                text-align:left;
+                color: #0096db;
+                font-size: 15px;
+                border: none;
+                background-color:#e5fff2;
+                width:380px;      
+                }
+
+
+/*MOBILE LOGIN BOX*//*-------------------------*/
+
+body{background-color: transparent;background: #FFFFFF; }
+#f1_container{   padding-top: 90px; position: relative; background-image: url(https://www.greenriver.edu/canvas/customlogo/canvas-green-river-logo1.png);  background-position: top ; 
+ background-repeat: no-repeat; alt: Green River Community College;
+  background-size: 270px 150px;        
+  padding-bottom:60px;}
+       
+  
+#f1_card{     padding-top: 60px;       
+ } 
+  .face{border-radius: 1em; background: #026604; background-image: url(canvas-small.png);  background-position: 82px 10px; background-border: 50px;
+ background-repeat: no-repeat;  background-padding: 20px;
+ } 
+
+
+
+/*make room for the menu since my sample logo is bigger than default canvas logo*/
+
+#menu{ background: #006600 }
+
+/*make the menu lettering white and make it go back to grey when you hover over*/
+.menu-item .menu-item-title, .menu-item .menu-item-no-drop { color: #FFFFFF; font-weight:bold }
+.menu-item.hover .menu-item-title { color: #555555; }
+
+
+#flash_notice_message, #flash_error_message { background-color: #5b1933 !important; } /* Changes the background color of the flash notice. This is what you see at the top of the page when you login. */
+#footer { margin: 0px auto !important; } /* Optional I moved the footer to be more consistent with our look. */
+/*
+.forgot_password_link {display: none;} /* Optional I hide the Forgot your Password link because we are using LDAP. We are still discussing whether or not this is a good idea. This means that anyone with a canvas internal account won't be able to change their password. */
+
+#modal-box h2 { position:relative; top:65px; margin-left: -50px; font-weight : bold; font-size: 1.12em; color: #FFFFFF  } /* Optional login-bg.jpg is also used on the confirm registration page. Our logo is in the upper left and the text on the page overlapped it so I moved the whole registration form down.*/
+
+
+	
+
+
+	
+
+#edit_pseudonym_2976367 { padding-top: 43px;  }
+	
+
+
+#modal-box-inner {
+	margin-top: 175px;
+}
+
+#modal-box h1 {display: none; }
+
+
+.footer-logo { display: none !important; }
+
+
+
+.reset_course_content_button { display: none !important; }
+
+.ic-Login-footer_logo-link external { display: none !important; }
+
+a.add_email_link.icon-add {
+    display: none;
+}
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - @nnoble.greenrivertech.net" uuid="8feb39bb-c7ab-445a-ae69-cf0a98f825a2">
+      <secret-storage>master_key</secret-storage>
+      <user-name>nnoble</user-name>
+      <schema-pattern>nnoble_sakila.*</schema-pattern>
+      <default-schemas>nnoble_sakila.*</default-schemas>
+    </data-source>
+  </component>
+</project>

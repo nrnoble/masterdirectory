@@ -1,0 +1,15 @@
+//Neal Noble
+//IT426
+//Assignment: MVC F.A.T Free in class example
+//Instructor Josh Archer
+//Dec 2016
+
+
+{
+  "require" : {
+    "bcosca/fatfree-core" : "dev-master"
+  },
+  "autoload": {
+    "classmap": ["controllers/"]
+  }
+}

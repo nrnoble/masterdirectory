@@ -1,0 +1,53 @@
+<!--
+Neal Noble
+feburary 1st, 2016
+IT305
+Assignment 5a
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+   
+  <link rel = "stylesheet" type="text/css" href="http://nnoble.greenrivertech.net/css/nrnoble.css">
+
+ 
+
+
+<html>
+    <body>
+        <div id = page>
+            <pre>
+            <form method="get" action="process.php">
+             <label>Please enter your first name:  <input type="text" name="first" size="20" >
+            </label>
+                 
+             <label>               Year of birth:  <input type="text" name="year" size="4" maxlength="4" >
+             </label>
+                 
+             <label>          Credit card number:  <input type="text" name="ccnum" size="20" maxlength="20" >
+             </label>
+                 
+                                            <input type="submit" value="Validate">
+            </form>
+            </pre>
+        </div>
+        
+            
+        <div id = "page" style="margin-top: 10px;">
+			<H2>Source Code</H2>
+		  	
+			<?php>
+			  highlight_file(__FILE__);
+			?>
+
+		</div>
+        </div>
+    </body>
+</html>

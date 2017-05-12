@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_acm" default="compile.module.acm">
+  <dirname property="module.acm.basedir" file="${ant.file.module_acm}"/>
+  
+  <property name="module.jdk.home.acm" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.acm" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.acm" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.acm" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="acm.output.dir" value="${module.acm.basedir}/out/production/ACM"/>
+  <property name="acm.testoutput.dir" value="${module.acm.basedir}/out/test/ACM"/>
+  
+  <path id="acm.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="acm.module.production.classpath">
+    <path refid="${module.jdk.classpath.acm}"/>
+  </path>
+  
+  <path id="acm.runtime.production.module.classpath">
+    <pathelement location="${acm.output.dir}"/>
+  </path>
+  
+  <path id="acm.module.classpath">
+    <path refid="${module.jdk.classpath.acm}"/>
+    <pathelement location="${acm.output.dir}"/>
+  </path>
+  
+  <path id="acm.runtime.module.classpath">
+    <pathelement location="${acm.testoutput.dir}"/>
+    <pathelement location="${acm.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.acm">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.acm">
+    <patternset refid="excluded.from.module.acm"/>
+  </patternset>
+  
+  <path id="acm.module.sourcepath">
+    <dirset dir="${module.acm.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.acm" depends="compile.module.acm.production,compile.module.acm.tests" description="Compile module ACM"/>
+  
+  <target name="compile.module.acm.production" depends="register.custom.compilers" description="Compile module ACM; production classes">
+    <mkdir dir="${acm.output.dir}"/>
+    <javac2 destdir="${acm.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.acm}/javac">
+      <compilerarg line="${compiler.args.acm}"/>
+      <bootclasspath refid="acm.module.bootclasspath"/>
+      <classpath refid="acm.module.production.classpath"/>
+      <src refid="acm.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.acm"/>
+    </javac2>
+    
+    <copy todir="${acm.output.dir}">
+      <fileset dir="${module.acm.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.acm.tests" depends="register.custom.compilers,compile.module.acm.production" description="compile module ACM; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.acm" description="cleanup module">
+    <delete dir="${acm.output.dir}"/>
+    <delete dir="${acm.testoutput.dir}"/>
+  </target>
+</project>

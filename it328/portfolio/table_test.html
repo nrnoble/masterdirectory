@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
+
+    <title>datatable test</title>
+</head>
+<body>
+
+    <script>
+        $(document).ready(function()
+        {
+            $('#table_id').DataTable();
+        } );
+    </script>
+
+
+    <!-- id sqlconnection -->
+    <div id=sqlconnection class="pageblock" style="margin-top: 10px; display: none ;">
+
+<h2>SQL CONNECTION</h2>
+<?php
+
+                            // Create connection
+                            $conn = new mysqli("127.0.0.1", $sql_user, $sql_password,$sql_database );
+
+                            // Check connection
+                            if ($conn->connect_error)
+{
+die("Connection failed: " . $conn->connect_error);
+}
+
+echo "Connected successfully SQL server: <b>" .gethostname() ."</b><br>";;
+echo 'Current script owner: <b>' . get_current_user() ."</b><br>";
+echo "Connection info: <b>" .$conn->host_info ."</b><br>";
+
+?>
+
+</div>
+    <!-- id sqlconnection -->
+
+
+    <table id = 'contact_table' >
+
+        <?php
+
+                            # echo "var dump::  var_dump($result->fetch_field()[0]->name);";
+        $fieldnames = [];
+        if ($result->field_count > 0)
+        {
+        echo "<tr>";
+
+
+
+        $count =0;
+        while($field = $result->fetch_field() )
+        {
+        $count++;
+        $fieldnames[] = $field->name;
+        if ($count < 6 )
+        {
+        echo "<th>" . $field->name . "</th>";
+        }
+
+        }
+        echo "</tr>\r\n\r\r";
+        }
+
+
+        //echo (var_dump($result));
+        //$row = $result->fetch_assoc();
+        //echo var_dump($row);
+        // echo $row["AVG (film.length)"];
+        //$rowcount =0;
+        if ($result->num_rows > 0)
+        {
+        // output data of each row
+
+        while($row = $result->fetch_assoc())
+        {
+        $rowcount = $rowcount + 1;
+
+        echo "<tr id =\"row$rowcount\" onclick='ShowDetails(this)'>\r\n  <td>". $row["$fieldnames[0]"]
+        . "</td>\r\n  <td>" . $row["$fieldnames[1]"]
+        . "</td>\r\n  <td>" . $row["$fieldnames[2]"]
+        //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[3]"]
+        //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[4]"]
+        . "</td>\r\n</tr>\n\r";
+        //                                    class ='kdb_datatable kdb_DataTableDetailedInfo'
+        $rowcount = $rowcount +1;
+        echo "<tr id =\"row$rowcount\" style='display:none'>
+        <td colspan='5'>
+            <div id='1' class =''>
+                <ul>
+                    <li> <b>$fieldnames[0]:</b> " . $row["$fieldnames[0]"] ."</li>
+                    <li> <b>$fieldnames[1]:</b> " . $row["$fieldnames[1]"] ."</li>
+                    <li> <b>$fieldnames[2]:</b> " . $row["$fieldnames[2]"] ."</li>
+                </ul>
+            </div>
+        </td>" . "</td>\r\n</tr>\n\r\r\n";
+
+
+        }
+        }
+        else
+        {
+        //print_r($result);
+        echo "0 results";
+        }
+
+        ?>
+    </table>
+
+
+
+    <table id="table_id">
+        <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Row 1 Data 1</td>
+            <td>Row 1 Data 2</td>
+        </tr>
+        <tr>
+            <td>Row 2 Data 1</td>
+            <td>Row 2 Data 2</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>

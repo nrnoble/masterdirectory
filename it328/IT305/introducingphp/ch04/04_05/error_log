@@ -1,0 +1,1 @@
+[15-Feb-2016 10:34:39 America/Chicago] PHP Fatal error:  Call to undefined function intdiv() in /home/nnoble/public_html/introducingphp/ch04/04_05/integer_division_end.php on line 7

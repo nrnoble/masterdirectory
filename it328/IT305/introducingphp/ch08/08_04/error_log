@@ -1,0 +1,1 @@
+[15-Feb-2016 06:02:42 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/nnoble/public_html/introducingphp/ch08/08_04/encapsed.php on line 17

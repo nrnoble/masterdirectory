@@ -1,0 +1,372 @@
+
+/* Font Definitions */
+@font-face
+{font-family:Wingdings;
+    panose-1:5 0 0 0 0 0 0 0 0 0;
+    mso-font-charset:2;
+    mso-generic-font-family:auto;
+    mso-font-pitch:variable;
+    mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+{font-family:"Cambria Math";
+    panose-1:2 4 5 3 5 4 6 3 2 4;
+    mso-font-charset:0;
+    mso-generic-font-family:roman;
+    mso-font-pitch:variable;
+    mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+{font-family:Verdana;
+    panose-1:2 11 6 4 3 5 4 4 2 4;
+    mso-font-charset:0;
+    mso-generic-font-family:swiss;
+    mso-font-pitch:variable;
+    mso-font-signature:-1593833729 1073750107 16 0 415 0;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+{mso-style-unhide:no;
+    mso-style-qformat:yes;
+    mso-style-parent:"";
+    margin:0in;
+    margin-bottom:.0001pt;
+    mso-pagination:widow-orphan;
+    font-size:12.0pt;
+    font-family:"Times New Roman",serif;
+    mso-fareast-font-family:"Times New Roman";}
+h2
+{mso-style-unhide:no;
+    mso-style-qformat:yes;
+    mso-style-next:Normal;
+    margin:0in;
+    margin-bottom:.0001pt;
+    mso-pagination:widow-orphan;
+    page-break-after:avoid;
+    mso-outline-level:2;
+    font-size:12.0pt;
+    font-family:"Arial",sans-serif;
+    mso-bidi-font-weight:normal;}
+h3
+{mso-style-unhide:no;
+    mso-style-qformat:yes;
+    mso-style-next:Normal;
+    margin:0in;
+    margin-bottom:.0001pt;
+    mso-pagination:widow-orphan;
+    page-break-after:avoid;
+    mso-outline-level:3;
+    font-size:12.0pt;
+    font-family:"Arial",sans-serif;
+    mso-bidi-font-weight:normal;
+    text-decoration:underline;
+    text-underline:single;}
+a:link, span.MsoHyperlink
+{mso-style-unhide:no;
+    color:blue;
+    text-decoration:underline;
+    text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+{mso-style-noshow:yes;
+    color:purple;
+    mso-themecolor:followedhyperlink;
+    text-decoration:underline;
+    text-underline:single;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+{mso-style-priority:34;
+    mso-style-unhide:no;
+    mso-style-qformat:yes;
+    margin-top:0in;
+    margin-right:0in;
+    margin-bottom:0in;
+    margin-left:.5in;
+    margin-bottom:.0001pt;
+    mso-add-space:auto;
+    mso-pagination:widow-orphan;
+    font-size:12.0pt;
+    font-family:"Times New Roman",serif;
+    mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParag=
+raphCxSpFirst
+{mso-style-priority:34;
+    mso-style-unhide:no;
+    mso-style-qformat:yes;
+    mso-style-type:export-only;
+    margin-top:0in;
+    margin-right:0in;
+    margin-bottom:0in;
+    margin-left:.5in;
+    margin-bottom:.0001pt;
+    mso-add-space:auto;
+    mso-pagination:widow-orphan;
+    font-size:12.0pt;
+    font-family:"Times New Roman",serif;
+    mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListPar=
+agraphCxSpMiddle
+{mso-style-priority:34;
+    mso-style-unhide:no;
+    mso-style-qformat:yes;
+    mso-style-type:export-only;
+    margin-top:0in;
+    margin-right:0in;
+    margin-bottom:0in;
+    margin-left:.5in;
+    margin-bottom:.0001pt;
+    mso-add-space:auto;
+    mso-pagination:widow-orphan;
+    font-size:12.0pt;
+    font-family:"Times New Roman",serif;
+    mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagra=
+phCxSpLast
+{mso-style-priority:34;
+    mso-style-unhide:no;
+    mso-style-qformat:yes;
+    mso-style-type:export-only;
+    margin-top:0in;
+    margin-right:0in;
+    margin-bottom:0in;
+    margin-left:.5in;
+    margin-bottom:.0001pt;
+    mso-add-space:auto;
+    mso-pagination:widow-orphan;
+    font-size:12.0pt;
+    font-family:"Times New Roman",serif;
+    mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+{mso-style-name:"";
+    mso-spl-e:yes;}
+span.GramE
+{mso-style-name:"";
+    mso-gram-e:yes;}
+.MsoChpDefault
+{mso-style-type:export-only;
+    mso-default-props:yes;
+    font-size:10.0pt;
+    mso-ansi-font-size:10.0pt;
+    mso-bidi-font-size:10.0pt;
+    mso-fareast-language:JA;}
+@page WordSection1
+{size:8.5in 11.0in;
+    margin:.7in .7in .7in .7in;
+    mso-header-margin:.5in;
+    mso-footer-margin:.5in;
+    mso-paper-source:0;}
+div.WordSection1
+{page:WordSection1;}
+/* List Definitions */
+@list l0
+{mso-list-id:112023376;
+    mso-list-type:hybrid;
+    mso-list-template-ids:-982061730 67698689 67698691 67698693 67698689 67698=
+    691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+{mso-level-number-format:bullet;
+    mso-level-text:\F0B7;
+    mso-level-tab-stop:.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Symbol;}
+@list l0:level2
+{mso-level-number-format:bullet;
+    mso-level-text:o;
+    mso-level-tab-stop:1.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:"Courier New";}
+@list l0:level3
+{mso-level-number-format:bullet;
+    mso-level-text:\F0A7;
+    mso-level-tab-stop:1.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Wingdings;}
+@list l0:level4
+{mso-level-number-format:bullet;
+    mso-level-text:\F0B7;
+    mso-level-tab-stop:2.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Symbol;}
+@list l0:level5
+{mso-level-number-format:bullet;
+    mso-level-text:o;
+    mso-level-tab-stop:2.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:"Courier New";}
+@list l0:level6
+{mso-level-number-format:bullet;
+    mso-level-text:\F0A7;
+    mso-level-tab-stop:3.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Wingdings;}
+@list l0:level7
+{mso-level-number-format:bullet;
+    mso-level-text:\F0B7;
+    mso-level-tab-stop:3.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Symbol;}
+@list l0:level8
+{mso-level-number-format:bullet;
+    mso-level-text:o;
+    mso-level-tab-stop:4.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:"Courier New";}
+@list l0:level9
+{mso-level-number-format:bullet;
+    mso-level-text:\F0A7;
+    mso-level-tab-stop:4.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Wingdings;}
+@list l1
+{mso-list-id:422603340;
+    mso-list-type:hybrid;
+    mso-list-template-ids:1199056422 1861781838 67698691 67698693 67698689 676=
+    98691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+{mso-level-number-format:bullet;
+    mso-level-text:\F0B7;
+    mso-level-tab-stop:.25in;
+    mso-level-number-position:left;
+    margin-left:.25in;
+    text-indent:-.25in;
+    font-family:Symbol;
+    color:black;}
+@list l1:level2
+{mso-level-number-format:bullet;
+    mso-level-text:o;
+    mso-level-tab-stop:1.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:"Courier New";
+    mso-bidi-font-family:"Times New Roman";}
+@list l1:level3
+{mso-level-number-format:bullet;
+    mso-level-text:\F0A7;
+    mso-level-tab-stop:1.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Wingdings;}
+@list l1:level4
+{mso-level-number-format:bullet;
+    mso-level-text:\F0B7;
+    mso-level-tab-stop:2.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Symbol;}
+@list l1:level5
+{mso-level-number-format:bullet;
+    mso-level-text:o;
+    mso-level-tab-stop:2.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:"Courier New";
+    mso-bidi-font-family:"Times New Roman";}
+@list l1:level6
+{mso-level-number-format:bullet;
+    mso-level-text:\F0A7;
+    mso-level-tab-stop:3.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Wingdings;}
+@list l1:level7
+{mso-level-number-format:bullet;
+    mso-level-text:\F0B7;
+    mso-level-tab-stop:3.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Symbol;}
+@list l1:level8
+{mso-level-number-format:bullet;
+    mso-level-text:o;
+    mso-level-tab-stop:4.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:"Courier New";
+    mso-bidi-font-family:"Times New Roman";}
+@list l1:level9
+{mso-level-number-format:bullet;
+    mso-level-text:\F0A7;
+    mso-level-tab-stop:4.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Wingdings;}
+@list l2
+{mso-list-id:1038091684;
+    mso-list-type:hybrid;
+    mso-list-template-ids:458630014 -113742654 67698689 67698693 67698689 6769=
+    8691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+{mso-level-number-format:bullet;
+    mso-level-text:\F0B7;
+    mso-level-tab-stop:.25in;
+    mso-level-number-position:left;
+    margin-left:.25in;
+    text-indent:-.25in;
+    font-family:Symbol;
+    color:black;}
+@list l2:level2
+{mso-level-number-format:bullet;
+    mso-level-text:\F0B7;
+    mso-level-tab-stop:1.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Symbol;}
+@list l2:level3
+{mso-level-number-format:bullet;
+    mso-level-text:\F0A7;
+    mso-level-tab-stop:1.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Wingdings;}
+@list l2:level4
+{mso-level-number-format:bullet;
+    mso-level-text:\F0B7;
+    mso-level-tab-stop:2.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Symbol;}
+@list l2:level5
+{mso-level-number-format:bullet;
+    mso-level-text:o;
+    mso-level-tab-stop:2.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:"Courier New";
+    mso-bidi-font-family:"Times New Roman";}
+@list l2:level6
+{mso-level-number-format:bullet;
+    mso-level-text:\F0A7;
+    mso-level-tab-stop:3.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Wingdings;}
+@list l2:level7
+{mso-level-number-format:bullet;
+    mso-level-text:\F0B7;
+    mso-level-tab-stop:3.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Symbol;}
+@list l2:level8
+{mso-level-number-format:bullet;
+    mso-level-text:o;
+    mso-level-tab-stop:4.0in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:"Courier New";
+    mso-bidi-font-family:"Times New Roman";}
+@list l2:level9
+{mso-level-number-format:bullet;
+    mso-level-text:\F0A7;
+    mso-level-tab-stop:4.5in;
+    mso-level-number-position:left;
+    text-indent:-.25in;
+    font-family:Wingdings;}
+ol
+{margin-bottom:0in;}
+ul
+{margin-bottom:0in;}

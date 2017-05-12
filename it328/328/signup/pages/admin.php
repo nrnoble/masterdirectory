@@ -98,7 +98,7 @@
     function getID(row)
     {
         var id = row.id;
-        window.open('http://nnoble.greenrivertech.net/328/signup', '_blank');
+        window.open('http://nnoble.greenrivertech.net/328/signup/user/'+id, '_blank');
         //alert("This object's ID attribute is set to \"" + id + "\".");
     }
 

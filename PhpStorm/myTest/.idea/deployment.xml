@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="nnoble.greenrivertech.net">
+    <serverData>
+      <paths name="nnoble.greenrivertech.net">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/6" local="$PROJECT_DIR$" web="/home/nnoble/public_html/6" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

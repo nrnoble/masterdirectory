@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c5129dd-3a4b-42dd-86cf-1d251af18493" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Content/blackbackground.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Content/bwdock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Content/bwlake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Content/icecave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Content/whitebackground.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/images/couple.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/images/default_profile_pic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Content/bwDockImage.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Examples/ConnectTheDots.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Examples/CreateRandomColorDots.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Examples/bwDockImage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Examples/getPixelColor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Examples/icecaveImage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Examples/icecaveImage2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GRC1/Examples/text.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../UniqueList/src/part1/ListTestsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/.idea/dictionaries/Neal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/classes/member.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/classes/premium_member.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/error_log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/pages/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/pages/interests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/pages/personal_info.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/pages/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/pages/profile_summary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/styles/formstyles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/styles/profile_summary_styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/styles/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/audit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/basket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/bcrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/cli/ws.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/db/cursor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/db/jig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/db/jig/mapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/db/jig/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/db/mongo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/db/mongo/mapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/db/mongo/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/db/sql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/db/sql/mapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/db/sql/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/f3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/magic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/markdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/matrix.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/smtp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/utf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/web.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/web/geo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/web/google/recaptcha.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/web/google/staticmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/web/oauth2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/web/openid.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/bcosca/fatfree-core/web/pingback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/composer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/composer/autoload_static.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/dating/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/classes/dog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/classes/pet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/error_log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/model/petsdb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/pages/add-pet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/pages/all-pets.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/audit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/basket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/bcrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/cli/ws.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/db/cursor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/db/jig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/db/jig/mapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/db/jig/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/db/mongo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/db/mongo/mapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/db/mongo/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/db/sql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/db/sql/mapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/db/sql/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/f3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/magic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/markdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/matrix.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/smtp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/utf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/web.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/web/geo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/web/google/recaptcha.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/web/google/staticmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/web/oauth2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/web/openid.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/bcosca/fatfree-core/web/pingback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/composer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/composer/autoload_static.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets-starter/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/classes/dog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/classes/pets.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/error_log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/pages/form2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/pages/myPets.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/pages/results.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/audit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/basket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/bcrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/cli/ws.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/db/cursor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/db/jig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/db/jig/mapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/db/jig/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/db/mongo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/db/mongo/mapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/db/mongo/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/db/sql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/db/sql/mapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/db/sql/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/f3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/magic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/markdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/matrix.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/smtp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/utf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/web.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/web/geo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/web/google/recaptcha.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/web/google/staticmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/web/oauth2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/web/openid.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/bcosca/fatfree-core/web/pingback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/composer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/composer/autoload_static.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/mypets/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/pdo/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/pdo/xconfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/pets/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/pets/classes/dog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/pets/classes/pets.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/pets/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/pets/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/pets/pages/form1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/pets/pages/form2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/pets/pages/howdy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/pets/pages/results.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it328/328/signup/model/membersdb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it333/Sorting/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it333/linkedList/.idea/libraries/hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it333/linkedList/.idea/libraries/junit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it333/linkedList/.idea/libraries/junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../it333/linkedList/UniqueListAssignment.eml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../GRC1/ConnectTheDots.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../GRC1/Library/BaseBox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../GRC1/Lines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../GRC1/Rectangles.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../GRC1/text.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../it333/.idea/azureSettings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../it333/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../it333/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../it333/src/Swap.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GRC1/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../GRC1/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GRC1/Library/nrnoble.py" afterPath="$PROJECT_DIR$/../GRC1/Library/nrnoble.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GRC1/Library/polygon.py" afterPath="$PROJECT_DIR$/../GRC1/Library/polygon.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GRC1/Time.py" afterPath="$PROJECT_DIR$/../GRC1/Time.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it328/328/signup/pages/interests.php" afterPath="$PROJECT_DIR$/../it328/328/signup/pages/interests.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it328/328/signup/pages/summery.php" afterPath="$PROJECT_DIR$/../it328/328/signup/pages/summery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/.classpath" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/.project" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/constant-values.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/help-doc.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-1.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-10.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-11.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-12.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-13.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-14.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-15.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-15.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-2.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-3.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-4.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-5.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-6.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-7.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-8.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-9.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index-files/index-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/overview-frame.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/overview-summary.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/overview-tree.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/ListTests.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/ListTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/Main.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/Main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/ShaHash.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/ShaHash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/TestClassFacade.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/TestClassFacade.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/UniqueList.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/UniqueList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/package-frame.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/package-summary.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/package-tree.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part1/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/ListTests.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/ListTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/TestClassFacade.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/TestClassFacade.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/UniqueList.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/UniqueList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/package-frame.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/package-summary.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/package-tree.html" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part1/javadocs/part2/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part2/ListTests.java" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part2/ListTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part2/UniqueList.java" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part2/UniqueList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part2/utils.java" afterPath="$PROJECT_DIR$/../it333/UniqueListAssignment/src/part2/utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../it333/it333.iml" afterPath="$PROJECT_DIR$/../it333/it333.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../GRC1/Box.py" afterPath="$PROJECT_DIR$/../GRC1/Examples/Box.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../GRC1/Clock.py" afterPath="$PROJECT_DIR$/../GRC1/Examples/Clock.py" />
+    </list>
+    <ignored path="myWebiteTemplate.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="myWebiteTemplate" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="181" column="71" selection-start-line="181" selection-start-column="71" selection-end-line="181" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/favicon.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EULA_ENU.rtf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EULA_ENU.rtf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="&lt;d523d824-e02b-4409-a626-88c7de513790&gt;/public_html/StatePattern/index.php" />
+        <option value="&lt;ddf2d907-ce17-485d-8ecb-94014602e305&gt;/site/wwwroot/Test.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="&lt;ddf2d907-ce17-485d-8ecb-94014602e305&gt;/site/wwwroot/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="nnoble.greenrivertech.net" id="0f7af25d-8a21-410a-85b6-2b0901533578" name="nnoble.greenrivertech.net" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Remote PHP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Tests" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="External Dependencies">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="C:">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="E:\Program Files\nodejs\node.exe" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/images" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Data\Github\StatePatternSite" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Data\Github\StatePatternSite\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.StatePatternSite">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="nnoble.greenrivertech.net">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StatePatternSite" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.StatePatternSite" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c5129dd-3a4b-42dd-86cf-1d251af18493" name="Default" comment="" />
+      <created>1480692308045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1480692308045</updated>
+      <workItem from="1480692309434" duration="986000" />
+      <workItem from="1480693985862" duration="69414000" />
+      <workItem from="1489959137203" duration="730000" />
+      <workItem from="1491354998747" duration="3480000" />
+      <workItem from="1492084422165" duration="1400000" />
+      <workItem from="1492158763362" duration="757000" />
+      <workItem from="1492326368672" duration="1211000" />
+      <workItem from="1492578417797" duration="689000" />
+      <workItem from="1493180778532" duration="1122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="StatePatternSite - 2016.12.08 at 11h 35m 30s.xml">
+      <configuration name="StatePatternSite" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="79789000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17625134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14696486" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2822222" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28712872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EULA_ENU.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EULA_ENU.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EULA_ENU.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EULA_ENU.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EULA_ENU.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EULA_ENU.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EULA_ENU.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/statepattern.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php" />
+    <entry file="file://$PROJECT_DIR$/tryit_register.png" />
+    <entry file="file://$PROJECT_DIR$/error_log" />
+    <entry file="file://$PROJECT_DIR$/user_list.sql" />
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EULA_ENU.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="181" column="71" selection-start-line="181" selection-start-column="71" selection-end-line="181" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

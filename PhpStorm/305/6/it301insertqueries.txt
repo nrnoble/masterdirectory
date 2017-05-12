@@ -1,0 +1,38 @@
+USE nnoble_sakila;
+
+INSERT INTO Customers (room_num , location, room_size, phone, occupancy)
+VALUES ('100','Building-A','200','253-833-1101',40);
+
+USE nnoble_sakila;
+TRUNCATE TABLE college_classroom;
+INSERT INTO college_classroom (room_num , location, room_size, phone, occupancy)
+VALUES ('101','Building-A','200','253-833-1102',40),
+ ('102','Building-A','200','253-833-1102',40),
+ ('103','Building-A','300','253-833-1103',50),
+ ('201','Building-A','200','253-833-1201',40),
+ ('202','Building-A','200','253-833-1102',40);
+
+USE nnoble_sakila;
+TRUNCATE TABLE Grocery_store_products;
+INSERT INTO `Grocery_store_products`(`type`, `name`, `brand`, `price`, `units`) 
+VALUES ('dairy','milk','dairy gold','3.00','100'),
+       ('dairy','butter','dairy gold','4.00','300'),
+	   ('fruit','oranges','Sunkissed','1.00','430'),
+	   ('Candy','Mounds Bar','Hershey','1.50','500'),
+	   ('cerceal','Oatmeal','Store Band','2.50','430');
+	   
+	  
+INSERT INTO `employee`(`first_name`, `last_name`, `title`, `hiredate`, `department`) 
+VALUES ('Neal','Noble','Developer',1990-01-13, 'IT'),
+('John','Smith','Network Engineer',2001-03-22, 'IT'),
+('Cal','Wilson','Office Manager',1993-02-01, 'Office'),
+('Mary','Snow','Developer',2011-11-13, 'IT'),
+('Sally','Craig','Retail Clerk',2005-09-10, 'retail');
+
+
+INSERT INTO `movie_star`(`first_name`, `last_name`, `networth`, `total_movies`, `degrees_to_kevin_bacon`) 
+VALUES ('George','Clooney','10000000','15','2'),
+('Robert','Deniro','10000000','15','1'),
+('Kevin','Spacey','100000000','23','2'),
+('John','Wayne','15000000','150','2'),
+('William','Shatner','100000000','15','2');

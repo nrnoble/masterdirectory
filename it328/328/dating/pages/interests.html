@@ -1,0 +1,109 @@
+<!--
+    Name: Marlene Leano
+    Date: April 16, 2017
+    URL: mleano.greenrivertech.net/IT328/dating/pages/interests.html
+    Interests form for my dating website
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Dating Website</title>
+        
+        <!--Bootstrap-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <!--Link my styles-->
+        <link href="./styles/formstyles.css" rel="stylesheet">       
+    </head>
+    
+    <body>
+        <!--The navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="http://mleano.greenrivertech.net/IT328/dating/">My Dating Website</a></li>
+            </ul>
+        </nav>
+        
+        <!--Form Panel-->
+        <form action="./profile_summary" method="post">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h1>Interests</h1>
+                    <hr>
+                    
+                    <!--Interests Form-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="indoor">
+                                    <p><b>In-door Interests</b></p>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="indoor_interests[]" value="tv">tv
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="indoor_interests[]" value="movies">movies
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="indoor_interests[]" value="cooking">cooking
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="indoor_interests[]" value="board games">board games
+                                    </label>
+                                    <br>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="indoor_interests[]" value="puzzles">puzzles
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="indoor_interests[]" value="reading">reading
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="indoor_interests[]" value="playing cards">playing cards
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="indoor_interests[]" value="video games">video games
+                                    </label>
+                                </div>
+
+                                <br>
+                                
+                                <div id="outdoor">
+                                    <p><b>Out-door Interests</b></p>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="outdoor_interests[]" value="hiking">hiking
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="outdoor_interests[]" value="biking">biking
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="outdoor_interests[]" value="swimming">swimming
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="outdoor_interests[]" value="collecting">collecting
+                                    </label>
+                                    <br>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="outdoor_interests[]" value="walking">walking
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" name="outdoor_interests[]" value="climbing">climbing
+                                    </label>
+                                </div>
+                                
+                                <!--Next button-->
+                                <div  id="button">
+                                        <button type="submit" class="btn btn-primary">Next ></button>
+                                </div> <!--End Next button-->
+                                
+                            </div> <!--End input fields-->
+                        </div>
+                    </div> <!--End container-->   
+                </div> 
+            </div> 
+        </form> <!--End form panel-->       
+    </body>
+</html>

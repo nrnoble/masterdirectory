@@ -1,0 +1,294 @@
+[08-Feb-2016 05:23:12 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'username'@'localhost' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:24:21 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nrnoble'@'192.185.191.53' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:24:27 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nrnoble'@'192.185.191.53' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:24:59 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nrnoble'@'192.185.191.53' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:27:10 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'192.185.191.53' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:29:17 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'192.185.191.53' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:29:38 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nrnoble'@'192.185.191.53' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:33:56 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nrnoble'@'localhost' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:34:11 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'localhost' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:35:22 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'192.185.191.53' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:35:52 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'192.185.191.53' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:40:19 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble_test1'@'192.185.191.53' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:40:54 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble_test1'@'localhost' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:41:48 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble_test1'@'localhost' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:43:06 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble@nnoble.greenrivertech.net'@'192.185.191.53' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 100
+[08-Feb-2016 05:47:46 America/Chicago] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/nnoble/public_html/6/6a.php on line 101
+[08-Feb-2016 05:48:03 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 101
+[08-Feb-2016 05:48:47 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'nrnoble_grcc' (2) in /home/nnoble/public_html/6/6a.php on line 101
+[08-Feb-2016 05:50:47 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'mysql_user'@'localhost' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 95
+[08-Feb-2016 05:52:42 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'nrnoble_grcc' (0) in /home/nnoble/public_html/6/6a.php on line 102
+[08-Feb-2016 05:53:29 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'localhost' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 101
+[08-Feb-2016 05:53:43 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '.' (0) in /home/nnoble/public_html/6/6a.php on line 101
+[08-Feb-2016 05:54:53 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '.' (0) in /home/nnoble/public_html/6/6a.php on line 102
+[08-Feb-2016 05:55:33 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '.' (0) in /home/nnoble/public_html/6/6a.php on line 102
+[08-Feb-2016 05:55:51 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/6/6a.php on line 95
+[08-Feb-2016 05:56:19 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '.' (0) in /home/nnoble/public_html/6/6a.php on line 102
+[08-Feb-2016 05:56:48 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'tata.websitewelcome.com' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 102
+[08-Feb-2016 05:57:51 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'tata.websitewelcome.com' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 102
+[08-Feb-2016 06:17:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/6/6a.php on line 111
+[08-Feb-2016 06:17:58 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'localhost' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 104
+[08-Feb-2016 06:18:42 America/Chicago] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'nnoble'@'localhost' to database 'nrnoble_grcc' in /home/nnoble/public_html/6/6a.php on line 104
+[08-Feb-2016 06:19:54 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'tata.websitewelcome.com' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 102
+[08-Feb-2016 06:20:20 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'tata.websitewelcome.com' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 102
+[08-Feb-2016 06:20:29 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'tata.websitewelcome.com' (using password: YES) in /home/nnoble/public_html/6/6a.php on line 102
+[08-Feb-2016 06:26:22 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'nnoble'@'localhost' (using password: NO) in /home/nnoble/public_html/6/6a.php on line 101
+[08-Feb-2016 06:47:50 America/Chicago] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/nnoble/public_html/6/6a.php on line 128
+[08-Feb-2016 06:58:04 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE), expecting ',' or ';' in /home/nnoble/public_html/6/6a.php on line 128
+[08-Feb-2016 07:30:25 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/nnoble/public_html/6/6a.php on line 141
+[08-Feb-2016 07:32:42 America/Chicago] PHP Parse error:  syntax error, unexpected '50' (T_LNUMBER), expecting ',' or ';' in /home/nnoble/public_html/6/6a.php on line 141
+[08-Feb-2016 08:01:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/6/6a.php on line 174
+[08-Feb-2016 09:37:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'style' (T_STRING) in /home/nnoble/public_html/6/6a.php on line 278
+[08-Feb-2016 09:38:50 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/6a.php on line 276
+[08-Feb-2016 09:40:19 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/6a.php on line 276
+[08-Feb-2016 09:40:56 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/6a.php on line 276
+[08-Feb-2016 09:42:13 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/6a.php on line 276
+[08-Feb-2016 09:42:29 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/6a.php on line 276
+[08-Feb-2016 09:52:26 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/6a.php on line 276
+[08-Feb-2016 09:53:01 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/6a.php on line 276
+[08-Feb-2016 09:53:25 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/6a.php on line 276
+[08-Feb-2016 09:53:42 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/6a.php on line 276
+[08-Feb-2016 10:30:58 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/nnoble/public_html/6/6a.php on line 268
+[08-Feb-2016 10:31:19 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/nnoble/public_html/6/6a.php on line 268
+[08-Feb-2016 12:10:28 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/6/6a.php on line 96
+[08-Feb-2016 12:10:54 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/6/6a.php on line 96
+[08-Feb-2016 12:12:42 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/6/6a.php on line 96
+[08-Feb-2016 12:17:05 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/6/6a.php on line 399
+[08-Feb-2016 14:17:14 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/nnoble/public_html/6/6a.php on line 352
+[08-Feb-2016 14:19:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/nnoble/public_html/6/6a.php on line 116
+[08-Feb-2016 14:20:17 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/nnoble/public_html/6/6a.php on line 116
+[08-Feb-2016 14:20:31 America/Chicago] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in /home/nnoble/public_html/6/6a.php on line 116
+[08-Feb-2016 14:21:33 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/nnoble/public_html/6/6a.php on line 116
+[08-Feb-2016 14:26:05 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/nnoble/public_html/6/6a.php on line 116
+[08-Feb-2016 14:26:23 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/nnoble/public_html/6/6a.php on line 116
+[08-Feb-2016 14:26:29 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/nnoble/public_html/6/6a.php on line 116
+[08-Feb-2016 14:26:30 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/nnoble/public_html/6/6a.php on line 116
+[08-Feb-2016 14:27:12 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/nnoble/public_html/6/6a.php on line 116
+[08-Feb-2016 14:27:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/nnoble/public_html/6/6a.php on line 116
+[08-Feb-2016 14:48:33 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE), expecting ',' or ';' in /home/nnoble/public_html/6/6a.php on line 371
+[08-Feb-2016 22:54:04 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/nnoble/public_html/6/6a.php on line 374
+[08-Feb-2016 22:54:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE), expecting ',' or ';' in /home/nnoble/public_html/6/6a.php on line 375
+[08-Feb-2016 22:55:25 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE), expecting ',' or ';' in /home/nnoble/public_html/6/6a.php on line 375
+[09-Feb-2016 00:00:27 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE), expecting ',' or ';' in /home/nnoble/public_html/6/6a.php on line 386
+[10-Feb-2016 00:28:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 123
+[10-Feb-2016 00:30:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 123
+[10-Feb-2016 00:33:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 124
+[10-Feb-2016 00:36:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 124
+[10-Feb-2016 00:37:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 124
+[10-Feb-2016 00:44:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 124
+[10-Feb-2016 00:45:21 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 124
+[10-Feb-2016 00:45:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 124
+[10-Feb-2016 00:48:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 124
+[12-Feb-2016 15:00:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 124
+[12-Feb-2016 16:25:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 124
+[12-Feb-2016 16:26:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 125
+[12-Feb-2016 16:27:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 125
+[12-Feb-2016 16:33:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 125
+[12-Feb-2016 18:05:41 America/Chicago] PHP Warning:  require(../includes/process_mail.php): failed to open stream: No such file or directory in /home/nnoble/public_html/6/contact.php on line 121
+[12-Feb-2016 18:05:41 America/Chicago] PHP Warning:  require(../includes/process_mail.php): failed to open stream: No such file or directory in /home/nnoble/public_html/6/contact.php on line 121
+[12-Feb-2016 18:05:41 America/Chicago] PHP Fatal error:  require(): Failed opening required '../includes/process_mail.php' (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/6/contact.php on line 121
+[12-Feb-2016 18:06:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:106) in /home/nnoble/public_html/6/contact.php on line 129
+[13-Feb-2016 03:44:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'go' (T_STRING) in /home/nnoble/public_html/6/contact.php on line 198
+[13-Feb-2016 03:44:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'go' (T_STRING) in /home/nnoble/public_html/6/contact.php on line 198
+[13-Feb-2016 04:19:21 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/includes/process_mail.php:58) in /home/nnoble/public_html/6/contact2.php on line 17
+[13-Feb-2016 04:28:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/includes/process_mail.php:58) in /home/nnoble/public_html/6/contact2.php on line 17
+[13-Feb-2016 04:29:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:8) in /home/nnoble/public_html/6/contact.php on line 32
+[13-Feb-2016 04:29:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:8) in /home/nnoble/public_html/6/contact.php on line 32
+[13-Feb-2016 04:29:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:8) in /home/nnoble/public_html/6/contact.php on line 32
+[13-Feb-2016 04:31:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/includes/process_mail.php:58) in /home/nnoble/public_html/6/contact2.php on line 18
+[13-Feb-2016 04:34:21 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:8) in /home/nnoble/public_html/6/contact.php on line 32
+[13-Feb-2016 04:36:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:8) in /home/nnoble/public_html/6/contact.php on line 25
+[13-Feb-2016 04:39:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:8) in /home/nnoble/public_html/6/contact.php on line 26
+[13-Feb-2016 04:39:43 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:8) in /home/nnoble/public_html/6/contact.php on line 26
+[13-Feb-2016 04:46:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:8) in /home/nnoble/public_html/6/contact.php on line 26
+[13-Feb-2016 04:48:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:8) in /home/nnoble/public_html/6/contact.php on line 26
+[13-Feb-2016 04:51:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:7) in /home/nnoble/public_html/6/contact.php on line 25
+[13-Feb-2016 04:53:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:6) in /home/nnoble/public_html/6/contact.php on line 24
+[15-Feb-2016 13:10:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:6) in /home/nnoble/public_html/6/contact.php on line 24
+[15-Feb-2016 13:10:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:6) in /home/nnoble/public_html/6/contact.php on line 24
+[15-Feb-2016 20:18:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:6) in /home/nnoble/public_html/6/contact.php on line 24
+[15-Feb-2016 20:23:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:6) in /home/nnoble/public_html/6/contact.php on line 24
+[15-Feb-2016 20:28:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:6) in /home/nnoble/public_html/6/contact.php on line 24
+[15-Feb-2016 20:40:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nnoble/public_html/6/contact.php:6) in /home/nnoble/public_html/6/contact.php on line 24
+[19-Feb-2016 20:00:33 America/Chicago] PHP Parse error:  syntax error, unexpected '$expected' (T_VARIABLE), expecting ',' or ';' in /home/nnoble/public_html/6/contact.php on line 7
+[20-Feb-2016 07:20:58 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/nnoble/public_html/6/a301.php on line 244
+[20-Feb-2016 07:36:49 America/Chicago] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'nnoble'@'localhost' to database 'nnoble_sakila1' in /home/nnoble/public_html/6/a301.php on line 137
+[20-Feb-2016 07:39:15 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/6/a301.php on line 262
+[20-Feb-2016 07:48:02 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/nnoble/public_html/6/a301.php on line 292
+[20-Feb-2016 07:48:17 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/6/a301.php on line 295
+[20-Feb-2016 09:19:20 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/nnoble/public_html/6/a301.php on line 353
+[20-Feb-2016 14:07:14 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/nnoble/public_html/6/a301.php on line 353
+[20-Feb-2016 14:07:55 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/nnoble/public_html/6/a301.php on line 353
+[20-Feb-2016 14:28:12 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[20-Feb-2016 14:28:12 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[20-Feb-2016 14:28:12 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[20-Feb-2016 14:28:12 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[20-Feb-2016 17:35:49 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a3012.php on line 251
+[20-Feb-2016 17:35:49 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a3012.php on line 251
+[20-Feb-2016 17:35:49 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a3012.php on line 254
+[20-Feb-2016 17:35:49 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a3012.php on line 254
+[20-Feb-2016 17:37:51 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/nnoble/public_html/6/a3012.php on line 251
+[20-Feb-2016 17:53:43 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a3012.php on line 251
+[20-Feb-2016 17:53:43 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a3012.php on line 251
+[20-Feb-2016 17:53:43 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a3012.php on line 254
+[20-Feb-2016 17:53:43 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a3012.php on line 254
+[20-Feb-2016 18:39:34 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/nnoble/public_html/6/a3012.php on line 382
+[20-Feb-2016 23:35:40 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[20-Feb-2016 23:35:40 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[20-Feb-2016 23:35:40 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[20-Feb-2016 23:35:40 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 00:20:18 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 00:20:18 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 00:20:18 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 00:20:18 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 00:41:00 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 01:36:27 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 01:36:27 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 01:36:27 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 01:36:27 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 01:36:28 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 01:36:28 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 01:36:28 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 01:36:28 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 03:43:36 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 03:43:36 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 03:43:36 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 03:43:36 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 03:54:33 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 03:54:33 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 251
+[21-Feb-2016 03:54:33 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 03:54:33 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 254
+[21-Feb-2016 04:09:58 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 253
+[21-Feb-2016 04:09:58 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 253
+[21-Feb-2016 04:09:58 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 256
+[21-Feb-2016 04:09:58 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 256
+[21-Feb-2016 04:10:49 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 245
+[21-Feb-2016 04:10:49 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 245
+[21-Feb-2016 04:10:49 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 248
+[21-Feb-2016 04:10:49 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 248
+[21-Feb-2016 04:11:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/6/a301.php on line 232
+[21-Feb-2016 04:11:46 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 246
+[21-Feb-2016 04:11:46 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 246
+[21-Feb-2016 04:11:46 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 249
+[21-Feb-2016 04:11:46 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 249
+[21-Feb-2016 04:11:59 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 246
+[21-Feb-2016 04:11:59 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 246
+[21-Feb-2016 04:11:59 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 249
+[21-Feb-2016 04:11:59 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 249
+[21-Feb-2016 04:12:02 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 246
+[21-Feb-2016 04:12:02 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 246
+[21-Feb-2016 04:12:02 America/Chicago] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 249
+[21-Feb-2016 04:12:02 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/nnoble/public_html/6/a301.php on line 249
+[21-Feb-2016 04:12:56 America/Chicago] PHP Fatal error:  Call to undefined function print_() in /home/nnoble/public_html/6/a301.php on line 246
+[21-Feb-2016 04:40:58 America/Chicago] PHP Warning:  file_get_contents(Grocery_store_products): failed to open stream: No such file or directory in /home/nnoble/public_html/6/a301.php on line 260
+[21-Feb-2016 04:40:58 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/a301.php on line 278
+[21-Feb-2016 04:40:58 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/a301.php on line 280
+[21-Feb-2016 04:41:14 America/Chicago] PHP Warning:  file_get_contents(Grocery_store_products.sql): failed to open stream: No such file or directory in /home/nnoble/public_html/6/a301.php on line 260
+[21-Feb-2016 04:41:14 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/a301.php on line 278
+[21-Feb-2016 04:41:14 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/a301.php on line 280
+[21-Feb-2016 04:41:42 America/Chicago] PHP Warning:  file_get_contents(insert.grocery_store_products.sql): failed to open stream: No such file or directory in /home/nnoble/public_html/6/a301.php on line 260
+[21-Feb-2016 04:41:42 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/a301.php on line 278
+[21-Feb-2016 04:41:42 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/a301.php on line 280
+[21-Feb-2016 05:30:47 America/Chicago] PHP Warning:  mysqli::query() expects parameter 1 to be string, array given in /home/nnoble/public_html/6/a301.php on line 273
+[21-Feb-2016 05:35:13 America/Chicago] PHP Warning:  mysqli::multi_query() expects parameter 1 to be string, array given in /home/nnoble/public_html/6/a301.php on line 273
+[21-Feb-2016 05:35:20 America/Chicago] PHP Warning:  mysqli::multi_query() expects parameter 1 to be string, array given in /home/nnoble/public_html/6/a301.php on line 273
+[21-Feb-2016 07:40:33 America/Chicago] PHP Warning:  file_get_contents(selectallfims.sql): failed to open stream: No such file or directory in /home/nnoble/public_html/6/a301.php on line 413
+[21-Feb-2016 07:40:33 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/a301.php on line 431
+[21-Feb-2016 07:49:46 America/Chicago] PHP Warning:  file_get_contents(selectactor.sql): failed to open stream: No such file or directory in /home/nnoble/public_html/6/a301.php on line 465
+[21-Feb-2016 07:49:46 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/a301.php on line 482
+[21-Feb-2016 08:27:30 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/nnoble/public_html/6/a301.php on line 651
+[22-Feb-2016 03:28:59 America/Chicago] PHP Fatal error:  Call to undefined function getpwd() in /home/nnoble/public_html/6/exercise1.php on line 14
+[22-Feb-2016 04:09:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/6/exercise1.php on line 196
+[22-Feb-2016 04:28:05 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/6/exercise1.php on line 119
+[22-Feb-2016 04:48:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nnoble/public_html/6/exercise1.php on line 184
+[22-Feb-2016 05:00:37 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/exercise1.php on line 175
+[22-Feb-2016 05:00:38 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 183
+[22-Feb-2016 05:13:52 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 194
+[22-Feb-2016 05:14:45 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 194
+[22-Feb-2016 05:16:33 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 194
+[22-Feb-2016 05:17:05 America/Chicago] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/nnoble/public_html/6/exercise1.php on line 184
+[22-Feb-2016 05:17:08 America/Chicago] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/nnoble/public_html/6/exercise1.php on line 184
+[22-Feb-2016 05:17:29 America/Chicago] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/nnoble/public_html/6/exercise1.php on line 184
+[22-Feb-2016 05:17:52 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 195
+[22-Feb-2016 05:18:11 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 195
+[22-Feb-2016 05:19:45 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 195
+[22-Feb-2016 05:20:20 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 195
+[22-Feb-2016 05:20:35 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 195
+[22-Feb-2016 05:21:03 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 195
+[22-Feb-2016 05:22:40 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 197
+[22-Feb-2016 12:31:42 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/1040): Too many connections in /home/nnoble/public_html/6/exercise1.php on line 119
+[22-Feb-2016 12:40:32 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/6/a301.php on line 137
+[22-Feb-2016 12:40:38 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/6/a301.php on line 137
+[22-Feb-2016 12:40:51 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/6/a301.php on line 137
+[22-Feb-2016 13:04:06 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/exercise1.php on line 275
+[22-Feb-2016 13:04:06 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 275
+[22-Feb-2016 13:05:45 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/exercise1.php on line 275
+[22-Feb-2016 13:05:45 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 275
+[22-Feb-2016 13:05:52 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/exercise1.php on line 275
+[22-Feb-2016 13:05:52 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 275
+[22-Feb-2016 13:05:58 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/exercise1.php on line 275
+[22-Feb-2016 13:05:58 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/nnoble/public_html/6/exercise1.php on line 275
+[22-Feb-2016 14:47:56 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/nnoble/public_html/6/exercise2.php on line 211
+[22-Feb-2016 14:48:20 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nnoble/public_html/6/exercise2.php on line 208
+[22-Feb-2016 16:07:27 America/Chicago] PHP Warning:  file_get_contents(worldleathernecksactors.sql): failed to open stream: No such file or directory in /home/nnoble/public_html/6/exercise2.php on line 222
+[22-Feb-2016 16:07:27 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/exercise2.php on line 234
+[22-Feb-2016 16:10:16 America/Chicago] PHP Warning:  file_get_contents(worldleathernecksactors.sql): failed to open stream: No such file or directory in /home/nnoble/public_html/6/exercise2.php on line 222
+[22-Feb-2016 16:10:16 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/exercise2.php on line 234
+[22-Feb-2016 16:10:41 America/Chicago] PHP Warning:  file_get_contents(worldleathernecksactors.sql): failed to open stream: No such file or directory in /home/nnoble/public_html/6/exercise2.php on line 222
+[22-Feb-2016 16:10:41 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/exercise2.php on line 234
+[22-Feb-2016 16:12:40 America/Chicago] PHP Warning:  file_get_contents(worldleathernecksactors.sql): failed to open stream: No such file or directory in /home/nnoble/public_html/6/exercise2.php on line 222
+[22-Feb-2016 16:12:40 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home/nnoble/public_html/6/exercise2.php on line 234
+[22-Feb-2016 16:25:15 America/Chicago] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/nnoble/public_html/6/exercise2.php on line 244
+[22-Feb-2016 16:44:06 America/Chicago] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/nnoble/public_html/6/exercise2.php on line 238
+[22-Feb-2016 16:59:20 America/Chicago] PHP Fatal error:  Call to a member function fetch_field() on a non-object in /home/nnoble/public_html/6/exercise2.php on line 268
+[22-Feb-2016 17:19:09 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/nnoble/public_html/6/exercise2.php on line 271
+[22-Feb-2016 17:19:32 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/nnoble/public_html/6/exercise2.php on line 271
+[22-Feb-2016 17:23:07 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/6/exercise2.php on line 238
+[23-Feb-2016 02:53:47 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/nnoble/public_html/6/test_hide.php on line 233
+[23-Feb-2016 02:54:09 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/nnoble/public_html/6/test_hide.php on line 233
+[23-Feb-2016 03:11:16 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/1040): Too many connections in /home/nnoble/public_html/6/test_hide.php on line 229
+[23-Feb-2016 03:14:20 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/1040): Too many connections in /home/nnoble/public_html/6/test_hide.php on line 115
+[23-Feb-2016 03:16:38 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/6/test_hide.php on line 120
+[23-Feb-2016 03:16:45 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/6/test_hide.php on line 120
+[23-Feb-2016 03:18:17 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/1040): Too many connections in /home/nnoble/public_html/6/test_hide.php on line 120
+[24-Feb-2016 00:22:42 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/6/it301queries.php on line 7
+[24-Feb-2016 00:22:43 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/6/it301queries.php on line 7
+[24-Feb-2016 00:22:43 America/Chicago] PHP Warning:  include(): Failed opening '301insertqueries.txt' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/6/it301queries.php on line 7
+[24-Feb-2016 00:22:47 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/6/it301queries.php on line 7
+[24-Feb-2016 00:22:47 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/6/it301queries.php on line 7
+[24-Feb-2016 00:22:47 America/Chicago] PHP Warning:  include(): Failed opening '301insertqueries.txt' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/6/it301queries.php on line 7
+[03-Mar-2016 10:06:21 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/6/it301queries.php on line 7
+[03-Mar-2016 10:06:22 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/6/it301queries.php on line 7
+[03-Mar-2016 10:06:23 America/Chicago] PHP Warning:  include(): Failed opening '301insertqueries.txt' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/6/it301queries.php on line 7
+[04-Mar-2016 10:31:54 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/6/it301queries.php on line 7
+[04-Mar-2016 10:31:54 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/6/it301queries.php on line 7
+[04-Mar-2016 10:31:54 America/Chicago] PHP Warning:  include(): Failed opening '301insertqueries.txt' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/6/it301queries.php on line 7
+[14-May-2016 19:48:43 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[14-May-2016 19:48:43 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[14-May-2016 19:48:43 America/Chicago] PHP Warning:  include(): Failed opening '301insertqueries.txt' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[03-Dec-2016 19:43:19 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[03-Dec-2016 19:43:19 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[03-Dec-2016 19:43:19 America/Chicago] PHP Warning:  include(): Failed opening '301insertqueries.txt' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[27-Jan-2017 18:38:28 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[27-Jan-2017 18:38:28 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[27-Jan-2017 18:38:28 America/Chicago] PHP Warning:  include(): Failed opening '301insertqueries.txt' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[22-Feb-2017 06:57:22 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[22-Feb-2017 06:57:22 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[22-Feb-2017 06:57:22 America/Chicago] PHP Warning:  include(): Failed opening '301insertqueries.txt' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[09-Mar-2017 07:50:52 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[09-Mar-2017 07:50:52 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[09-Mar-2017 07:50:52 America/Chicago] PHP Warning:  include(): Failed opening '301insertqueries.txt' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[21-Mar-2017 02:23:40 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[21-Mar-2017 02:23:40 America/Chicago] PHP Warning:  include(301insertqueries.txt): failed to open stream: No such file or directory in /home/nnoble/public_html/IT305/6/it301queries.php on line 7
+[21-Mar-2017 02:23:40 America/Chicago] PHP Warning:  include(): Failed opening '301insertqueries.txt' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/IT305/6/it301queries.php on line 7

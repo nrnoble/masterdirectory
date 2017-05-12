@@ -7,13 +7,13 @@
 
 package part2;
 import java.util.*;
-import static part2.Utils.*;
+
 
 public class UniqueList <T> implements List<T>, Iterable<T>
 {
 
 	private int nodeCount = 0;
-	public Node nodes = null;
+	public Node<?> nodes = null;
 
     // returns true if debugger is active.
     // http://stackoverflow.com/questions/2755445/how-can-i-write-an-anonymous-function-in-java
@@ -33,19 +33,19 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		// to list or when the list has been cleared
 		if (nodes == null)
 		{
-			nodes = new Node(element);
+			nodes = new Node<Object>(element);
 			nodeCount++;
 			return true;
 		}
 		
 		
 		//Check to determine if element is already in list
-		Node nodeSearchgResults = nodes.findNode(element);
+		Node<?> nodeSearchgResults = nodes.findNode(element);
 		if (nodeSearchgResults!= null) {
 			return false;
 		}
 
-		Node lastNode = nodes.getLastNode();
+		Node<?> lastNode = nodes.getLastNode();
 		lastNode.addNode(element);
 		nodeCount++;
 		return true;
@@ -152,7 +152,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	@Override
 	public Object[] toArray()
 	{
-		Node currentNode = nodes.getFirstNode();
+		Node<?> currentNode = nodes.getFirstNode();
 		int count = nodeCount;
 		Object[] collection = new Object[count];
 		for (int i = 0; i < count ; i++)
@@ -172,7 +172,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	@Override
 	public Iterator<T> iterator()
 	{
-		return nodes.iterator();
+		return (Iterator<T>) nodes.iterator();
 	}
 
 
@@ -192,7 +192,6 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 			throw new IndexOutOfBoundsException("Index is out of bounds");
 		}
 
-		Node currentNodeTest = getNodeAtIndex(index);
 		Node currentNode = nodes.getNodeByIndex(index);
 		Node insertedNode = nodes.addNode(currentNode,element);
 		nodeCount++;
@@ -200,7 +199,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	}
 
 
-	private Node getNodeAtIndex(int index)
+	private Node<?> getNodeAtIndex(int index)
 	{
 
 		if  (index < 0 || index > this.nodeCount-1)
@@ -209,7 +208,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 		}
 
 
-		Node currentNode = nodes.getFirstNode();
+		Node<?> currentNode = nodes.getFirstNode();
 		int count = 0;
 		while (count != index)
 		{
@@ -227,6 +226,7 @@ public class UniqueList <T> implements List<T>, Iterable<T>
 	 * @param index of value to be return
 	 * @return element value located at index.
      */
+	@SuppressWarnings("unchecked")
 	@Override
 	public T get(int index)
 	{

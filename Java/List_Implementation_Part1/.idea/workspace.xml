@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c53ae3de-81b2-4608-a62d-0787fb7ffb9d" name="Default" comment="" />
+    <ignored path="List_Implementation_Part1.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/List_Implementation_Part1$Main.coverage" NAME="Main Coverage Results" MODIFIED="1462884089734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="List_Implementation_Part1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/AbstractList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="52" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="52" />
+              <folding>
+                <element signature="e#4449#4450#0" expanded="false" />
+                <element signature="e#4506#4507#0" expanded="false" />
+                <element signature="e#4990#4991#0" expanded="false" />
+                <element signature="e#5047#5048#0" expanded="false" />
+                <element signature="e#5343#5344#0" expanded="false" />
+                <element signature="e#5400#5401#0" expanded="false" />
+                <element signature="e#7627#7628#0" expanded="false" />
+                <element signature="e#7665#7666#0" expanded="false" />
+                <element signature="docComment;method#iterator#0;class#AbstractList#0" expanded="false" />
+                <element signature="e#9661#9662#0" expanded="false" />
+                <element signature="e#9693#9694#0" expanded="false" />
+                <element signature="docComment;method#listIterator#0;class#AbstractList#0" expanded="false" />
+                <element signature="e#9883#9884#0" expanded="false" />
+                <element signature="e#9921#9922#0" expanded="false" />
+                <element signature="docComment;method#listIterator#1;class#AbstractList#0" expanded="false" />
+                <element signature="docComment;field#cursor#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+                <element signature="docComment;field#lastRet#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+                <element signature="docComment;field#expectedModCount#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+                <element signature="e#11802#11803#0" expanded="false" />
+                <element signature="e#11849#11850#0" expanded="false" />
+                <element signature="e#13024#13025#0" expanded="false" />
+                <element signature="e#13062#13063#0" expanded="false" />
+                <element signature="e#13102#13103#0" expanded="false" />
+                <element signature="e#13144#13145#0" expanded="false" />
+                <element signature="e#13579#13580#0" expanded="false" />
+                <element signature="e#13616#13617#0" expanded="false" />
+                <element signature="e#13654#13655#0" expanded="false" />
+                <element signature="e#13693#13694#0" expanded="false" />
+                <element signature="docComment;method#subList#0;class#AbstractList#0" expanded="false" />
+                <element signature="docComment;method#hashCode#0;class#AbstractList#0" expanded="false" />
+                <element signature="docComment;method#removeRange#0;class#AbstractList#0" expanded="false" />
+                <element signature="docComment;field#modCount#0;class#AbstractList#0" expanded="false" />
+                <element signature="e#22195#22196#0" expanded="false" />
+                <element signature="e#22251#22252#0" expanded="false" />
+                <element signature="class#SubList#0" expanded="false" />
+                <element signature="e#24063#24064#0" expanded="false" />
+                <element signature="e#24101#24102#0" expanded="false" />
+                <element signature="e#24472#24473#0" expanded="false" />
+                <element signature="e#24509#24510#0" expanded="false" />
+                <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
+                <element signature="e#24792#24793#0" expanded="false" />
+                <element signature="e#24849#24850#0" expanded="false" />
+                <element signature="e#25083#25084#0" expanded="false" />
+                <element signature="e#25142#25143#0" expanded="false" />
+                <element signature="e#25382#25383#0" expanded="false" />
+                <element signature="e#25443#25444#0" expanded="false" />
+                <element signature="e#25485#25486#0" expanded="false" />
+                <element signature="e#25550#25551#0" expanded="false" />
+                <element signature="e#25740#25741#0" expanded="false" />
+                <element signature="e#25780#25781#0" expanded="false" />
+                <element signature="e#26007#26008#0" expanded="false" />
+                <element signature="e#26069#26070#0" expanded="false" />
+                <element signature="e#26442#26443#0" expanded="false" />
+                <element signature="e#26496#26497#0" expanded="false" />
+                <element signature="class#RandomAccessSubList#0" expanded="false" />
+                <element signature="e#26798#26799#0" expanded="false" />
+                <element signature="e#26845#26846#0" expanded="false" />
+                <element signature="e#26903#26904#0" expanded="false" />
+                <element signature="e#26977#26978#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmptyArrayList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EmptyArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="369" column="22" selection-start-line="369" selection-start-column="22" selection-end-line="369" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#19172#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#add#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#add#1;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#isEmpty#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="docComment;method#indexOf#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#indexOf#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="docComment;method#contains#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="docComment;method#get#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="docComment;method#set#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="docComment;method#remove#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="docComment;method#remove#1;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#remove#1;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#increaseArray_size#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#arraySizeHandler#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#listrSizeHandler#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#removeElement#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#addAll#1;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#containsAll#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="e#7319#7369#0" expanded="false" />
+                <element signature="method#removeHelper#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#finishToArray#0;class#EmptyArrayList#0" expanded="false" />
+                <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
+                <element signature="class#RandomAccessSubList#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/function/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#1673#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4420">
+              <caret line="283" column="21" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#33182#0" expanded="false" />
+                <element signature="e#33104#33105#0" expanded="false" />
+                <element signature="e#33178#33179#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListTester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ListTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1462">
+              <caret line="1382" column="4" selection-start-line="1382" selection-start-column="4" selection-end-line="1382" selection-end-column="4" />
+              <folding>
+                <element signature="method#testAdd#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testInsert#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testIsEmpty#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testSize#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testClear#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testIndexOf#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testContains#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testGet#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testSet#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testRemoveElement#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testRemoveIndex#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testRemoveAll#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testContainsAll#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testRetainAll#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testAddAllByIndex#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testAddAll#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testSubListFromIndex#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testtoArray#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testFillToArray#0;class#ListTester#0" expanded="false" />
+                <element signature="method#testgetItorator#0;class#ListTester#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/EmptyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/MyArrayList.java" />
+        <option value="$PROJECT_DIR$/src/SubList.java" />
+        <option value="$PROJECT_DIR$/src/myArrayList.java" />
+        <option value="$PROJECT_DIR$/src/EmptyArrayList.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ListTester.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1934" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List_Implementation_Part1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List_Implementation_Part1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List_Implementation_Part1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List_Implementation_Part1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List_Implementation_Part1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List_Implementation_Part1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List_Implementation_Part1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmptyArrayList.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Data/Github/Java/List_Implementation_Part1/src/EmptyArrayList.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="List_Implementation_Part1 (Neal Noble)" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="List_Implementation_Part1" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c53ae3de-81b2-4608-a62d-0787fb7ffb9d" name="Default" comment="" />
+      <created>1461548867229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1461548867229</updated>
+      <workItem from="1461548870924" duration="34447000" />
+      <workItem from="1461975356969" duration="32768000" />
+      <workItem from="1462868624482" duration="19831000" />
+      <workItem from="1463908494316" duration="1226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="88272000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1934" height="1057" extended-state="1" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17929563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34743875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28665933" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/AbstractList.java</url>
+          <line>673</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/AbstractList.java</url>
+          <line>287</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/EmptyArrayList.java</url>
+          <line>201</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/EmptyArrayList.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/EmptyArrayList.java</url>
+          <line>382</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/AbstractList.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/EmptyArrayList.java</url>
+          <line>361</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/EmptyArrayList.java</url>
+          <line>533</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/EmptyArrayList.java</url>
+          <line>346</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListTester.java</url>
+          <line>1154</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="55" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="sublist" />
+        <watch expression="_list.get(i)" />
+        <watch expression="sublist.get(0)" language="JAVA" custom="" />
+        <watch expression="sublist.get(2)" language="JAVA" custom="" />
+        <watch expression="sublist.get(2)" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="52" />
+          <folding>
+            <element signature="e#4449#4450#0" expanded="false" />
+            <element signature="e#4506#4507#0" expanded="false" />
+            <element signature="e#4990#4991#0" expanded="false" />
+            <element signature="e#5047#5048#0" expanded="false" />
+            <element signature="e#5343#5344#0" expanded="false" />
+            <element signature="e#5400#5401#0" expanded="false" />
+            <element signature="e#7627#7628#0" expanded="false" />
+            <element signature="e#7665#7666#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#9661#9662#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="docComment;method#listIterator#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#9883#9884#0" expanded="false" />
+            <element signature="e#9921#9922#0" expanded="false" />
+            <element signature="docComment;method#listIterator#1;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#cursor#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#lastRet#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#expectedModCount#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#11802#11803#0" expanded="false" />
+            <element signature="e#11849#11850#0" expanded="false" />
+            <element signature="e#13024#13025#0" expanded="false" />
+            <element signature="e#13062#13063#0" expanded="false" />
+            <element signature="e#13102#13103#0" expanded="false" />
+            <element signature="e#13144#13145#0" expanded="false" />
+            <element signature="e#13579#13580#0" expanded="false" />
+            <element signature="e#13616#13617#0" expanded="false" />
+            <element signature="e#13654#13655#0" expanded="false" />
+            <element signature="e#13693#13694#0" expanded="false" />
+            <element signature="docComment;method#subList#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#removeRange#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#modCount#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#22195#22196#0" expanded="false" />
+            <element signature="e#22251#22252#0" expanded="false" />
+            <element signature="class#SubList#0" expanded="false" />
+            <element signature="e#24063#24064#0" expanded="false" />
+            <element signature="e#24101#24102#0" expanded="false" />
+            <element signature="e#24472#24473#0" expanded="false" />
+            <element signature="e#24509#24510#0" expanded="false" />
+            <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
+            <element signature="e#24792#24793#0" expanded="false" />
+            <element signature="e#24849#24850#0" expanded="false" />
+            <element signature="e#25083#25084#0" expanded="false" />
+            <element signature="e#25142#25143#0" expanded="false" />
+            <element signature="e#25382#25383#0" expanded="false" />
+            <element signature="e#25443#25444#0" expanded="false" />
+            <element signature="e#25485#25486#0" expanded="false" />
+            <element signature="e#25550#25551#0" expanded="false" />
+            <element signature="e#25740#25741#0" expanded="false" />
+            <element signature="e#25780#25781#0" expanded="false" />
+            <element signature="e#26007#26008#0" expanded="false" />
+            <element signature="e#26069#26070#0" expanded="false" />
+            <element signature="e#26442#26443#0" expanded="false" />
+            <element signature="e#26496#26497#0" expanded="false" />
+            <element signature="class#RandomAccessSubList#0" expanded="false" />
+            <element signature="e#26798#26799#0" expanded="false" />
+            <element signature="e#26845#26846#0" expanded="false" />
+            <element signature="e#26903#26904#0" expanded="false" />
+            <element signature="e#26977#26978#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19172#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#add#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#add#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#isEmpty#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#indexOf#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#indexOf#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#remove#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#remove#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#increaseArray_size#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#arraySizeHandler#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#listrSizeHandler#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#removeElement#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#addAll#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#containsAll#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="e#7319#7369#0" expanded="false" />
+            <element signature="method#removeHelper#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#finishToArray#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
+            <element signature="class#RandomAccessSubList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#1673#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4420">
+          <caret line="283" column="21" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#33182#0" expanded="false" />
+            <element signature="e#33104#33105#0" expanded="false" />
+            <element signature="e#33178#33179#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="1382" column="4" selection-start-line="1382" selection-start-column="4" selection-end-line="1382" selection-end-column="4" />
+          <folding>
+            <element signature="method#testAdd#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testInsert#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testIsEmpty#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSize#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testClear#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testIndexOf#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testContains#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testGet#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSet#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveElement#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testContainsAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRetainAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testAddAllByIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testAddAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSubListFromIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testtoArray#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testFillToArray#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testgetItorator#0;class#ListTester#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="21" />
+          <folding>
+            <element signature="e#4449#4450#0" expanded="false" />
+            <element signature="e#4506#4507#0" expanded="false" />
+            <element signature="e#4990#4991#0" expanded="false" />
+            <element signature="e#5047#5048#0" expanded="false" />
+            <element signature="e#5343#5344#0" expanded="false" />
+            <element signature="e#5400#5401#0" expanded="false" />
+            <element signature="e#7627#7628#0" expanded="false" />
+            <element signature="e#7665#7666#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#9661#9662#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="docComment;method#listIterator#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#9883#9884#0" expanded="false" />
+            <element signature="e#9921#9922#0" expanded="false" />
+            <element signature="docComment;method#listIterator#1;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#cursor#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#lastRet#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#expectedModCount#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#11802#11803#0" expanded="false" />
+            <element signature="e#11849#11850#0" expanded="false" />
+            <element signature="e#13024#13025#0" expanded="false" />
+            <element signature="e#13062#13063#0" expanded="false" />
+            <element signature="e#13102#13103#0" expanded="false" />
+            <element signature="e#13144#13145#0" expanded="false" />
+            <element signature="e#13579#13580#0" expanded="false" />
+            <element signature="e#13616#13617#0" expanded="false" />
+            <element signature="e#13654#13655#0" expanded="false" />
+            <element signature="e#13693#13694#0" expanded="false" />
+            <element signature="docComment;method#subList#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#removeRange#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#modCount#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#22195#22196#0" expanded="false" />
+            <element signature="e#22251#22252#0" expanded="false" />
+            <element signature="class#SubList#0" expanded="false" />
+            <element signature="e#24063#24064#0" expanded="false" />
+            <element signature="e#24101#24102#0" expanded="false" />
+            <element signature="e#24472#24473#0" expanded="false" />
+            <element signature="e#24509#24510#0" expanded="false" />
+            <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
+            <element signature="e#24792#24793#0" expanded="false" />
+            <element signature="e#24849#24850#0" expanded="false" />
+            <element signature="e#25083#25084#0" expanded="false" />
+            <element signature="e#25142#25143#0" expanded="false" />
+            <element signature="e#25382#25383#0" expanded="false" />
+            <element signature="e#25443#25444#0" expanded="false" />
+            <element signature="e#25485#25486#0" expanded="false" />
+            <element signature="e#25550#25551#0" expanded="false" />
+            <element signature="e#25740#25741#0" expanded="false" />
+            <element signature="e#25780#25781#0" expanded="false" />
+            <element signature="e#26007#26008#0" expanded="false" />
+            <element signature="e#26069#26070#0" expanded="false" />
+            <element signature="e#26442#26443#0" expanded="false" />
+            <element signature="e#26496#26497#0" expanded="false" />
+            <element signature="class#RandomAccessSubList#0" expanded="false" />
+            <element signature="e#26798#26799#0" expanded="false" />
+            <element signature="e#26845#26846#0" expanded="false" />
+            <element signature="e#26903#26904#0" expanded="false" />
+            <element signature="e#26977#26978#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19172#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#add#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#add#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#isEmpty#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#indexOf#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#indexOf#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#remove#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#remove#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#increaseArray_size#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#arraySizeHandler#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#listrSizeHandler#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#removeElement#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#addAll#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#containsAll#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="e#7319#7369#0" expanded="false" />
+            <element signature="method#removeHelper#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#finishToArray#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
+            <element signature="class#RandomAccessSubList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/ListTesterPartTwo.java" />
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3077">
+          <caret line="206" column="13" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="151" column="27" selection-start-line="151" selection-start-column="15" selection-end-line="151" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#33182#0" expanded="false" />
+            <element signature="e#33104#33105#0" expanded="false" />
+            <element signature="e#33178#33179#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7072">
+          <caret line="818" column="0" selection-start-line="818" selection-start-column="0" selection-end-line="818" selection-end-column="0" />
+          <folding>
+            <element signature="method#testAdd#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testInsert#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testIsEmpty#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSize#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testClear#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testIndexOf#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testContains#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testGet#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSet#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveElement#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testContainsAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRetainAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testAddAllByIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testAddAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSubListFromIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testtoArray#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testFillToArray#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testgetItorator#0;class#ListTester#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List_Implementation_Part1 (Neal Noble).iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#4449#4450#0" expanded="false" />
+            <element signature="e#4506#4507#0" expanded="false" />
+            <element signature="e#4990#4991#0" expanded="false" />
+            <element signature="e#5047#5048#0" expanded="false" />
+            <element signature="e#5343#5344#0" expanded="false" />
+            <element signature="e#5400#5401#0" expanded="false" />
+            <element signature="e#7627#7628#0" expanded="false" />
+            <element signature="e#7665#7666#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#9661#9662#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="docComment;method#listIterator#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#9883#9884#0" expanded="false" />
+            <element signature="e#9921#9922#0" expanded="false" />
+            <element signature="docComment;method#listIterator#1;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#cursor#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#lastRet#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#expectedModCount#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#11802#11803#0" expanded="false" />
+            <element signature="e#11849#11850#0" expanded="false" />
+            <element signature="e#13024#13025#0" expanded="false" />
+            <element signature="e#13062#13063#0" expanded="false" />
+            <element signature="e#13102#13103#0" expanded="false" />
+            <element signature="e#13144#13145#0" expanded="false" />
+            <element signature="e#13579#13580#0" expanded="false" />
+            <element signature="e#13616#13617#0" expanded="false" />
+            <element signature="e#13654#13655#0" expanded="false" />
+            <element signature="e#13693#13694#0" expanded="false" />
+            <element signature="docComment;method#subList#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#removeRange#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#modCount#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#22195#22196#0" expanded="false" />
+            <element signature="e#22251#22252#0" expanded="false" />
+            <element signature="class#SubList#0" expanded="false" />
+            <element signature="e#24063#24064#0" expanded="false" />
+            <element signature="e#24101#24102#0" expanded="false" />
+            <element signature="e#24472#24473#0" expanded="false" />
+            <element signature="e#24509#24510#0" expanded="false" />
+            <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
+            <element signature="e#24792#24793#0" expanded="false" />
+            <element signature="e#24849#24850#0" expanded="false" />
+            <element signature="e#25083#25084#0" expanded="false" />
+            <element signature="e#25142#25143#0" expanded="false" />
+            <element signature="e#25382#25383#0" expanded="false" />
+            <element signature="e#25443#25444#0" expanded="false" />
+            <element signature="e#25485#25486#0" expanded="false" />
+            <element signature="e#25550#25551#0" expanded="false" />
+            <element signature="e#25740#25741#0" expanded="false" />
+            <element signature="e#25780#25781#0" expanded="false" />
+            <element signature="e#26007#26008#0" expanded="false" />
+            <element signature="e#26069#26070#0" expanded="false" />
+            <element signature="e#26442#26443#0" expanded="false" />
+            <element signature="e#26496#26497#0" expanded="false" />
+            <element signature="class#RandomAccessSubList#0" expanded="false" />
+            <element signature="e#26798#26799#0" expanded="false" />
+            <element signature="e#26845#26846#0" expanded="false" />
+            <element signature="e#26903#26904#0" expanded="false" />
+            <element signature="e#26977#26978#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19172#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#add#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#add#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#isEmpty#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#indexOf#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#indexOf#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#remove#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#remove#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#increaseArray_size#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#arraySizeHandler#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#listrSizeHandler#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#removeElement#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#addAll#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#containsAll#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="e#7319#7369#0" expanded="false" />
+            <element signature="method#removeHelper#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#finishToArray#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
+            <element signature="class#RandomAccessSubList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#33182#0" expanded="false" />
+            <element signature="e#33104#33105#0" expanded="false" />
+            <element signature="e#33178#33179#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#testAdd#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testInsert#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testIsEmpty#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSize#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testClear#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testIndexOf#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testContains#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testGet#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSet#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveElement#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testContainsAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRetainAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testAddAllByIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testAddAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSubListFromIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testtoArray#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testFillToArray#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testgetItorator#0;class#ListTester#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List_Implementation_Part1 (Neal Noble).iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyLinkedList.java" />
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/ListTesterPartTwo.java" />
+    <entry file="file://$PROJECT_DIR$/src/SubList.java" />
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#1673#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List_Implementation_Part1 (Neal Noble).iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4420">
+          <caret line="283" column="21" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#33182#0" expanded="false" />
+            <element signature="e#33104#33105#0" expanded="false" />
+            <element signature="e#33178#33179#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="333" column="21" selection-start-line="333" selection-start-column="12" selection-end-line="333" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="52" />
+          <folding>
+            <element signature="e#4449#4450#0" expanded="false" />
+            <element signature="e#4506#4507#0" expanded="false" />
+            <element signature="e#4990#4991#0" expanded="false" />
+            <element signature="e#5047#5048#0" expanded="false" />
+            <element signature="e#5343#5344#0" expanded="false" />
+            <element signature="e#5400#5401#0" expanded="false" />
+            <element signature="e#7627#7628#0" expanded="false" />
+            <element signature="e#7665#7666#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#9661#9662#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="docComment;method#listIterator#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#9883#9884#0" expanded="false" />
+            <element signature="e#9921#9922#0" expanded="false" />
+            <element signature="docComment;method#listIterator#1;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#cursor#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#lastRet#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#expectedModCount#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#11802#11803#0" expanded="false" />
+            <element signature="e#11849#11850#0" expanded="false" />
+            <element signature="e#13024#13025#0" expanded="false" />
+            <element signature="e#13062#13063#0" expanded="false" />
+            <element signature="e#13102#13103#0" expanded="false" />
+            <element signature="e#13144#13145#0" expanded="false" />
+            <element signature="e#13579#13580#0" expanded="false" />
+            <element signature="e#13616#13617#0" expanded="false" />
+            <element signature="e#13654#13655#0" expanded="false" />
+            <element signature="e#13693#13694#0" expanded="false" />
+            <element signature="docComment;method#subList#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#removeRange#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#modCount#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#22195#22196#0" expanded="false" />
+            <element signature="e#22251#22252#0" expanded="false" />
+            <element signature="class#SubList#0" expanded="false" />
+            <element signature="e#24063#24064#0" expanded="false" />
+            <element signature="e#24101#24102#0" expanded="false" />
+            <element signature="e#24472#24473#0" expanded="false" />
+            <element signature="e#24509#24510#0" expanded="false" />
+            <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
+            <element signature="e#24792#24793#0" expanded="false" />
+            <element signature="e#24849#24850#0" expanded="false" />
+            <element signature="e#25083#25084#0" expanded="false" />
+            <element signature="e#25142#25143#0" expanded="false" />
+            <element signature="e#25382#25383#0" expanded="false" />
+            <element signature="e#25443#25444#0" expanded="false" />
+            <element signature="e#25485#25486#0" expanded="false" />
+            <element signature="e#25550#25551#0" expanded="false" />
+            <element signature="e#25740#25741#0" expanded="false" />
+            <element signature="e#25780#25781#0" expanded="false" />
+            <element signature="e#26007#26008#0" expanded="false" />
+            <element signature="e#26069#26070#0" expanded="false" />
+            <element signature="e#26442#26443#0" expanded="false" />
+            <element signature="e#26496#26497#0" expanded="false" />
+            <element signature="class#RandomAccessSubList#0" expanded="false" />
+            <element signature="e#26798#26799#0" expanded="false" />
+            <element signature="e#26845#26846#0" expanded="false" />
+            <element signature="e#26903#26904#0" expanded="false" />
+            <element signature="e#26977#26978#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/src/ListTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="1382" column="4" selection-start-line="1382" selection-start-column="4" selection-end-line="1382" selection-end-column="4" />
+          <folding>
+            <element signature="method#testAdd#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testInsert#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testIsEmpty#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSize#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testClear#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testIndexOf#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testContains#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testGet#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSet#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveElement#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRemoveAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testContainsAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testRetainAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testAddAllByIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testAddAll#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testSubListFromIndex#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testtoArray#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testFillToArray#0;class#ListTester#0" expanded="false" />
+            <element signature="method#testgetItorator#0;class#ListTester#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="369" column="22" selection-start-line="369" selection-start-column="22" selection-end-line="369" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#19172#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#add#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#add#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#isEmpty#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#indexOf#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#indexOf#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="docComment;method#remove#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#remove#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#increaseArray_size#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#arraySizeHandler#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#listrSizeHandler#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#removeElement#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#addAll#1;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#containsAll#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="e#7319#7369#0" expanded="false" />
+            <element signature="method#removeHelper#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#finishToArray#0;class#EmptyArrayList#0" expanded="false" />
+            <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
+            <element signature="class#RandomAccessSubList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

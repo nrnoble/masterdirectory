@@ -1,0 +1,32 @@
+#gold
+{
+   list-style-type: none; 
+}
+
+#silver
+{
+   list-style-type: none; 
+}
+
+#bronze
+{
+   list-style-type: none; 
+}
+
+.error
+{
+    color: red;
+}
+
+input[type=submit]:hover
+{
+    background-color:gray;
+}
+
+.input[type=radio]{
+     display: inline-block;
+}
+
+    
+    
+

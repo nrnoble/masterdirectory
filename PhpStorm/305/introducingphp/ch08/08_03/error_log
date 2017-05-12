@@ -1,0 +1,3 @@
+[15-Feb-2016 07:17:54 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/nnoble/public_html/introducingphp/ch08/08_03/parse_02.php on line 22
+[15-Feb-2016 09:29:55 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/nnoble/public_html/introducingphp/ch08/08_03/parse_01.php on line 20
+[15-Feb-2016 10:27:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'Slartibartfast' (T_STRING), expecting ']' in /home/nnoble/public_html/introducingphp/ch08/08_03/blank.php on line 2

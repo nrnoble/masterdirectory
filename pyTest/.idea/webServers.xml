@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cfab6bc4-b991-4fc1-b0dc-8553f7d015d9" name="pyGraphicDocs" url="http://waws-prod-sn1-049.ftp.azurewebsites.windows.net">
+        <fileTransfer host="waws-prod-sn1-049.ftp.azurewebsites.windows.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

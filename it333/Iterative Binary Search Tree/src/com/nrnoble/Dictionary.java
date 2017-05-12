@@ -26,11 +26,27 @@ import java.util.ListIterator;
          * Otherwise, the method will update the definition for an already existing word.
          * @param words array of words
          * @param definitions array of definations for each word
+         * This method throws an IllegalArgumentException if the size of the both input arrays differ.
+         * This method throws an IllegalStateException if the elements of the words array are not in sorted order.
          */
         public Dictionary(String[] words, String[] definitions)
         {
 
         }
+
+
+        /**
+         * Adds a word/definition pair to the dictionary if the input word is not presently in the dictionary.
+         * Otherwise, the method will update the definition for an already existing word.
+         * @param word string to be added or updated in the dictionary
+         * @param definition string that is to be added or updated
+         * @return true if successful.
+         */
+        public boolean updateDictionary(String word, String definition)
+        {
+            return true;
+        }
+
 
         /**
          * Returns true if the input word is in the dictionary, otherwise false.

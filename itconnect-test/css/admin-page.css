@@ -1,0 +1,44 @@
+.add-btn {
+    border-radius: 0;
+    width: 100%;
+}
+
+#change-password-link {
+    /*...*/
+}
+
+#change-password-link:hover {
+    cursor: pointer;
+}
+
+.password-error {
+    padding: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #E8534E;
+}
+
+#change-alert-success {
+    color: #FFFFFF;
+    background-color: #51B528;
+    border-color: #56A514;
+    font-size: 17px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.edit-icon {
+    font-size: 1.5em;
+    color: green;
+}
+
+.input-group-addon {
+    color: #ffffff;
+    background-color: #5cb85c;
+    border-color: #56A514;
+}
+
+.form-errors {
+    margin-bottom: 5px;
+    padding: 6px;
+}

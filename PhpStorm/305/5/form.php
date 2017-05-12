@@ -1,0 +1,38 @@
+<!--
+Neal Noble
+feburary 1st, 2016
+IT305
+Assignment 5a forum.php
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link rel = "stylesheet" type="text/css"
+		href="http://nnoble.greenrivertech.net/css/nrnoble.css">
+  </head>
+    
+  <body>
+	    <div id = page>
+            <pre>
+              <form method="get" action="process.php">
+				<label>
+Please enter your first name:  <input type="text" name="first" size="20" >
+			  </label>   <label>
+               Year of birth:  <input type="text" name="year" size="4" maxlength="4" >
+			  </label><label>
+          Credit card number:  <input type="text" name="ccnum" size="20" maxlength="20" >
+			  </label>
+   			       <input type="submit" value="Validate">
+				   
+			  </form>	
+            </pre>
+        </div>
+		
+
+		
+		
+  
+    </body>
+</html>

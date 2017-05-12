@@ -1,0 +1,3 @@
+[15-Feb-2016 13:43:53 America/Chicago] PHP Warning:  require(copyright.php): failed to open stream: No such file or directory in /home/nnoble/public_html/introducingphp/ch07/07_04/relative_end.php on line 6
+[15-Feb-2016 13:43:53 America/Chicago] PHP Warning:  require(copyright.php): failed to open stream: No such file or directory in /home/nnoble/public_html/introducingphp/ch07/07_04/relative_end.php on line 6
+[15-Feb-2016 13:43:53 America/Chicago] PHP Fatal error:  require(): Failed opening required 'copyright.php' (include_path='.:/opt/php54/lib/php:/Library/WebServer/Documents/introducingphp/ch07/07_04/includes') in /home/nnoble/public_html/introducingphp/ch07/07_04/relative_end.php on line 6

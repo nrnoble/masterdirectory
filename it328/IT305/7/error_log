@@ -1,0 +1,737 @@
+[16-Feb-2016 00:48:41 America/Chicago] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/nnoble/public_html/7/7a.php on line 125
+[16-Feb-2016 00:48:41 America/Chicago] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/nnoble/public_html/7/7a.php on line 125
+[16-Feb-2016 00:48:41 America/Chicago] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/7/7a.php on line 125
+[16-Feb-2016 00:48:41 America/Chicago] PHP Fatal error:  Call to undefined function getpwd() in /home/nnoble/public_html/7/7a.php on line 134
+[16-Feb-2016 01:28:36 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /home/nnoble/public_html/7/7a.php on line 214
+[16-Feb-2016 01:28:49 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/nnoble/public_html/7/7a.php on line 221
+[16-Feb-2016 01:43:30 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/nnoble/public_html/7/7a.php on line 219
+[16-Feb-2016 01:48:19 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/nnoble/public_html/7/7a.php on line 237
+[16-Feb-2016 02:41:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'width' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/7/7a.php on line 256
+[16-Feb-2016 02:41:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'width' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/7/7a.php on line 256
+[16-Feb-2016 02:41:57 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/nnoble/public_html/7/7a.php on line 257
+[16-Feb-2016 02:42:15 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/nnoble/public_html/7/7a.php on line 257
+[16-Feb-2016 02:42:17 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/nnoble/public_html/7/7a.php on line 257
+[16-Feb-2016 04:49:31 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/7/7b.php on line 23
+[16-Feb-2016 04:50:31 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/7/7b.php on line 23
+[16-Feb-2016 04:52:04 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/7/7b.php on line 23
+[16-Feb-2016 04:52:51 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/7/7b.php on line 22
+[16-Feb-2016 14:54:37 America/Chicago] PHP Warning:  require(./includes/process_mail.php): failed to open stream: No such file or directory in /home/nnoble/public_html/7/7b.php on line 24
+[16-Feb-2016 14:54:37 America/Chicago] PHP Warning:  require(./includes/process_mail.php): failed to open stream: No such file or directory in /home/nnoble/public_html/7/7b.php on line 24
+[16-Feb-2016 14:54:37 America/Chicago] PHP Fatal error:  require(): Failed opening required './includes/process_mail.php' (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/7/7b.php on line 24
+[16-Feb-2016 15:50:48 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 15:50:48 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[16-Feb-2016 15:50:56 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 15:50:56 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 15:50:56 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 15:50:56 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 15:50:56 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 15:50:56 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 15:50:56 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 15:50:56 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 15:50:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[16-Feb-2016 16:16:02 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:16:02 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:02 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:16:02 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:02 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:16:02 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:02 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:02 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 16:16:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[16-Feb-2016 16:16:24 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:16:24 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:24 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:16:24 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:24 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:16:24 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:24 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:24 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 16:16:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[16-Feb-2016 16:16:49 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:16:49 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:49 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:16:49 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:49 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:16:49 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:49 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:16:49 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 16:16:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[16-Feb-2016 16:18:28 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:18:28 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:18:28 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:18:28 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:18:28 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:18:28 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:18:28 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:18:28 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 16:18:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[16-Feb-2016 16:19:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:19:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:19:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:19:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:19:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 31
+[16-Feb-2016 16:19:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:19:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:19:16 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 16:19:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[16-Feb-2016 16:19:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:19:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:19:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:19:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 16:19:34 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 16:19:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[16-Feb-2016 19:24:44 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 19:24:44 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 19:24:44 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 19:24:44 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[16-Feb-2016 19:24:44 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 19:24:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[16-Feb-2016 20:35:08 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 20:35:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[16-Feb-2016 21:45:37 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 21:45:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[16-Feb-2016 21:45:46 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 49
+[16-Feb-2016 21:45:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 52
+[17-Feb-2016 00:25:55 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:25:55 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:25:55 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:25:55 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:25:55 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 51
+[17-Feb-2016 00:25:55 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 54
+[17-Feb-2016 00:26:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:26:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:26:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:26:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:26:16 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 51
+[17-Feb-2016 00:26:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 54
+[17-Feb-2016 00:55:49 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:55:49 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:55:49 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:55:49 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/nnoble/public_html/7/includes/process_mail.php on line 34
+[17-Feb-2016 00:55:49 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/7/includes/process_mail.php on line 51
+[17-Feb-2016 00:55:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/includes/process_mail.php on line 54
+[17-Feb-2016 00:59:23 America/Chicago] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE), expecting ',' or ';' in /home/nnoble/public_html/7/7b.php on line 35
+[17-Feb-2016 01:01:28 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nnoble/public_html/7/7b.php on line 114
+[17-Feb-2016 01:01:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nnoble/public_html/7/7b.php on line 114
+[17-Feb-2016 01:01:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nnoble/public_html/7/7b.php on line 114
+[17-Feb-2016 01:28:57 America/Chicago] PHP Parse error:  syntax error, unexpected '$errorMsg' (T_VARIABLE) in /home/nnoble/public_html/7/7b.php on line 334
+[17-Feb-2016 01:29:32 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/7/7b.php on line 334
+[17-Feb-2016 01:45:28 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home/nnoble/public_html/7/7b.php on line 40
+[17-Feb-2016 01:45:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 01:47:35 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 01:47:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 01:49:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 01:49:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 01:49:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 01:49:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 01:50:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 01:51:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 01:51:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 01:52:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 03:11:38 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/7/7b.php on line 246
+[17-Feb-2016 03:11:50 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/7/7b.php on line 246
+[17-Feb-2016 03:13:05 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/7/7b.php on line 246
+[17-Feb-2016 03:14:12 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/1040): Too many connections in /home/nnoble/public_html/7/7b.php on line 246
+[17-Feb-2016 03:15:30 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/7/7b.php on line 246
+[17-Feb-2016 04:01:58 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/nnoble/public_html/7/7b.php on line 364
+[17-Feb-2016 04:01:58 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/nnoble/public_html/7/7b.php on line 364
+[17-Feb-2016 04:08:25 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/7/7b.php on line 311
+[17-Feb-2016 04:34:12 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 476
+[17-Feb-2016 04:34:12 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 488
+[17-Feb-2016 04:37:07 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 476
+[17-Feb-2016 04:37:07 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 488
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 316
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 416
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 457
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 316
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 416
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 457
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 473
+[17-Feb-2016 04:37:14 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 484
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 358
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 372
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 373
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 373
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 384
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 397
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 416
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 457
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 473
+[17-Feb-2016 04:37:28 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 484
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 358
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 372
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 373
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 373
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 384
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 397
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 416
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 457
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 473
+[17-Feb-2016 04:37:36 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 484
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 358
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 372
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 373
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 373
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 384
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 397
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 416
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 457
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 473
+[17-Feb-2016 04:37:54 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 484
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 358
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 372
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 373
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 373
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 384
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 397
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 416
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 457
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 473
+[17-Feb-2016 04:37:58 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 484
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 358
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 372
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 373
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 373
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 384
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 397
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 416
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 457
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 473
+[17-Feb-2016 04:38:05 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 484
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 384
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 396
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 428
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 469
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 485
+[17-Feb-2016 04:38:32 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 496
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 384
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 396
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 428
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 469
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 485
+[17-Feb-2016 04:38:38 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 496
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 384
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 396
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 428
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 469
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 485
+[17-Feb-2016 04:39:00 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 496
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 384
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 396
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 428
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 469
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 485
+[17-Feb-2016 04:39:03 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 496
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 384
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 396
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 428
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 469
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 485
+[17-Feb-2016 04:40:03 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 496
+[17-Feb-2016 04:40:07 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:40:07 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:40:07 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:40:07 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:40:10 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:40:10 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:40:10 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:40:10 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:40:23 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:40:23 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:40:23 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:40:23 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:40:45 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:40:45 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 283
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 295
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 384
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 396
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 428
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 469
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 485
+[17-Feb-2016 04:41:11 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 496
+[17-Feb-2016 04:42:08 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:42:08 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:42:15 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:42:15 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:42:17 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:42:17 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:42:24 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 488
+[17-Feb-2016 04:42:24 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 500
+[17-Feb-2016 04:43:07 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 269
+[17-Feb-2016 04:43:07 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:44:33 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:44:43 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 500
+[17-Feb-2016 04:44:51 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:44:54 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:44:57 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 308
+[17-Feb-2016 04:44:57 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 370
+[17-Feb-2016 04:44:57 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 409
+[17-Feb-2016 04:45:42 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 371
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 285
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 285
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 296
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 298
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 298
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 309
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 371
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 397
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 399
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 399
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 410
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 429
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 470
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 486
+[17-Feb-2016 05:35:27 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 497
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 284
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 285
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 285
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 296
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 298
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 298
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 309
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 371
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 385
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 397
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 399
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 399
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 410
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 429
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 470
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 486
+[17-Feb-2016 05:35:32 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 497
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 285
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 286
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 286
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 310
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 372
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 387
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 387
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 400
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 400
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 411
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 430
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 471
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 487
+[17-Feb-2016 05:36:06 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 498
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 285
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 286
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 286
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 310
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 372
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 387
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 387
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 400
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 400
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 411
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 430
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 471
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 487
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 498
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 285
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 286
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 286
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 297
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 299
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 310
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: sid in /home/nnoble/public_html/7/7b.php on line 372
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: name in /home/nnoble/public_html/7/7b.php on line 386
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 387
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 387
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: lastname in /home/nnoble/public_html/7/7b.php on line 398
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: errors in /home/nnoble/public_html/7/7b.php on line 400
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: missing in /home/nnoble/public_html/7/7b.php on line 400
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: gpa in /home/nnoble/public_html/7/7b.php on line 411
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 430
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 471
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 487
+[17-Feb-2016 05:36:29 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/7/7b.php on line 498
+[17-Feb-2016 05:44:47 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 73
+[17-Feb-2016 05:48:07 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 73
+[17-Feb-2016 05:48:08 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 73
+[17-Feb-2016 05:48:25 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 73
+[17-Feb-2016 05:48:30 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 73
+[17-Feb-2016 05:48:41 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 490
+[17-Feb-2016 10:26:16 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 490
+[17-Feb-2016 10:26:29 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 73
+[17-Feb-2016 10:28:05 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 490
+[17-Feb-2016 10:28:07 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 490
+[17-Feb-2016 10:44:49 America/Chicago] PHP Notice:  Undefined variable: cnxn in /home/nnoble/public_html/7/7b.php on line 460
+[17-Feb-2016 10:44:49 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/nnoble/public_html/7/7b.php on line 460
+[17-Feb-2016 10:44:49 America/Chicago] PHP Notice:  Undefined variable: cnxn in /home/nnoble/public_html/7/7b.php on line 461
+[17-Feb-2016 10:44:49 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/nnoble/public_html/7/7b.php on line 461
+[17-Feb-2016 10:44:49 America/Chicago] PHP Notice:  Undefined variable: cnxn in /home/nnoble/public_html/7/7b.php on line 462
+[17-Feb-2016 10:44:49 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/nnoble/public_html/7/7b.php on line 462
+[17-Feb-2016 10:44:49 America/Chicago] PHP Notice:  Undefined variable: fname in /home/nnoble/public_html/7/7b.php on line 477
+[17-Feb-2016 10:44:49 America/Chicago] PHP Notice:  Undefined variable: lname in /home/nnoble/public_html/7/7b.php on line 477
+[17-Feb-2016 10:47:23 America/Chicago] PHP Notice:  Undefined variable: fname in /home/nnoble/public_html/7/7b.php on line 475
+[17-Feb-2016 10:47:23 America/Chicago] PHP Notice:  Undefined variable: lname in /home/nnoble/public_html/7/7b.php on line 475
+[17-Feb-2016 11:01:00 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 538
+[17-Feb-2016 11:02:12 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[17-Feb-2016 11:02:22 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[17-Feb-2016 11:02:29 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[17-Feb-2016 11:08:13 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[17-Feb-2016 11:08:21 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[17-Feb-2016 11:08:25 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[17-Feb-2016 11:11:29 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[17-Feb-2016 11:14:53 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[17-Feb-2016 11:14:53 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[17-Feb-2016 11:14:55 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 534
+[17-Feb-2016 11:15:23 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 534
+[17-Feb-2016 11:19:33 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 534
+[17-Feb-2016 11:19:52 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 534
+[17-Feb-2016 11:20:10 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/7/7b.php on line 427
+[17-Feb-2016 11:20:28 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[17-Feb-2016 11:20:28 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[17-Feb-2016 11:20:29 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 534
+[17-Feb-2016 11:22:19 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 537
+[17-Feb-2016 11:22:58 America/Chicago] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/nnoble/public_html/7/7b.php on line 427
+[17-Feb-2016 11:23:13 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 537
+[18-Feb-2016 14:43:51 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 537
+[19-Feb-2016 14:55:33 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 14:56:29 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 15:09:56 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 15:10:01 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 15:11:24 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 15:24:01 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 15:24:19 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 15:24:27 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 15:25:17 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 15:32:43 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 20:05:19 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 20:05:28 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[19-Feb-2016 22:44:09 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[19-Feb-2016 22:44:09 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[20-Feb-2016 11:15:42 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[20-Feb-2016 14:48:57 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[20-Feb-2016 14:48:57 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[20-Feb-2016 14:48:57 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[20-Feb-2016 14:49:27 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[20-Feb-2016 15:29:23 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[20-Feb-2016 15:38:08 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[20-Feb-2016 15:42:57 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[20-Feb-2016 15:42:57 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[20-Feb-2016 15:43:29 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[20-Feb-2016 15:43:29 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[20-Feb-2016 15:48:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'PRIMARY' (T_STRING) in /home/nnoble/public_html/7/7b.php on line 478
+[20-Feb-2016 15:48:30 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[20-Feb-2016 15:48:30 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[20-Feb-2016 15:50:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'PRIMARY' (T_STRING) in /home/nnoble/public_html/7/7b.php on line 478
+[20-Feb-2016 15:50:36 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[20-Feb-2016 15:50:36 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[20-Feb-2016 15:53:50 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 15:53:50 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 15:58:10 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 549
+[20-Feb-2016 15:58:18 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 15:58:18 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 15:59:23 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 15:59:23 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 15:59:51 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 15:59:51 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:03:39 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:03:39 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:03:50 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:03:50 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:04:15 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:04:15 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:04:26 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:04:26 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:04:26 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 549
+[20-Feb-2016 16:05:35 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:05:35 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:05:38 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:05:38 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:05:54 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:05:54 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:05:54 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 549
+[20-Feb-2016 16:06:57 America/Chicago] PHP Parse error:  syntax error, unexpected '")"' (T_CONSTANT_ENCAPSED_STRING) in /home/nnoble/public_html/7/7b.php on line 470
+[20-Feb-2016 16:07:17 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:07:17 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:07:28 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:07:28 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:07:39 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:07:39 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:12:41 America/Chicago] PHP Parse error:  syntax error, unexpected '!=' (T_IS_NOT_EQUAL) in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:13:16 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 76
+[20-Feb-2016 16:13:16 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 78
+[20-Feb-2016 16:17:18 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 77
+[20-Feb-2016 16:17:18 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 79
+[20-Feb-2016 16:17:18 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 81
+[20-Feb-2016 16:21:08 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/7/7ba.php on line 414
+[20-Feb-2016 16:21:51 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:21:51 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:22:19 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:22:19 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:22:48 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:22:48 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:22:57 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:22:57 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:23:10 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:23:10 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:23:18 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:23:18 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:23:18 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7ba.php on line 551
+[20-Feb-2016 16:23:57 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:23:57 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:24:48 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:24:48 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:25:12 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:25:12 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:25:12 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7ba.php on line 552
+[20-Feb-2016 16:27:08 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:27:08 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:27:08 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7ba.php on line 552
+[20-Feb-2016 16:28:11 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:28:11 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:28:28 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:28:28 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:28:56 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:28:56 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:28:56 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7ba.php on line 552
+[20-Feb-2016 16:35:17 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7ba.php on line 565
+[20-Feb-2016 16:44:01 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 78
+[20-Feb-2016 16:44:01 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7ba.php on line 80
+[20-Feb-2016 16:54:17 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7ba.php on line 579
+[20-Feb-2016 16:54:42 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7ba.php on line 579
+[20-Feb-2016 16:57:21 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7ba.php on line 579
+[20-Feb-2016 16:58:21 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7ba.php on line 579
+[20-Feb-2016 16:58:39 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7ba.php on line 579
+[20-Feb-2016 17:00:10 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 579
+[20-Feb-2016 17:24:50 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 573
+[20-Feb-2016 22:22:51 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 573
+[20-Feb-2016 22:26:22 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 573
+[20-Feb-2016 22:37:54 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 573
+[20-Feb-2016 22:39:27 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 573
+[20-Feb-2016 22:41:30 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 573
+[20-Feb-2016 22:44:20 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 573
+[20-Feb-2016 22:46:31 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 573
+[20-Feb-2016 22:47:54 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 573
+[20-Feb-2016 22:50:55 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 574
+[20-Feb-2016 22:53:00 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 575
+[20-Feb-2016 22:54:48 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 576
+[20-Feb-2016 22:55:45 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 574
+[20-Feb-2016 22:56:40 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 574
+[20-Feb-2016 22:58:05 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 574
+[20-Feb-2016 22:59:17 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 574
+[20-Feb-2016 23:01:07 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 574
+[20-Feb-2016 23:11:34 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 574
+[20-Feb-2016 23:34:01 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 574
+[22-Feb-2016 00:05:20 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[22-Feb-2016 00:05:20 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[22-Feb-2016 00:05:25 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[22-Feb-2016 00:05:25 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[22-Feb-2016 00:05:25 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 537
+[22-Feb-2016 00:05:34 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 537
+[22-Feb-2016 00:05:41 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 537
+[22-Feb-2016 00:07:01 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 537
+[22-Feb-2016 00:07:40 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 537
+[22-Feb-2016 00:17:35 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[22-Feb-2016 00:19:52 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[22-Feb-2016 00:20:28 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[22-Feb-2016 00:21:12 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[22-Feb-2016 00:21:12 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[22-Feb-2016 00:21:12 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[22-Feb-2016 00:27:53 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[22-Feb-2016 00:27:53 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[22-Feb-2016 00:27:53 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 539
+[22-Feb-2016 00:36:56 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[22-Feb-2016 00:36:56 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[22-Feb-2016 00:38:50 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 75
+[22-Feb-2016 00:38:50 America/Chicago] PHP Notice:  Undefined index: gpa in /home/nnoble/public_html/7/7b.php on line 77
+[22-Feb-2016 00:39:12 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 551
+[22-Feb-2016 00:39:25 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 551
+[22-Feb-2016 00:40:00 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 551
+[22-Feb-2016 00:50:51 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 551
+[22-Feb-2016 00:58:57 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 557
+[22-Feb-2016 00:59:56 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 557
+[22-Feb-2016 01:07:59 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 557
+[22-Feb-2016 01:15:18 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 565
+[22-Feb-2016 01:19:39 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 565
+[22-Feb-2016 01:21:31 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 565
+[22-Feb-2016 01:22:05 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 565
+[22-Feb-2016 01:22:45 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 565
+[22-Feb-2016 01:24:54 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 565
+[22-Feb-2016 01:25:03 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 565
+[22-Feb-2016 01:25:40 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 565
+[22-Feb-2016 01:30:15 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 567
+[22-Feb-2016 01:30:45 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 567
+[22-Feb-2016 01:31:05 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 567
+[22-Feb-2016 01:32:34 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 567
+[22-Feb-2016 01:34:21 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 567
+[22-Feb-2016 01:38:21 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 568
+[22-Feb-2016 01:39:42 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 568
+[22-Feb-2016 01:41:06 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 568
+[22-Feb-2016 01:42:16 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 568
+[22-Feb-2016 01:43:14 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 568
+[22-Feb-2016 01:55:04 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 564
+[22-Feb-2016 01:55:21 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 564
+[22-Feb-2016 01:56:07 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 564
+[22-Feb-2016 01:59:35 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 564
+[22-Feb-2016 02:03:42 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 564
+[22-Feb-2016 02:05:51 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 564
+[22-Feb-2016 02:06:39 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 564
+[22-Feb-2016 02:14:17 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 564
+[22-Feb-2016 03:14:36 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 564
+[22-Feb-2016 12:11:20 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 564
+[22-Feb-2016 12:11:28 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/7/7b.php on line 564
+[22-Feb-2016 12:39:08 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/1040): Too many connections in /home/nnoble/public_html/7/7a.php on line 142
+[22-Jul-2016 07:54:25 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/IT305/7/7ba.php on line 578
+[22-Jul-2016 07:55:35 America/Chicago] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/nnoble/public_html/IT305/7/7ba.php on line 578

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GRCGraphics">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/ACM_jar/GRCGraphics.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

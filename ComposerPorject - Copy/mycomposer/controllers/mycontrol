@@ -1,0 +1,19 @@
+<?php
+
+    class practiceController
+    {
+        public function showHome()
+        {
+            echo "you are at home";
+        }
+
+        public function showAboutUs()
+        {
+            echo "you are about us";
+        }
+        public function showSiteMap()
+        {
+            echo "you are at site map";
+        }
+    }
+?>

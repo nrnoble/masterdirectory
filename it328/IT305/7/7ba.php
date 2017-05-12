@@ -1,0 +1,589 @@
+<?php
+
+$name = "";
+$lastname = "";
+$errorMsg = "";
+$gpa = null;
+$sid = "";
+$errorMessages = [];
+$errors = [];
+$missing = [];
+//Create a boolean flag to track validation error
+$isValid = false;
+$addgpa = false;
+
+
+
+    /* Neal Noble
+     * IT305
+     * Assignment 7b
+     * http://nnoble.greenrivertech.net/7/7b.php
+     * Add a new student to the GRCC database
+     */
+
+    //Turn on error reporting
+    ini_set('display_errors', 1);
+    error_reporting(E_ALL);
+
+    // Connection to DB occurs after the form data has been validated
+    // this reduces SQL connections left open due to validation
+    // errors that can lead to SQL error of "Too many open connections"
+
+require './includes/validate.php';
+
+if (isset($_POST['submit']))
+{
+
+
+    //Create a boolean flag to track validation error
+    $isValid = true;
+
+    //validate first name
+    if (validName($_POST['name']))
+    {
+        $name = $_POST['name'];
+    }
+    else
+    {
+        $errorMessages[] = "<p>Invalid first name.</p>";
+        $isValid = false;
+    }
+
+    //validate last name
+    if (validLastName($_POST['lastname']))
+    {
+        $lastname = $_POST['lastname'];
+    } else
+    {
+        $errorMessages[] = "<p>Invalid last name.</p>";
+        $isValid = false;
+    }
+
+
+    //validate sid
+    if (validSid($_POST['sid']))
+    {
+        $sid = $_POST['sid'];
+
+    } else
+    {
+        $errorMessages[] = "<p>Invalid Student ID</p>";
+        $isValid = false;
+    }
+
+
+        // validate gpa
+        
+
+            if (validGpa($_POST['gpa']))
+            {
+                $gpa = $_POST['gpa'];
+            } else
+            {
+                $errorMessages[] = "<p>Invalid GPA</p>";
+                $isValid = false;
+                $addgpa = true;
+        
+            }
+
+
+
+}
+?>
+
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+
+        body
+        {
+            text-align:justify;
+            font-family: courier;
+            font-size: 8pt;
+            background-color:#4A62E8;
+        }
+
+        .hideme
+        {
+            display: none;
+            visibility: hidden;
+            
+        }
+        
+        a:hover
+        {
+            background-color: yellow;
+
+            color:blue;
+            font-size: 14pt;
+            font-weight: bold;
+        }
+
+        a
+        {
+            text-decoration: none;
+
+        }
+
+        b
+        {
+            color:blue;
+        }
+
+        th
+        {
+            text-decoration: underline;
+
+        }
+
+        tr:nth-child(even)
+        {
+            background-color: #E0E0E0;
+        }
+
+        #text
+        {
+            text-align: left;
+            font-size: 8pt;
+
+        }
+        div
+        {
+            font-size: 8pt;
+            margin: auto;
+        }
+
+        .page
+        {
+            max-width: 800px;
+            font-size: 12pt;
+            background-color: #ffffff;
+            border: solid;
+            border-width: 1px;
+            text-align: left;
+            margin-top: 10px;
+            padding: 10px;
+            box-shadow: 5px 5px 5px #0026FF
+        }
+
+        #kfb_contactform
+        {
+            max-width: 800px;
+            font-size: 12pt;
+            background-color: #ffffff;
+            border: solid;
+            border-width: 1px;
+            text-align: left;
+            margin-top: 10px;
+            padding: 10px;
+            box-shadow: 5px 5px 5px #0026FF;
+        }
+    </style>
+
+     
+     <title>Assignment 7b Contact form</title>
+
+</head>
+
+
+    
+
+<body>
+    <section class="container">
+        <h1>.</h1>
+        <section class="row">
+            <div id = assignment1 class = page style="margin-top: 10px">
+                     Neal Noble<br>
+                     Feb 15th, 2016<br>
+                     IT305<br>
+                     Assighment 7b
+            </div>
+            <section class="col-xs-12" >
+
+
+<? include "functions.php" ?>
+
+
+                <div id="validateHTML5"  class = 'page' style="margin-top: 10px">
+                  <a href = "https://html5.validator.nu/?doc=http%3A%2F%2Fnnoble.greenrivertech.net%2F7%2F7b.php">
+                    Validate this HTML5 page</a>
+                </div>
+
+
+                <div id = "tryit" class = 'page' style="margin-top: 10px">
+      <span style ="color:red; font-family: Arial; font-size:50px">Try It Again!!</span>
+
+      <ul>
+        <li>Add an input to your form that allows the user to input GPA</li>
+        <li>Validate the GPA in your new-student.php script. It is not required,
+            but if it is entered, it must be between 0.0 and 4.0.
+        </li>
+
+        <li>Write the GPA to the database</li>
+        <!--<li><img src="tryit7a-2.png" alt="TryIt" style="width:95%;height:95%;"></li>-->
+        <li>Add a link from students.php to new-student.php, and vice versa.</li>
+      </ul>
+
+    </div>
+
+    	  <div class = 'page' style="margin-top: 10px">
+            <a href = "http://nnoble.greenrivertech.net/7/7a.php">Link to Student list</a>
+          </div>
+
+                <div id ="newstudentform"  class ="page">
+
+                    <h2>Student Entry Form</h2>
+
+
+                    <?php if ($_POST && (!$isValid)) : ?>
+
+
+                        <p class="warning">Please fix the item(s) indicated </p>
+                        <div  style = "color:red; padding-left: 50px">
+                            <p><ul style = "color:red">
+                                <?php
+
+                                foreach ($errorMessages as $value)
+                                    echo "<li> $value</li>";
+
+                                ?>
+                            </ul></p></div>
+
+
+                    <?php endif; ?>
+
+                    <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
+
+                        <table>
+                            <tr>
+                                <th>SID</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                </tr>
+
+                            <tr>
+                                <td>
+                                    <input name="sid" id="sid1" style = "width: 100px;"
+                                        <?php
+                                         echo 'value="' . htmlentities($sid) . '"';
+                                        //                              if ($errors || $missing)
+                                        //                              {
+                                        //                                  echo htmlentities($sid);
+                                        //                              }
+                                        ?>
+                                        >
+
+                                </td>
+
+                                <td>
+                                    <input type="text" name="name" id="name1" style = "width: 200px;"
+                                        <?php
+                                        echo 'value="' . htmlentities($name) . '"';
+                                        if ($errors || $missing)
+                                        {
+                                            #echo 'value="' . htmlentities($name) . '"';
+                                        }
+                                        ?>
+                                        >
+                                </td>
+
+                                <td>
+                                    <input type="text" name="lastname" id="lastname1" style = "width: 200px;"
+                                        <?php
+                                        echo 'value="' . htmlentities($lastname) . '"';
+
+                                        if ($errors || $missing)
+                                        {
+                                           # echo 'value="' . htmlentities($lastname) . '"';
+                                        }
+                                        ?>
+                                        >
+                                </td>
+                                
+                                <div style = "visibility: hidden;">
+                                    <h2 >test</h2>
+                                    
+                                </div>
+                                
+                                
+                                
+                                <td style = "display:none" >
+                                    <input style = "visibility: hidden;" value = "" type="text" name="gpa" id="gpa" style = "width: 100px;"
+                                        <?php
+                                        echo 'value="' . htmlentities($gpa) . '"';
+        //                              if ($errors || $missing)
+        //                              {
+        //                                  echo htmlentities($gpa);
+        //                              }
+        //
+        //                              ?>
+                                    >
+                                    </td>
+                            
+
+                        </table>
+                        <p>
+
+                            <input type="submit" name="submit" id="submit" value="submit">
+                        </p>
+                    </form>
+                </div>
+
+
+
+                <div id ="pgaUpdateform" class ="page">
+
+                    <h2>Student GPA update Form</h2>
+
+
+                    <?php if ($_POST && (!$isValid)) : ?>
+
+
+                        <p class="warning">Please fix the item(s) indicated </p>
+                        <div  style = "color:red; padding-left: 50px">
+                            <p><ul style = "color:red">
+                                <?php
+
+                                foreach ($errorMessages as $value)
+                                    echo "<li> $value</li>";
+
+                                ?>
+                            </ul></p></div>
+
+
+                    <?php endif; ?>
+
+
+
+
+                    <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
+
+                        <table>
+                            <tr>
+                                <th>SID</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>GPA</th>
+                            </tr>
+
+
+
+                            <tr>
+
+                                <td>
+                                    <input type="text" name="sid" id="sid" style = "width: 100px;"
+                                        <?php
+                                        echo 'value="' . htmlentities($sid) . '"';
+                                        //                              if ($errors || $missing)
+                                        //                              {
+                                        //                                  echo htmlentities($sid);
+                                        //                              }
+                                        //
+                                        //                              ?>
+                                        >
+
+                                </td>
+
+                                <td>
+                                    <input type="text" name="name" id="name" style = "width: 200px;"
+                                        <?php
+                                         echo 'value="' . htmlentities($name) . '"';
+                                        if ($errors || $missing)
+                                        {
+                                            echo 'value="' . htmlentities($name) . '"';
+                                        }
+                                        ?>
+                                    >
+                                </td>
+
+                                <td>
+                                    <input type="text" name="lastname" id="lastname" style = "width: 200px;"
+                                        <?php
+                                        echo 'value="' . htmlentities($lastname) . '"';
+
+                                        if ($errors || $missing)
+                                        {
+                                            echo 'value="' . htmlentities($lastname) . '"';
+                                        }
+                                        ?>
+                                        >
+                                </td>
+
+                                <td>
+                                <input type="text" name="gpa" id="gpa" style = "width: 100px;"
+                                    <?php
+                                    echo 'value="' . htmlentities($gpa) . '"';
+    //                              if ($errors || $missing)
+    //                              {
+    //                                  echo htmlentities($gpa);
+    //                              }
+    //
+    //                              ?>
+                                >
+                                </td>
+                            </tr>
+                            
+
+                        </table>
+                        <p>
+                           
+                            <input type="submit" name="submit" id="submit2" value="submit">
+                        </p>
+                    </form>
+                </div>
+
+
+                <?php if ($isValid) : ?>
+                    <div id = sqlconnection class ="page" style="margin-top: 10px;">
+
+                        <h2>SQL CONNECTION</h2>
+                        <?php
+
+                        $servername = gethostname();
+                        $username = get_current_user();
+                        $password = getpwd();
+
+                        // Create connection
+                        $conn = new mysqli("127.0.0.1", $username, $password,"nnoble_grcc");
+
+                        // Check connection
+                        if ($conn->connect_error)
+                        {
+                            die("Connection failed: " . $conn->connect_error);
+                        }
+
+                        echo "Connected successfully SQL server: <b>" .gethostname() ."</b><br>";;
+                        echo 'Current script owner: <b>' . get_current_user() ."</b><br>";
+                        echo "Connection info: <b>" .$conn->host_info ."</b><br>";
+
+
+
+                        // combine everything into a trans transaction
+                        // rollback before closing connection so that the db
+                        // gets reset.
+
+                         //$sql = "START TRANSACTION";
+                         //$conn->query($sql);
+
+                        //Escape the data
+                        $name = mysqli_real_escape_string($conn, $name);
+                        $lastname = mysqli_real_escape_string($conn, $lastname);
+                        $sid = mysqli_real_escape_string($conn, $sid);
+
+                        //Define the query
+
+                        if ($addgpa)
+                        {
+
+                            $sql = "INSERT INTO student (sid, first, last,gpa)
+                                    VALUES ('$sid', '$name', '$lastname', '$gpa')";
+
+                            $result = @mysqli_query($conn, $sql);
+
+                        }
+                        else
+                        {
+                            $sql = "INSERT INTO student (sid, first, last, gpa)
+                                    VALUES ('$sid', '$name', '$lastname', ' ')";
+                                    $result = @mysqli_query($conn, $sql);
+                        }
+
+                        if (!$result)
+                        {
+                            
+                            $sqlerror = mysqli_error($conn);
+                            
+                           
+                            
+                            
+                            
+                            echo "<h2 style = 'color:red'>";
+                            echo "<p>Error: " . $sqlerror . "</p>";
+                            echo "</h2>";
+                            
+                            
+                            $sql = "ROLLBACK";
+                            $conn->query($sql);
+                            mysqli_close($conn);
+                            return;
+                        }
+
+
+
+
+                        ?>
+
+                    </div> <!-- id sqlconnection -->
+                <?PHP ENDIF ?>
+
+                <?php if ($isValid) : ?>
+                    <?php
+
+
+                    ?>
+                <?PHP ENDIF ?>
+
+
+                <?php
+
+                // Display summary
+                if ($isValid)
+                {
+                echo "<span class = \"response\" style = \"text-align:center; \">";
+                echo "<div class = 'page' >";
+                    echo "<h3>Student has been entered into the database</h3>";
+                    echo "<p>SID: $sid</p>";
+                    echo "<p>Name: $name $lastname</p>";
+                    if ($gpa != null)
+                        echo "<p>GPA: $gpa</p>";
+                    echo "</div>";
+
+                echo "</span>";
+                //We're done! Terminate the script.
+
+
+
+                }
+                ?>
+
+
+
+                <?php if ($isValid) : ?>
+                <div id = closesql class="page" style="margin-top: 10px;">
+                    <H3>Closing SQL connection</H3>
+                    <?php
+                    $sql = "ROLLBACK";
+                    $conn->query($sql);
+                    mysqli_close($conn);
+                    ?>
+                </div> <!--id = closesql -->
+                <?php ENDIF ?>
+
+                <?php if ($isValid) : ?>
+                <div id= source class="page" style="margin-top: 10px;">
+                    <H2>Assignment Source Code</H2>
+
+                    <?php>
+                    highlight_file(__FILE__);
+                    ?>
+
+                </div> <!--id = source -->
+                <?php ENDIF ?>
+            </section>
+        </section>
+    </section>
+
+</body>
+</html>

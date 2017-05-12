@@ -1,0 +1,1 @@
+SELECT `name` as 'Name', `email` as 'Email', `Comments` FROM `contacts`

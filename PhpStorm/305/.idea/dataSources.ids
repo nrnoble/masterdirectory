@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - @nnoble.greenrivertech.net" uuid="8feb39bb-c7ab-445a-ae69-cf0a98f825a2">
+    <database-info product="MySQL" version="5.5.42-37.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="nnoble_sakila"/>
+    <table name="Grocery_store_products" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="pkey" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" autoIncrement="true"/>
+      <column name="type" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="brand" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="price" sqlType="DECIMAL" precision="10" scale="0" nullable="false" jdbcType="3"/>
+      <column name="units" sqlType="SMALLINT" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <primary-key name="PRIMARY" columns="pkey"/>
+    </table>
+    <table name="actor" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="actor_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" autoIncrement="true"/>
+      <column name="first_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="actor_id"/>
+      <index name="idx_actor_last_name" unique="false" columns="last_name"/>
+    </table>
+    <table name="address" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="address_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" autoIncrement="true"/>
+      <column name="address" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="address2" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="district" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12"/>
+      <column name="city_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="postal_code" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12"/>
+      <column name="phone" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="address_id"/>
+      <index name="idx_fk_city_id" unique="false" columns="city_id"/>
+    </table>
+    <table name="category" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="category_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="25" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="category_id"/>
+    </table>
+    <table name="city" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="city_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" autoIncrement="true"/>
+      <column name="city" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="country_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="city_id"/>
+      <index name="idx_fk_country_id" unique="false" columns="country_id"/>
+    </table>
+    <table name="college_classroom" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="pkey" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" autoIncrement="true"/>
+      <column name="room_num" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="location" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="room_size" sqlType="SMALLINT" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="phone" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="occupancy" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <primary-key name="PRIMARY" columns="pkey"/>
+    </table>
+    <table name="country" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="country_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" autoIncrement="true"/>
+      <column name="country" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="country_id"/>
+    </table>
+    <table name="customer" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="customer_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" autoIncrement="true"/>
+      <column name="store_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="first_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="address_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="active" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ=="/>
+      <column name="create_date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="customer_id"/>
+      <index name="idx_fk_address_id" unique="false" columns="address_id"/>
+      <index name="idx_fk_store_id" unique="false" columns="store_id"/>
+      <index name="idx_last_name" unique="false" columns="last_name"/>
+    </table>
+    <table name="employee" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="pkey" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" autoIncrement="true"/>
+      <column name="first_name" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="title" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="hiredate" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="department" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="pkey"/>
+    </table>
+    <table name="film" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="film_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" autoIncrement="true"/>
+      <column name="title" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="release_year" sqlType="YEAR" precision="0" scale="0" nullable="true" jdbcType="91"/>
+      <column name="language_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="original_language_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="rental_duration" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="Mw=="/>
+      <column name="rental_rate" sqlType="DECIMAL" precision="4" scale="2" nullable="false" jdbcType="3" def="NC45OQ=="/>
+      <column name="length" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="true" jdbcType="5"/>
+      <column name="replacement_cost" sqlType="DECIMAL" precision="5" scale="2" nullable="false" jdbcType="3" def="MTkuOTk="/>
+      <column name="rating" sqlType="ENUM" precision="5" scale="0" nullable="true" jdbcType="1" def="J0cn"/>
+      <column name="special_features" sqlType="SET" precision="54" scale="0" nullable="true" jdbcType="1"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="film_id"/>
+      <index name="idx_fk_language_id" unique="false" columns="language_id"/>
+      <index name="idx_fk_original_language_id" unique="false" columns="original_language_id"/>
+      <index name="idx_title" unique="false" columns="title"/>
+    </table>
+    <table name="film_actor" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="actor_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="film_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="actor_id,film_id"/>
+      <index name="idx_fk_film_id" unique="false" columns="film_id"/>
+    </table>
+    <table name="film_category" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="film_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="category_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="film_id,category_id"/>
+      <index name="fk_film_category_category" unique="false" columns="category_id"/>
+    </table>
+    <table name="film_text" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="film_id" sqlType="SMALLINT" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="title" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="film_id"/>
+      <index name="idx_title_description" unique="false" columns="title,description"/>
+    </table>
+    <table name="inventory" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="inventory_id" sqlType="MEDIUMINT UNSIGNED" precision="8" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="film_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="store_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="inventory_id"/>
+      <index name="idx_fk_film_id" unique="false" columns="film_id"/>
+      <index name="idx_store_id_film_id" unique="false" columns="store_id,film_id"/>
+    </table>
+    <table name="language" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="language_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" autoIncrement="true"/>
+      <column name="name" sqlType="CHAR" precision="20" scale="0" nullable="false" jdbcType="1"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="language_id"/>
+    </table>
+    <table name="movie_star" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="pkey" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" autoIncrement="true"/>
+      <column name="first_name" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="networth" sqlType="SMALLINT" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="total_movies" sqlType="SMALLINT" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="degrees_to_kevin_bacon" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="pkey"/>
+    </table>
+    <table name="payment" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="payment_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" autoIncrement="true"/>
+      <column name="customer_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="staff_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="rental_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="amount" sqlType="DECIMAL" precision="5" scale="2" nullable="false" jdbcType="3"/>
+      <column name="payment_date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="payment_id"/>
+      <index name="fk_payment_rental" unique="false" columns="rental_id"/>
+      <index name="idx_fk_customer_id" unique="false" columns="customer_id"/>
+      <index name="idx_fk_staff_id" unique="false" columns="staff_id"/>
+    </table>
+    <table name="products" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="quanty" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="price" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="rental" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="rental_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="rental_date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="inventory_id" sqlType="MEDIUMINT UNSIGNED" precision="8" scale="0" nullable="false" jdbcType="4"/>
+      <column name="customer_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="return_date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="staff_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="rental_id"/>
+      <index name="rental_date" unique="true" columns="rental_date,inventory_id,customer_id"/>
+      <index name="idx_fk_customer_id" unique="false" columns="customer_id"/>
+      <index name="idx_fk_inventory_id" unique="false" columns="inventory_id"/>
+      <index name="idx_fk_staff_id" unique="false" columns="staff_id"/>
+    </table>
+    <table name="staff" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="staff_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" autoIncrement="true"/>
+      <column name="first_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="address_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="picture" sqlType="BLOB" precision="65535" scale="0" nullable="true" jdbcType="-4"/>
+      <column name="email" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="store_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="active" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ=="/>
+      <column name="username" sqlType="VARCHAR" precision="16" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="40" scale="0" nullable="true" jdbcType="12"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="staff_id"/>
+      <index name="idx_fk_address_id" unique="false" columns="address_id"/>
+      <index name="idx_fk_store_id" unique="false" columns="store_id"/>
+    </table>
+    <table name="store" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="store_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" autoIncrement="true"/>
+      <column name="manager_staff_id" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="address_id" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="last_update" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="store_id"/>
+      <index name="idx_unique_manager" unique="true" columns="manager_staff_id"/>
+      <index name="idx_fk_address_id" unique="false" columns="address_id"/>
+    </table>
+    <table name="website" schema="" catalog="nnoble_sakila" type="TABLE">
+      <column name="url" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="date_accessed" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+      <column name="aurther" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="total_links" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+    </table>
+  </data-source>
+</component>

@@ -1,0 +1,6 @@
+[15-Feb-2016 16:03:52 America/Chicago] PHP Warning:  include(./includes/para.html): failed to open stream: No such file or directory in /home/nnoble/public_html/introducingphp/ch08/08_05/parent_end.php on line 16
+[15-Feb-2016 16:03:52 America/Chicago] PHP Warning:  include(./includes/para.html): failed to open stream: No such file or directory in /home/nnoble/public_html/introducingphp/ch08/08_05/parent_end.php on line 16
+[15-Feb-2016 16:03:52 America/Chicago] PHP Warning:  include(): Failed opening './includes/para.html' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/introducingphp/ch08/08_05/parent_end.php on line 16
+[15-Feb-2016 20:08:50 America/Chicago] PHP Warning:  require(./includes/copywrite.php): failed to open stream: No such file or directory in /home/nnoble/public_html/introducingphp/ch08/08_05/parent.php on line 3
+[15-Feb-2016 20:08:50 America/Chicago] PHP Warning:  require(./includes/copywrite.php): failed to open stream: No such file or directory in /home/nnoble/public_html/introducingphp/ch08/08_05/parent.php on line 3
+[15-Feb-2016 20:08:50 America/Chicago] PHP Fatal error:  require(): Failed opening required './includes/copywrite.php' (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/introducingphp/ch08/08_05/parent.php on line 3

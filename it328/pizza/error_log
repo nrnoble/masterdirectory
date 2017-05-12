@@ -1,0 +1,31 @@
+[02-Feb-2016 11:33:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'FILL' (T_STRING) in /home/nnoble/public_html/pizza/index.php on line 36
+[02-Feb-2016 12:55:34 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/nnoble/public_html/pizza/includes/pizzaFunctions.php on line 63
+[02-Feb-2016 13:35:19 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/pizza/includes/pizzaFunctions.php on line 55
+[02-Feb-2016 13:35:23 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/pizza/includes/pizzaFunctions.php on line 55
+[02-Feb-2016 18:39:44 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/pizza/includes/pizzaFunctions.php on line 55
+[03-Feb-2016 00:15:40 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/nnoble/public_html/pizza/includes/pizzaFunctions.php on line 55
+[03-Feb-2016 00:19:20 America/Chicago] PHP Notice:  Undefined variable: lname in /home/nnoble/public_html/pizza/index.php on line 84
+[03-Feb-2016 00:23:09 America/Chicago] PHP Notice:  Undefined variable: lname in /home/nnoble/public_html/pizza/index.php on line 88
+[03-Feb-2016 00:24:45 America/Chicago] PHP Notice:  Undefined variable: lname in /home/nnoble/public_html/pizza/index.php on line 88
+[03-Feb-2016 05:57:02 America/Chicago] PHP Notice:  Undefined variable: lname in /home/nnoble/public_html/pizza/index.php on line 88
+[03-Feb-2016 05:58:03 America/Chicago] PHP Notice:  Undefined variable: lname in /home/nnoble/public_html/pizza/index.php on line 88
+[04-Feb-2016 12:58:26 America/Chicago] PHP Notice:  Undefined variable: lname in /home/nnoble/public_html/pizza/index.php on line 88
+[04-Feb-2016 13:00:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nnoble/public_html/pizza/index.php on line 23
+[04-Feb-2016 13:01:27 America/Chicago] PHP Notice:  Undefined variable: lname in /home/nnoble/public_html/pizza/index.php on line 89
+[04-Feb-2016 13:07:07 America/Chicago] PHP Notice:  Undefined variable: lname in /home/nnoble/public_html/pizza/index.php on line 89
+[04-Feb-2016 13:12:21 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/pizza/index.php on line 95
+[04-Feb-2016 13:22:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/pizza/index.php on line 113
+[04-Feb-2016 13:23:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'main' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/pizza/index.php on line 141
+[04-Feb-2016 13:23:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'main' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/pizza/index.php on line 141
+[04-Feb-2016 13:23:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'main' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/pizza/index.php on line 141
+[04-Feb-2016 13:23:42 America/Chicago] PHP Parse error:  syntax error, unexpected '">"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/nnoble/public_html/pizza/index.php on line 113
+[04-Feb-2016 13:33:25 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/nnoble/public_html/pizza/index.php on line 147
+[04-Feb-2016 13:33:55 America/Chicago] PHP Notice:  Use of undefined constant displaysource - assumed 'displaysource' in /home/nnoble/public_html/pizza/index.php on line 145
+[04-Feb-2016 13:33:55 America/Chicago] PHP Notice:  Use of undefined constant html - assumed 'html' in /home/nnoble/public_html/pizza/index.php on line 145
+[04-Feb-2016 13:33:55 America/Chicago] PHP Warning:  include(displaysourcehtml): failed to open stream: No such file or directory in /home/nnoble/public_html/pizza/index.php on line 145
+[04-Feb-2016 13:33:55 America/Chicago] PHP Warning:  include(displaysourcehtml): failed to open stream: No such file or directory in /home/nnoble/public_html/pizza/index.php on line 145
+[04-Feb-2016 13:33:55 America/Chicago] PHP Warning:  include(): Failed opening 'displaysourcehtml' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/pizza/index.php on line 145
+[04-Feb-2016 13:38:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'Thank' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/pizza/index.php on line 125
+[04-Feb-2016 13:38:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'Thank' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/pizza/index.php on line 125
+[04-Feb-2016 13:38:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'Thank' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/pizza/index.php on line 125
+[04-Feb-2016 14:27:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/nnoble/public_html/pizza/index.php on line 157

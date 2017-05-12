@@ -1,0 +1,141 @@
+<!--
+    Name: Marlene Leano
+    Date: April 16, 2017
+    URL: mleano.greenrivertech.net/IT328/dating/pages/profile.html
+    Profile form for my dating website
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Dating Website</title>
+        
+        <!--Bootstrap-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <!--Link my styles-->
+        <link href="./styles/formstyles.css" rel="stylesheet">      
+    </head>
+    
+    <body>   
+        <!--The navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="http://mleano.greenrivertech.net/IT328/dating/">My Dating Website</a></li>
+            </ul>
+        </nav>
+        
+        <!--Form Panel-->
+        <form action="./member" method="post">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h1>Profile</h1>
+                    <hr>
+                    
+                    <!--Profile Form-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                     <label for="email">Email</label>
+                                    <input type="email" required class="form-control" name="email" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="state">State</label>
+                                        <select class="form-control" name="state" id="state">
+                                            <option value="Washington">Washington</option>
+                                            <option value="Alaska">Alaska</option>
+                                            <option value="Arizona">Arizona</option>
+                                            <option value="Arkansas">Arkansas</option>
+                                            <option value="California">California</option>
+                                            <option value="Colorado">Colorado</option>
+                                            <option value="Connecticut">Connecticut</option>
+                                            <option value="Delaware">Delaware</option>
+                                            <option value="Florida">Florida</option>
+                                            <option value="Georgia">Georgia</option>
+                                            <option value="Hawaii">Hawaii</option>
+                                            <option value="Idaho">Idaho</option>
+                                            <option value="Illinois">Illinois</option>
+                                            <option value="Indiana">Indiana</option>
+                                            <option value="Iowa">Iowa</option>
+                                            <option value="Kansas">Kansas</option>
+                                            <option value="Kentucky">Kentucky</option>
+                                            <option value="Louisiana">Louisiana</option>
+                                            <option value="Maine">Maine</option>
+                                            <option value="Maryland">Maryland</option>
+                                            <option value="Massachusetts">Massachusetts</option>
+                                            <option value="Michigan">Michigan</option>
+                                            <option value="Minnesota">Minnesota</option>
+                                            <option value="Mississippi">Mississippi</option>
+                                            <option value="Missouri">Missouri</option>
+                                            <option value="Montana">Montana</option>
+                                            <option value="Nebraska">Nebraska</option>
+                                            <option value="Nevada">Nevada</option>
+                                            <option value="New Hampshire">New Hampshire</option>
+                                            <option value="New Jersey">New Jersey</option>
+                                            <option value="New Mexico">New Mexico</option>
+                                            <option value="New York">New York</option>
+                                            <option value="North Carolina">North Carolina</option>
+                                            <option value="North Dakota">North Dakota</option>
+                                            <option value="Ohio">Ohio</option>
+                                            <option value="Oklahoma">Oklahoma</option>
+                                            <option value="Oregon">Oregon</option>
+                                            <option value="Pennsylvania">Pennsylvania</option>
+                                            <option value="Rhode Island">Rhode Island</option>
+                                            <option value="South Carolina">South Carolina</option>
+                                            <option value="South Dakota">South Dakota</option>
+                                            <option value="Tennessee">Tennessee</option>
+                                            <option value="Texas">Texas</option>
+                                            <option value="Utah">Utah</option>
+                                            <option value="Vermont">Vermont</option>
+                                            <option value="Virginia">Virginia</option>
+                                            <option value="West Virginia">West Virginia</option>
+                                            <option value="Wisconsin">Wisconsin</option>
+                                            <option value="Wyoming">Wyoming</option>
+                                            <option value="Washington DC">Washington DC</option>
+                                            <option value="Puerto Rico">Puerto Rico</option>
+                                            <option value="U.S. Virgin Islands">U.S. Virgin Islands</option>
+                                            <option value="American Samoa">American Samoa</option>
+                                            <option value="Guam">Guam</option>
+                                            <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                                        </select>
+                                </div>
+                                <div>
+                                    <p class="radio-checked"><b>Seeking</b></p>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="seeking" value="Male" checked="checked">Male
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="seeking" value="Female">Female
+                                    </label>
+                                </div>
+                                <br>
+                            </div> <!--End input fields-->
+                    
+                            <!--Biography textarea-->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="biography">Biography</label>
+                                    <textarea class="form-control" required rows="8" name="biography" id="biography"></textarea>
+                                </div>
+                            </div> <!--End biography text area-->
+                        </div>
+                    </div> <!--End first container-->
+                    
+                    <!--Next button-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12" id="button">
+                                    <button type="submit" class="btn btn-primary" value="next">Next ></button>
+                            </div>
+                        </div>
+                    </div> <!--End Next button-->
+                </div> 
+            </div> 
+        </form> <!--End form panel-->  
+    </body>
+</html>

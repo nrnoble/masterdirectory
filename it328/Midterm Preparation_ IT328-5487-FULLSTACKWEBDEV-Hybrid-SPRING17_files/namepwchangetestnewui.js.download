@@ -1,0 +1,185 @@
+$.ajax({ url: "https://d1la9j37oq1fed.cloudfront.net/canvas_shared/canut_base_canvas_050714.min.js", dataType: "script", cache: true, crossDomain: true }).done(function () {
+    // Customize the logon form prompts:
+    CanUt.SetUsernamePrompt('Green River email address');
+    CanUt.SetPasswordPrompt('Student ID/Employee ID');
+  
+        CanUt.SetLostPasswordPrompt('Green River email address');
+        CanUt.HideGradesMenu();
+   });
+
+
+  $(function () {
+  
+  //hide the conclude this course button and delete my account link
+  
+  $("a:contains('Conclude this Course')").hide();
+  
+  $("a:contains('Delete My Account')").hide();
+  
+
+  
+
+  $("a:contains('Click here to tell us what you were looking for')").hide();
+  
+    $("a:contains('http://www.instructure.com')").hide();
+    
+  
+   
+      $("a:contains('zknm')").hide();
+      
+
+  
+
+//custom footer
+
+$('#footer-links').hide();
+
+$('#ic-login-footer_logo-link').hide();
+
+
+
+    $('div.ic-Form-control--login .ic-Label').first().html('User Name'); //replace "Email" with "Login"
+    $('#pseudonym_session_unique_id').attr("placeholder","Enter your Green River email address");//text inside login boxID
+    $('#pseudonym_session_password').attr("placeholder"," Enter your Student/Employee ID");  
+
+
+//show Common, Recent, All Pages when on the Pages tab
+var docUrl = document.URL;
+
+if (window.location.href.indexOf('wiki')>0){
+    $( '<style>#wiki_show_view_secondary div { display: block !important; }</style>' ).appendTo( "head" )
+};
+
+
+ 
+ //Add new below footer
+ 
+        //After footer"
+  var url = location.href;
+  if (url == 'https://egator.greenriver.edu/login/canvas'){
+    //put script here
+    
+    $('#footer').prepend('<div class="loginNote" align="left"> <style="color:white"></style></div>');
+    
+    }else{};
+    });
+
+
+$('#footer').prepend('<br><span id="footer-links"> <li><a href="http://www.greenriver.edu/canvas/studentvideos/videotour.html" target="_blank">New student in Canvas? Take a video tour</a></li> <li> <a href="http://www.greenriver.edu/canvas/studentvideos/howtousecanvas/canvasfeatures.html" target="_blank">How to use Canvas features</a> </li> <li>  <a href="mailto:elearning@greenriver.edu">Contact the eLearning office</a> </li> </b> </br></span>'); 
+
+
+  $('.help_dialog_trigger').remove();   
+
+
+ 
+
+ 
+
+  
+                      // Add admin menu        
+        for (var i = ENV.current_user_roles.length - 1; i > -1; i--) {
+            if (ENV.current_user_roles[i] == 'admin') {
+                var rootAccountId = parseInt(ENV.DOMAIN_ROOT_ACCOUNT_ID, 10)-90000000000000;
+                // Admin settings top menu link
+                //$("#menu").append("<li id='admincustom_menu_item' class='menu-item'> <a href='/accounts/" + rootAccountId + "' class='menu-item-no-drop'>Admin</a></li>");
+                
+                // Find course 
+                $("#menu_enrollments").append('<li class="menu-item-view-all"><form method="get" id="new_course" action="/accounts/' + rootAccountId + '/courses"><xfieldset class="textfield-inline-with-button">&nbsp; ' +
+                                                    '<input value="" name="course[name]" style="width:150px;" id="course_name">' +
+                                                    '&nbsp;<button class="button small-button">Find</button>&nbsp;</xfieldset></form>' +
+                                                    '<span style="font-size:10;float:right;padding-right:10px;"><em>Note: Course search is a custom SBCTC extension.</em></span>' +
+                                                    '</li>');
+//                 Find user
+                //$("#menu_enrollments").append('<form action="/accounts/' + rootAccountId + '/users" id="new_user" method="get"><xfieldset class="textfield-inline-with-button">&nbsp;&nbsp;&nbsp;User ' +
+                //                                '&nbsp;&nbsp;<input id="user_name" name="user[name]" style="width:150px;" value="">&nbsp;<button class="button small-button">Go</button></xfieldset></form>');
+
+//                $.ajax({
+//                    type: "GET",
+//                    dataType: "json",
+//                    url: "/api/v1/accounts",
+//                    success: function (data) {
+//                        alert(data);
+//                    }
+//                });
+
+                // try appending just the
+                $('#menu').append('<li fontid="admincustom_menu_item" class="menu-item"> <a href="/accounts/' + rootAccountId + '" class="menu-item-title">Admin<span class="menu-item-title-icon"></span></a>' +
+                    '<div class="menu-item-drop"><table cellspacing="0"><tbody><tr><td class="menu-item-drop-column">' +
+
+                     '<span class="h5"><span class="name-right-wrapper"><a href="/accounts/' + rootAccountId + '/users"><span class="secondary-right"></span>' +
+                     '<span class="name ellipsis"><span class="name ellipsis">Users</span></a></span>' +
+ 
+                     '<span class="name-right-wrapper" style="padding-left:15px;"><a href="/accounts/' + rootAccountId + '"><span class="secondary-right"></span>' +
+                     '<span class="name ellipsis"><span class="name ellipsis">Courses</span></a></span>' +
+
+                     '<span class="name-right-wrapper" style="padding-left:15px;"><a href="/groups"><span class="secondary-right"></span>' +
+                     '<span class="name ellipsis"><span class="name ellipsis">Groups</span></a></span>' +
+
+                     '<span class="name-right-wrapper" style="padding-left:15px;"><a href="/accounts/' + rootAccountId + '/analytics"><span class="secondary-right"></span>' +
+                     '<span class="name ellipsis"><span class="name ellipsis">Analytics</span></a></span>' + 
+                     
+                     '<span class="name-right-wrapper" style="padding-left:15px;"><a href="/accounts/' + rootAccountId + '/sis_import"><span class="secondary-right"></span>' +
+                     '<span class="name ellipsis"><span class="name ellipsis">SIS Import</span></a></span>' + 
+                     
+                     '<span class="name-right-wrapper" style="padding-left:15px;"><a href="/accounts/' + rootAccountId + '/settings"><span class="secondary-right"></span>' +
+                     '<span class="name ellipsis"><span class="name ellipsis">Settings</span></a></span></span>' + 
+
+
+
+                     //'<ul class="menu-item-drop-column-list"><li class="customListItem">' +
+                     
+                    '<form method="get" id="new_course_search" action="/accounts/' + rootAccountId + '/courses"><fieldset class="xtextfield-inline-with-button" style="border:0"> Course ' +
+                            '<input value="" name="course[name]" style="width:140px;padding-right:5px;" id="course_name">' +
+                            '<button class="button small-button">Go</button></fieldset></form>' +
+                    //'</li><li class="customListItem">' + 
+
+                    '<form action="/accounts/' + rootAccountId + '/users" id="new_user_search" method="get"><fieldset class="textfield-inline-with-button" style="border:0;"><span style="padding-right:15px;"/> User ' +
+                             '<input id="user_name" name="user[name]" style="width:140px;padding-right:5px;" value=""><button class="button small-button">Go</button></fieldset></form>' +
+
+                       // '</li></ul>' + 
+                       
+                       '<span style="font-size:0.6em;float:right;padding-right:10px;"><em>Note: This menu is a custom extension and was not developed by Instructure.</em></span>' +                      
+                       '</td></tr></tbody></table>' +
+                      '</div></li>'                        
+                       );
+                $('#admincustom_menu_item').hide().show();
+             
+                break;
+            }
+        }
+        
+         // Add custom admin and faculty top menu items
+    for (var i = ENV.current_user_roles.length - 1; i > -1; i--) {
+
+
+        // Faculty only (this loops through roles in reverse, so admin appears before faculty and the loop exits after finding admin)
+        if (ENV.current_user_roles[i] == 'teacher') {
+            // Add PASS menu item
+            $("#menu").append("<li  id='admincustom_menu_item' class='menu-item'> <a href='https://www.gatornet.greenriver.edu/pass/' target='_blank' class='menu-item-no-drop'>PASS</a></li>");
+
+                      // exit loop - no student-only edits are currently defined in this loop
+            break;
+        }
+        }
+
+   // Add custom admin and faculty top menu items
+    for (var i = ENV.current_user_roles.length - 1; i > -1; i--) {
+
+    
+      // Faculty only (this loops through roles in reverse, so admin appears before faculty and the loop exits after finding admin)
+        if (ENV.current_user_roles[i] == 'teacher') {
+            // Add PASS menu item
+            $("#menu").append("<li  id='admincustom_menu_item' class='menu-item'> <a href='https://grcc.greenriver.edu/ibc/waci100.html' target='_blank' class='menu-item-no-drop'>IBC</a></li>");
+
+                      // exit loop - no student-only edits are currently defined in this loop
+            break;
+        }
+        }
+        
+        window.ALLY_CFG = {
+    'baseUrl': 'https://prod.ally.ac',
+    'clientId': 28
+};
+$.getScript(ALLY_CFG.baseUrl + '/integration/canvas/ally.js');
+
+

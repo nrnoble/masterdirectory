@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Green River College Python Graphic documentation ! &#8212; GRCGL Alpha documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     'Alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="green-river-college-python-graphic-documentation">
+<h1>Green River College Python Graphic documentation !<a class="headerlink" href="#green-river-college-python-graphic-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound" id="mastertoc">
+</div>
+<span class="target" id="module-BaseGraphicsWindow"></span><dl class="class">
+<dt id="BaseGraphicsWindow.GraphicsWindow">
+<em class="property">class </em><code class="descclassname">BaseGraphicsWindow.</code><code class="descname">GraphicsWindow</code><span class="sig-paren">(</span><em>title='Graphics Window'</em>, <em>width=200</em>, <em>height=200</em>, <em>autoflush=True</em><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow" title="Permalink to this definition">¶</a></dt>
+<dd><p>A GraphicsWindow is windows for drawing graphics objects !!1</p>
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.checkForClick">
+<code class="descname">checkForClick</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.checkForClick" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return last mouse click or None if mouse has
+not been clicked since last call</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.checkForKeyPress">
+<code class="descname">checkForKeyPress</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.checkForKeyPress" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return last key pressed or None if no key pressed since last call</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Close the window test</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.flush">
+<code class="descname">flush</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.flush" title="Permalink to this definition">¶</a></dt>
+<dd><p>Update drawing to the window</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.getHeight">
+<code class="descname">getHeight</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.getHeight" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the height of the window</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.getWidth">
+<code class="descname">getWidth</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.getWidth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the width of the window</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.plot">
+<code class="descname">plot</code><span class="sig-paren">(</span><em>x</em>, <em>y</em>, <em>color='black'</em><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.plot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set pixel (x,y) to the given color</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.plotPixel">
+<code class="descname">plotPixel</code><span class="sig-paren">(</span><em>x</em>, <em>y</em>, <em>color='black'</em><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.plotPixel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set pixel raw (independent of window coordinates) pixel
+(x,y) to color</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.setBackground">
+<code class="descname">setBackground</code><span class="sig-paren">(</span><em>color</em><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.setBackground" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set background color of the window</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.setCoords">
+<code class="descname">setCoords</code><span class="sig-paren">(</span><em>x1</em>, <em>y1</em>, <em>x2</em>, <em>y2</em><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.setCoords" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set coordinates of window to run from (x1,y1) in the
+lower-left corner to (x2,y2) in the upper-right corner.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.waitForClick">
+<code class="descname">waitForClick</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.waitForClick" title="Permalink to this definition">¶</a></dt>
+<dd><p>Wait for mouse click and return Point object representing
+the click</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicsWindow.GraphicsWindow.waitForKeyPress">
+<code class="descname">waitForKeyPress</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicsWindow.GraphicsWindow.waitForKeyPress" title="Permalink to this definition">¶</a></dt>
+<dd><p>Wait for user to press a key and return it as a string.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-BaseGraphicObject"></span><dl class="class">
+<dt id="BaseGraphicObject.GraphicsObject">
+<em class="property">class </em><code class="descclassname">BaseGraphicObject.</code><code class="descname">GraphicsObject</code><span class="sig-paren">(</span><em>options</em><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicObject.GraphicsObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generic base class for all of the drawable objects</p>
+<dl class="method">
+<dt id="BaseGraphicObject.GraphicsObject.draw">
+<code class="descname">draw</code><span class="sig-paren">(</span><em>graphwin</em><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicObject.GraphicsObject.draw" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw the object in graphwin, which should be a GraphWin
+object.  A GraphicsObject may only be drawn into one
+window. Raises an error if attempt made to draw an object that
+is already visible.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicObject.GraphicsObject.move">
+<code class="descname">move</code><span class="sig-paren">(</span><em>dx</em>, <em>dy</em><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicObject.GraphicsObject.move" title="Permalink to this definition">¶</a></dt>
+<dd><p>move object dx units in x direction and dy units in y
+direction</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicObject.GraphicsObject.setFill">
+<code class="descname">setFill</code><span class="sig-paren">(</span><em>color</em><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicObject.GraphicsObject.setFill" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set interior color to color</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicObject.GraphicsObject.setOutline">
+<code class="descname">setOutline</code><span class="sig-paren">(</span><em>color</em><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicObject.GraphicsObject.setOutline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set outline color to color</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicObject.GraphicsObject.setWidth">
+<code class="descname">setWidth</code><span class="sig-paren">(</span><em>width</em><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicObject.GraphicsObject.setWidth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set line weight to width</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="BaseGraphicObject.GraphicsObject.undraw">
+<code class="descname">undraw</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#BaseGraphicObject.GraphicsObject.undraw" title="Permalink to this definition">¶</a></dt>
+<dd><p>Undraw the object (i.e. hide it). Returns silently if the
+object is not currently drawn.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-BaseLine"></span><span class="target" id="module-BaseOval"></span><span class="target" id="module-BasePoint"></span><span class="target" id="module-BaseRectangle"></span><span class="target" id="module-BaseText"></span><span class="target" id="module-BaseUpdate"></span></div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Green River College Python Graphic documentation !</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Green River College.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

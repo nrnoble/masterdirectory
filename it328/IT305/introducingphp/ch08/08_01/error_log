@@ -1,0 +1,8 @@
+[15-Feb-2016 10:15:56 America/Chicago] PHP Warning:  include(./includes/copywright.php): failed to open stream: No such file or directory in /home/nnoble/public_html/introducingphp/ch08/08_01/errors.php on line 3
+[15-Feb-2016 10:15:56 America/Chicago] PHP Warning:  include(./includes/copywright.php): failed to open stream: No such file or directory in /home/nnoble/public_html/introducingphp/ch08/08_01/errors.php on line 3
+[15-Feb-2016 10:15:56 America/Chicago] PHP Warning:  include(): Failed opening './includes/copywright.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/introducingphp/ch08/08_01/errors.php on line 3
+[15-Feb-2016 10:15:56 America/Chicago] PHP Fatal error:  Call to undefined function lyn_copyright() in /home/nnoble/public_html/introducingphp/ch08/08_01/errors.php on line 16
+[16-Feb-2016 16:28:50 America/Chicago] PHP Warning:  include(./includes/copywright.php): failed to open stream: No such file or directory in /home/nnoble/public_html/introducingphp/ch08/08_01/errors.php on line 3
+[16-Feb-2016 16:28:50 America/Chicago] PHP Warning:  include(./includes/copywright.php): failed to open stream: No such file or directory in /home/nnoble/public_html/introducingphp/ch08/08_01/errors.php on line 3
+[16-Feb-2016 16:28:50 America/Chicago] PHP Warning:  include(): Failed opening './includes/copywright.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nnoble/public_html/introducingphp/ch08/08_01/errors.php on line 3
+[16-Feb-2016 16:28:50 America/Chicago] PHP Fatal error:  Call to undefined function lyn_copyright() in /home/nnoble/public_html/introducingphp/ch08/08_01/errors.php on line 16

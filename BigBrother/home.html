@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="bbl-container" class="isDesktop">
+
+
+    <!-- CBSI PLAYER -->
+    <div id="cbsi-player-embed"><a href="#" id="bbl-calendar-button" title="Archives" style="display: inline; opacity: 1;">Archives</a><object type="application/x-shockwave-flash" name="cbsi-aa-player" src="http://grfx.cstv.com/flash/video/bigbrother/bb_controller_v6.swf?0625231" menu="false" quality="high" scale="exactfit" salign="LT" wmode="transparent" bgcolor="000000" swliveconnect="FALSE" width="596" height="378" flashvars="school=bigbro&amp;wmode=transparent&amp;partner=cbs&amp;vidPlayerSchool=cbs&amp;vidPlayerWd=596&amp;vidPlayerHt=378&amp;imgURL=&amp;loadPlayer=false&amp;autoplay=on&amp;autoplay_refresh=always&amp;ad_prerolls=on&amp;configURL=config_video.xml&amp;flashbacksDomain=www.cbs.com&amp;full_screen=on&amp;is_hd=yes&amp;cache=0625231&amp;cacheAn=0625231&amp;gusr=8797554&amp;userStatus=reg;sub;pay&amp;bbStartDate=6/01/2016" allowscriptaccess="always" allowfullscreen="true" data="http://grfx.cstv.com/flash/video/bigbrother/bb_controller_v6.swf?0625231" id="cbsi-aa-player" style="visibility: visible;"><param name="name" value="cbsi-aa-player"><param name="src" value="http://grfx.cstv.com/flash/video/bigbrother/bb_controller_v6.swf?0625231"><param name="menu" value="false"><param name="quality" value="high"><param name="scale" value="exactfit"><param name="salign" value="LT"><param name="wmode" value="transparent"><param name="bgcolor" value="000000"><param name="swLiveConnect" value="FALSE"><param name="width" value="596"><param name="height" value="378"><param name="FlashVars" value="school=bigbro&amp;wmode=transparent&amp;partner=cbs&amp;vidPlayerSchool=cbs&amp;vidPlayerWd=596&amp;vidPlayerHt=378&amp;imgURL=&amp;loadPlayer=false&amp;autoplay=on&amp;autoplay_refresh=always&amp;ad_prerolls=on&amp;configURL=config_video.xml&amp;flashbacksDomain=www.cbs.com&amp;full_screen=on&amp;is_hd=yes&amp;cache=0625231&amp;cacheAn=0625231&amp;gusr=8797554&amp;userStatus=reg;sub;pay&amp;bbStartDate=6/01/2016"><param name="AllowScriptAccess" value="always"><param name="allowFullScreen" value="true"><param name="flashvars" value="partner=cbs&amp;school=bigbro&amp;vidPlayerWd=596&amp;vidPlayerHt=378&amp;autoplay_refresh=always&amp;autoplay=on&amp;ad_prerolls=on&amp;imgURL=&amp;vidPlayerSchool=cbs&amp;loadPlayer=false&amp;full_screen=on&amp;is_hd=yes&amp;cache=0625231&amp;cacheAn=0625231&amp;debug=off&amp;flashbacksDomain=www.cbs.com&amp;gusr=8797554&amp;userStatus=reg;sub;pay&amp;bbStartDate=6/01/2016"></object><div id="video_search_form_wrap"></div><a id="start-casting">Start Casting</a><a id="end-casting">End Casting</a></div>
+    <!-- /CBSI PLAYER -->
+
+    <div id="bbl-camera-list">
+        <ul id="bbl-camera-angles" style="display: block;">
+            <li id="bbl-c1" class="">
+                <a data-camera="1" class="camera-first">
+                    <span>Camera 1</span>
+                    <div class="camera-border">&nbsp;</div>
+                </a>
+                <object type="application/x-shockwave-flash" name="livecam1" src="http://grfx.cstv.com/flash/video/bigbrother/bb_controller_thumbstrip.swf?0625231" menu="false" quality="high" scale="exactfit" salign="LT" wmode="transparent" bgcolor="transparent" swliveconnect="FALSE" width="480" height="68" flashvars="wmode=transparent&amp;vidPlayerSchool=cbs&amp;vidPlayerWd=475&amp;vidPlayerHt=66&amp;loadPlayer=false&amp;autoplay=on&amp;autoplay_refresh=always&amp;volume_start=0&amp;is_hd=yes&amp;cache=0625231&amp;cacheAn=0625231&amp;gusr=8797554&amp;userStatus=reg;sub;pay" allowscriptaccess="always" allowfullscreen="false" data="http://grfx.cstv.com/flash/video/bigbrother/bb_controller_thumbstrip.swf?0625231" id="livecam1" style="visibility: visible;"><param name="name" value="livecam1"><param name="src" value="http://grfx.cstv.com/flash/video/bigbrother/bb_controller_thumbstrip.swf?0625231"><param name="menu" value="false"><param name="quality" value="high"><param name="scale" value="exactfit"><param name="salign" value="LT"><param name="wmode" value="transparent"><param name="bgcolor" value="transparent"><param name="swLiveConnect" value="FALSE"><param name="width" value="596"><param name="height" value="89"><param name="FlashVars" value="wmode=transparent&amp;vidPlayerSchool=cbs&amp;vidPlayerWd=475&amp;vidPlayerHt=66&amp;loadPlayer=false&amp;autoplay=on&amp;autoplay_refresh=always&amp;volume_start=0&amp;is_hd=yes&amp;cache=0625231&amp;cacheAn=0625231&amp;gusr=8797554&amp;userStatus=reg;sub;pay"><param name="AllowScriptAccess" value="always"><param name="allowFullScreen" value="false"><param name="flashvars" value="partner=cbs&amp;vidPlayerWd=475&amp;vidPlayerHt=66&amp;autoplay_refresh=always&amp;autoplay=on&amp;vidPlayerSchool=cbs&amp;loadPlayer=false&amp;volume_start=0&amp;is_hd=yes&amp;cache=0625231&amp;cacheAn=0625231&amp;debug=off&amp;gusr=8797554&amp;userStatus=reg;sub;pay"></object>
+                <div id="strip-bg"></div>
+            </li>
+            <li id="bbl-c2">
+                <a data-camera="2">
+                    <span>Camera 2</span>
+                    <div class="camera-border">&nbsp;</div>
+                </a>
+                <div id="livecam2">
+                    <img src="/sites/bblivefeed_18/assets/graphics/bigbrother-14-noimg.jpg" id="liveimg2" class="liveimg" onerror="bblThumbError('2');" style="display: none;">
+                </div>
+            </li>
+            <li id="bbl-c3">
+                <a data-camera="3">
+                    <span>Camera 3</span>
+                    <div class="camera-border">&nbsp;</div>
+                </a>
+                <div id="livecam3">
+                    <img src="/sites/bblivefeed_18/assets/graphics/bigbrother-14-noimg.jpg" id="liveimg3" class="liveimg" onerror="bblThumbError('3');" style="display: none;">
+                </div>
+            </li>
+            <li id="bbl-c4" class="selected">
+                <a data-camera="4">
+                    <span>Camera 4</span>
+                    <div class="camera-border">&nbsp;</div>
+                </a>
+                <div id="livecam4">
+                    <img src="/sites/bblivefeed_18/assets/graphics/bigbrother-14-noimg.jpg" id="liveimg4" class="liveimg" onerror="bblThumbError('4');" style="display: none;">
+                </div>
+            </li>
+            <li id="bbl-c5">
+                <a data-camera="5">
+                    <span>Quad View</span>
+                    <div class="camera-border">&nbsp;</div>
+                </a><div id="livecam5">
+                <img src="/sites/bblivefeed_18/assets/graphics/bigbrother-16-quadview.jpg" id="liveimg5" class="liveimg">
+            </div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="bbl-tabs">
+        <ul id="bbl-tabs-control" style="display: block;">
+            <li id="bbl-tab-chat" class="activeTab"><a>Chat</a></li>
+            <li id="bbl-tab-highlights"><a>Highlights</a></li>
+            <li id="bbl-tab-flashbacks"><a>Flashback</a></li>
+            <!-- <li id="bbl-tab-houseguests"><a>Houseguests</a></li> -->
+            <li id="bbl-tab-tweets"><a>Tweets</a></li>
+            <!-- <li id="bbl-tab-vote"><a>Vote</a></li> -->
+        </ul>
+
+        <div id="bbl-highlights" class="bbl-tab" style="display: none;">
+
+            <div class="width100 floatLeft bxSizing paddingLeft10px paddingRight10px bbHighlightsContainer">
+
+                <div class="floatLeft width50 bxSizing">
+                    <label class="custom-select">
+                        <select class="castSelect">
+                            <option value="0">ALL HOUSEGUESTS</option>
+                            <option value="215227">PAUL</option>
+                            <option value="215228">VICTOR</option>
+                            <option value="215229">COREY</option>
+                            <option value="215230">PAULIE</option>
+                            <option value="215231">BRONTE</option>
+                            <option value="215232">BRIDGETTE</option>
+                            <option value="215240">FRANK</option>
+                            <option value="215233">ZAKIYAH</option>
+                            <option value="215234">JOZEA</option>
+                            <option value="215241">NICOLE</option>
+                            <option value="215235">GLENN</option>
+                            <option value="215242">JAMES</option>
+                            <option value="215236">MICHELLE</option>
+                            <option value="215237">NATALIE</option>
+                            <option value="215243">DA'VONNE</option>
+                            <option value="215238">TIFFANY</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="floatRight width40 paddingLeft10px bxSizing orderSelectWrap">
+                    <label class="custom-select">
+                        <select class="orderSelect">
+                            <option value="desc">NEWEST FIRST</option>
+                            <option value="asc">OLDEST FIRST</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+
+            <div class="bbl-flashbacksContainer">
+                <div class="blShdoContainer"></div>
+                <div class="bxSizing width100 floatLeft sc-screen  platform-nm">
+
+                    <ul class="ulElm highligtsUL">
+
+                        <li>
+                        </li>
+
+
+                        <li class="liElm bxSizing" data-date="06/24/2016" data-timestamp="2:41:00 PM" data-camera="1">
+                            <div class="shlLiContainer bxSizing">
+                                <div class="floatLeft highlightsImgW positionRelative borderBB bxSizing">
+                                    <img src="http://wwwimage.cbsstatic.com/thumbnails/photos/w290/flashback/letssticktogether_6-24.jpg" data-original="http://graphics.fansonly.com/photos/schools/bigbro/stream_thumbs/2016_06_24/ch1_lg/52860.jpg" alt="Stick With Me, Kid" onerror="highLigtsError(this);" class="floatLeft width100 bbHighlightImg" style="display: block;">
+
+                                    <div class="bbTag font10px">
+                                        <div class="bbTagTxt uppercase">Cam 1 &nbsp; | &nbsp; 2:41 PM</div>
+                                    </div>
+                                </div>
+                                <div class="floatLeft hg-btn-row-content-wrap width50 bxSizing paddingLeft10px">
+                                    <div class="floatLeft width100 font13px ltGreyTxtBB uppercase dTTitle">
+                                        Fri Jun 24th                                </div>
+                                    <div class="floatLeft width100 font13px dTTitle bbHGTitle">Stick With Me, Kid</div>
+
+
+                                    <div class="btnContainer width50 bxSizing watchDTBtn">
+                                        <a class="bbBtn noShadowTxt txtCntr bxSizing flashbackClip bbUpsellBtnMobile" data-date="06/24/2016" data-timestamp="2:41:00 PM" data-camera="1" data-title="Stick With Me, Kid">WATCH</a>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="bxSizing width100 floatLeft paddingLeft10px paddingRight10px">
+                                <div class="bdrBB">
+                                    &nbsp;
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="liElm bxSizing" data-date="06/24/2016" data-timestamp="11:57:00 AM" data-camera="1">
+                            <div class="shlLiContainer bxSizing">
+                                <div class="floatLeft highlightsImgW positionRelative borderBB bxSizing">
+                                    <img src="http://wwwimage.cbsstatic.com/thumbnails/photos/w290/flashback/callmeparanoid_6-24.jpg" data-original="http://graphics.fansonly.com/photos/schools/bigbro/stream_thumbs/2016_06_24/ch1_lg/43020.jpg" alt="Call Me Paranoid, But..." onerror="highLigtsError(this);" class="floatLeft width100 bbHighlightImg" style="display: block;">
+
+                                    <div class="bbTag font10px">
+                                        <div class="bbTagTxt uppercase">Cam 1 &nbsp; | &nbsp; 11:57 AM</div>
+                                    </div>
+                                </div>
+                                <div class="floatLeft hg-btn-row-content-wrap width50 bxSizing paddingLeft10px">
+                                    <div class="floatLeft width100 font13px ltGreyTxtBB uppercase dTTitle">
+                                        Fri Jun 24th                                </div>
+                                    <div class="floatLeft width100 font13px dTTitle bbHGTitle">Call Me Paranoid, But...</div>
+
+
+                                    <div class="btnContainer width50 bxSizing watchDTBtn">
+                                        <a class="bbBtn noShadowTxt txtCntr bxSizing flashbackClip bbUpsellBtnMobile" data-date="06/24/2016" data-timestamp="11:57:00 AM" data-camera="1" data-title="Call Me Paranoid, But...">WATCH</a>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="bxSizing width100 floatLeft paddingLeft10px paddingRight10px">
+                                <div class="bdrBB">
+                                    &nbsp;
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="liElm bxSizing" data-date="06/24/2016" data-timestamp="10:57:00 AM" data-camera="4">
+                            <div class="shlLiContainer bxSizing">
+                                <div class="floatLeft highlightsImgW positionRelative borderBB bxSizing">
+                                    <img src="http://wwwimage.cbsstatic.com/thumbnails/photos/w290/flashback/vetsdiscusshohstrategy_6-24.jpg" data-original="http://graphics.fansonly.com/photos/schools/bigbro/stream_thumbs/2016_06_24/ch4_lg/39420.jpg" alt="Vets Discuss HoH Strategy" onerror="highLigtsError(this);" class="floatLeft width100 bbHighlightImg" style="display: block;">
+
+                                    <div class="bbTag font10px">
+                                        <div class="bbTagTxt uppercase">Cam 4 &nbsp; | &nbsp; 10:57 AM</div>
+                                    </div>
+                                </div>
+                                <div class="floatLeft hg-btn-row-content-wrap width50 bxSizing paddingLeft10px">
+                                    <div class="floatLeft width100 font13px ltGreyTxtBB uppercase dTTitle">
+                                        Fri Jun 24th                                </div>
+                                    <div class="floatLeft width100 font13px dTTitle bbHGTitle">Vets Discuss HoH Strategy</div>
+
+
+                                    <div class="btnContainer width50 bxSizing watchDTBtn">
+                                        <a class="bbBtn noShadowTxt txtCntr bxSizing flashbackClip bbUpsellBtnMobile" data-date="06/24/2016" data-timestamp="10:57:00 AM" data-camera="4" data-title="Vets Discuss HoH Strategy">WATCH</a>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="bxSizing width100 floatLeft paddingLeft10px paddingRight10px">
+                                <div class="bdrBB">
+                                    &nbsp;
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="liElm bxSizing" data-date="06/24/2016" data-timestamp="10:45:00 AM" data-camera="4">
+                            <div class="shlLiContainer bxSizing">
+                                <div class="floatLeft highlightsImgW positionRelative borderBB bxSizing">
+                                    <img src="http://wwwimage.cbsstatic.com/thumbnails/photos/w290/flashback/highlight3.jpg" data-original="http://graphics.fansonly.com/photos/schools/bigbro/stream_thumbs/2016_06_24/ch4_lg/38700.jpg" alt="Who's Crushing On Who?" onerror="highLigtsError(this);" class="floatLeft width100 bbHighlightImg" style="display: block;">
+
+                                    <div class="bbTag font10px">
+                                        <div class="bbTagTxt uppercase">Cam 4 &nbsp; | &nbsp; 10:45 AM</div>
+                                    </div>
+                                </div>
+                                <div class="floatLeft hg-btn-row-content-wrap width50 bxSizing paddingLeft10px">
+                                    <div class="floatLeft width100 font13px ltGreyTxtBB uppercase dTTitle">
+                                        Fri Jun 24th                                </div>
+                                    <div class="floatLeft width100 font13px dTTitle bbHGTitle">Who's Crushing On Who?</div>
+
+
+                                    <div class="btnContainer width50 bxSizing watchDTBtn">
+                                        <a class="bbBtn noShadowTxt txtCntr bxSizing flashbackClip bbUpsellBtnMobile" data-date="06/24/2016" data-timestamp="10:45:00 AM" data-camera="4" data-title="Who's Crushing On Who?">WATCH</a>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="bxSizing width100 floatLeft paddingLeft10px paddingRight10px">
+                                <div class="bdrBB">
+                                    &nbsp;
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="liElm bxSizing" data-date="06/24/2016" data-timestamp="10:33:00 AM" data-camera="1">
+                            <div class="shlLiContainer bxSizing">
+                                <div class="floatLeft highlightsImgW positionRelative borderBB bxSizing">
+                                    <img src="http://wwwimage.cbsstatic.com/thumbnails/photos/w290/flashback/highlight2.jpg" data-original="http://graphics.fansonly.com/photos/schools/bigbro/stream_thumbs/2016_06_24/ch1_lg/37980.jpg" alt="Bronte Keeps It Real With Paulie" onerror="highLigtsError(this);" class="floatLeft width100 bbHighlightImg" style="display: block;">
+
+                                    <div class="bbTag font10px">
+                                        <div class="bbTagTxt uppercase">Cam 1 &nbsp; | &nbsp; 10:33 AM</div>
+                                    </div>
+                                </div>
+                                <div class="floatLeft hg-btn-row-content-wrap width50 bxSizing paddingLeft10px">
+                                    <div class="floatLeft width100 font13px ltGreyTxtBB uppercase dTTitle">
+                                        Fri Jun 24th                                </div>
+                                    <div class="floatLeft width100 font13px dTTitle bbHGTitle">Bronte Keeps It Real With Paulie</div>
+
+
+                                    <div class="btnContainer width50 bxSizing watchDTBtn">
+                                        <a class="bbBtn noShadowTxt txtCntr bxSizing flashbackClip bbUpsellBtnMobile" data-date="06/24/2016" data-timestamp="10:33:00 AM" data-camera="1" data-title="Bronte Keeps It Real With Paulie">WATCH</a>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="bxSizing width100 floatLeft paddingLeft10px paddingRight10px">
+                                <div class="bdrBB">
+                                    &nbsp;
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="liElm bxSizing" data-date="06/24/2016" data-timestamp="2:40:00 AM" data-camera="2">
+                            <div class="shlLiContainer bxSizing">
+                                <div class="floatLeft highlightsImgW positionRelative borderBB bxSizing">
+                                    <img src="http://wwwimage.cbsstatic.com/thumbnails/photos/w290/flashback/highlight1.jpg" data-original="http://graphics.fansonly.com/photos/schools/bigbro/stream_thumbs/2016_06_24/ch2_lg/9600.jpg" alt="" fatal="" five"="" forms"="" onerror="highLigtsError(this);" class="floatLeft width100 bbHighlightImg" style="display: block;">
+
+                                    <div class="bbTag font10px">
+                                        <div class="bbTagTxt uppercase">Cam 2 &nbsp; | &nbsp; 2:40 AM</div>
+                                    </div>
+                                </div>
+                                <div class="floatLeft hg-btn-row-content-wrap width50 bxSizing paddingLeft10px">
+                                    <div class="floatLeft width100 font13px ltGreyTxtBB uppercase dTTitle">
+                                        Fri Jun 24th                                </div>
+                                    <div class="floatLeft width100 font13px dTTitle bbHGTitle">"Fatal Five" Forms</div>
+
+
+                                    <div class="btnContainer width50 bxSizing watchDTBtn">
+                                        <a class="bbBtn noShadowTxt txtCntr bxSizing flashbackClip bbUpsellBtnMobile" data-date="06/24/2016" data-timestamp="2:40:00 AM" data-camera="2" data-title="&quot;Fatal Five&quot; Forms">WATCH</a>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="bxSizing width100 floatLeft paddingLeft10px paddingRight10px">
+                                <div class="bdrBB">
+                                    &nbsp;
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+        </div><!-- /bbl-highlights -->
+        <div class="bbl-tab" id="bbl-flashbacks" style="display: none;">
+
+            <div>
+                <div class="calendar">
+                    <div class="month">
+                        <a class="calendar-month prev-month"><span>Prev</span></a>
+          <span class="month-drop">
+            <a>
+                June 2016 <span class="calendar-down-arrow"></span>
+            </a>
+            <ul class="month-dropdown">
+                <li><a>June</a></li>
+                <li><a>July</a></li>
+                <li><a>August</a></li>
+                <li><a>September</a></li>
+            </ul>
+
+          </span>
+                        <a class="calendar-month next-month"><span>Next</span></a>
+                    </div>
+
+                    <div class="calendar-view">
+
+                        <div class="calendar-row">
+                            <div class="dow-head">Sun</div>
+                            <div class="dow-head">Mon</div>
+                            <div class="dow-head">Tue</div>
+                            <div class="dow-head">Wed</div>
+                            <div class="dow-head">Thu</div>
+                            <div class="dow-head">Fri</div>
+                            <div class="dow-head">Sat</div>
+                        </div>
+                        <div class="calendar-row">
+                            <div class="dow"></div><div class="dow"></div><div class="dow"></div>
+                            <div class="dow">
+                                <a>
+                                    <div class="not-selectable">1</div>
+                                </a>
+                            </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">2</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">3</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">4</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">5</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">6</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">7</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">8</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">9</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">10</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">11</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">12</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">13</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">14</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">15</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">16</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">17</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">18</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">19</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">20</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">21</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="not-selectable">22</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div class="active">23</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div>24</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div>25</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div>26</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div>27</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div>28</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div>29</div>
+                            </a>
+                        </div><div class="dow">
+                            <a>
+                                <div>30</div>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="calendar-row"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flashback-controller">
+
+                <div class="timepicker">
+                    <div class="timepicker-note">SET SHOW START TIME</div>
+                    <div class="time">
+                        <div class="time-zone">
+                            <span class="tiny bottom">PST</span>
+                        </div>
+                        <div class="time-hour">
+                            <a class="arrow-up"><span>Up</span></a>
+                            <span class="bottom">12</span>
+                            <a class="arrow-down"><span>Down</span></a>
+                        </div>
+                        <div class="time-colon">
+                            <span class="bottom">:</span>
+                        </div>
+                        <div class="time-min">
+                            <a class="arrow-up"><span>Up</span></a>
+                            <span class="bottom">00</span>
+                            <a class="arrow-down"><span>Down</span></a>
+                        </div>
+                        <div class="time-ampm">
+                            <span class="tiny bottom">AM</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="camera-selector">
+                    <div class="camerapicker is-visible-false">
+                        <a class="camera-selected">CAMERA 4 <span>More</span></a>
+                        <ul style="display: none;">
+                            <li><a>CAMERA 1</a></li>
+                            <li><a>CAMERA 2</a></li>
+                            <li><a>CAMERA 3</a></li>
+                            <li class="active"><a>CAMERA 4</a></li>
+                            <li><a>QUAD</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <a id="watch-button">Watch</a>
+            </div>
+        </div><!-- /bbl-flashbacks -->
+        <div id="bbl-houseguests" class="bbl-tab" style="display: none;"></div><!-- /bbl-houseguests -->
+        <!-- <div id="bbl-vote" class="bbl-tab"></div> --><!-- /bbl-vote -->
+
+        <div id="bbl-chat" class="bbl-tab" style="display: block;">
+            <style>
+                #bbl-chat-warning {
+                    background: url(/sites/bblivefeed_18/assets/graphics/big_brother_chat_message.png) no-repeat;
+                    position: relative;
+                    top: 100px;
+                    width: 301px;
+                    height :268px;
+                }
+            </style>
+
+            <div id="bbl-chat-wrapper"><iframe src="/shows/big_brother/live_feed/chat/" frameborder="0" width="100%" height="526"></iframe></div>
+
+        </div><!-- /bbl-chat -->
+
+        <div id="bbl-tweets" class="bbl-tab" style="display: none;">
+            <div class="tab-header">
+                <a href="#" onclick="window.open(&quot;http://twitter.com/intent/tweet?text=I%27m%20watching%20%23BB18%20Live%20Feeds%20%23BBLF%20http%3A%2F%2Fbit.ly%2F1nHE0WT&quot;, &quot;CBSBBTweet&quot;, &quot;menubar=0,toolbar=0,location=0,directories=0,status=0,scrollbars=1,resizable=1,width=550,height=400,left=50,top=50&quot;); return false;" id="bbl-tweet-button" target="_blank">Tweet to #BB18</a>
+            </div>
+
+            <div class="bbl-tab-content">
+                <div class="bbl-content-topshadow"></div>
+                <div id="bbl-tweets-window">
+
+                    <div id="twitter-widget-wrapper">
+                        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" data-widget-id="733341677490823168" title="Twitter Timeline" style="position: static; visibility: visible; display: inline-block; width: 300px; height: 450px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;"></iframe>
+                    </div>
+
+                </div><!-- /bbl-tweets-window -->
+                <div class="bbl-content-botshadow"></div>
+            </div><!-- /bbl-tab-content -->
+        </div><!-- /bbl-tweets -->
+
+    </div><!-- /bbl-tabs -->
+    <div id="bbl-promo">
+        <a href="http://www.cbs.com/shows/big_brother/video/" target="_blank"><img src="http://wwwimage.cbsstatic.com/thumbnails/photos/w596/upsell/bbpromo1.jpg" width="596" border="0"></a>
+    </div>
+    <div id="bbl-chrome-casting">          <div class="bbl-chrome-casting-msg"></div>          <div><a id="cancel-chrome-casting">End Cast</a></div>          </div>        </div>
+</body>
+</html>

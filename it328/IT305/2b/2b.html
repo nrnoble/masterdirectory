@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+    Neal Noble
+    IT305
+    January 11th, 2016
+    Assignment 2b
+-->
+
+<!--
+Try It image filesCreate the web page below.
+CSS specs include:
+
+    • font is Courier New, Courier, monospace, with 0.15em letter spacing
+    • the content area of the page (use a div for this) has a white background
+      with a 4px double black border, a maximum width of 940px, and a minimum width of 720px
+    • the page background is a very light gray
+    • add padding and margins as needed
+    • there is no space between the piano images
+    • the text is centered under the piano images, and the same width as the piano images, combined
+    • the menu bar has a heavier top border than bottom border
+    • when you hover over a menu item, it turns dark red (see "HOME" below)    
+-->
+
+
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Assignment 2b Neal Noble</title>
+        
+        <style type="text/css">
+                
+               a:hover
+                {
+                    background-color: darkred;
+                }
+    
+                body
+                {
+                    font-family: Courier New, Courier, monospace;
+                    letter-spacing: 0.15em;
+                    background-color:#d3d3d3;
+                }
+                
+                #text
+                {
+                    text-align: center;
+                    font-size: 8pt;
+                    margin-bottom: 40px;
+                }
+                
+                div
+                {
+                    margin: auto;
+                }
+
+                #page
+                {
+                    max-width: 720px;
+                    max-width: 940px;
+                    background-color: #ffffff;
+                    border: double;
+                    border-width: 4px;
+                    text-align: center;
+                    margin-top: 100px;
+                }
+                
+                hr
+                { 
+                    display: block;
+                    margin-top: 0.5em;
+                    margin-bottom: 0.5em;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-style: inset;
+                    border-width: 2px;
+                } 
+                
+                ul
+                { 
+                      list-style-type: none; 
+                      margin: 0; 
+                      padding: 0; 
+                } 
+   
+                li
+                {
+                       display: inline; 
+                }
+                    
+                li a
+                {
+                      margin: 10px; 
+                      text-align: center; 
+                      text-decoration: none;
+                      padding: 5px;
+                      color: Black; 
+                }
+                
+                #logo
+                {
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+     
+                }
+            </style>        
+    </head>
+
+    <body>
+
+        <div id="page" >
+            <div style="width: 599px;">
+                <img id = "logo" src="http://nnoble.greenrivertech.net/2b/images/images/logo.gif" alt="logo">
+                <hr>
+                <ul> 
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">FOR SALE</a></li> 
+                    <li><a href="#">REPAIRS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>   
+                </ul> 
+                
+                <hr style="border-width: 1px">
+                
+                <img src="http://nnoble.greenrivertech.net/2b/images/images/keys1.jpg" alt="keys1"><img src="http://nnoble.greenrivertech.net/2b/images/images/keys2.jpg" alt="keys2"><img src="http://nnoble.greenrivertech.net/2b/images/images/keys3.png" alt="keys3">
+                
+                <div id = "text">
+                    we specialize in the sale and repair of classic keyboards, in particular the Fender Rhodes,  Wurlitzer EP200, and Hohner Clavinet.
+                </div>
+             </div>
+        </div>
+       
+</body>
+</html>

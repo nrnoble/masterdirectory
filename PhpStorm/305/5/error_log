@@ -1,0 +1,63 @@
+[02-Feb-2016 01:38:33 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 27
+[02-Feb-2016 01:41:39 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 30
+[02-Feb-2016 01:42:05 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 30
+[02-Feb-2016 01:44:17 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 19
+[02-Feb-2016 01:44:28 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/nnoble/public_html/5/myfunctions.php on line 20
+[02-Feb-2016 01:44:30 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/nnoble/public_html/5/myfunctions.php on line 20
+[02-Feb-2016 01:44:53 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/nnoble/public_html/5/myfunctions.php on line 20
+[02-Feb-2016 01:47:23 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 16
+[02-Feb-2016 01:48:25 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 16
+[02-Feb-2016 01:49:48 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 15
+[02-Feb-2016 01:58:18 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 15
+[02-Feb-2016 02:06:03 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 15
+[02-Feb-2016 02:08:53 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 15
+[02-Feb-2016 02:08:56 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 15
+[02-Feb-2016 02:09:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/nnoble/public_html/5/process.php on line 47
+[02-Feb-2016 02:10:36 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/nnoble/public_html/5/process.php on line 16
+[02-Feb-2016 02:11:46 America/Chicago] PHP Fatal error:  Call to undefined function validName() in /home/nnoble/public_html/5/process.php on line 22
+[02-Feb-2016 02:12:37 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 15
+[02-Feb-2016 02:13:00 America/Chicago] PHP Fatal error:  Call to undefined function validYear() in /home/nnoble/public_html/5/process.php on line 34
+[02-Feb-2016 02:13:10 America/Chicago] PHP Fatal error:  Call to undefined function validYear() in /home/nnoble/public_html/5/process.php on line 34
+[02-Feb-2016 02:14:05 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/nnoble/public_html/5/myfunctions.php on line 16
+[02-Feb-2016 02:14:09 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/nnoble/public_html/5/myfunctions.php on line 16
+[02-Feb-2016 02:14:19 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/nnoble/public_html/5/myfunctions.php on line 16
+[02-Feb-2016 02:14:57 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/nnoble/public_html/5/myfunctions.php on line 13
+[02-Feb-2016 02:16:26 America/Chicago] PHP Warning:  highlight_file(myfunction.php): failed to open stream: No such file or directory in /home/nnoble/public_html/5/form.php on line 55
+[02-Feb-2016 02:16:26 America/Chicago] PHP Warning:  highlight_file(): Failed opening 'myfunction.php' for highlighting in /home/nnoble/public_html/5/form.php on line 55
+[02-Feb-2016 02:50:02 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/5/process.php on line 17
+[02-Feb-2016 02:51:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/nnoble/public_html/5/process.php on line 18
+[02-Feb-2016 02:52:07 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/process.php on line 13
+[02-Feb-2016 02:52:38 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/5/process.php on line 17
+[02-Feb-2016 03:09:03 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/nnoble/public_html/5/myfunctions.php on line 13
+[02-Feb-2016 03:10:28 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/nnoble/public_html/5/myfunctions.php on line 12
+[02-Feb-2016 03:11:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ',' or ';' in /home/nnoble/public_html/5/myfunctions.php on line 14
+[02-Feb-2016 03:19:25 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/process.php on line 37
+[02-Feb-2016 03:19:31 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/process.php on line 37
+[02-Feb-2016 03:19:34 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/process.php on line 37
+[02-Feb-2016 03:19:49 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/process.php on line 37
+[02-Feb-2016 03:19:54 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/process.php on line 37
+[02-Feb-2016 03:20:36 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/nnoble/public_html/5/process.php on line 37
+[02-Feb-2016 03:21:26 America/Chicago] PHP Parse error:  syntax error, unexpected ']' in /home/nnoble/public_html/5/process.php on line 39
+[02-Feb-2016 03:21:31 America/Chicago] PHP Parse error:  syntax error, unexpected ']' in /home/nnoble/public_html/5/process.php on line 39
+[02-Feb-2016 03:21:39 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/nnoble/public_html/5/process.php on line 39
+[02-Feb-2016 03:21:43 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/nnoble/public_html/5/process.php on line 39
+[02-Feb-2016 03:28:20 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 19
+[02-Feb-2016 03:28:45 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 19
+[02-Feb-2016 03:28:49 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 19
+[02-Feb-2016 03:29:04 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/5/myfunctions.php on line 19
+[02-Feb-2016 08:40:04 America/Chicago] PHP Warning:  highlight_file(forum.php): failed to open stream: No such file or directory in /home/nnoble/public_html/5/process.php on line 63
+[02-Feb-2016 08:40:04 America/Chicago] PHP Warning:  highlight_file(): Failed opening 'forum.php' for highlighting in /home/nnoble/public_html/5/process.php on line 63
+[02-Feb-2016 09:34:00 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/5/myfunctions.php on line 8
+[02-Feb-2016 09:45:00 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:46:59 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:47:50 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:47:51 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:47:55 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:48:10 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:48:52 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:49:12 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:49:51 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:50:04 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:50:06 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:50:07 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37
+[02-Feb-2016 09:51:22 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/nnoble/public_html/5/form.php on line 37

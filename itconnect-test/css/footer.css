@@ -1,0 +1,127 @@
+@media (min-width: 320px) and (max-width: 720px)
+{
+    .footer
+    {
+        height: 40em;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 990px)
+{
+    .footer
+    {
+        height: 40em;
+    }
+}
+
+@media (min-width: 991px)
+{
+    .footer
+    {
+        height: 13em;
+    }
+}
+
+footer
+{
+    padding:.5em;
+    background-color: #222;
+    color:#fff;
+    border-color: #101010;
+    border-top-color: #101010;
+    border-right-color: #101010;
+    border-bottom-color: #101010;
+    border-left-color: #101010;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 13em;
+}
+
+footer a,footer a:hover,footer a:focus
+{
+    text-decoration:none;
+}
+
+.footer-link
+{
+    color: #5cb85c;
+}
+
+.admin-link-wrapper {
+    margin-top: 2em;
+}
+
+.admin-link
+{
+    color: #5A5252;
+    font-size: 16px;    
+}
+
+.footer-link:hover
+{
+    color: #449d44;    
+}
+
+.fbrand
+{
+    padding-top: 1.5em;
+}
+
+.medium-font
+{
+    font-size: 120%;    
+}
+
+.Social-Media
+{
+    padding-top: .75em;
+    margin: 1%;
+}
+
+.Social-Media2
+{
+    padding-top: .25em;
+    margin: 1%;
+    font-size: 120%;
+}
+
+.icons
+{
+    margin: 1%;
+    font-size: 2em;
+    color: #C7C4C4;
+}
+
+.icons:hover, .icons:focus
+{
+    color: #ffffff;
+}
+
+.glyph
+{
+    width: 32px;
+    height: 32px;
+}
+
+.fblock
+{
+    padding-top: 1em;
+}
+
+.created-by-text
+{
+    font-size: 1em;
+    padding: 1.1em;
+    color: #C7C4C4;
+    line-height: 25px;
+}
+
+.created-by-text:hover
+{
+    color: #ffffff;
+}
+
+.fa-heart {
+    color: #F74646;
+}

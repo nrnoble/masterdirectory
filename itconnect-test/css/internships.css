@@ -1,0 +1,12 @@
+.post-heading
+{
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 8px;
+}
+
+.instruction-text
+{
+    text-align: center;
+    font-size: 1.2em;
+    color: #797979;
+}

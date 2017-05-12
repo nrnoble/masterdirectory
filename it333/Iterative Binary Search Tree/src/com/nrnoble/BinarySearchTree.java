@@ -7,7 +7,7 @@ import java.util.Stack;
 /*
 * Neal Noble
 * May 2017
-* Assignment: Trees Part1
+* Assignment: Trees Part1 and Part 2
 * Instructor: Josh Archer
 */
 

@@ -1,0 +1,35 @@
+body
+{
+    text-align:justify;
+    font-family: courier;
+    font-size: 12pt;
+    background-color:#4A62E8;
+}
+
+#text
+{
+    text-align: left;
+    font-size: 8pt;
+   
+}
+
+div
+{
+   font-size: 8pt;
+    margin: auto;
+}
+
+
+
+#page
+{
+    max-width: 800px;
+    font-size: 12pt;
+    background-color: #ffffff;
+    border: solid;
+    border-width: 1px;
+    text-align: left;
+    margin-top: 100px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #0026FF
+}

@@ -1,28 +1,40 @@
-from Library import GRCGraphics as GRC
-
-import random
-
-Colors =['Red', 'Green', 'Blue', 'White', 'Black', 'Yellow', 'Orange', 'Pink', 'Purple', 'Gold', 'Silver', 'Gray', 'Maroon']
-
-def main():
-    windowWidth = 300
-    windowHeight = 300
-
-    Color = random.choice(Colors)
-    gWindow = GRC.GraphicsWindow("Polygon", windowWidth, windowHeight)
-    gWindow2 = GRC.GraphicsWindow("Polygon2", windowWidth, windowHeight)
-
-    gWindow2.setCoords(0, 0, 10, 10)
-    gWindow.setCoords(0, 0, 10, 10)
-    t = GRC.Text(GRC.Point(5, 5), "Centered Text")
-    t.draw(gWindow2)
-    p = GRC.Polygon(GRC.Point(1, 1), GRC.Point(5, 3), GRC.Point(2, 7))
-    p.draw(gWindow)
-    pause(gWindow)
-
-def pause(win):
-    win.redraw()
-    win.waitForClick()
+from Library.GraphicObject import *
+from Library.GraphicsWindow import *
+from Library.Point import *
 
 
-main()
+class Polygon(GraphicsObject):
+    """Create Polygon object """
+    def __init__(self, *points):
+        # if points passed as a list, extract it
+        if len(points) == 1 and type(points[0]) == type([]):
+            points = points[0]
+        self.points = list(map(Point.clone, points))
+        GraphicsObject.__init__(self, ["outline", "width", "fill"])
+
+    def __repr__(self):
+        return "Polygon" + str(tuple(p for p in self.points))
+
+    def clone(self):
+        """Clone Polygon"""
+        other = Polygon(*self.points)
+        other.config = self.config.copy()
+        return other
+
+    def getPoints(self):
+        """TODO: description needed"""
+        return list(map(Point.clone, self.points))
+
+    def _move(self, dx, dy):
+        for p in self.points:
+            p.move(dx, dy)
+
+    def _draw(self, canvas, options):
+        args = [canvas]
+        for p in self.points:
+            x, y = canvas.toScreen(p.x, p.y)
+            args.append(x)
+            args.append(y)
+        args.append(options)
+        return GraphicsWindow.create_polygon(*args)
+

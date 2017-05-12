@@ -1,0 +1,232 @@
+/**
+ * Copyright (c) 2016 "Fronteer LTD". All rights reserved.
+ */
+
+body.ally-instructor-feedback-active,
+body.ally-accessible-versions-active {
+    overflow: hidden;
+}
+
+.ally-enhancement-preview div {
+    background-position: left 3px;
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+    color: #FFF;
+    opacity: 0.53;
+    padding-left: 25px;
+}
+
+.ally-enhancement-preview:hover div {
+    opacity: 1;
+}
+
+/* FILES TOOL */
+
+#ally-accessible-versions-toolbar {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    display: none;
+    margin-right: -7px;
+}
+
+.icon-ally-toolbar::before {
+    content: " ";
+}
+
+.ef-links-col {
+    flex: 0 0 100px;
+}
+
+/* USER CONTENT SCORE INDICATOR */
+
+.user_content .ally-accessibility-score-indicator {
+    background-color: #FFF;
+    display: inline-block;
+
+    /* We must explicitly set the height/width of the score indicator link rather than let it be dictated by the icon
+       size, as the image loading is delayed and will cause the initial offset to be off */
+    height: 12px;
+    line-height: 0;
+    overflow: hidden;
+    padding: 5px;
+    position: absolute;
+    width: 18px;
+
+    /* Relative to the seizure overlay. This must be higher */
+    z-index: 2;
+}
+
+.user_content .ally-accessibility-score-indicator img {
+    width: 100%;
+}
+
+.user_content .instructure_file_link_holder .ally-accessibility-score-indicator {
+    background-color: none;
+    height: auto;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    width: auto;
+}
+
+.user_content .instructure_file_link_holder .ally-accessibility-score-indicator img {
+    margin-left: 3px;
+    margin-right: 3px;
+    position: relative;
+    top: -1px;
+    width: 18px;
+}
+
+.user_content .instructure_file_link_holder .al-trigger {
+    padding: 0;
+}
+
+/* USER CONTENT DROPDOWN INDICATOR */
+
+.user_content .ally-user-content-dropdown i.icon-mini-arrow-down::before {
+    /* Canvas adds a baseline vertical align on icons in user content. This doesn't look terribly
+       good for the Ally dropdown icon. Override it just for Ally. */
+    vertical-align: middle;
+}
+
+/* FILES TOOL LIST SEIZURE INDICATOR */
+
+.ef-item-row .ef-name-col a:focus .ef-thumbnail .ally-files-seizure,
+.ef-item-row .ef-name-col a:hover .ef-thumbnail .ally-files-seizure {
+    opacity: 1;
+}
+
+.ef-item-row .ef-name-col a .ef-thumbnail .ally-files-seizure-guard {
+    background-color: #CCC;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 5px;
+}
+
+.ef-item-row .ef-name-col a .ef-thumbnail .ally-files-seizure-guard img {
+    height: 100%;
+    width: 100%;
+}
+
+.ef-item-row .ef-name-col a .ef-thumbnail .ally-files-seizure-indicator {
+    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    color: #FFF;
+    display: none;
+    margin: -85px 0 0 -5px;
+    padding: 10px;
+    position: absolute;
+}
+
+.ef-item-row .ef-name-col a:focus .ef-thumbnail .ally-files-seizure-indicator,
+.ef-item-row .ef-name-col a:hover .ef-thumbnail .ally-files-seizure-indicator {
+    display: block;
+}
+
+.ef-item-row .ef-name-col a .ef-thumbnail .ally-files-seizure-indicator-caret {
+    position: absolute;
+    height: 45px;
+    margin-left: -10px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+/* FILES TOOL SCORE INDICATOR & LABEL */
+
+.ef-item-row .ally-accessibility-indicator {
+    position: relative;
+    text-align: center;
+}
+
+.ef-item-row .ally-accessibility-score-indicator {
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    height: 36px;
+    justify-content: center;
+}
+
+.ef-item-row .ally-accessibility-score-indicator > img {
+    width: 20px;
+}
+
+.ef-item-row .ally-accessibility-score-indicator-label {
+    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    color: #FFF;
+    display: none;
+    padding: 10px;
+    position: absolute;
+
+    /* Since the div that surrounds the score indicator is fluid width and the score indicator itself is fixed width,
+       getting a reliable benchmark on where the score indicator is is difficult. The label is inside the score
+       indicator link, however the score indicator link cannot be the `position: relative` element that contains this
+       label because it triggers a bug in Safari to render 2 score indicator links. Since we know the score indicator is
+       always centered to its parent, we use a right offset of 50% to bind to its center, then we add an extra 25px for
+       spacing, which gives the indicator label a consistence distance from the indicator for all widths */
+    right: calc(50% + 25px);
+    top: -1px;
+    white-space: nowrap;
+}
+
+.ef-item-row .ally-accessibility-score-indicator:focus .ally-accessibility-score-indicator-label,
+.ef-item-row .ally-accessibility-score-indicator:hover .ally-accessibility-score-indicator-label {
+    display: block;
+}
+
+.ef-item-row .ally-accessibility-score-indicator-label > img {
+    float: right;
+    margin: -9px -30px -10px -10px;
+    opacity: 0.8;
+    transform: rotate(-90deg);
+    width: 35px;
+}
+
+/* FILES TOOL PREVIEW DELETED AND SEIZURE GUARD */
+
+.ally-files-preview-deleted,
+.ally-files-preview-seizure {
+    align-items: center;
+    color: #FFF;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 300;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+}
+
+body.ally-instructor-feedback-active .ally-files-preview-deleted,
+body.ally-instructor-feedback-active .ally-files-preview-seizure {
+    opacity: 0;
+}
+
+.ally-files-preview-deleted img,
+.ally-files-preview-seizure img,
+.ally-files-preview-seizure div {
+    margin-bottom: 25px;
+}
+
+.ally-files-preview-deleted img,
+.ally-files-preview-seizure img {
+    height: auto;
+    max-height: 100px;
+    max-width: 100px;
+    object-fit: contain;
+    width: 80%;
+}
+
+.ally-files-preview-seizure button {
+    background-color: #FFF;
+    border: none;
+    border-radius: 3px;
+    color: #222;
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 10px 20px;
+}

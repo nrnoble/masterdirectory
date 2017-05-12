@@ -1,0 +1,1183 @@
+# Webalizer V2.23-05 Incremental Data - 02/16/2016 04:43:43
+2016 2 16 4 43 43
+42059 5583 71 329 53 40 372895323 1565 223 0
+4 76 1772 1 16
+9865 962 57635878 11 293 19
+563 123 5715287 14 35 19
+7699 866 47141978 16 261 24
+694 175 6491047 9 18 9
+201 120 5008415 14 11 11
+248 204 12786530 12 161 22
+161 149 8950371 14 112 19
+408 246 12277917 27 46 26
+689 256 11720727 15 18 16
+1666 360 11743622 19 50 16
+95 71 2814183 7 5 5
+49 41 1795014 5 3 2
+5737 764 126145284 7 188 10
+9402 701 40173838 5 232 14
+3516 395 19529886 8 127 10
+1066 150 2965346 4 5 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1095 203 9668785 39
+869 173 6928474 22
+811 116 5522820 30
+737 109 5836741 27
+2745 283 17048360 102
+2293 194 10912107 79
+1570 212 79226051 78
+2457 331 13360312 103
+2731 220 11524109 74
+2042 154 8661624 68
+1263 164 10645793 54
+1495 240 11345517 61
+1388 113 6430987 51
+1782 242 20269297 81
+1450 225 13253199 20
+1264 210 10535403 27
+2352 281 19923376 51
+2303 396 17830793 58
+2764 268 18967150 79
+2486 480 25473134 176
+404 212 10123097 45
+951 126 6024410 21
+2792 370 20622509 129
+2015 261 12761275 90
+0
+0
+0
+5583
+0
+0
+0
+0
+0
+28
+0
+3
+0
+0
+32923
+0
+0
+0
+0
+0
+0
+3522
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/components-counters.html
+0 2 0 134684 0 0
+/page-services-2.html
+0 2 0 133994 0 0
+/js/google.map.config.js
+0 1 0 936 0 0
+/images/testimonial-1.jpg
+0 1 0 0 0 0
+/plugins/hover/hover-min.css
+0 1219 0 5106388 0 0
+/portfolio-list-sidebar.html
+0 2 0 134650 2 1
+/page-team-3.html
+0 2 0 122544 0 0
+/features-sliders-text-rotator.html
+0 2 0 116514 0 0
+/videos/background-video.mp4
+0 126 0 32704593 0 0
+/features-headers-slider-top.html
+0 2 0 112460 2 1
+/template/intro-images/demo-15.jpg
+0 2 0 16840 0 0
+/template/intro-images/demo-2.jpg
+0 2 0 65060 0 0
+/images/kfb_watercolorlogo2.jpg
+0 14 0 1624580 0 0
+/images/1225150901c.jpg
+0 295 0 3530727 0 0
+/index2.html
+0 2 0 8969 0 0
+/page-login-2.html
+0 2 0 14872 0 0
+/portfolio-list-1.html
+0 1 0 59673 0 0
+/components-page-loaders-2.html
+0 1 0 62066 1 0
+/videos/
+0 1 0 1075 0 1
+/template/intro-images/demo-6.jpg
+0 2 0 66698 0 0
+/portfolio-fullwidth-4-col.html
+0 2 0 117946 1 0
+/kfb_contactform.php
+0 15 0 83491 0 0
+/email_templates/email_template_purple.html
+0 1 0 75580 0 0
+/components-accordions.html
+0 2 0 137752 0 0
+/components-call-to-action.html
+0 1 0 64656 0 0
+/features-footers-subscribe.html
+0 2 0 117582 0 0
+/index-medical.html
+0 2 0 134402 0 0
+/bootstrap/css/bootstrap.css
+0 1219 0 6929210 0 0
+/email_templates/email_template_gray.html
+0 2 0 151152 1 1
+/kfb_sponsorshipstyle.css
+0 52 28803824 9057 0 0
+/images/client-3.png
+0 1 0 0 0 0
+/images/client-6.png
+0 1 0 0 0 0
+/features-menus-onhover-no-animations.html
+0 2 0 124508 0 0
+/page-about-4.html
+0 2 0 112498 0 0
+/features-footers-minimal.html
+0 2 0 112594 1 0
+/email_templates/email_template_blue.html
+0 1 0 75576 0 0
+/page-404-2.html
+0 2 0 102398 0 0
+/components-fullwidth-sections.html
+0 2 0 120998 0 0
+/template/template/images/favicon.ico
+0 2 0 0 0 0
+/images/portfolio-1.jpg
+0 2 0 13701 0 0
+/images/amazonsmile.png
+0 182 0 762030 0 0
+/index-restaurant.html
+0 3 0 203736 1 0
+/videos/background-video-banner.mp4
+0 5 0 31124284 0 0
+/portfolio-grid-2-3-col.html
+0 1 0 60140 1 1
+/images/testimonial-2.jpg
+0 1 0 0 0 0
+/js/template.js
+0 1017 0 1524492 0 0
+/shop-listing-sidebar.html
+0 1 0 95676 0 0
+/images/portfolio-1-3.jpg
+0 1 0 14531 0 0
+/fonts/font-awesome/css/font-awesome.css
+0 1219 0 1551264 0 0
+/components-buttons.html
+0 2 0 198082 0 0
+/page-contact-2.html
+0 2 0 111604 0 0
+/plugins/jquery.countTo.js
+0 1010 0 90000 0 0
+/portfolio-grid-3-4-col.html
+0 2 0 121104 2 1
+/components-tables.html
+0 3 0 183249 1 0
+/cgi-sys/images/404bottom.gif
+0 10 0 4296 0 0
+/images/section-image-1.png
+0 1 0 0 0 0
+/template/intro-images/demo-18.jpg
+0 2 0 52832 0 0
+/page-right-sidebar.html
+0 1 3274791360991884032 56017 0 0
+/shop-listing-3col.html
+0 2 24414062284715828 172698 0 0
+/template/intro-images/demo-17.jpg
+0 2 1454755561 64588 0 0
+/images/portfolio-6.jpg
+0 2 3328504470193843760 13116 0 0
+/features-headers-full-width.html
+0 2 8668586202857748782 112612 1 0
+/neal.css
+0 1337 3472329193067380736 342622 0 0
+/blog-masonry-no-sidebar.html
+0 2 3329061922538533121 136318 1 1
+/features-menus-onclick-no-animations.html
+0 2 8102820154569654272 124522 0 0
+/email_templates/email_template_brown.html
+0 2 0 151156 0 0
+/index1.html
+0 1 0 71879 0 0
+/shop-cart.html
+0 2 0 132922 0 0
+/css/style.css.map
+0 11 0 1940421 0 0
+/features-footers-default.html
+0 2 0 124232 0 0
+/plugins/rs-plugin/css/settings.css
+0 2 0 73697 0 0
+/template/intro-images/demo-20.jpg
+0 2 0 58938 0 0
+/email_templates/email_template_red.html
+0 1 0 75574 0 0
+/images/client-8.png
+0 1 0 0 0 0
+/features-pricing-tables-1.html
+0 2 0 117754 0 0
+/shop-checkout-review.html
+0 2 0 136452 0 0
+/plugins/jquery.validate.js
+0 1014 0 1494360 0 0
+/images/favicon.ico
+0 939 0 1076400 0 0
+/components-page-loaders-5.html
+0 1 0 62066 1 1
+/index-corporate-3.html
+0 3 0 193149 1 0
+/images/client-1.png
+0 1 0 0 0 0
+/features-typography.html
+0 2 0 121866 0 1
+/shop-product.html
+0 2 0 139226 1 0
+/blog-medium-image-right-sidebar.html
+0 2 0 138746 0 0
+/email_templates/email_template_pink.html
+0 2 0 151152 0 0
+/plugins/owl-carousel/owl.carousel.js
+0 1014 0 1847895 0 0
+/email_templates/email_template_orange.html
+0 2 0 151160 0 0
+/images/section-image-3.jpg
+0 1 0 0 0 0
+/features-headers-colored-dark.html
+0 2 0 124218 0 0
+/helloworld.php
+0 6 0 894 0 0
+/template/intro-images/demo-4.jpg
+0 2 0 54388 0 0
+/bootstrap/fonts/glyphicons-halflings-regular.woff2
+0 8 0 18028 0 0
+/images/logo_light_blue.png
+0 2 0 2121 0 0
+/css/animations.css
+0 1219 0 144102 0 0
+/shop-listing-list.html
+0 1 0 102459 1 0
+/template/intro-images/demo-24.jpg
+0 2 0 49716 0 0
+/components-forms.html
+0 2 0 153672 1 1
+/cgi-sys/images/404top_w.jpg
+0 10 0 34680 0 0
+/template/intro-images/demo-8.jpg
+0 2 0 59440 0 0
+/template/
+0 2 0 134910 0 0
+/page-contact-3.html
+0 2 0 112608 0 0
+/components-page-loaders-3.html
+0 1 0 62068 1 1
+/features-headers-simple.html
+0 2 0 106852 0 1
+/plugins/magnific-popup/magnific-popup.css
+0 1220 0 381661 0 0
+/kfb_sponsorform2.php
+0 13 0 33978 0 0
+/index-corporate-2.html
+0 2 0 118206 0 0
+/fonts/font-awesome/fonts/fontawesome-webfont.eot
+0 4 0 275500 0 0
+/components-tabs-and-pills.html
+0 1 0 88615 1 0
+/template/intro-images/demo-5.jpg
+0 2 0 63598 0 0
+/cgi-sys/js/simple-expand.min.js
+0 9 0 19474 0 0
+/page-contact.html
+0 2 0 113430 0 0
+/cgi-sys/images/404mid.gif
+0 10 0 960 0 0
+/template/intro-images/demo-12.jpg
+0 2 0 43488 0 0
+/page-team-2.html
+0 2 0 125218 0 0
+/portfolio-item-2.html
+0 2 0 126874 1 0
+/videos/restaurant-video-banner-poster.jpg
+0 1 0 150191 0 0
+/page-team.html
+0 2 0 150372 0 0
+/kfb_services.php
+0 180 0 10911722 0 0
+/background.html
+0 46 0 44757 1 2
+/features-footers-links.html
+0 2 0 121972 0 0
+/plugins/owl-carousel/owl.carousel.css
+0 1219 0 70848 0 0
+/components-page-loaders-4.html
+0 2 0 124138 2 1
+/portfolio-fullwidth-3-col.html
+0 2 0 115194 0 1
+/favicon.ico
+0 178 0 0 0 0
+/email_templates/email_template_light_blue.html
+0 2 0 151176 1 0
+/shop-invoice.html
+0 2 0 116312 0 0
+/plugins/modernizr.js
+0 1011 0 338148 0 0
+/portfolio-grid-3-2-col.html
+0 2 0 120960 1 1
+/components-image-boxes.html
+0 1 0 88027 0 1
+/components-progress-bars.html
+0 2 0 155396 0 0
+/components-animations.html
+0 2 0 118080 0 0
+/features-footers-contact-form.html
+0 2 0 117212 0 0
+/features-sliders-fullwidth.html
+0 2 0 122796 2 1
+/css/animate.css
+0 1220 0 3371004 0 0
+/page-signup-2.html
+0 2 0 16392 1 0
+/features-menus-onclick.html
+0 2 0 124510 1 1
+/components-page-loaders-6.html
+0 1 0 62068 1 1
+/index-portfolio.html
+0 2 0 149442 0 0
+/portfolio-grid-2-4-col.html
+0 2 0 120088 2 1
+/features-headers-colored.html
+0 2 0 124200 1 2
+/portfolio-item-3.html
+0 1 0 65632 0 0
+/donatetest.html
+0 4 0 2518 2 1
+/videos/background-video.webm
+0 2 0 3085762 0 0
+/page-sitemap.html
+0 2 0 137002 0 0
+/components-social-icons.html
+0 2 0 188218 1 1
+/components-content-sliders.html
+0 2 0 135198 1 0
+/portfolio-grid-1-sidebar.html
+0 2 0 137854 0 0
+/fonts/font-awesome/fonts/fontawesome-webfont.woff
+0 99 0 731556 0 0
+/template/intro-images/demo-13.jpg
+0 2 0 40576 0 0
+/page-about.html
+0 2 0 133542 0 0
+/template/intro-images/demo-10.jpg
+0 2 0 43738 0 0
+/components-page-loaders.html
+0 2 0 124132 0 1
+/components-icon-boxes.html
+0 2 0 253936 0 1
+/images/kfb_logo15-dropshadow3.png
+0 2 0 25070 0 0
+/plugins/waypoints/jquery.waypoints.min.js
+0 1010 0 316332 0 0
+/kfb_wordtest2filtered.html
+0 1 0 57577 0 0
+/template/intro-images/demo-21.jpg
+0 2 0 64542 0 0
+/plugins/vide/jquery.vide.js
+0 1 0 0 0 0
+/features-sliders-fullwidth-big-height.html
+0 1 0 61447 0 0
+/features-icons-fontello.html
+0 2 0 220962 1 1
+/template/intro-images/intro-banner.jpg
+0 2 0 82098 0 0
+/portfolio-grid-2-2-col.html
+0 2 0 120136 2 1
+/blog-large-image-left-sidebar.html
+0 2 0 138044 2 0
+/shop-checkout.html
+0 2 0 202814 0 0
+/images/portfolio-7.jpg
+0 1 0 14531 0 0
+/images/background-img-7.jpg
+0 1 0 0 0 0
+/plugins/owl-carousel/owl.transitions.css
+0 1219 0 219324 0 0
+/template/intro-images/demo-23.jpg
+0 2 0 60610 0 0
+/features-icons-fontawesome.html
+0 2 0 248328 1 0
+/plugins/rs-plugin/font/revicons.woff
+0 2 0 7536 0 0
+/features-grid.html
+0 1 0 53181 0 0
+/css/style.css
+0 1232 0 13650906 0 0
+/features-headers-default-dark.html
+0 3 0 186387 1 0
+/features-footers-google-maps.html
+0 2 0 116948 0 0
+/fonts/fontello/css/fontello.css
+0 1219 0 1656327 0 0
+/images/fredmeyer.png
+0 182 0 860814 0 0
+/page-faq.html
+0 1 0 99389 0 0
+/features-sliders-video-background.html
+0 2 0 121330 0 1
+/blog-post.html
+0 1 0 68888 0 0
+/template/intro-images/demo-28.jpg
+0 2 0 41668 0 0
+/template/intro-images/demo-22.jpg
+0 2 0 76656 0 0
+/plugins/jquery.min.js
+0 1011 0 3352510 0 0
+/page-signup.html
+0 2 0 106654 0 0
+/images/client-4.png
+0 1 0 0 0 0
+/images/section-image-2.png
+0 1 0 0 0 0
+/template/intro-images/demo-9.jpg
+0 2 0 52264 0 0
+/features-headers-logo-centered.html
+0 1 0 61994 0 0
+/images/portfolio-8.jpg
+0 1 0 14680 0 0
+/plugins/magnific-popup/jquery.magnific-popup.min.js
+0 1009 0 740005 0 0
+/index-shop.html
+0 1 0 92139 0 0
+/css/skins/light_blue.css
+0 1216 0 1014448 0 0
+/images/portfolio-1-2.jpg
+0 1 0 13116 0 0
+/email_templates/email_template_dark_red.html
+0 2 0 151168 0 0
+/blog-masonry-right-sidebar.html
+0 3 0 227460 1 0
+/email_templates/email_template_green.html
+0 2 0 151156 0 0
+/components-lightbox.html
+0 2 0 113342 0 0
+/kfb_services3.php
+0 54 0 3155022 0 0
+/kfb_volunteer2.html
+0 2 0 66336 0 1
+/videos/restaurant-background-video-banner.mp4
+0 7 0 11983363 0 0
+/kfb_contact.php
+0 1 0 60925 0 0
+/shop-checkout-completed.html
+0 1 0 51029 1 1
+/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js
+0 2 0 113138 0 0
+/features-pricing-tables-2.html
+0 3 0 177219 0 2
+/features-headers-offcanvas-left.html
+0 1 0 28547 0 0
+/email_templates/email_template_vivid_red.html
+0 2 0 151172 0 0
+/kfb_apply_form.php
+0 107 0 553952 0 0
+/wordtest.html
+0 3 0 95682 0 0
+/index-blog.html
+0 2 0 148572 0 0
+/page-about-me.html
+0 2 0 117990 0 0
+/portfolio-grid-2-sidebar.html
+0 3 0 207891 1 1
+/cgi-sys/images/x.png
+0 10 0 21376 0 0
+/images/kfb_bgi_1.jpg
+0 1 0 182965 0 0
+/images/section-image-3.png
+0 1 0 0 0 0
+/portfolio-grid-3-3-col.html
+0 3 0 181656 3 1
+/page-no-sidebars.html
+0 2 0 106802 0 0
+/template/intro-images/demo-16.jpg
+0 2 0 48106 0 0
+/features-headers-classic-dark.html
+0 1 0 62106 0 0
+/blog-masonry-left-sidebar.html
+0 2 0 151746 0 0
+/template/intro-images/demo-1.jpg
+0 2 0 46938 0 0
+/kfb_style_2.css
+0 15 0 0 0 0
+/components-text-rotators.html
+0 3 0 164982 2 0
+/features-sliders-fullscreen.html
+0 2 0 121268 0 1
+/blog-large-image-right-sidebar.html
+0 2 0 137938 0 0
+/kfb_volunteer.php
+0 73 0 4466777 0 0
+/email_templates/email_template_gold.html
+0 2 0 151152 0 0
+/page-404.html
+0 2 0 102206 0 0
+/features-headers-offcanvas-right.html
+0 2 0 57102 0 0
+/page-two-sidebars-right.html
+0 1 0 61240 0 0
+/portfolio-grid-3-sidebar.html
+0 1 0 69805 0 1
+/plugins/SmoothScroll.js
+0 1020 0 723924 0 0
+/features-headers-default.html
+0 2 0 124260 0 1
+/blog-medium-image-no-sidebar.html
+0 2 0 122444 0 0
+/blog-timeline.html
+0 2 0 136314 0 0
+/components-video-and-audio.html
+0 2 0 111140 1 0
+/components-modals.html
+0 2 0 117962 0 0
+/index-hotel.html
+0 2 0 110126 0 0
+/page-services-3.html
+0 2 0 131916 1 1
+/blog-large-image-no-sidebar.html
+0 1 0 59647 0 0
+/videos/restaurant-background-video-banner.webm
+0 2 0 2943474 0 0
+/template/intro-images/demo-7.jpg
+0 2 0 35820 0 0
+/page-about-2.html
+0 2 0 146252 0 0
+/features-dark-page.html
+0 1 0 60269 0 0
+/template/intro-images/demo-3.jpg
+0 2 0 53940 0 0
+/index-beauty.html
+0 2 0 126682 0 0
+/cpanel
+0 2 0 18070 1 2
+/blog-medium-image-left-sidebar.html
+0 1 0 69426 0 0
+/template/intro-images/demo-19.jpg
+0 2 0 64276 0 0
+/page-about-3.html
+0 3 0 197367 1 0
+/images/portfolio-3.jpg
+0 2 0 14531 0 0
+/template/intro-images/demo-11.jpg
+0 2 0 60184 0 0
+/videos/video-fallback.jpg
+0 1 0 40199 0 0
+/images/portfolio-5.jpg
+0 2 0 13701 0 0
+/index-landing.html
+0 2 0 41942 1 0
+/page-services.html
+0 2 0 127266 0 0
+/
+0 1126 0 114780630 151 114
+/kfb_sponsorform.php
+0 298 0 1364361 0 0
+/index-construction.html
+0 2 0 158090 0 0
+/portfolio-list-2.html
+0 1 0 58377 0 0
+/email_templates/email_template_dark_cyan.html
+0 1 0 75586 0 0
+/images/slider-fullscreen-slide-2.jpg
+0 1 0 0 0 0
+/images/kfb_logo15-2.png
+0 40 0 12157 0 0
+/page-affix-sidebar.html
+0 2 0 245810 0 0
+/portfolio-grid-1-3-col.html
+0 2 0 119348 1 1
+/page-two-sidebars.html
+0 2 0 113360 1 1
+/features-headers-classic.html
+0 2 0 124186 0 0
+/portfolio-fullwidth-2-col.html
+0 2 0 115086 0 0
+/features-pricing-tables-3.html
+0 2 0 119040 0 0
+/kfb_formtemplate.php
+0 29 0 91904 0 0
+/kfb_wordtest2.docx
+0 1 0 30029 0 0
+/index-shop-2.html
+0 1 0 121036 0 0
+/bootstrap/js/bootstrap.min.js
+0 1010 0 1288560 0 0
+/kfb_template.php
+0 7 0 417859 0 0
+/images/client-7.png
+0 1 0 0 0 0
+/plugins/jquery.parallax-1.1.3.js
+0 1010 0 61915 0 0
+/images/kfb_logo15.png
+0 278 0 114851 0 0
+/components-alerts-and-callouts.html
+0 2 0 118322 0 0
+/shop-checkout-payment.html
+0 3 0 212754 0 2
+/videos/background-video-banner.webm
+0 2 0 6942524 0 0
+/portfolio-item.html
+0 2 0 125754 0 0
+/images/slider-fullscreen-slide-1.jpg
+0 1 0 0 0 0
+/kandis.css
+0 1148 0 7293 0 0
+/index-wedding.html
+0 3 0 155601 1 0
+/index-corporate-1.html
+0 2 0 122288 0 0
+/images/client-5.png
+0 1 0 0 0 0
+/shop-listing-4col.html
+0 2 0 177674 0 0
+/portfolio-grid-1-4-col.html
+0 1 0 57597 1 1
+/images/kfb_logo15-dropshadow2.png
+0 1 0 33758 0 0
+/email_templates/email_template_cool_green.html
+0 2 0 151176 0 0
+/index-education.html
+0 2 0 120412 0 0
+/kfb_volunteer.html
+0 5 0 379766 1 0
+/kfb_services4.php
+0 11 0 585078 0 0
+/kfb_donations.php
+0 287 0 17315954 0 0
+/plugins/jquery.browser.js
+0 1014 0 204462 0 0
+/videos/video-poster.jpg
+0 1 0 186006 0 0
+/kfb_template_test.php
+0 6 0 356491 0 0
+/index-one-page.html
+0 2 0 161420 0 0
+/portfolio-grid-1-2-col.html
+0 1 0 58102 1 0
+/kfb_style.css
+0 1264 0 407031 0 0
+/kfb_wordtest2.html
+0 1 0 238988 0 0
+/components-charts.html
+0 2 0 109216 0 0
+/fonts/fontello/font/fontello.woff
+0 2 0 71512 0 0
+/kfb_vbg.css
+0 562 0 8580 0 0
+/images/kfb_logo15-dropshadow.png
+0 3 0 53893 0 0
+/features-sliders-boxedwidth-default.html
+0 2 0 111338 0 0
+/page-two-sidebars-left.html
+0 2 0 122558 0 0
+/shop-listing-2col.html
+0 3 0 278277 1 0
+/bootstrap/fonts/glyphicons-halflings-regular.woff
+0 8 0 46848 0 0
+/css/custom.css
+0 1216 0 13254 0 0
+/template/intro-images/demo-25.jpg
+0 2 0 65458 0 0
+/kfb_style_3.css
+0 4 0 3449 0 0
+/images/portfolio-2.jpg
+0 2 0 13116 0 0
+/features-sliders-boxedwidth-dark.html
+0 1 0 55663 0 0
+/images/client-2.png
+0 1 0 0 0 0
+/plugins/rs-plugin/js/jquery.themepunch.tools.min.js
+0 2 0 98511 0 0
+/page-login.html
+0 2 0 105180 0 0
+/js/custom.js
+0 1016 0 11960 0 0
+/plugins/isotope/isotope.pkgd.min.js
+0 2 0 35624 0 0
+/images/portfolio-4.jpg
+0 2 0 14680 0 0
+/kfb_background.php
+0 9 0 539960 0 0
+/features-icons-glyphicons.html
+0 2 0 170110 0 1
+/template/intro-images/demo-26.jpg
+0 2 0 59304 0 0
+/features-sliders-boxedwidth-light.html
+0 2 0 111270 1 0
+/bootstrap/css/bootstrap.css.map
+0 11 0 2733626 0 0
+/page-coming-soon.html
+0 1 0 7224 0 0
+/videos/video-banner-poster.jpg
+0 2 0 211764 0 0
+/fonts/font-awesome/fonts/fontawesome-webfont.woff2
+0 479 0 1740528 0 0
+/template/intro-images/demo-27.jpg
+0 2 0 59270 0 0
+/images/kfb_logo15-dropshadow4.png
+0 704 0 733044 0 0
+/features-backgrounds.html
+0 2 0 122602 0 0
+# End Of Table - urls
+# -sites- (monthly)
+spider-100-43-90-12.yandex.com
+0 14 13 539740 2 1455030227
+/features-headers-default-dark.html
+backend.validator.nu
+0 2 2 186925 1 1454786301
+/
+c-73-254-228-181.hsd1.wa.comcast.net
+0 1358 265 13800052 4 1455032147
+/
+spider-141-8-143-179.yandex.com
+0 16 16 1146480 9 1454899302
+/portfolio-grid-2-4-col.html
+msnbot-191-232-136-14.search.msn.com
+0 1 1 59369 0 0
+-
+c-73-53-93-167.hsd1.wa.comcast.net
+0 57 41 1924316 2 1454786259
+/
+spider-100-43-91-15.yandex.com
+0 1 1 42335 0 0
+-
+msnbot-157-55-39-136.search.msn.com
+0 1 1 96343 1 1454325198
+/
+nat-service.aws.kontera.com
+0 35 24 1694634 8 1455409946
+/
+134.39.100.2
+0 43 22 1052835 2 1454940325
+/
+168.156.136.51
+0 202 167 6781870 7 1455143344
+/
+174-21-170-65.tukw.qwest.net
+0 1 1 111392 1 1454686707
+/
+google-proxy-66-249-85-144.google.com
+0 2 2 128023 1 1454632680
+/
+spider-100-43-81-155.yandex.com
+0 1 0 11812 0 0
+-
+google-proxy-66-249-84-178.google.com
+0 6 6 7794 2 1454504397
+/
+spider-100-43-85-28.yandex.com
+0 1 1 60552 1 1454899312
+/portfolio-grid-3-3-col.html
+spider-100-43-90-9.yandex.com
+0 1 1 55635 1 1454913706
+/features-sliders-boxedwidth-light.html
+c-98-203-239-164.hsd1.wa.comcast.net
+0 23 5 219132 3 1454506995
+/
+208.50.101.153
+0 1 1 7021 0 0
+-
+spider-141-8-143-198.yandex.com
+0 1 1 67912 1 1454974647
+/index-restaurant.html
+mail.mperents.com
+0 7 2 61232 1 1454502364
+/
+mail.mpe-rents.com
+0 34 32 1192748 1 1455212668
+/
+spider-141-8-143-168.yandex.com
+0 2 2 124132 2 1455081179
+/components-page-loaders-2.html
+spider-100-43-85-1.yandex.com
+0 1 1 54994 1 1454889413
+/components-text-rotators.html
+spider-100-43-91-11.yandex.com
+0 1 0 11812 0 0
+-
+spider-141-8-143-190.yandex.com
+0 2 2 121878 1 1454899305
+/portfolio-grid-3-2-col.html
+google-proxy-66-249-84-179.google.com
+0 15 15 873244 8 1455578889
+/
+spider-141-8-143-217.yandex.com
+0 1 0 11812 0 0
+-
+spider-100-43-90-11.yandex.com
+0 28 25 1337176 3 1454916103
+/features-footers-google-maps.html
+google-proxy-66-249-84-114.google.com
+0 2 2 128023 1 1454588759
+/
+c-73-181-230-17.hsd1.wa.comcast.net
+0 34 32 1190760 1 1454619319
+/
+c-71-231-215-154.hsd1.wa.comcast.net
+0 76 37 1695856 4 1454689242
+/
+spider-141-8-143-163.yandex.com
+0 4 4 241036 2 1454899318
+/portfolio-item.html
+msnbot-157-55-39-5.search.msn.com
+0 1 1 5372 0 0
+-
+spider-199-21-99-205.yandex.com
+0 97 94 6119899 8 1454890994
+/features-headers-simple.html
+msnbot-157-55-39-125.search.msn.com
+0 1 1 3193 0 0
+-
+spider-141-8-143-147.yandex.com
+0 51 51 3567062 8 1454899576
+/components-tabs-and-pills.html
+spider-141-8-143-135.yandex.com
+0 117 112 7368222 9 1454899314
+/portfolio-grid-3-3-col.html
+google-proxy-66-249-84-113.google.com
+0 1 1 0 0 0
+-
+c-73-193-74-234.hsd1.wa.comcast.net
+0 67 51 2038635 2 1454981403
+/
+node249.piercecountylibrary.org
+0 34 32 1194791 1 1454526007
+/
+146.129.252.126
+0 122 102 4261049 4 1455032595
+/
+c-73-225-188-58.hsd1.wa.comcast.net
+0 207 142 7367561 8 1455509154
+/
+134.39.101.164
+0 43 37 1575887 1 1454533031
+/
+spider-141-8-143-143.yandex.com
+0 2 2 27647 0 0
+-
+c-73-42-219-77.hsd1.wa.comcast.net
+0 44 36 1425815 1 1454809011
+/
+spider-100-43-90-10.yandex.com
+0 10 10 676544 3 1454913734
+/portfolio-grid-2-sidebar.html
+ec2-174-129-237-157.compute-1.amazonaws.com
+0 4 3 259533 1 1455051648
+/
+c-67-183-178-101.hsd1.wa.comcast.net
+0 12 2 120292 1 1454427159
+/
+spider-141-8-143-151.yandex.com
+0 5 5 388615 4 1454899320
+/
+c-73-169-187-165.hsd1.wa.comcast.net
+0 1908 303 12384367 18 1455496168
+/
+50.141.109.86
+0 27 7 110190 0 0
+-
+spider-100-43-85-23.yandex.com
+0 1 1 51867 1 1454978869
+/index-wedding.html
+mail.valleycom.org
+0 33 32 1183784 1 1455103258
+/
+c-73-225-37-71.hsd1.wa.comcast.net
+0 24108 2266 200629446 39 1455597627
+-
+spider-100-43-81-148.yandex.com
+0 3 2 89311 1 1454981672
+/index-corporate-3.html
+c-73-53-65-86.hsd1.wa.comcast.net
+0 41 34 1253980 2 1455155214
+/
+c-24-22-215-78.hsd1.wa.comcast.net
+0 7 2 61232 1 1454432055
+/
+spider-100-43-85-2.yandex.com
+0 1 1 104084 1 1455597823
+/
+google-proxy-66-249-84-177.google.com
+0 8 8 486738 4 1455469203
+/
+c-71-231-50-32.hsd1.wa.comcast.net
+0 191 84 4219199 6 1455505302
+/
+spider-100-43-85-29.yandex.com
+0 22 11 897194 6 1455569153
+/
+50.141.110.140
+0 1392 177 2388598 0 0
+-
+spider-141-8-143-218.yandex.com
+0 4 4 254776 2 1454811170
+/portfolio-grid-1-2-col.html
+134.39.101.32
+0 11453 1216 74659938 10 1455392977
+/
+spider-141-8-143-177.yandex.com
+0 10 9 383475 4 1455173866
+/components-page-loaders-4.html
+msnbot-191-232-136-26.search.msn.com
+0 1 1 59369 0 0
+-
+spider-100-43-91-2.yandex.com
+0 6 5 376028 3 1454899316
+/portfolio-grid-3-4-col.html
+75-165-106-139.tukw.qwest.net
+0 48 38 1750433 1 1455106291
+/
+spider-100-43-90-13.yandex.com
+0 2 2 64499 1 1454916119
+/portfolio-fullwidth-4-col.html
+spider-100-43-91-23.yandex.com
+0 1 1 47823 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+c-73-225-37-71.hsd1.wa.comcast.net
+0 108 38 1350130 1 1455597627
+-
+spider-100-43-85-2.yandex.com
+0 1 1 104084 1 1455597823
+/
+spider-100-43-85-29.yandex.com
+0 2 1 78499 0 0
+-
+50.141.110.140
+0 955 110 1432633 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://kaneses.greenrivertech.net/kfb_sponsorform2.php
+0 79
+http://kaneses.greenrivertech.net/kfb_style.css
+0 109
+http://kaneses.greenrivertech.net/fonts/font-awesome/css/font-awesome.css
+0 149
+http://kaneses.greenrivertech.net/background.html
+0 164
+http://kaneses.greenrivertech.net/kfb_donations.php
+0 5968
+http://kaneses.greenrivertech.net/videos/background-video-banner.webm
+0 1
+http://kaneses.greenrivertech.net/videos/background-video.webm
+0 1
+http://kaneses.greenrivertech.net/kfb_contactform.php
+0 161
+http://kaneses.greenrivertech.net/kfb_background.php
+0 182
+http://kaneses.greenrivertech.net/kfb
+0 5
+http://kaneses.greenrivertech.net/neal.css
+0 2
+http://kaneses.greenrivertech.net/success.html
+0 5
+http://kaneses.greenrivertech.net/paypal2.html
+0 6
+http://kaneses.greenrivertech.net/index2.html
+0 1
+http://kaneses.greenrivertech.net/index.php/kfb_services3.php
+0 32
+http://kaneses.greenrivertech.net/kfb_sponsorform.php
+0 2887
+http://kaneses.greenrivertech.net/videos/background-video.mp4
+0 6
+- (Direct Request)
+0 1420
+http://kaneses.greenrivertech.net/kfb_service3.php
+0 5
+http://kaneses.greenrivertech.net/kfb_volunteer2.html
+0 1
+http://tina.greenrivertech.net/305/
+0 40
+http://kaneses.greenrivertech.net/index.html
+0 35
+http://kaneses.greenrivertech.net/features-footers-google-maps.html
+0 1
+http://kaneses.greenrivertech.net/6/contact.php
+0 6
+http://kaneses.greenrivertech.net/kfb_template_test.php
+0 163
+http://kaneses.greenrivertech.net/css/style.css
+0 1
+http://kaneses.greenrivertech.net/videos/restaurant-background-video-banner.mp4
+0 4
+http://kaneses.greenrivertech.net/kfb_contact.php
+0 3
+http://kaneses.greenrivertech.net/videos/background-video-banner.mp4
+0 3
+http://kaneses.greenrivertech.net/donations.html
+0 5
+http://kaneses.greenrivertech.net/videos/restaurant-background-video-banner.webm
+0 1
+http://kaneses.greenrivertech.net/background
+0 6
+http://kaneses.greenrivertech.net/fonts/fontello/css/fontello.css
+0 2
+http://kaneses.greenrivertech.net/kfb_volunteer.php
+0 1333
+http://kaneses.greenrivertech.net/kfb_services3.php
+0 691
+http://kaneses.greenrivertech.net/kfb_apply_form.php
+0 520
+http://kaneses.greenrivertech.net/
+0 5961
+http://kaneses.greenrivertech.net/kfb_wordtest2.html
+0 1
+http://kaneses.greenrivertech.net/kfb_services.php
+0 2203
+http://kaneses.greenrivertech.net/INdex.php
+0 5
+http://kaneses.greenrivertech.net/index1.html
+0 28
+http://kaneses.greenrivertech.net/template/
+0 120
+http://kaneses.greenrivertech.net/donatetest.html
+0 12
+http://kaneses.greenrivertech.net/videos/
+0 17
+http://kaneses.greenrivertech.net/kfb_services4.php
+0 171
+http://kaneses.greenrivertech.net/helloworld.php
+0 11
+https://outlook.office.com/owa/
+0 5
+http://kaneses.greenrivertech.net/kfb_template.php
+0 195
+http://kaneses.greenrivertech.net/kfb_formtemplate.php
+0 321
+http://kaneses.greenrivertech.net/index.php
+0 18999
+http://kaneses.greenrivertech.net/kfb_volunteer.html
+0 8
+http://kaneses.greenrivertech.net/bootstrap/css/bootstrap.css
+0 2
+http://kaneses.greenrivertech.net/plugins/rs-plugin/css/settings.css
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36
+0 122
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+0 83
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6 Build/MMB29S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Sa
+0 12
+Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
+0 17
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.105
+0 6406
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36
+0 3486
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+0 5
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36
+0 151
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.1
+0 80
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36
+0 96
+Mozilla/5.0 (iPad; CPU OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1
+0 116
+ia_archiver
+0 4
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0;  Embedded Web Browser from: http://bsalsa.com/; AskTbATU2/5.8
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36
+0 58
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36
+0 150
+Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36
+0 7
+Validator.nu/LV
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Saf
+0 18
+Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+0 34
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+0 41
+Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4
+0 36
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0
+0 16
+Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google Favicon
+0 34
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+0 17259
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/601.4.4 (KHTML, like Gecko) Version/9.0.3 Safari/601.4.4
+0 74
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safar
+0 124
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36
+0 134
+Mozilla/5.0 (Linux; Android 6.0; LGLS991 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.95 Mobile Safa
+0 34
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 389
+Mozilla/5.0 (iPad; CPU OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Safari/601.1
+0 133
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+0 34
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+0 122
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+0 12
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+0 35
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+0 11486
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36
+0 1131
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36
+0 7
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+0 43
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+0 33
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36
+0 34
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

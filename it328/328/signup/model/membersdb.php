@@ -147,7 +147,7 @@ class MembersDB
 
         foreach ($results as $row){
 
-            $rowdata = $rowdata . "<tr onclick = getID(this) class='tablerow' id='"  . $row['member_id'] .  "'>";
+            $rowdata = $rowdata . "<tr data-toggle='tooltip' title='Click on row to display user profile' onclick = getID(this) class='tablerow' id='"  . $row['member_id'] .  "'>";
             $rowdata = $rowdata . "<td>" . $row['member_id'] . "</td>";
             $rowdata = $rowdata . "<td>" . $row['fname'] . " " .$row['lname'] . "</td>";
 //            $rowdata = $rowdata . "<td>" . $row['lname'] . "</td>";
@@ -198,8 +198,6 @@ class MembersDB
     }
 
 
-
-
     /**
      * Returns a member that has the given id.
      *
@@ -211,13 +209,85 @@ class MembersDB
      */
     public function memberById($member_id)
     {
-        $select = 'SELECT * FROM members WHERE member_id=:member_id';
-
+        $select = 'SELECT * FROM members WHERE member_id=' . $member_id;
         $statement = $this->_dbConnection->prepare($select);
-        $statement->bindValue(':member_id', $member_id, PDO::PARAM_INT);
-        $statement->execute();
-        $statement->fetch(PDO::FETCH_ASSOC);
-        print_r($statement);
+        $tableRows = $this->_dbConnection->query($select);
+
+      //  echo "userid= ". $tableRows[0]['member_id'] ."<br>";
+
+        foreach ($tableRows as $row)
+        {
+            $member = null;
+            if ($row['premium'] == 1)
+            {
+                $member = new \DatingSite\PremiumMember($row['fname'],
+                    $row['lname'],
+                    $row['age'],
+                    $row['gender'],
+                    $row['phone'],
+                    1);
+
+                $member->setEmail($row['email']);
+                $member->setState($row['state']);
+                $member->setBio($row['bio']);
+                $member->setSeekingGender($row['seeking']);
+                $member->setInDoorInterests($row['indoor']);
+                $member->setOutDoorInterests($row['outdoor']);
+                $member->setImageLocation($row['image']);
+            }
+            else
+            {
+                $member = new \DatingSite\Member($row['firstName'],
+                    $row['lastName'],
+                    $row['age'],
+                    $row['gender'],
+                    $row['phone'],
+                    0);
+
+                $member->setEmail($row['email']);
+                $member->setState($row['state']);
+                $member->setBio($row['bio']);
+                $member->setSeekingGender($row['seeking']);
+            }
+
+            $_SESSION['member_id'] =  $row['member_id'];
+            $_SESSION['fname'] =  $row['fname'];
+            $_SESSION['fname'] =  $row['fname'];
+            $_SESSION['age'] =  $row['age'];
+            $_SESSION['phone'] =  $row['phone'];
+            $_SESSION['gender'] =  $row['gender'];
+            $_SESSION['email'] =  $row['email'];
+            $_SESSION['state'] =  $row['state'];
+            $_SESSION['bio'] =  $row['bio'];
+            $_SESSION['seeking'] =  $row['seeking'];
+            $_SESSION['indoor'] =  $row['indoor'];
+            $_SESSION['outdoor'] =  $row['outdoor'];
+            $_SESSION['premium'] =  $row['premium'];
+
+            $_SESSION['member_id'] =  $row['member_id'];
+            $_SESSION['fname'] =  $row['fname'];
+            $_SESSION['fname'] =  $row['fname'];
+            $_SESSION['age'] =  $row['age'];
+            $_SESSION['phone'] =  $row['phone'];
+            $_SESSION['gender'] =  $row['gender'];
+            $_SESSION['email'] =  $row['email'];
+            $_SESSION['state'] =  $row['state'];
+            $_SESSION['bio'] =  $row['bio'];
+            $_SESSION['seeking'] =  $row['seeking'];
+            $_SESSION['indoor'] =  $row['indoor'];
+            $_SESSION['outdoor'] =  $row['outdoor'];
+            $_SESSION['premium'] =  $row['premium'];
+        }
+        $rows = array();
+
+//        $rowdata = "";
+//        $statement = $this->_dbConnection->prepare($select);
+//        $statement->bindValue(':member_id', $member_id, PDO::PARAM_INT);
+//        $statement->execute();
+//        $statement->fetch(PDO::FETCH_ASSOC);
+        //print_r($results);
+
+        return $member;
     }
     
 

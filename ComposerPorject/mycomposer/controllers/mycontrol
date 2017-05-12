@@ -1,0 +1,27 @@
+<!--
+Neal Noble
+IT426
+Assignment: MVC F.A.T Free in class example
+Instructor Josh Archer
+Dec 2016
+-->
+
+<?php
+
+    class practiceController
+    {
+        public function showHome()
+        {
+            echo "you are at home";
+        }
+
+        public function showAboutUs()
+        {
+            echo "you are about us";
+        }
+        public function showSiteMap()
+        {
+            echo "you are at site map";
+        }
+    }
+?>

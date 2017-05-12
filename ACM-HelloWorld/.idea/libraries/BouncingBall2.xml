@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BouncingBall2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/greenriver/edu/it/BouncingBall.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

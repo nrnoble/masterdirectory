@@ -1,0 +1,44 @@
+[18-Apr-2017 21:17:10 America/Chicago] PHP Fatal error:  Class 'Pet' not found in /home/tina/public_html/328/mypets/pages/myPets.php on line 6
+[18-Apr-2017 21:17:10 America/Chicago] Fatal error: Class 'Pet' not found
+[18-Apr-2017 21:17:10 America/Chicago] [328/mypets/pages/myPets.php:6] 
+[18-Apr-2017 21:17:36 America/Chicago] PHP Fatal error:  Class 'Pet' not found in /home/tina/public_html/328/mypets/pages/myPets.php on line 6
+[18-Apr-2017 21:17:36 America/Chicago] Fatal error: Class 'Pet' not found
+[18-Apr-2017 21:17:36 America/Chicago] [328/mypets/pages/myPets.php:6] 
+[18-Apr-2017 21:33:38 America/Chicago] Missing argument 1 for Pet::__construct(), called in /home/tina/public_html/328/mypets/pages/myPets.php on line 7 and defined
+[18-Apr-2017 21:33:38 America/Chicago] [328/mypets/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[18-Apr-2017 21:33:38 America/Chicago] [328/mypets/classes/pets.php:7] Base->{closure}()
+[18-Apr-2017 21:33:38 America/Chicago] [328/mypets/pages/myPets.php:7] Pet->__construct()
+[18-Apr-2017 21:33:38 America/Chicago] [328/mypets/vendor/bcosca/fatfree-core/base.php:2708] require('/home/tina/public_html/328/mypets/pages/myPets.php')
+[18-Apr-2017 21:33:38 America/Chicago] [328/mypets/vendor/bcosca/fatfree-core/base.php:2732] View->sandbox()
+[18-Apr-2017 21:33:38 America/Chicago] [328/mypets/index.php:16] View->render()
+[18-Apr-2017 21:33:38 America/Chicago] [328/mypets/vendor/bcosca/fatfree-core/base.php:1791] call_user_func_array()
+[18-Apr-2017 21:33:38 America/Chicago] [328/mypets/vendor/bcosca/fatfree-core/base.php:1612] Base->call()
+[18-Apr-2017 21:33:38 America/Chicago] [328/mypets/index.php:25] Base->run()
+[18-Apr-2017 22:13:46 America/Chicago] PHP Fatal error:  Class 'Dog' not found in /home/tina/public_html/328/mypets/pages/myPets.php on line 24
+[18-Apr-2017 22:13:46 America/Chicago] Fatal error: Class 'Dog' not found
+[18-Apr-2017 22:13:46 America/Chicago] [328/mypets/pages/myPets.php:24] 
+[19-Apr-2017 20:39:35 America/Chicago] Unable to open pages/form1.php
+[19-Apr-2017 20:39:35 America/Chicago] [328/mypets/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[19-Apr-2017 20:39:35 America/Chicago] [328/mypets/vendor/bcosca/fatfree-core/base.php:2740] user_error()
+[19-Apr-2017 20:39:35 America/Chicago] [328/mypets/index.php:22] View->render()
+[19-Apr-2017 20:39:35 America/Chicago] [328/mypets/vendor/bcosca/fatfree-core/base.php:1791] call_user_func_array()
+[19-Apr-2017 20:39:35 America/Chicago] [328/mypets/vendor/bcosca/fatfree-core/base.php:1612] Base->call()
+[19-Apr-2017 20:39:35 America/Chicago] [328/mypets/index.php:26] Base->run()
+[19-Apr-2017 21:04:39 America/Chicago] PHP Fatal error:  {closure}(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Pet&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/tina/public_html/328/mypets/index.php on line 44
+[19-Apr-2017 21:04:39 America/Chicago] Fatal error: {closure}(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Pet&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition 
+[19-Apr-2017 21:04:39 America/Chicago] [328/mypets/index.php:44] 
+[19-Apr-2017 21:06:14 America/Chicago] PHP Fatal error:  Call to undefined method Pet::setColor() in /home/tina/public_html/328/mypets/index.php on line 46
+[19-Apr-2017 21:06:14 America/Chicago] Fatal error: Call to undefined method Pet::setColor()
+[19-Apr-2017 21:06:14 America/Chicago] [328/mypets/index.php:46] 
+[19-Apr-2017 21:10:49 America/Chicago] PHP Fatal error:  Call to undefined method Pet::setColor() in /home/tina/public_html/328/mypets/index.php on line 46
+[19-Apr-2017 21:10:49 America/Chicago] Fatal error: Call to undefined method Pet::setColor()
+[19-Apr-2017 21:10:49 America/Chicago] [328/mypets/index.php:46] 
+[19-Apr-2017 21:16:46 America/Chicago] PHP Fatal error:  Call to a member function set() on a non-object in /home/tina/public_html/328/mypets/index.php on line 49
+[19-Apr-2017 21:16:46 America/Chicago] Fatal error: Call to a member function set() on a non-object
+[19-Apr-2017 21:16:46 America/Chicago] [328/mypets/index.php:49] 
+[19-Apr-2017 21:17:00 America/Chicago] PHP Fatal error:  Call to a member function set() on a non-object in /home/tina/public_html/328/mypets/index.php on line 49
+[19-Apr-2017 21:17:00 America/Chicago] Fatal error: Call to a member function set() on a non-object
+[19-Apr-2017 21:17:00 America/Chicago] [328/mypets/index.php:49] 
+[19-Apr-2017 21:18:12 America/Chicago] PHP Fatal error:  Call to a member function set() on a non-object in /home/tina/public_html/328/mypets/index.php on line 49
+[19-Apr-2017 21:18:12 America/Chicago] Fatal error: Call to a member function set() on a non-object
+[19-Apr-2017 21:18:12 America/Chicago] [328/mypets/index.php:49] 

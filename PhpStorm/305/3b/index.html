@@ -1,0 +1,74 @@
+<!--
+Neal Noble
+January 11th, 2016
+IT305
+Assignment 3b
+-->
+
+<!DOCTYPE html>
+  <HTML>
+    <head>
+        <meta charset="utf-8" />
+        <title>Assignment 3b Neal Noble</title>
+        
+        <style type="text/css">
+                
+
+    
+                body
+                {
+                    font-family: Courier New, Courier, monospace;
+                    letter-spacing: 0.15em;
+                    background-color:#d3d3d3;
+                }
+                
+                #text
+                {
+                    text-align: left;
+                    font-size: 8pt;
+                   
+                }
+                div
+                {
+                    margin: auto;
+                }
+
+
+                #page
+                {
+                    max-width: 500px;
+                    white-space: pre; 
+                    background-color: #ffffff;
+                    border: solid;
+                    border-width: 1px;
+                    text-align: left;
+                    margin-top: 100px;
+					padding: 10px;
+                }
+                
+
+                
+              
+            </style>        
+    </head>
+  
+  <body>
+    
+	<Div id = "page" >
+		  <form action="form-process.html" method="post">
+       First name: <input type="text" name="fname" required="required"><br>
+        Last name: <input type="text" name="lname" required="required"><br>
+           E-mail: <input type="email" name="email" autocomplete="off" required="required"><br>
+Customer Password: <input type="password" name="password" required="required"><br>
+              URL: <input type="url" name="url"><br>
+                   <input type="submit" value="Submit">
+ <p>Enter the required information</p>
+		  </form>
+	</Div>	
+
+    <script src="../bootstrap/js/jquery-2.1.4.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/script.js"></script>
+  </body>
+
+</html>

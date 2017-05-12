@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <
+    <title>Title</title>
+
+    <STYLE type="text/css">
+
+    body
+    {
+        text-align:justify;
+        font-family: courier;
+        font-size: 8pt;
+        background-color:#4A62E8;
+    }
+
+    a:hover
+    {
+        background-color: yellow;
+
+        color:blue;
+        font-size: 14pt;
+        font-weight: bold;
+    }
+
+    a
+    {
+        text-decoration: none;
+
+    }
+
+    b
+    {
+        color:blue;
+    }
+
+    th
+    {
+        text-decoration: underline;
+
+    }
+
+    tr:nth-child(even)
+    {
+        background-color: #E0E0E0;
+    }
+
+    #text
+    {
+        text-align: left;
+        font-size: 8pt;
+
+    }
+    div
+    {
+        font-size: 8pt;
+        margin: auto;
+    }
+
+    .page
+    {
+        max-width: 160px;
+        font-size: 12pt;
+        background-color: #ffffff;
+        border: solid;
+        border-width: 1px;
+        text-align: left;
+        margin-top: 100px;
+        padding: 10px;
+        box-shadow: 3px 3px 3px #0026FF
+    }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div ip = "buttons" class = "page">
+
+        <button id="redbtn" class= "button" onclick="red()">Red</button>
+        <button id="whitebtn" class= "button" onclick="white()">White</button>
+        <button id="bluebtn" class= "button" onclick="blue()">Blue</button>
+    </div>
+
+    </body>
+    </html>
+
+<script>
+
+    function red()
+    {
+
+
+        var currentBGColor = document.getElementById("redbtn").style.backgroundColor;
+       // alert(currentBGColor);
+        if (currentBGColor != "rgb(255, 0, 0)")
+        {
+            document.getElementById("redbtn").style.backgroundColor = "#FF0000";
+            //alert(document.getElementById("redbtn").style.backgroundColor)
+        }
+        else
+        {
+            document.getElementById("redbtn").style = "initial" ;
+            //alert("color being reset")
+        }
+
+    }
+
+
+    function white()
+    {
+
+        var currentBGColor = document.getElementById("whitebtn").style.backgroundColor;
+        // alert(currentBGColor);
+        if (currentBGColor != "rgb(255, 255, 255)")
+        {
+            document.getElementById("whitebtn").style.backgroundColor = "#FFFFFF";
+        }
+        else
+        {
+            document.getElementById("whitebtn").style = "initial" ;
+            //alert("color being reset")
+        }
+
+
+    }
+
+    function blue()
+    {
+
+        var currentBGColor = document.getElementById("bluebtn").style.backgroundColor;
+        // alert(currentBGColor);
+        if (currentBGColor != "rgb(0, 0, 255)")
+        {
+            document.getElementById("bluebtn").style.backgroundColor = "#0000FF";
+        }
+        else
+        {
+            document.getElementById("bluebtn").style = "initial" ;
+            //alert("color being reset")
+        }
+
+    }
+
+</script>
+
+</body>
+
+</html>

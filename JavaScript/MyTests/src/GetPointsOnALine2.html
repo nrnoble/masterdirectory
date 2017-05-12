@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Points On A line</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+
+    // document.write("test");
+    // var A = [10, 5];
+    // var B = [15, 90];
+    drawline (10,5,15,90)
+
+
+
+//    startCoordinates.left = 5;
+//    startCoordinates.top = 10;
+//    endCoordinates.left = 90;
+//    endCoordinates.top = 15;
+//    calcStraightLine (startCoordinates, endCoordinates);
+//    document.write("test");
+    // line(10,5,15,90);
+
+
+    function drawline(x0,y0,x1,y1){
+        var tmp;
+        var steep = Math.abs(y1-y0) > Math.abs(x1-x0);
+        if(steep){
+            //swap x0,y0
+            tmp=x0; x0=y0; y0=tmp;
+            //swap x1,y1
+            tmp=x1; x1=y1; y1=tmp;
+        }
+
+        var sign = 1;
+        if(x0>x1){
+            sign = -1;
+            x0 *= -1;
+            x1 *= -1;
+        }
+        var dx = x1-x0;
+        var dy = Math.abs(y1-y0);
+        var err = ((dx/2));
+        var ystep = y0 < y1 ? 1:-1;
+        var y = y0;
+
+        for(var x=x0;x<=x1;x++)
+        {
+            if(!(steep ? document.write(y + ", " + sign*x) : document.write(sign*x + ", " + y +"<BR>"))) return;
+            err = (err - dy);
+            if(err < 0)
+            {
+                y+=ystep;
+                err+=dx;
+            }
+        }
+    }
+
+    function line(x0, y0, x1, y1)
+    {
+        //document.write("test");
+        var dx = Math.abs(x1-x0);
+        var dy = Math.abs(y1-y0);
+        var sx = (x0 < x1) ? 1 : -1;
+        var sy = (y0 < y1) ? 1 : -1;
+        var err = dx-dy;
+
+        while(true){
+            //document.write("test");
+            document.write(x0 + ", " + y0 + "<br>");  // Do what you need to for this
+
+            if ((x0==x1) && (y0==y1)) break;
+            var e2 = 2*err;
+            if (e2 >-dy){ err -= dy; x0  += sx; }
+            if (e2 < dx){ err += dx; y0  += sy; }
+        }
+    }
+
+
+    function calcStraightLine (startCoordinates, endCoordinates) {
+        var coordinatesArray = new Array();
+        // Translate coordinates
+        var x1 = startCoordinates.left;
+        var y1 = startCoordinates.top;
+        var x2 = endCoordinates.left;
+        var y2 = endCoordinates.top;
+        // Define differences and error check
+        var dx = Math.abs(x2 - x1);
+        var dy = Math.abs(y2 - y1);
+        var sx = (x1 < x2) ? 1 : -1;
+        var sy = (y1 < y2) ? 1 : -1;
+        var err = dx - dy;
+        // Set first coordinates
+        coordinatesArray.push(new Coordinates(y1, x1));
+        document.write(x1 + ", " + y1 + "<BR>" )
+        // Main loop
+        while (!((x1 == x2) && (y1 == y2))) {
+            var e2 = err << 1;
+            if (e2 > -dy) {
+                err -= dy;
+                x1 += sx;
+            }
+            if (e2 < dx) {
+                err += dx;
+                y1 += sy;
+            }
+            // Set coordinates
+            coordinatesArray.push(new Coordinates(y1, x1));
+            document.write(x1 + ", " + y1 + "<BR>" )
+        }
+        // Return the result
+        return coordinatesArray;
+    }
+
+
+
+
+
+</script>
+
+</body>
+</html>

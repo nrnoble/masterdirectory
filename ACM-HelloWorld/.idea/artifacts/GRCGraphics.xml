@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GRCGraphics">
+    <output-path>$PROJECT_DIR$/out/artifacts/GRCGraphics</output-path>
+    <root id="archive" name="GRCGraphics.jar">
+      <element id="archive" name="myArchive.jar" />
+    </root>
+  </artifact>
+</component>

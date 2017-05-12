@@ -1,0 +1,13 @@
+{
+  "name":"neal/hello",
+  "authors":[
+    {
+      "name":"Neal Noble",
+      "email":"nrnoble@hotmail.com"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+
+}

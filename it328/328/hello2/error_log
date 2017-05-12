@@ -1,0 +1,46 @@
+[11-Apr-2017 21:07:59 America/Chicago] No routes specified
+[11-Apr-2017 21:07:59 America/Chicago] [328/hello2/index.php:21] Base->run()
+[11-Apr-2017 21:08:23 America/Chicago] No routes specified
+[11-Apr-2017 21:08:23 America/Chicago] [328/hello2/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[11-Apr-2017 21:08:23 America/Chicago] [328/hello2/index.php:21] Base->run()
+[11-Apr-2017 21:08:36 America/Chicago] No routes specified
+[11-Apr-2017 21:08:36 America/Chicago] [328/hello2/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[11-Apr-2017 21:08:36 America/Chicago] [328/hello2/vendor/bcosca/fatfree-core/base.php:1510] user_error()
+[11-Apr-2017 21:08:36 America/Chicago] [328/hello2/index.php:21] Base->run()
+[11-Apr-2017 21:08:47 America/Chicago] No routes specified
+[11-Apr-2017 21:08:47 America/Chicago] [328/hello2/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[11-Apr-2017 21:08:47 America/Chicago] [328/hello2/vendor/bcosca/fatfree-core/base.php:1510] user_error()
+[11-Apr-2017 21:08:47 America/Chicago] [328/hello2/index.php:21] Base->run()
+[11-Apr-2017 21:08:49 America/Chicago] No routes specified
+[11-Apr-2017 21:08:49 America/Chicago] [328/hello2/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[11-Apr-2017 21:08:49 America/Chicago] [328/hello2/vendor/bcosca/fatfree-core/base.php:1510] user_error()
+[11-Apr-2017 21:08:49 America/Chicago] [328/hello2/index.php:21] Base->run()
+[11-Apr-2017 21:44:19 America/Chicago] PHP Parse error:  syntax error, unexpected '$lastName' (T_VARIABLE), expecting ',' or ';' in /home/tina/public_html/328/hello2/pages/howdy.html on line 3
+[11-Apr-2017 21:44:19 America/Chicago] Fatal error: syntax error, unexpected '$lastName' (T_VARIABLE), expecting ',' or ';'
+[11-Apr-2017 21:44:19 America/Chicago] [328/hello2/pages/howdy.html:3] 
+[11-Apr-2017 21:50:13 America/Chicago] HTTP 404 (GET /language/french)
+[11-Apr-2017 21:50:13 America/Chicago] [328/hello2/index.php:56] Base->error()
+[11-Apr-2017 21:50:13 America/Chicago] [328/hello2/vendor/bcosca/fatfree-core/base.php:1791] call_user_func_array()
+[11-Apr-2017 21:50:13 America/Chicago] [328/hello2/vendor/bcosca/fatfree-core/base.php:1612] Base->call()
+[11-Apr-2017 21:50:13 America/Chicago] [328/hello2/index.php:61] Base->run()
+[11-Apr-2017 22:18:10 America/Chicago] HTTP 404 (GET /pets/form2)
+[11-Apr-2017 22:18:10 America/Chicago] [328/hello2/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[11-Apr-2017 22:18:10 America/Chicago] [328/hello2/index.php:67] Base->run()
+[11-Apr-2017 22:18:14 America/Chicago] HTTP 404 (POST /pets/form2)
+[11-Apr-2017 22:18:14 America/Chicago] [328/hello2/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[11-Apr-2017 22:18:14 America/Chicago] [328/hello2/index.php:67] Base->run()
+[11-Apr-2017 22:28:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tina/public_html/328/hello2/index.php:2) in /home/tina/public_html/328/hello2/index.php on line 4
+[11-Apr-2017 22:28:05 America/Chicago] Fatal error: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tina/public_html/328/hello2/index.php:2)
+[11-Apr-2017 22:28:05 America/Chicago] [328/hello2/index.php:4] 
+[11-Apr-2017 22:28:26 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tina/public_html/328/hello2/index.php:2) in /home/tina/public_html/328/hello2/index.php on line 4
+[11-Apr-2017 22:28:26 America/Chicago] Fatal error: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tina/public_html/328/hello2/index.php:2)
+[11-Apr-2017 22:28:26 America/Chicago] [328/hello2/index.php:4] 
+[11-Apr-2017 22:28:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tina/public_html/328/hello2/index.php:2) in /home/tina/public_html/328/hello2/index.php on line 4
+[11-Apr-2017 22:28:34 America/Chicago] Fatal error: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tina/public_html/328/hello2/index.php:2)
+[11-Apr-2017 22:28:34 America/Chicago] [328/hello2/index.php:4] 
+[11-Apr-2017 22:28:42 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tina/public_html/328/hello2/index.php:1) in /home/tina/public_html/328/hello2/index.php on line 3
+[11-Apr-2017 22:28:42 America/Chicago] Fatal error: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tina/public_html/328/hello2/index.php:1)
+[11-Apr-2017 22:28:42 America/Chicago] [328/hello2/index.php:3] 
+[11-Apr-2017 22:31:04 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/tina/public_html/328/hello2/pages/results.html on line 3
+[11-Apr-2017 22:31:04 America/Chicago] Fatal error: syntax error, unexpected '/'
+[11-Apr-2017 22:31:04 America/Chicago] [328/hello2/pages/results.html:3] 

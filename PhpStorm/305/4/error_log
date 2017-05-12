@@ -1,0 +1,49 @@
+[26-Jan-2016 06:04:16 America/Chicago] PHP Parse error:  syntax error, unexpected '$score' (T_VARIABLE), expecting ',' or ';' in /home/nnoble/public_html/4/4b_practice.php on line 78
+[26-Jan-2016 06:06:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$score' (T_VARIABLE), expecting ',' or ';' in /home/nnoble/public_html/4/4b_practice.php on line 79
+[26-Jan-2016 06:06:38 America/Chicago] PHP Parse error:  syntax error, unexpected '$score' (T_VARIABLE), expecting ',' or ';' in /home/nnoble/public_html/4/4b_practice.php on line 79
+[26-Jan-2016 06:06:58 America/Chicago] PHP Parse error:  syntax error, unexpected '$score' (T_VARIABLE), expecting ',' or ';' in /home/nnoble/public_html/4/4b_practice.php on line 79
+[26-Jan-2016 06:07:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'is' (T_STRING) in /home/nnoble/public_html/4/4b_practice.php on line 83
+[26-Jan-2016 06:14:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'is' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/4/4b_practice.php on line 79
+[26-Jan-2016 06:14:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'is' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/4/4b_practice.php on line 79
+[26-Jan-2016 06:15:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'can' (T_STRING) in /home/nnoble/public_html/4/4b_practice.php on line 107
+[26-Jan-2016 06:15:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'can' (T_STRING) in /home/nnoble/public_html/4/4b_practice.php on line 107
+[26-Jan-2016 06:15:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'can' (T_STRING) in /home/nnoble/public_html/4/4b_practice.php on line 107
+[26-Jan-2016 06:15:56 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/4/4b_practice.php on line 107
+[26-Jan-2016 06:16:29 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nnoble/public_html/4/4b_practice.php on line 107
+[26-Jan-2016 06:16:52 America/Chicago] PHP Warning:  highlight_file(4a.php): failed to open stream: No such file or directory in /home/nnoble/public_html/4/4b_practice.php on line 120
+[26-Jan-2016 06:16:52 America/Chicago] PHP Warning:  highlight_file(): Failed opening '4a.php' for highlighting in /home/nnoble/public_html/4/4b_practice.php on line 120
+[26-Jan-2016 06:16:57 America/Chicago] PHP Warning:  highlight_file(4a.php): failed to open stream: No such file or directory in /home/nnoble/public_html/4/4b_practice.php on line 120
+[26-Jan-2016 06:16:57 America/Chicago] PHP Warning:  highlight_file(): Failed opening '4a.php' for highlighting in /home/nnoble/public_html/4/4b_practice.php on line 120
+[26-Jan-2016 06:32:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'Score' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/4/4b_practice.php on line 90
+[26-Jan-2016 08:17:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/4/4b_loops.php on line 81
+[26-Jan-2016 08:17:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/4/4b_loops.php on line 81
+[26-Jan-2016 08:17:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /home/nnoble/public_html/4/4b_loops.php on line 81
+[26-Jan-2016 08:21:15 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/nnoble/public_html/4/4b_loops.php on line 81
+[26-Jan-2016 08:21:32 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/nnoble/public_html/4/4b_loops.php on line 81
+[26-Jan-2016 08:21:52 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/4/4b_loops.php on line 81
+[26-Jan-2016 08:22:15 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/4/4b_loops.php on line 82
+[26-Jan-2016 08:22:25 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/4/4b_loops.php on line 82
+[26-Jan-2016 08:22:26 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/4/4b_loops.php on line 82
+[26-Jan-2016 08:22:33 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/4/4b_loops.php on line 82
+[26-Jan-2016 08:22:34 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/4/4b_loops.php on line 82
+[26-Jan-2016 08:33:57 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/4/4b_loops.php on line 91
+[26-Jan-2016 08:34:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/nnoble/public_html/4/4b_loops.php on line 92
+[26-Jan-2016 08:46:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/nnoble/public_html/4/4b_loops.php on line 81
+[26-Jan-2016 09:16:01 America/Chicago] PHP Parse error:  syntax error, unexpected '"Film 101"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/nnoble/public_html/4/4b_associative.php on line 79
+[26-Jan-2016 09:18:09 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nnoble/public_html/4/4b_associative.php on line 81
+[26-Jan-2016 09:40:05 America/Chicago] PHP Warning:  highlight_file(4b_practice.php): failed to open stream: No such file or directory in /home/nnoble/public_html/4/4b1_conditional.php on line 144
+[26-Jan-2016 09:40:05 America/Chicago] PHP Warning:  highlight_file(): Failed opening '4b_practice.php' for highlighting in /home/nnoble/public_html/4/4b1_conditional.php on line 144
+[26-Jan-2016 09:40:08 America/Chicago] PHP Warning:  highlight_file(4b_practice.php): failed to open stream: No such file or directory in /home/nnoble/public_html/4/4b1_conditional.php on line 144
+[26-Jan-2016 09:40:08 America/Chicago] PHP Warning:  highlight_file(): Failed opening '4b_practice.php' for highlighting in /home/nnoble/public_html/4/4b1_conditional.php on line 144
+[26-Jan-2016 09:43:03 America/Chicago] PHP Warning:  highlight_file(__File__): failed to open stream: No such file or directory in /home/nnoble/public_html/4/4b1_conditional.php on line 144
+[26-Jan-2016 09:43:03 America/Chicago] PHP Warning:  highlight_file(): Failed opening '__File__' for highlighting in /home/nnoble/public_html/4/4b1_conditional.php on line 144
+[26-Jan-2016 09:43:14 America/Chicago] PHP Warning:  highlight_file(__file__): failed to open stream: No such file or directory in /home/nnoble/public_html/4/4b1_conditional.php on line 144
+[26-Jan-2016 09:43:14 America/Chicago] PHP Warning:  highlight_file(): Failed opening '__file__' for highlighting in /home/nnoble/public_html/4/4b1_conditional.php on line 144
+[26-Jan-2016 09:43:45 America/Chicago] PHP Warning:  highlight_file(__FILE__): failed to open stream: No such file or directory in /home/nnoble/public_html/4/4b1_conditional.php on line 144
+[26-Jan-2016 09:43:45 America/Chicago] PHP Warning:  highlight_file(): Failed opening '__FILE__' for highlighting in /home/nnoble/public_html/4/4b1_conditional.php on line 144
+[26-Jan-2016 09:46:14 America/Chicago] PHP Warning:  highlight_file(__file__): failed to open stream: No such file or directory in /home/nnoble/public_html/4/4a.php on line 116
+[26-Jan-2016 09:46:14 America/Chicago] PHP Warning:  highlight_file(): Failed opening '__file__' for highlighting in /home/nnoble/public_html/4/4a.php on line 116
+[26-Jan-2016 09:46:52 America/Chicago] PHP Warning:  highlight_file(__file__): failed to open stream: No such file or directory in /home/nnoble/public_html/4/4a_strings.php on line 116
+[26-Jan-2016 09:46:52 America/Chicago] PHP Warning:  highlight_file(): Failed opening '__file__' for highlighting in /home/nnoble/public_html/4/4a_strings.php on line 116
+[26-Jan-2016 09:47:30 America/Chicago] PHP Warning:  highlight_file(__file__): failed to open stream: No such file or directory in /home/nnoble/public_html/4/4a_strings.php on line 116
+[26-Jan-2016 09:47:30 America/Chicago] PHP Warning:  highlight_file(): Failed opening '__file__' for highlighting in /home/nnoble/public_html/4/4a_strings.php on line 116

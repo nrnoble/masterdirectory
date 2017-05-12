@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="php@6db556d7-6114-4859-99ab-1e8be4da1b4a">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$/328/signup" remote-root="/home/nnoble/public_html/328/signup" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>

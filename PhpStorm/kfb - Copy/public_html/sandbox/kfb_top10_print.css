@@ -1,0 +1,10 @@
+@media print
+{
+  h1{
+   text-align:center;
+   color:orange;
+  }
+   textarea{
+      text-align:center;
+   }
+}

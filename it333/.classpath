@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="nrnoble/com/" kind="src" path="bubblesort/src"/>
+	<classpathentry kind="src" path="bubblesort/src/nrnoble/com"/>
+	<classpathentry kind="src" path="linkedList/src"/>
+	<classpathentry kind="src" path="Sorting/src"/>
+	<classpathentry kind="src" path="UniqueListAssignment/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Sorting/out/production/Sorting"/>
+</classpath>

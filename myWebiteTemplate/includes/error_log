@@ -1,0 +1,2 @@
+[11-Mar-2016 18:05:30 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/nnoble/public_html/9/includes/process_mail.php on line 51
+[11-Mar-2016 18:05:30 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/nnoble/public_html/9/includes/process_mail.php on line 54

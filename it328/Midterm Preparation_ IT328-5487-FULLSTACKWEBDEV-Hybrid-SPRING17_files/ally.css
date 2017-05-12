@@ -1,0 +1,108 @@
+/**
+ * Copyright (c) 2016 "Fronteer LTD". All rights reserved.
+ */
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+body.ally-instructor-feedback-active,
+body.ally-accessible-versions-active {
+    overflow: hidden;
+}
+
+.ally-iframe-mask {
+    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* Loading icon */
+.ally-iframe-mask > img {
+    animation: spin 1s linear infinite;
+    height: 80px;
+    margin: auto;
+    opacity: 1;
+    outline: none;
+    transition: opacity 0.2s linear;
+    width: 80px;
+}
+
+.ally-iframe-mask.ally-iframe-active > img {
+    opacity: 0;
+}
+
+/* Close button */
+.ally-iframe-mask button {
+    /* Note: Needs to be in line with the X in the instructor feedback sidebar */
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    top: 5px;
+}
+
+.ally-iframe-mask button > img {
+    /* Note: Needs to be in line with the X in the instructor feedback sidebar */
+    height: auto;
+    width: 36px;
+}
+
+.ally-iframe-mask > .ally-iframe {
+    display: none;
+}
+
+.ally-iframe-mask.ally-iframe-active > .ally-iframe {
+    display: block;
+}
+
+.ally-iframe-mask,
+.ally-iframe {
+    border: none;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 2147483647;
+}
+
+/* SEIZURE GUARD */
+
+.ally-image-seizure-guard {
+    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+
+    /* Relative to the score indicator. This must be lower */
+    z-index: 1;
+}
+
+.ally-image-seizure-guard > button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.ally-image-seizure-guard > button > img {
+    height: 30%;
+
+    /* Override canvas inline styles that seem to dynamically get dropped onto images */
+    max-height: 100px !important;
+    max-width: 100px !important;
+    min-height: 36px !important;
+    min-width: 36px !important;
+    width: 30%;
+}

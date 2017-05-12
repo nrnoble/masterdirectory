@@ -1,0 +1,154 @@
+
+.mynavbar {
+    min-height: 20px;
+    padding: 10px;
+    /*margin-bottom: 20px;*/
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    /*width: 100%;*/
+    -moz-box-shadow: 2px 2px 2px #999;
+    -webkit-box-shadow: 2px 2px 2px #999;
+    box-shadow: 1px 1px 1px #999;
+}
+
+
+
+.gender{
+    margin: 10px 0 10px  -10px;
+}
+
+
+.box {
+    position:relative;
+}
+
+.nextButton
+{
+    position: relative;
+    top: 50px;
+    right: 80px;
+}
+
+
+.infopagenextbutton
+{
+    position: relative;
+    top: 310px;
+    right: -14px;
+}
+
+
+
+.profilepagenextbutton
+{
+    position: relative;
+    top: 35px;
+    right: -4px;
+}
+/*hr { margin: 10px 0 10px 0; }*/
+.interestNextButton
+{
+    position: relative;
+    top: 1px;
+    right: 15px;
+}
+
+
+.boldText{
+    font-weight: bold;
+}
+
+hr {
+    margin: 10px 0 10px 0;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 91%;
+    background-color:lightgrey;
+    height: 1px;
+}
+/*how to place button in lower right corner adopted from http://stackoverflow.com/questions/3956043/css-how-to-position-element-in-lower-right*/
+.bet_time {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+pre {
+    display: block;
+    padding: 9px;
+    font-size: 12px;
+    margin: 27px 10px 20px;
+    width: 100%;
+
+    line-height: 17px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    background-color: #f5f5f5;
+    border: 2px solid #ccc;
+
+    border-radius: 5px;
+}
+
+
+
+.myborder {
+    min-height: 20px;
+    padding: 5px;
+    /*background-color: #f5f5f5;*/
+    /*border: 1px solid #e3e3e3;*/
+
+    border-bottom: 1px solid #e3e3e3;
+    /*border-left: 1px solid #e3e3e3;*/
+    /*margin-top: -1px;*/
+    /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);*/
+    /*box-shadow: inset 0 1px 1px rgba(0,0,0,.05);*/
+}
+
+.box1{
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+}
+
+.nobottomborder{
+    border-bottom: solid #e3e3e3;
+}
+
+.notopborder{
+    border-top: solid #e3e3e3;
+}
+
+.mycenter {
+    text-align: center;
+}
+
+.alignright{
+    float:right;
+}
+
+.tabledata{
+    font-family: Verdana;
+    font-size: 9pt;
+}
+
+.tablePhoneColumn
+{
+    width: 70px;
+}
+
+.tableAgeColumn
+ {
+     width: 1px;
+ }
+
+.tableIdColumn
+{
+    float: left;
+    width: 1px;
+}
+
+.tableNameColumn
+{
+
+    width: 90px;
+}

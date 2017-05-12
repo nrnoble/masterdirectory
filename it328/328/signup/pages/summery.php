@@ -72,15 +72,16 @@
 
                         </div>
                         <div class="HomePageIndent col-md-5" >
-                            <?php if( $membership == 1) : ?>
-                                <img src=" <?= $_SESSION['imagePath'] ?>" alt="placeholder">
+                            <?php if( $membership == 1 && $edit == 1) : ?>
+                                <img src=" <?= $imagePath ?>" alt="placeholder">
                                 <form action="/328/signup/upload" method="post" enctype="multipart/form-data">
                                     <label class="control-label">Change your profile picture</label>
                                     <input type="file" name="fileToUpload" id="fileToUpload" class="btn btn-primary inline">
                                     <input type="submit" id="idimageSummit" class="inline btn btn-primary" value="Upload Image" name="submit">
                                 </form>
                             <?php else : ?>
-                                <img src="http://nnoble.greenrivertech.net/328/signup/images/placeholder.png" alt="placeholder">
+<!--                                <img src="http://nnoble.greenrivertech.net/328/signup/images/placeholder.png" alt="placeholder">-->
+                                <img src=" <?= $imagePath ?>" alt="placeholder">
                             <?php endif; ?>
                             <span class="boldText">Biography</span>
                             <div >

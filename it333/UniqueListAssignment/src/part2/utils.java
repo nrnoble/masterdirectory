@@ -3,8 +3,14 @@ package part2;
 import java.util.Iterator;
 
 /**
- * Created by Neal on 4/20/2017.
- */
+ * Created by Neal on 4/20/2017./*
+  * Neal Noble
+  * April 2017
+  * Debugging tools for linked list
+  * Instructor: Josh Archer
+  */
+
+
 public class Utils
 {
     public static boolean debugging = java.lang.management.ManagementFactory.getRuntimeMXBean().

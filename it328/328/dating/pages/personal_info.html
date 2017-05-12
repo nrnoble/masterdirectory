@@ -1,0 +1,102 @@
+<!--
+    Name: Marlene Leano
+    Date: April 16, 2017
+    URL: mleano.greenrivertech.net/IT328/dating/pages/personal_info.html
+    Personal Info form for my dating website
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Dating Website</title>
+        
+        <!--Bootstrap-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <!--Link my styles-->
+        <link href="./styles/formstyles.css" rel="stylesheet">        
+    </head>
+    
+    <body>           
+        <!--The navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="http://mleano.greenrivertech.net/IT328/dating/">My Dating Website</a></li>
+            </ul>
+        </nav>
+        
+        <!--Form Panel-->
+        <form action="./profile" method="post">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h1>Personal Information</h1>
+                    <hr>
+                    
+                    
+                    <!--Personal Information Form-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="form-group">
+                                     <label for="firstname">First Name</label>
+                                    <input type="text" required class="form-control" name="firstname" id="firstname">
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastname">Last Name</label>
+                                    <input type="text" required class="form-control" name="lastname" id="lastname">
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastname">Age</label>
+                                    <input type="number" required class="form-control" name="age" id="age" min="18" max="110">
+                                </div>
+                                <div>
+                                    <p class="radio-checked"><b>Gender</b></p>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="gender" value="Male" checked="checked">Male
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="gender" value="Female">Female
+                                    </label>
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" required class="form-control" name="phone" id="phone">
+                                </div>
+                                <div class="checkbox">
+                                    <p class="radio-checked"><b>Premium Membership</b></p>
+                                    <label><input type="checkbox" name="premium-member" value="premium">Sign me up for a Premium Account</label>
+                                </div>
+                            </div> <!--End input fields-->
+                    
+                            <!--The side note-->
+                            <div class="col-md-3">
+                                <aside>
+                                    <p>
+                                        <b>Note:</b> All information entered is protected by our <a href="">privacy policy</a>.
+                                        Profile information can only be viewed by others with your permission.
+                                    </p>
+                                </aside>
+                            </div> <!--End side note-->
+                    
+                        </div>
+                    </div> <!--End first container-->
+                    
+                    <!--Next button-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12" id="button">
+                                    <button type="submit" class="btn btn-primary">Next ></button>
+                            </div>
+                        </div>
+                    </div> <!--End Next button-->
+                    
+                </div> 
+            </div> 
+        </form> <!--End form panel-->    
+    </body>
+</html>
