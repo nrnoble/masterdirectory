@@ -27,16 +27,24 @@
 function countingbs() {
 
     var testStr1 = "Black and Brown Bears";
+    var char = "B";
     var count =  countingBs(testStr1);
-    var comment = "There are " + count + " characters of 'B's in the string: '" + testStr1 +"'";
-    console.log(comment);
+    console.log ("countingBs returned a count of: " + count);
+    unitTest (testStr1,char);
 
     var testStr2 = "01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100";
     var char = "1";
-    count =  countChar(testStr2,char);
-    comment = "There are " + count + " characters of '" + char + "'s in the string: '" + testStr2 +"'";
+    unitTest (testStr2,char);
+}
+
+function unitTest(testStr,char)
+{
+    count =  countChar(testStr,char);
+    comment = "There are " + count + " characters of '" + char + "'s in the string: '" + testStr +"'";
     console.log(comment);
 }
+
+
 
 
 /**
@@ -55,7 +63,6 @@ function countingBs(str) {
  * @param character a single ascii character that is to be counted
  * @returns Interger number of "B" in the string.
  */
-
 function countChar(str,character)
 {
     var count = 0;
