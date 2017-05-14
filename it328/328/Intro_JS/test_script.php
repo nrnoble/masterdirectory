@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="intro.js"></script>
+    <script src="fizzBizz.js"></script>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
