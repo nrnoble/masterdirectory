@@ -10,13 +10,15 @@
 <head>
     <script src="intro.js"></script>
     <script src="FizzBuzz.js"></script>
+    <script src="countingbs.js"></script>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 <script>
-    intro();
-    main();
+   // intro();
+   //   fizzBuzz();
+    countingbs();
 </script>
 </body>
 </html>

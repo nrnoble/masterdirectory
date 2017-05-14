@@ -14,7 +14,7 @@ var FIZZ_BUZZ = FIZZ + BUZZ;
 var BUZZFACTOR = 5;
 var FIZZFACTOR = 3;
 
-function main()
+function fizzBuzz()
 {
     for (var idx = 1; idx <=100 ; idx++)
     {
