@@ -16,8 +16,8 @@
 </head>
 <body>
 <script>
-   // intro();
-   //   fizzBuzz();
+    intro();
+    fizzBuzz();
     countingbs();
 </script>
 </body>

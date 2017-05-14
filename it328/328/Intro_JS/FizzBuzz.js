@@ -6,8 +6,6 @@
  * Instructor: Tina Ostrander
  */
 
-
-
 var FIZZ = "Fizz";
 var BUZZ = "Buzz";
 var FIZZ_BUZZ = FIZZ + BUZZ;
@@ -85,11 +83,6 @@ function getFizz(num) {
  */
 function getBuzz(num){
 
-    // var result = isFizzBuzz(num);
-    // if (result != "") {
-    //     return result;
-    // }
-    
     if (isDevisible(num,BUZZFACTOR)) {
         return BUZZ;
     }

@@ -6,11 +6,10 @@
  * Instructor: Tina Ostrander
  */
 
-
 // Instructions:
 // 3) Write just the countBs function (and the code needed to test it) described on page 56 ("Bean Counting")
-// in your text.
-
+// 4) Write the countChar function (and the code needed to test it) described on page 56 ("Bean Counting") in your text.
+// 5) Rewrite countBs to use countChar.
 
 // Bean counting
 // You can get the Nth character, or letter, from a string by writing "string". harAt(N), similar to
@@ -32,21 +31,30 @@ function countingbs() {
     var comment = "There are " + count + " characters of 'B's in the string: '" + testStr1 +"'";
     console.log(comment);
 
-    var testStr2 = "1011001110100101";
+    var testStr2 = "01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100";
     var char = "1";
     count =  countChar(testStr2,char);
     comment = "There are " + count + " characters of '" + char + "'s in the string: '" + testStr2 +"'";
     console.log(comment);
-
-
 }
 
 
-function countingBs(str)
-{
+/**
+ * Count the number of uppercase "B" there are in a string.
+ * @param str input string.
+ * @returns Interger number of "B" in the string.
+ */
+function countingBs(str) {
     return countChar (str,"B");
 }
 
+
+/**
+ * Count the number of a specific ascii character there are in the string
+ * @param str input string.
+ * @param character a single ascii character that is to be counted
+ * @returns Interger number of "B" in the string.
+ */
 
 function countChar(str,character)
 {
