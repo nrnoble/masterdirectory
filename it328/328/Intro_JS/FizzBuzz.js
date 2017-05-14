@@ -1,3 +1,12 @@
+/**
+ * Neal Noble
+ * Course: IT 328 - Full-Stack Web Development
+ * Assignment: Intro to JS
+ * May 2017
+ * Instructor: Tina Ostrander
+ */
+
+
 
 var FIZZ = "Fizz";
 var BUZZ = "Buzz";
@@ -58,9 +67,6 @@ function getFizzBuzz (num) {
  * otherwise the original value;
  */
 function getFizz(num) {
-
-
-
 
     if (isDevisible(num,FIZZFACTOR)) {
         return FIZZ;
