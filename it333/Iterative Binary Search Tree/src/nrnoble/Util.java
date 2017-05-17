@@ -1,6 +1,7 @@
 package nrnoble;
 
 import java.io.IOException;
+import java.net.URL;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -12,6 +13,17 @@ import java.util.List;
  */
 public class Util
 {
+
+
+//    public static String getPath()
+//    {
+//        URL rootPath = getClass().getResource("");
+//        String URI=rootPath.toString().substring(9);
+//        String[] currentPath=URI.split("myjar.jar!");
+//        currentPath[0]=currentPath[0].replaceAll("%20"," ");
+//        return currentPath[0];
+//    }
+
 
     /**
      * Read a text file into to List
