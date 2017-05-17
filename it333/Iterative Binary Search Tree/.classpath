@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src/com/nrnoble"/>
+	<classpathentry kind="var" path="APPLICATION_HOME_DIR/lib/junit.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/junit"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/junit-4.12"/>
 	<classpathentry kind="output" path="out/production/Iterative Binary Search Tree"/>
 </classpath>

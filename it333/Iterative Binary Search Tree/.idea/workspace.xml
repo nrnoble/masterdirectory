@@ -4,10 +4,6 @@
     <list default="true" id="47388c18-ad38-49e9-a84c-36fbfb9887dd" name="Default" comment="Everything Done except JavaDocs">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../it328/328/blogs/classes/BlogPost.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../it328/328/blogs/model/blogsdb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nrnoble/DictionaryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nrnoble/TestClassFacade.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../D3Helper-Master" afterPath="$PROJECT_DIR$/../../D3Helper-Master" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Enigma" afterPath="$PROJECT_DIR$/../../Enigma" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/FacadePatternAssignment" afterPath="$PROJECT_DIR$/../../Java/FacadePatternAssignment" />
@@ -36,9 +32,29 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BST/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BST/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HashCodes/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HashCodes/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HastTable/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HastTable/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/azureSettings.xml" afterPath="$PROJECT_DIR$/.idea/azureSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Iterative Binary Search Tree.iml" afterPath="$PROJECT_DIR$/Iterative Binary Search Tree.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" afterPath="$PROJECT_DIR$/doc/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/doc/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/constant-values.html" afterPath="$PROJECT_DIR$/doc/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/deprecated-list.html" afterPath="$PROJECT_DIR$/doc/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/help-doc.html" afterPath="$PROJECT_DIR$/doc/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" afterPath="$PROJECT_DIR$/doc/index-files/index-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" afterPath="$PROJECT_DIR$/doc/index-files/index-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index.html" afterPath="$PROJECT_DIR$/doc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-tree.html" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-list" afterPath="$PROJECT_DIR$/doc/package-list" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nrnoble/Dictionary.java" afterPath="$PROJECT_DIR$/src/nrnoble/Dictionary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nrnoble/Util.java" afterPath="$PROJECT_DIR$/src/nrnoble/Util.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../heaps/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../heaps/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../linkedList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../linkedList/.idea/workspace.xml" />
     </list>
@@ -67,40 +83,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nrnoble/Main2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#PartII#0;class#Main2#0" expanded="false" />
-                <element signature="method#bstTests#0;class#Main2#0" expanded="false" />
-                <element signature="e#8583#8591#0" expanded="true" />
-                <element signature="method#bstSymTableTests2#0;class#Main2#0" expanded="false" />
-                <element signature="method#bstSymTableTests#0;class#Main2#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dictionary.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dictionary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nrnoble/Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#928#929#0" expanded="true" />
                 <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#4439#4440#0" expanded="true" />
-                <element signature="e#4519#4520#0" expanded="true" />
-                <element signature="e#5365#5366#0" expanded="true" />
-                <element signature="e#5413#5414#0" expanded="true" />
-                <element signature="e#5637#5638#0" expanded="true" />
-                <element signature="e#5687#5688#0" expanded="true" />
-                <element signature="e#6297#6298#0" expanded="true" />
-                <element signature="e#6339#6340#0" expanded="true" />
+                <element signature="method#Dictionary#1;class#Dictionary#0" expanded="false" />
+                <element signature="method#sortCheck#0;class#Dictionary#0" expanded="false" />
+                <element signature="e#4646#4647#0" expanded="true" />
+                <element signature="e#4726#4727#0" expanded="true" />
+                <element signature="e#5572#5573#0" expanded="true" />
+                <element signature="e#5620#5621#0" expanded="true" />
+                <element signature="e#5844#5845#0" expanded="true" />
+                <element signature="e#5894#5895#0" expanded="true" />
+                <element signature="e#6504#6505#0" expanded="true" />
+                <element signature="e#6546#6547#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +110,7 @@
       <file leaf-file-name="DictionaryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nrnoble/DictionaryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="-374">
               <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
               <folding />
             </state>
@@ -135,16 +136,6 @@
                 <element signature="e#5523#5722#0" expanded="true" />
                 <element signature="e#5721#5722#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/Program Files (x86)/JetBrains/IntelliJ IDEA 2016.3.5/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -179,7 +170,7 @@
       <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nrnoble/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="935">
               <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
@@ -189,10 +180,41 @@
       <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nrnoble/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="272">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nrnoble/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="300" column="9" selection-start-line="300" selection-start-column="9" selection-end-line="300" selection-end-column="9" />
+              <folding>
+                <element signature="method#bstSymTableTests2#0;class#Main#0" expanded="false" />
+                <element signature="method#bstSymTableTests#0;class#Main#0" expanded="false" />
+                <element signature="method#bstTests#0;class#Main#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nrnoble/Main2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2227">
+              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#PartII#0;class#Main2#0" expanded="false" />
+                <element signature="method#bstTests#0;class#Main2#0" expanded="false" />
+                <element signature="e#8583#8591#0" expanded="true" />
+                <element signature="method#bstSymTableTests2#0;class#Main2#0" expanded="false" />
+                <element signature="method#bstSymTableTests#0;class#Main2#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -238,13 +260,13 @@
         <option value="$PROJECT_DIR$/src/nrnoble/Main.java" />
         <option value="$PROJECT_DIR$/src/nrnoble/Entry.java" />
         <option value="$PROJECT_DIR$/src/nrnoble/smalldictionary.txt" />
-        <option value="$PROJECT_DIR$/src/nrnoble/Util.java" />
         <option value="$PROJECT_DIR$/src/nrnoble/Utilities.java" />
         <option value="$PROJECT_DIR$/src/nrnoble/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/nrnoble/Dictionary.java" />
         <option value="$PROJECT_DIR$/src/nrnoble/Main2.java" />
         <option value="$PROJECT_DIR$/src/nrnoble/TestClassFacade.java" />
         <option value="$PROJECT_DIR$/src/nrnoble/DictionaryTest.java" />
+        <option value="$PROJECT_DIR$/src/nrnoble/Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/nrnoble/Util.java" />
       </list>
     </option>
   </component>
@@ -862,7 +884,7 @@
       <workItem from="1494060038999" duration="13782000" />
       <workItem from="1494227889700" duration="17682000" />
       <workItem from="1494983071800" duration="7905000" />
-      <workItem from="1494996947091" duration="35665000" />
+      <workItem from="1494996947091" duration="37381000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 99% complete">
       <created>1494036171494</created>
@@ -920,7 +942,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495025321474</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="unit test added">
+      <created>1495032718938</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1495032718938</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -956,7 +985,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149964000" />
+    <option name="totallyTimeSpent" value="151680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -971,14 +1000,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="HDInsight Spark Submission" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33186328" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33186328" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Azure Activity Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3107676" sideWeight="0.49007633" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3107676" sideWeight="0.49007633" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107676" sideWeight="0.50992364" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1003,7 +1032,8 @@
     <MESSAGE value="Start of Part #2 of tree assignment." />
     <MESSAGE value="Everything Done except JavaDocs" />
     <MESSAGE value="added user menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="added user menu" />
+    <MESSAGE value="unit test added" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit test added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1034,7 +1064,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/nrnoble/Dictionary.java</url>
-          <line>99</line>
+          <line>118</line>
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
@@ -1339,19 +1369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nrnoble/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="300" column="9" selection-start-line="300" selection-start-column="9" selection-end-line="300" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#bstSymTableTests2#0;class#Main#0" expanded="false" />
-            <element signature="method#bstSymTableTests#0;class#Main#0" expanded="false" />
-            <element signature="method#bstTests#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Program Files (x86)/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/nio/fs/WindowsException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -1391,39 +1408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nrnoble/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nrnoble/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#PartII#0;class#Main2#0" expanded="false" />
-            <element signature="method#bstTests#0;class#Main2#0" expanded="false" />
-            <element signature="e#8583#8591#0" expanded="true" />
-            <element signature="method#bstSymTableTests2#0;class#Main2#0" expanded="false" />
-            <element signature="method#bstSymTableTests#0;class#Main2#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nrnoble/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1480,7 +1464,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nrnoble/DictionaryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="-374">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding />
         </state>
@@ -1488,20 +1472,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nrnoble/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#928#929#0" expanded="true" />
             <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#4439#4440#0" expanded="true" />
-            <element signature="e#4519#4520#0" expanded="true" />
-            <element signature="e#5365#5366#0" expanded="true" />
-            <element signature="e#5413#5414#0" expanded="true" />
-            <element signature="e#5637#5638#0" expanded="true" />
-            <element signature="e#5687#5688#0" expanded="true" />
-            <element signature="e#6297#6298#0" expanded="true" />
-            <element signature="e#6339#6340#0" expanded="true" />
+            <element signature="method#Dictionary#1;class#Dictionary#0" expanded="false" />
+            <element signature="method#sortCheck#0;class#Dictionary#0" expanded="false" />
+            <element signature="e#4646#4647#0" expanded="true" />
+            <element signature="e#4726#4727#0" expanded="true" />
+            <element signature="e#5572#5573#0" expanded="true" />
+            <element signature="e#5620#5621#0" expanded="true" />
+            <element signature="e#5844#5845#0" expanded="true" />
+            <element signature="e#5894#5895#0" expanded="true" />
+            <element signature="e#6504#6505#0" expanded="true" />
+            <element signature="e#6546#6547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nrnoble/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nrnoble/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nrnoble/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="300" column="9" selection-start-line="300" selection-start-column="9" selection-end-line="300" selection-end-column="9" />
+          <folding>
+            <element signature="method#bstSymTableTests2#0;class#Main#0" expanded="false" />
+            <element signature="method#bstSymTableTests#0;class#Main#0" expanded="false" />
+            <element signature="method#bstTests#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nrnoble/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#PartII#0;class#Main2#0" expanded="false" />
+            <element signature="method#bstTests#0;class#Main2#0" expanded="false" />
+            <element signature="e#8583#8591#0" expanded="true" />
+            <element signature="method#bstSymTableTests2#0;class#Main2#0" expanded="false" />
+            <element signature="method#bstSymTableTests#0;class#Main2#0" expanded="false" />
           </folding>
         </state>
       </provider>
