@@ -50,6 +50,25 @@ public class Utilities
     }
 
 
+    // Return a specific number of words from daw dictionary data file.
+    // 1 - 86,000
+    public static List<Entry> getWords(int numberOfWords, String path) throws IOException
+    {
+        List<String> lines = readTextFile(path);
+        List<Entry> sublist = new ArrayList<>();
+        int counter = 0;
+
+        while (counter < numberOfWords  && counter < lines.size())
+        {
+            String line = lines.get(counter++);
+            sublist.add(parseLines(line));
+        }
+
+        return sublist;
+    }
+
+
+
     public static List<Entry> getEntriesFromFile(String path) throws IOException
     {
         List<Entry> entryList = new ArrayList<>();
@@ -67,8 +86,6 @@ public class Utilities
 
     public static List<Entry> getDictionaryData()
     {
-
-
         try
         {
             return getEntriesFromFile("E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt");
@@ -76,7 +93,6 @@ public class Utilities
         {
             e.printStackTrace();
         }
-
         return null;
     }
 }

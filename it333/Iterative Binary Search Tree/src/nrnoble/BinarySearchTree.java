@@ -54,6 +54,14 @@ public class BinarySearchTree<T extends Comparable<T>>
         while (true)
         {
             int compare = currentNode.data.compareTo(element);
+
+           if (compare == 0)
+           {
+               currentNode.data = node.data;
+               return true;
+           }
+
+
             if (compare > 0)
             {
                 if (currentNode.left != null)

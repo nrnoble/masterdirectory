@@ -72,7 +72,7 @@ public class Util
     public static List<Entry> getDictionaryData() throws IOException
     {
 
-        return getEntriesFromFile("dictionary.txt");
+        return getEntriesFromFile("smalldictionary.txt");
 //
 //        try                          //  E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt
 //        {                            //  E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt

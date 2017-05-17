@@ -60,7 +60,6 @@ import java.util.List;
                     System.out.print(i + ", ");
                 }
                 this.updateDictionary (words[i],definitions[i]);
-
             }
         }
 
@@ -82,8 +81,8 @@ import java.util.List;
             while(itr.hasNext())
             {
                 Entry entry = (Entry)itr.next();
-                words[count] = entry.getKey();
-                definitions[count] = entry.getValue();
+                words[count] = entry.getKey().toLowerCase().trim();
+                definitions[count] = entry.getValue().toLowerCase().trim();
                 count++;
             }
 
@@ -97,7 +96,7 @@ import java.util.List;
             String word = words[0];
             for (int i = 1; i < words.length; i++)
             {
-                if (word.compareTo(words[i]) == 1)
+                if (word.toLowerCase().trim().compareTo(words[i].toLowerCase().trim()) == 1)
                 {
                     return false;
                 }
@@ -118,7 +117,7 @@ import java.util.List;
          */
         public boolean updateDictionary(String word, String definition)
         {
-            this.words.put(word, definition);
+            this.words.put(word.toLowerCase().trim(), definition.toLowerCase().trim());
             return true;
         }
 
@@ -131,7 +130,7 @@ import java.util.List;
          */
         public boolean hasWord(String word)
         {
-            return this.words.containsKey(word);
+            return this.words.containsKey(word.toLowerCase().trim());
         }
 
 
@@ -144,7 +143,12 @@ import java.util.List;
          */
         public String define(String word)
         {
-            return this.words.get(word);
+            if (this.words.get(word.toLowerCase().trim()) == null)
+            {
+                return "";
+            }
+
+            return this.words.get(word.toLowerCase().trim());
         }
 
 

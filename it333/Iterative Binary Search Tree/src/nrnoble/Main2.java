@@ -1,12 +1,13 @@
 package nrnoble;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 
 import static nrnoble.Utilities.getDictionaryData;
-
+import static nrnoble.Utilities.getWords;
 
 
 /**
@@ -21,7 +22,7 @@ public class Main2
 
 
 
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
         System.out.println("Verification Tests");
 //        bstTests();
@@ -39,11 +40,60 @@ public class Main2
 
 
 
-    private static void PartII()
+    private static void PartII() throws IOException
     {
 
             //List<Entry> dictionaryData = getDictionaryData();
-            Dictionary dictionary = new Dictionary(getDictionaryData());
+            Dictionary dictionary = new Dictionary(getWords(10000,"E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt"));
+            System.out.println("dictionary size(): " + dictionary.size());
+            System.out.println("dictionary size(): " + dictionary.size());
+            System.out.println("dictionary.hasWord(\"abhorrible\"): " + dictionary.hasWord("abhorrible"));
+            System.out.println("dictionary.define(\"abhorrible\"): " + dictionary.define("abhorrible"));
+            System.out.println("dictionary.define(\"store\"): " + dictionary.hasWord("store"));
+            System.out.println("dictionary.updateDictionary(\"store\", \"to keep in reserve\"): " + dictionary.updateDictionary("store", "to keep in reserve"));
+            System.out.println("dictionary.define(\"store\"): " + dictionary.hasWord("store"));
+            System.out.println("dictionary.define(\"store\"): " + dictionary.define("store"));
+            System.out.println("dictionary.size(): " + dictionary.size());
+            System.out.println("dictionary.isEmpty(): " + dictionary.isEmpty());
+            System.out.println("dictionary.clear()");
+            dictionary.clear();
+            System.out.println("dictionary.isEmpty(): " + dictionary.isEmpty());
+            System.out.println("dictionary.size(): " + dictionary.size());
+            System.out.println("dictionary.define(\"store\"): " + dictionary.hasWord("store"));
+            System.out.println("dictionary.updateDictionary(\"store\", \"to keep in reserve\"): " + dictionary.updateDictionary("store", "to keep in reserve"));
+            System.out.println("dictionary.size(): " + dictionary.size());
+            System.out.println("dictionary.updateDictionary(\"store\",  \"to keep in reserve for future use\"): " + dictionary.updateDictionary("store", "to keep in reserve for future use"));
+            System.out.println("dictionary.define(\"store\"): " + dictionary.define("store"));
+            System.out.println("dictionary.size(): " + dictionary.size());
+            System.out.println("dictionary.updateDictionary(\"store\",  \"a business that sells goods\"): " + dictionary.updateDictionary("store", "a business that sells goods"));
+            System.out.println("dictionary.define(\"store\"): " + dictionary.define("store"));
+            System.out.println("dictionary.size(): " + dictionary.size());
+            System.out.println("dictionary.updateDictionary(\"Basketball\",  \"a sport\"): " + dictionary.updateDictionary("Basketball", "a sport"));
+            System.out.println("dictionary.size(): " + dictionary.size());
+            System.out.println("dictionary.updateDictionary(\"BASKETBALL\",  \"an american sport\"): " + dictionary.updateDictionary("BASKETBALL", "an american sport"));
+            System.out.println("dictionary.size(): " + dictionary.size());
+            System.out.println("dictionary.define(\"Basketball\"): " + dictionary.define("Basketball"));
+            System.out.println("dictionary.define(\"BASKETBALL\"): " + dictionary.define("BASKETBALL"));
+            System.out.println("dictionary.updateDictionary(\"   BASKETBALL    \",  \"an american sport\"): " + dictionary.updateDictionary("   BASKETBALL   ", "an american sport that was first played December 21, 1891"));
+            System.out.println("dictionary.define(\"Basketball\"): " + dictionary.define("Basketball"));
+            System.out.println("dictionary.define(\"BASKETBALL\"): " + dictionary.define("BASKETBALL"));
+            System.out.println("dictionary.size(): " + dictionary.size());
+            System.out.println("dictionary.define(\"store\"): " + dictionary.hasWord("store"));
+            System.out.println("dictionary.define(\"Store\"): " + dictionary.hasWord("Store"));
+            System.out.println("dictionary.define(\"StORe\"): " + dictionary.hasWord("StORe"));
+            System.out.println("dictionary.define(\"StORe!\"): " + dictionary.hasWord("StORe!"));
+            System.out.println("dictionary.define(\"  store    \"): " + dictionary.hasWord("   store   "));
+
+
+
+
+
+
+
+
+
+
+
 
     }
 
