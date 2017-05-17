@@ -52,13 +52,12 @@ import java.util.List;
 
             this.words = new BSTSymbolTable();
 
-            System.out.println("words.length: " + words.length);
             for (int i = 0; i < words.length; i++)
             {
-                if ((i % 10000) == 0)
-                {
-                    System.out.print(i + ", ");
-                }
+//                if ((i % 10000) == 0)
+//                {
+//                    System.out.print(i + ", ");
+//                }
                 this.updateDictionary (words[i],definitions[i]);
             }
         }

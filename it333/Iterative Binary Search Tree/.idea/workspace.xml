@@ -4,7 +4,6 @@
     <list default="true" id="47388c18-ad38-49e9-a84c-36fbfb9887dd" name="Default" comment="Everything Done except JavaDocs">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../it328/328/blogs/classes/BlogPost.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../it328/328/blogs/model/blogsdb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nrnoble/smalldictionary.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../D3Helper-Master" afterPath="$PROJECT_DIR$/../../D3Helper-Master" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Enigma" afterPath="$PROJECT_DIR$/../../Enigma" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/FacadePatternAssignment" afterPath="$PROJECT_DIR$/../../Java/FacadePatternAssignment" />
@@ -34,11 +33,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HashCodes/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HashCodes/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HastTable/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HastTable/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nrnoble/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/nrnoble/BinarySearchTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nrnoble/Dictionary.java" afterPath="$PROJECT_DIR$/src/nrnoble/Dictionary.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nrnoble/Main2.java" afterPath="$PROJECT_DIR$/src/nrnoble/Main2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nrnoble/Util.java" afterPath="$PROJECT_DIR$/src/nrnoble/Util.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nrnoble/Utilities.java" afterPath="$PROJECT_DIR$/src/nrnoble/Utilities.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../heaps/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../heaps/.idea/workspace.xml" />
     </list>
     <ignored path="Iterative Binary Search Tree.iws" />
@@ -70,11 +66,12 @@
         <entry file="file://$PROJECT_DIR$/src/nrnoble/Main2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#PartII#0;class#Main2#0" expanded="false" />
                 <element signature="method#bstTests#0;class#Main2#0" expanded="false" />
-                <element signature="e#5041#5049#0" expanded="true" />
+                <element signature="e#8583#8591#0" expanded="true" />
                 <element signature="method#bstSymTableTests2#0;class#Main2#0" expanded="false" />
                 <element signature="method#bstSymTableTests#0;class#Main2#0" expanded="false" />
               </folding>
@@ -85,20 +82,20 @@
       <file leaf-file-name="Dictionary.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nrnoble/Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="139" column="75" selection-start-line="139" selection-start-column="75" selection-end-line="139" selection-end-column="75" />
+            <state relative-caret-position="2618">
+              <caret line="154" column="92" selection-start-line="154" selection-start-column="89" selection-end-line="154" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#928#929#0" expanded="true" />
                 <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#4496#4497#0" expanded="true" />
-                <element signature="e#4576#4577#0" expanded="true" />
-                <element signature="e#5422#5423#0" expanded="true" />
-                <element signature="e#5470#5471#0" expanded="true" />
-                <element signature="e#5694#5695#0" expanded="true" />
-                <element signature="e#5744#5745#0" expanded="true" />
-                <element signature="e#6354#6355#0" expanded="true" />
-                <element signature="e#6396#6397#0" expanded="true" />
+                <element signature="e#4439#4440#0" expanded="true" />
+                <element signature="e#4519#4520#0" expanded="true" />
+                <element signature="e#5365#5366#0" expanded="true" />
+                <element signature="e#5413#5414#0" expanded="true" />
+                <element signature="e#5637#5638#0" expanded="true" />
+                <element signature="e#5687#5688#0" expanded="true" />
+                <element signature="e#6297#6298#0" expanded="true" />
+                <element signature="e#6339#6340#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,8 +173,8 @@
       <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nrnoble/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+            <state relative-caret-position="279">
+              <caret line="91" column="28" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -236,8 +233,8 @@
         <option value="$PROJECT_DIR$/src/nrnoble/Util.java" />
         <option value="$PROJECT_DIR$/src/nrnoble/Utilities.java" />
         <option value="$PROJECT_DIR$/src/nrnoble/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/nrnoble/Main2.java" />
         <option value="$PROJECT_DIR$/src/nrnoble/Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/nrnoble/Main2.java" />
       </list>
     </option>
   </component>
@@ -769,7 +766,7 @@
       <workItem from="1494060038999" duration="13782000" />
       <workItem from="1494227889700" duration="17682000" />
       <workItem from="1494983071800" duration="7905000" />
-      <workItem from="1494996947091" duration="23577000" />
+      <workItem from="1494996947091" duration="28292000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 99% complete">
       <created>1494036171494</created>
@@ -813,11 +810,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495013512447</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Everything Done except JavaDocs">
+      <created>1495020580601</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1495020580601</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137876000" />
+    <option name="totallyTimeSpent" value="142591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -832,12 +836,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="HDInsight Spark Submission" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33186328" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33186328" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Azure Activity Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3107676" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3107676" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -888,19 +892,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/nrnoble/Main2.java</url>
-          <line>172</line>
+          <line>267</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/nrnoble/Dictionary.java</url>
-          <line>100</line>
+          <line>99</line>
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/nrnoble/Main2.java</url>
-          <line>97</line>
+          <line>192</line>
           <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
@@ -912,12 +916,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/nrnoble/Main2.java</url>
-          <line>84</line>
+          <line>174</line>
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nrnoble/Main2.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="74" />
+      <option name="time" value="75" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1334,14 +1344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nrnoble/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nrnoble/BSTSymbolTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -1361,14 +1363,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/nrnoble/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="91" column="28" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/nrnoble/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#PartII#0;class#Main2#0" expanded="false" />
             <element signature="method#bstTests#0;class#Main2#0" expanded="false" />
-            <element signature="e#5041#5049#0" expanded="true" />
+            <element signature="e#8583#8591#0" expanded="true" />
             <element signature="method#bstSymTableTests2#0;class#Main2#0" expanded="false" />
             <element signature="method#bstSymTableTests#0;class#Main2#0" expanded="false" />
           </folding>
@@ -1377,20 +1388,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nrnoble/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="139" column="75" selection-start-line="139" selection-start-column="75" selection-end-line="139" selection-end-column="75" />
+        <state relative-caret-position="2618">
+          <caret line="154" column="92" selection-start-line="154" selection-start-column="89" selection-end-line="154" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#928#929#0" expanded="true" />
             <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4576#4577#0" expanded="true" />
-            <element signature="e#5422#5423#0" expanded="true" />
-            <element signature="e#5470#5471#0" expanded="true" />
-            <element signature="e#5694#5695#0" expanded="true" />
-            <element signature="e#5744#5745#0" expanded="true" />
-            <element signature="e#6354#6355#0" expanded="true" />
-            <element signature="e#6396#6397#0" expanded="true" />
+            <element signature="e#4439#4440#0" expanded="true" />
+            <element signature="e#4519#4520#0" expanded="true" />
+            <element signature="e#5365#5366#0" expanded="true" />
+            <element signature="e#5413#5414#0" expanded="true" />
+            <element signature="e#5637#5638#0" expanded="true" />
+            <element signature="e#5687#5688#0" expanded="true" />
+            <element signature="e#6297#6298#0" expanded="true" />
+            <element signature="e#6339#6340#0" expanded="true" />
           </folding>
         </state>
       </provider>
