@@ -8,6 +8,8 @@ package nrnoble;
 */
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -21,6 +23,24 @@ import java.util.List;
 /// BSTSymbolTable<K extends Comparable<K>, V>
 public class Utilities
 {
+
+
+
+    public static String getPath2()
+    {
+        String path1 = Main.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+        String decodedPath = null;
+        try
+        {
+            decodedPath = URLDecoder.decode(path1, "UTF-8");
+        } catch (UnsupportedEncodingException e)
+        {
+            e.printStackTrace();
+        }
+        decodedPath = decodedPath.substring(1);
+        return decodedPath;
+    }
+
 
     /**
      * Read a text file into to List
@@ -39,7 +59,7 @@ public class Utilities
      * Helper function for part II of Tree assignment.
      * Parses a line into word and definition
      * @param line that contains
-     * @return Entry object with the parsed data into key\value pair
+     * @return Entry object with the parsed NodeData into key\value pair
      */
     public static Entry parseLines(String line)
     {
@@ -50,13 +70,18 @@ public class Utilities
     }
 
 
-    // Return a specific number of words from daw dictionary data file.
+    // Return a specific number of words from daw dictionary NodeData file.
     // 1 - 86,000
     public static List<Entry> getWords(int numberOfWords, String path) throws IOException
     {
         List<String> lines = readTextFile(path);
         List<Entry> sublist = new ArrayList<>();
         int counter = 0;
+
+        if (numberOfWords <= 0)
+        {
+            numberOfWords =  lines.size();
+        }
 
         while (counter < numberOfWords  && counter < lines.size())
         {
@@ -88,7 +113,7 @@ public class Utilities
     {
         try
         {
-            return getEntriesFromFile("E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt");
+            return getEntriesFromFile( nrnoble.Utilities.getPath2() + "\\nrnoble\\dictionary.txt");
         } catch (IOException e)
         {
             e.printStackTrace();

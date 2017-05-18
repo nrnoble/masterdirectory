@@ -1,198 +1,17 @@
 package nrnoble;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-
 
 import static nrnoble.Utilities.getDictionaryData;
-import static nrnoble.Utilities.getWords;
-
 
 /**
- * Created by Neal on 5/16/2017.
+ * Manual and automated tests for the BSTSymbolTable class, Binary Search Tree ckass and Bdictionary class
  */
-public class Main2
+public class Tests
 {
     private static  String indent = "      ";
-
-
-
-    public static void main(String[] args) throws IOException
-    {
- ///      System.out.println("Verification Tests");
-//        bstTests();
-//        bstSymTableTests();
-//        bstSymTableTests2();
-//        Part2Tests();
-
-//        PartII();
-
-        userLoop();
-
-
-    }
-    
-    private static void userLoop() throws IOException
-    {
-        boolean exit = false;
-        Scanner textscanner = new Scanner(System.in);
-        Dictionary dictionary = new Dictionary(getWords(1,"E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt"));
-        dictionary.clear();
-
-        while(exit == false)
-        {
-
-            // Get user selection
-            int selection = userInput();
-
-
-            // Handle user selection Load dictionary
-            if (selection == 1)
-            {
-                //List<Entry> dictionaryData = getDictionaryData();
-                System.out.print("loading....");
-                dictionary = new Dictionary(getWords(10000,"E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt"));
-                System.out.println("Done");
-
-                System.out.println("dictionary size(): " + dictionary.size() + " word definitions");
-                System.out.println();
-
-            }
-
-            // Handle user selection Word Lookup
-            if (selection == 2)
-            {
-                if (dictionary.isEmpty())
-                {
-                    System.out.println("ERROR: Please load dictionary first");
-                    System.out.println();
-                }
-                else
-                {
-                    System.out.println("Please enter a word: ");
-                    String word =  textscanner.next();
-                    if (dictionary.hasWord(word))
-                    {
-                        System.out.println("Definition: " + dictionary.define(word)) ;
-                        System.out.println();
-                        System.out.println();
-                    }
-                    else
-                    {
-                        System.out.println("Please enter a definition for \"" + word + "\": ");
-                        String definition =  textscanner.next();
-                        dictionary.updateDictionary(word,definition);
-                    }
-                }
-
-            }
-
-
-            if (selection == 3)
-            {
-                System.out.println("Thanks for viewing my dictionary!");
-                break;
-            }
-        }
-    }
-
-    
-    
-    private static int userInput() throws IOException
-    {
-        while (true)
-        {
-            try
-            {
-                System.out.println("1. Load dictionary");
-                System.out.println("2. Lookup Word");
-                System.out.println("3. Exit");
-                System.out.println("---------------------");
-                Scanner scan = new Scanner(System.in);
-                int choice = scan.nextInt();
-                if (choice == 1 || choice == 2 || choice == 3)
-                {
-                    return choice;
-                }
-
-            }
-            catch (Exception err)
-            {
-
-            }
-            System.out.println("Select 1, 2, or 3");
-            System.out.println();
-        }
-
-    }
-
-
-    private static void PartII() throws IOException
-    {
-
-            //List<Entry> dictionaryData = getDictionaryData();
-            Dictionary dictionary = new Dictionary(getWords(10000,"E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt"));
-            System.out.println("dictionary size(): " + dictionary.size());
-            System.out.println("dictionary size(): " + dictionary.size());
-            System.out.println("dictionary.hasWord(\"abhorrible\"): " + dictionary.hasWord("abhorrible"));
-            System.out.println("dictionary.define(\"abhorrible\"): " + dictionary.define("abhorrible"));
-            System.out.println("dictionary.define(\"store\"): " + dictionary.hasWord("store"));
-            System.out.println("dictionary.updateDictionary(\"store\", \"to keep in reserve\"): " + dictionary.updateDictionary("store", "to keep in reserve"));
-            System.out.println("dictionary.define(\"store\"): " + dictionary.hasWord("store"));
-            System.out.println("dictionary.define(\"store\"): " + dictionary.define("store"));
-            System.out.println("dictionary.size(): " + dictionary.size());
-            System.out.println("dictionary.isEmpty(): " + dictionary.isEmpty());
-            System.out.println("dictionary.clear()");
-            dictionary.clear();
-            System.out.println("dictionary.isEmpty(): " + dictionary.isEmpty());
-            System.out.println("dictionary.size(): " + dictionary.size());
-            System.out.println("dictionary.define(\"store\"): " + dictionary.hasWord("store"));
-            System.out.println("dictionary.updateDictionary(\"store\", \"to keep in reserve\"): " + dictionary.updateDictionary("store", "to keep in reserve"));
-            System.out.println("dictionary.size(): " + dictionary.size());
-            System.out.println("dictionary.updateDictionary(\"store\",  \"to keep in reserve for future use\"): " + dictionary.updateDictionary("store", "to keep in reserve for future use"));
-            System.out.println("dictionary.define(\"store\"): " + dictionary.define("store"));
-            System.out.println("dictionary.size(): " + dictionary.size());
-            System.out.println("dictionary.updateDictionary(\"store\",  \"a business that sells goods\"): " + dictionary.updateDictionary("store", "a business that sells goods"));
-            System.out.println("dictionary.define(\"store\"): " + dictionary.define("store"));
-            System.out.println("dictionary.size(): " + dictionary.size());
-            System.out.println("dictionary.updateDictionary(\"Basketball\",  \"a sport\"): " + dictionary.updateDictionary("Basketball", "a sport"));
-            System.out.println("dictionary.size(): " + dictionary.size());
-            System.out.println("dictionary.updateDictionary(\"BASKETBALL\",  \"an american sport\"): " + dictionary.updateDictionary("BASKETBALL", "an american sport"));
-            System.out.println("dictionary.size(): " + dictionary.size());
-            System.out.println("dictionary.define(\"Basketball\"): " + dictionary.define("Basketball"));
-            System.out.println("dictionary.define(\"BASKETBALL\"): " + dictionary.define("BASKETBALL"));
-            System.out.println("dictionary.updateDictionary(\"   BASKETBALL    \",  \"an american sport\"): " + dictionary.updateDictionary("   BASKETBALL   ", "an american sport that was first played December 21, 1891"));
-            System.out.println("dictionary.define(\"Basketball\"): " + dictionary.define("Basketball"));
-            System.out.println("dictionary.define(\"BASKETBALL\"): " + dictionary.define("BASKETBALL"));
-            System.out.println("dictionary.size(): " + dictionary.size());
-            System.out.println("dictionary.define(\"store\"): " + dictionary.hasWord("store"));
-            System.out.println("dictionary.define(\"Store\"): " + dictionary.hasWord("Store"));
-            System.out.println("dictionary.define(\"StORe\"): " + dictionary.hasWord("StORe"));
-            System.out.println("dictionary.define(\"StORe!\"): " + dictionary.hasWord("StORe!"));
-            System.out.println("dictionary.define(\"  store    \"): " + dictionary.hasWord("   store   "));
-            System.out.println("dictionary.define(\"store    \"): " + dictionary.hasWord("store   "));
-            System.out.println("dictionary.define(\"store\\r\\n    \"): " + dictionary.hasWord("store\r\n   "));
-            System.out.println("dictionary.define(\"   store\"): " + dictionary.hasWord("    store"));
-            System.out.println("dictionary.define(\"\"): " + dictionary.hasWord(""));
-            System.out.println("dictionary.define(\"\"): " + dictionary.hasWord(""));
-
-
-
-
-
-
-
-
-
-
-
-
-    }
-
-
+    private static int[] testArray = new int[]{13,20,31,33,44,57,61,90,95,100,120,141,160,180};
 
 
     /**
@@ -281,7 +100,7 @@ public class Main2
 
         String indent = "      ";
 
-        // Test data
+        // Test NodeData
         List<String> names = new ArrayList<>();
         names.add("Auburn");
         names.add("Kent");
@@ -369,7 +188,7 @@ public class Main2
     public static void bstSymTableTests()
     {
 
-        // Test data
+        // Test NodeData
         List<String>names = new ArrayList<>();
         names.add("Jared");
         names.add("Carey");
@@ -382,7 +201,7 @@ public class Main2
         names.add("Zoe");
         names.add("Fred");
 
-        // These three items will return false to validate some tests because data
+        // These three items will return false to validate some tests because NodeData
         // will not be added to the tree. Example contains() will return false
         names.add("Red");
         names.add("Green");
@@ -457,7 +276,6 @@ public class Main2
         System.out.println(indent + "bstSym.isEmpty(): " + bstSym.isEmpty());
         System.out.println();
     }
-
 
 
 }

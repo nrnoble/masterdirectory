@@ -45,38 +45,52 @@ import java.util.List;
             // check if list is in sorted order, if not, throw IllegalStateException
             if (!sortCheck (words))
             {
-                throw new IllegalStateException("The data must be presorted from smallest to largest");
+                throw new IllegalStateException("The NodeData must be presorted from smallest to largest");
             }
 
             // add words with definitions to dictionary
 
             this.words = new BSTSymbolTable();
 
-            for (int i = 0; i < words.length; i++)
-            {
-//                if ((i % 10000) == 0)
-//                {
-//                    System.out.print(i + ", ");
-//                }
-                this.updateDictionary (words[i],definitions[i]);
-            }
+            // Create a balanced tree of words\definitions
+            CreateBalancedTree (words,definitions,0,words.length-1);
         }
 
 
-        private void recursiveAdd(String[] words, String[]definitions)
+        // Java program to print BST in given range
+
+        // A binary tree node
+        private class WordNode<T>
         {
+            T NodeData;
+            WordNode leftNode;
+            WordNode rightNode;
 
-            i
-
-            if (words.length == 2)
+            WordNode(T nodeData)
             {
-                //something
+                NodeData = nodeData;
+                leftNode = null;
+                rightNode = null;
+            }
+        }
+
+   
+        private WordNode CreateBalancedTree(String words[], String definitions[], int startIndex, int endIndex)
+        {
+            if (startIndex > endIndex)
+            {
+                return null;
             }
 
-
-
-
+            int midPointIndex = (startIndex + endIndex) / 2;
+            WordNode wordNode = new WordNode(words[midPointIndex]);
+            this.updateDictionary(words[midPointIndex], definitions[midPointIndex]);
+            wordNode.leftNode = CreateBalancedTree(words, definitions, startIndex, midPointIndex - 1);
+            wordNode.rightNode = CreateBalancedTree(words, definitions, midPointIndex + 1, endIndex);
+            return wordNode;
         }
+    
+
 
 
 

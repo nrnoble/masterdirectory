@@ -18,7 +18,7 @@ public class DictionaryTest extends TestClassFacade
 
         try
         {
-            dictionary = new Dictionary(getWords(dictionarySize,"E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt"));
+            dictionary = new Dictionary(getWords(dictionarySize, nrnoble.Utilities.getPath2() + "\\nrnoble\\dictionary.txt"));
         }
         catch (IOException e)
         {
@@ -33,7 +33,8 @@ public class DictionaryTest extends TestClassFacade
     {
         try
         {
-            dictionary = new Dictionary(getWords(dictionarySize,"E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt"));
+            //dictionary = new Dictionary(getWords(dictionarySize,"E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt"));
+            dictionary = new Dictionary(getWords(dictionarySize,  nrnoble.Utilities.getPath2() + "\\nrnoble\\dictionary.txt" ));
         }
         catch (IOException e)
         {
@@ -48,7 +49,10 @@ public class DictionaryTest extends TestClassFacade
     @Test
     public void updateDictionary() throws Exception
     {
-
+        System.out.println("dictionary.updateDictionary(\"Basketball\",  \"a sport\"): " + dictionary.updateDictionary("Basketball", "a sport"));
+        System.out.println("dictionary.size(): " + dictionary.size());
+        equals("",dictionary.size(),dictionarySize +1);
+        equals("", dictionary.hasWord("Basketball"), true);
     }
 
     @Test
