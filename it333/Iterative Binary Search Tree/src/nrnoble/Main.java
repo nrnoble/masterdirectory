@@ -32,7 +32,7 @@ public class Main
     {
         boolean exit = false;
         Scanner textscanner = new Scanner(System.in);
-        Dictionary dictionary = new Dictionary(getWords(1, nrnoble.Utilities.getPath2() + "\\nrnoble\\dictionary.txt"));
+        Dictionary dictionary = new Dictionary(getWords(1, dictionaryPath));
         dictionary.clear();
 
         assignmentHeader();
@@ -49,7 +49,7 @@ public class Main
             {
                 //List<Entry> dictionaryData = getDictionaryData();
                 System.out.print("loading....");
-                dictionary = new Dictionary(getWords(-1, nrnoble.Utilities.getPath2() + "\\nrnoble\\dictionary.txt"));
+                dictionary = new Dictionary(getWords(-1, dictionaryPath));
                 System.out.println("Done");
 
                 System.out.println("dictionary size(): " + dictionary.size() + " word definitions");
