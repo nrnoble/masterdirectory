@@ -20,12 +20,15 @@ import java.util.List;
 /**
  * helper functions
  */
-/// BSTSymbolTable<K extends Comparable<K>, V>
+
 public class Utilities
 {
 
 
-
+    /**
+     * Get the relative path for the executing application
+     * @return {String} Path of the executing application
+     */
     public static String getPath2()
     {
         String path1 = Main.class.getProtectionDomain().getCodeSource().getLocation().getPath();
@@ -63,22 +66,28 @@ public class Utilities
      */
     public static Entry parseLines(String line)
     {
-
         String[] lines = line.split(":");
         Entry entry = new Entry(lines[0], lines[1]);
         return entry;
     }
 
 
-    // Return a specific number of words from daw dictionary NodeData file.
-    // 1 - 86,000
+
+    /**
+     *  Return a specific number of words from daw dictionary NodeData file.
+     *  1 - 86,000. If less than 1, then return max. If greater, then return max.
+     * @param numberOfWords the number of words to be extracted from the data data file
+     * @param  file path to the dictionary file
+     * @return  a specific number of words from daw dictionary file.
+     * @throws IOException when there is as file IO
+     */
     public static List<Entry> getWords(int numberOfWords, String path) throws IOException
     {
         List<String> lines = readTextFile(path);
         List<Entry> sublist = new ArrayList<>();
         int counter = 0;
 
-        if (numberOfWords <= 0)
+        if (numberOfWords <= 0 || numberOfWords > lines.size())
         {
             numberOfWords =  lines.size();
         }
