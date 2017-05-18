@@ -27,56 +27,7 @@ public class Main
         userLoop();
     }
 
-
-
-    public static void recursiveAdd(int[] words, int midpoint)
-    {
-
-
-        // add midpoint.
-        System.out.println("adding midpoint: " + words[midpoint]);
-
-        if(midpoint < 2 || (midpoint >= words.length - 2))
-        {
-            // add leftNode
-            if(midpoint == 0 )
-            {
-                System.out.println("adding rightNode: " + words[midpoint + 1]);
-            }
-            return;
-        }
-
-        int numberOfWords = words.length;
-
-        int midPointLeft = midpoint / 2;
-        int midPointRight = midpoint + ((numberOfWords - midpoint-1) / 2);
-
-        recursiveAdd(words,midPointLeft-1);
-        recursiveAdd(words,midPointRight);
-
-
-
-
-//
-//        int numberOfWords = words.length;
-
-         //midPoint = numberOfWords / 2;
-
-
-//        recursiveAdd();
-//
-//        if (numberOfWords == 2)
-//        {
-//            //something
-//        }
-
-
-
-
-    }
-
-
-
+    // main loop for application
     private static void userLoop() throws IOException
     {
         boolean exit = false;
@@ -144,7 +95,7 @@ public class Main
     }
 
     
-    
+    // Handle user input
     private static int userInput() throws IOException
     {
         while (true)
@@ -174,7 +125,7 @@ public class Main
     }
 
 
-
+    //
     public static void assignmentHeader()
     {
         System.out.println();

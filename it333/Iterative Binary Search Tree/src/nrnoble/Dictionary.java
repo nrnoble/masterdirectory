@@ -39,13 +39,13 @@ import java.util.List;
             // Check to determine if words and defs are 1:1
             if (words.length != definitions.length)
             {
-                throw new IllegalArgumentException("The length of arrays must be equal.");
+                throw new IllegalArgumentException("The length of word and definitions arrays must be equal.");
             }
 
             // check if list is in sorted order, if not, throw IllegalStateException
             if (!sortCheck (words))
             {
-                throw new IllegalStateException("The NodeData must be presorted from smallest to largest");
+                throw new IllegalStateException("The word data must be presorted from smallest to largest");
             }
 
             // add words with definitions to dictionary
@@ -57,42 +57,24 @@ import java.util.List;
         }
 
 
-        // Java program to print BST in given range
-
-        // A binary tree node
-        private class WordNode<T>
-        {
-            T NodeData;
-            WordNode leftNode;
-            WordNode rightNode;
-
-            WordNode(T nodeData)
-            {
-                NodeData = nodeData;
-                leftNode = null;
-                rightNode = null;
-            }
-        }
-
-   
-        private WordNode CreateBalancedTree(String words[], String definitions[], int startIndex, int endIndex)
+        // This will create a balanced tree from the entire list of words\definitions.
+        // It recursively calls itself until all words have been entered into the tree.
+        private void CreateBalancedTree(String words[], String definitions[], int startIndex, int endIndex)
         {
             if (startIndex > endIndex)
             {
-                return null;
+                return;
             }
 
             int midPointIndex = (startIndex + endIndex) / 2;
-            WordNode wordNode = new WordNode(words[midPointIndex]);
             this.updateDictionary(words[midPointIndex], definitions[midPointIndex]);
-            wordNode.leftNode = CreateBalancedTree(words, definitions, startIndex, midPointIndex - 1);
-            wordNode.rightNode = CreateBalancedTree(words, definitions, midPointIndex + 1, endIndex);
-            return wordNode;
+
+            // populate the left first (0 - midpoint)
+            CreateBalancedTree(words, definitions, startIndex, midPointIndex - 1);
+            // populate the right (midpoint - end)
+            CreateBalancedTree(words, definitions, midPointIndex + 1, endIndex);
         }
     
-
-
-
 
 
 
