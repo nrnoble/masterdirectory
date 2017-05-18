@@ -4,6 +4,7 @@
     <list default="true" id="47388c18-ad38-49e9-a84c-36fbfb9887dd" name="Default" comment="Everything Done except JavaDocs">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../it328/328/blogs/classes/BlogPost.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../it328/328/blogs/model/blogsdb.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/nrnoble/TestClassFacade.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../D3Helper-Master" afterPath="$PROJECT_DIR$/../../D3Helper-Master" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Enigma" afterPath="$PROJECT_DIR$/../../Enigma" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/FacadePatternAssignment" afterPath="$PROJECT_DIR$/../../Java/FacadePatternAssignment" />
@@ -34,7 +35,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HastTable/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HastTable/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nrnoble/DictionaryTest.java" afterPath="$PROJECT_DIR$/src/nrnoble/DictionaryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nrnoble/My.java" afterPath="$PROJECT_DIR$/src/nrnoble/My.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../heaps/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../heaps/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../linkedList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../linkedList/.idea/workspace.xml" />
     </list>
@@ -92,8 +92,8 @@
       <file leaf-file-name="DictionaryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nrnoble/DictionaryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+            <state relative-caret-position="191">
+              <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -155,23 +155,6 @@
                 <element signature="method#Part2Tests#0;class#Tests#0" expanded="false" />
                 <element signature="method#bstSymTableTests2#0;class#Tests#0" expanded="false" />
                 <element signature="method#bstSymTableTests#0;class#Tests#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestClassFacade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nrnoble/TestClassFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="47" />
-              <folding>
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1258#1259#0" expanded="true" />
-                <element signature="e#1543#1544#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -440,10 +423,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nrnoble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -996,7 +975,7 @@
       <workItem from="1494060038999" duration="13782000" />
       <workItem from="1494227889700" duration="17682000" />
       <workItem from="1494983071800" duration="7905000" />
-      <workItem from="1494996947091" duration="70005000" />
+      <workItem from="1494996947091" duration="70686000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 99% complete">
       <created>1494036171494</created>
@@ -1096,28 +1075,17 @@
       <option name="project" value="LOCAL" />
       <updated>1495103491916</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="removed facade methods">
+      <created>1495106875810</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1495106875810</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DictionaryTest - 2017.05.18 at 04h 08m 40s.xml">
-      <configuration name="DictionaryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DictionaryTest - 2017.05.18 at 04h 11m 28s.xml">
-      <configuration name="DictionaryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DictionaryTest - 2017.05.18 at 04h 15m 25s.xml">
-      <configuration name="DictionaryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DictionaryTest - 2017.05.18 at 04h 18m 04s.xml">
-      <configuration name="DictionaryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DictionaryTest - 2017.05.18 at 04h 18m 43s.xml">
-      <configuration name="DictionaryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DictionaryTest - 2017.05.18 at 04h 21m 18s.xml">
-      <configuration name="DictionaryTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DictionaryTest - 2017.05.18 at 04h 22m 39s.xml">
       <configuration name="DictionaryTest" configurationId="JUnit" />
     </history-entry>
@@ -1130,9 +1098,27 @@
     <history-entry file="DictionaryTest - 2017.05.18 at 04h 25m 28s.xml">
       <configuration name="DictionaryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DictionaryTest - 2017.05.18 at 04h 27m 33s.xml">
+      <configuration name="DictionaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DictionaryTest - 2017.05.18 at 04h 28m 35s.xml">
+      <configuration name="DictionaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DictionaryTest - 2017.05.18 at 04h 33m 12s.xml">
+      <configuration name="DictionaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DictionaryTest - 2017.05.18 at 04h 34m 12s.xml">
+      <configuration name="DictionaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DictionaryTest - 2017.05.18 at 04h 34m 47s.xml">
+      <configuration name="DictionaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DictionaryTest - 2017.05.18 at 04h 36m 39s.xml">
+      <configuration name="DictionaryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184304000" />
+    <option name="totallyTimeSpent" value="184985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1677,21 +1663,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="47" />
-          <folding>
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nrnoble/DictionaryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+        <state relative-caret-position="191">
+          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
           <folding />
         </state>
       </provider>
