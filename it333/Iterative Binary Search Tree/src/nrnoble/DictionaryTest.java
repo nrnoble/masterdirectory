@@ -6,6 +6,7 @@ package nrnoble;
 * Instructor: Josh Archer
 */
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,10 +16,10 @@ import static nrnoble.Utilities.getWords;
 import static org.junit.Assert.*;
 
 
-public class DictionaryTest extends TestClassFacade
+public class DictionaryTest
 {
     private  Dictionary dictionary;
-    private static int dictionarySize = 1000;
+    private static int dictionarySize = 10001;
     public DictionaryTest()
     {
 
@@ -30,9 +31,10 @@ public class DictionaryTest extends TestClassFacade
         catch (IOException e)
         {
             e.printStackTrace();
-            isTrue("File IO", false);
-        }
-        isTrue("Number of words is inncorrect", dictionary.size()==dictionarySize);
+        Assert.assertTrue("File IO", false);
+    }
+
+        Assert.assertTrue("Number of words is inncorrect", dictionary.size()==dictionarySize);
     }
 
     @Before
@@ -47,32 +49,95 @@ public class DictionaryTest extends TestClassFacade
         catch (IOException e)
         {
             e.printStackTrace();
-            isTrue("File IO", false);
+            Assert.assertTrue("File IO", false);
         }
-        isTrue("Number of words is inncorrect", dictionary.size()==dictionarySize);
+
+        Assert.assertTrue("Number of words is inncorrect", dictionary.size()==dictionarySize);
     }
 
 
 
     @Test
-    public void updateDictionary() throws Exception
+    public void addWordToDictionary() throws Exception
     {
         System.out.println("dictionary.updateDictionary(\"Basketball\",  \"a sport\"): " + dictionary.updateDictionary("Basketball", "a sport"));
         System.out.println("dictionary.size(): " + dictionary.size());
-        equals("",dictionary.size(),dictionarySize +1);
-        equals("", dictionary.hasWord("Basketball"), true);
+        Assert.assertEquals("dictionary.size() has failed", dictionary.size(), dictionarySize +1);
+        Assert.assertEquals("dictionary.hasWord has failed", dictionary.hasWord("Basketball"), true);
+        Assert.assertEquals("dictionary.define() has failed", dictionary.define("Basketball"), "a sport");
     }
+
+
+    @Test
+    public void updateWordDefinition() throws Exception
+    {
+        addWordToDictionary();
+
+        System.out.println("dictionary.updateDictionary(\"store\",  \"a business that sells goods\"): " + dictionary.updateDictionary("store", "a business that sells goods"));
+        System.out.println("dictionary.define(\"store\"): " + dictionary.define("store"));
+        System.out.println("dictionary.size(): " + dictionary.size());
+
+        Assert.assertEquals("dictionary.size() has failed", dictionary.size(), dictionarySize +2);
+        Assert.assertEquals("hasWord has failed", dictionary.hasWord("store"), true);
+
+        System.out.println("dictionary.updateDictionary(\"Basketball\",  \"a sport\"): " + dictionary.updateDictionary("Basketball", "an American sport first played in 1891"));
+        Assert.assertEquals("dictionary.define() has failed", dictionary.define("Basketball"), "an american sport first played in 1891");
+        Assert.assertEquals("dictionary.size() has failed", dictionary.size(), dictionarySize +2);
+    }
+
 
     @Test
     public void hasWord() throws Exception
     {
-        isTrue("Apple could not be found", dictionary.hasWord("abaca"));
+        Assert.assertEquals("hasWord has failed", dictionary.hasWord("abaca"), true);
     }
+
+    @Test
+    public void IrgnoreLeadingSpaces() throws Exception
+    {
+        Assert.assertEquals("hasWord has failed", dictionary.hasWord("abaca   "), true);
+    }
+
+    @Test
+    public void IrgnoreTrailingSpaces() throws Exception
+    {
+        Assert.assertEquals("hasWord has failed", dictionary.hasWord("    abaca"), true);
+    }
+
+
+    @Test
+    public void IrgnoreLeadingTrailingSpaces() throws Exception
+    {
+        Assert.assertEquals("hasWord has failed", dictionary.hasWord("    abaca    "), true);
+    }
+
+
+
+    @Test
+    public void hasFirstDictionaryWord() throws Exception
+    {
+        Assert.assertEquals("hasWord has failed", dictionary.hasWord("------"), true);
+    }
+
+
+    @Test
+    public void hasLastDictionaryWord() throws Exception
+    {
+        dictionary = new Dictionary(getWords(-1, Main.dictionaryPath));
+        System.out.println("dictionary.define(\"zythepsary\"): " + dictionary.hasWord("zythepsary"));
+        System.out.println("dictionary.size(): " + dictionary.size());
+
+
+        Assert.assertEquals("hasWord has failed", dictionary.hasWord("zythepsary"), true);
+    }
+
+
 
     @Test
     public void VerifyWordsDoNotExist() throws Exception
     {
-        isFalse("Store could not be found", dictionary.hasWord("store"));
+
+        Assert.assertFalse("Store could not be found", dictionary.hasWord("store"));
     }
 
 
@@ -80,40 +145,43 @@ public class DictionaryTest extends TestClassFacade
     public void define() throws Exception
     {
 
-         equals("dictionary.define has failed",dictionary.define("abaca"),"The Manila-hemp plant (Musa textilis); also, its fiber. SeeManila hemp under Manila.".toLowerCase());
+        Assert.assertEquals("dictionary.define has failed",dictionary.define("abaca"),"The Manila-hemp plant (Musa textilis); also, its fiber. SeeManila hemp under Manila.".toLowerCase());
+
     }
 
     @Test
     public void words() throws Exception
     {
-        equals("dictionary.words() has failed", dictionary.words().size(), dictionarySize);
+
+        Assert.assertEquals("dictionary.words() has failed", dictionary.words().size(), dictionarySize);
 
     }
 
     @Test
     public void definitions() throws Exception
     {
-        equals("dictionary.definitions() has failed", dictionary.definitions().size(), dictionarySize);
+        Assert.assertEquals("dictionary.definitions() has failed", dictionary.definitions().size(), dictionarySize);
     }
 
     @Test
     public void size() throws Exception
     {
-        this.equals("dictionary.size() has failed",dictionary.size(),dictionarySize);
+        Assert.assertEquals("dictionary.size() has failed",dictionary.size(),dictionarySize);
     }
 
     @Test
     public void isEmpty() throws Exception
     {
-        isFalse("dictionary.isEmpty() failed", dictionary.isEmpty());
-
+        Assert.assertFalse("dictionary.isEmpty() has failed", dictionary.isEmpty());
     }
 
     @Test
     public void clear() throws Exception
     {
+        System.out.println("dictionary.clear()");
         dictionary.clear();
-        isTrue("dictionary.clear() failed", dictionary.isEmpty());
+        Assert.assertTrue("dictionary.clear() has failed", dictionary.isEmpty());
+        Assert.assertTrue("dictionary.size() has failed", dictionary.size() == 0);
     }
 
 

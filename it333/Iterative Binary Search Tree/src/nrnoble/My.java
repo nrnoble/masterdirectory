@@ -7,7 +7,6 @@ package nrnoble;
 */
 
 
-
 /**
  * This class is used for developing and debugging small sections of code
  */
