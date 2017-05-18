@@ -1,7 +1,15 @@
 package nrnoble;
+/*
+* Neal Noble
+* May 2017
+* Assignment: Trees Part2
+* Instructor: Josh Archer
+*/
+
+
 
 /**
- * This class is used for trying out code and ideas
+ * This class is used for developing and debugging small sections of code
  */
 public class My
 {

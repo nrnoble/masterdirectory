@@ -1,4 +1,10 @@
 package nrnoble;
+/*
+* Neal Noble
+* May 2017
+* Assignment: Trees Part2
+* Instructor: Josh Archer
+*/
 
 import org.junit.Before;
 import org.junit.Test;
@@ -18,7 +24,8 @@ public class DictionaryTest extends TestClassFacade
 
         try
         {
-            dictionary = new Dictionary(getWords(dictionarySize, nrnoble.Utilities.getPath2() + "\\nrnoble\\dictionary.txt"));
+            //dictionary = new Dictionary(getWords(dictionarySize, nrnoble.Utilities.getPath2() + "\\nrnoble\\dictionary.txt"));
+            dictionary = new Dictionary(getWords(dictionarySize, Main.dictionaryPath));
         }
         catch (IOException e)
         {
@@ -34,7 +41,8 @@ public class DictionaryTest extends TestClassFacade
         try
         {
             //dictionary = new Dictionary(getWords(dictionarySize,"E:\\Data\\Github\\it333\\Iterative Binary Search Tree\\src\\nrnoble\\dictionary.txt"));
-            dictionary = new Dictionary(getWords(dictionarySize,  nrnoble.Utilities.getPath2() + "\\nrnoble\\dictionary.txt" ));
+          //  dictionary = new Dictionary(getWords(dictionarySize,  nrnoble.Utilities.getPath2() + "\\nrnoble\\dictionary.txt" ));
+            dictionary = new Dictionary(getWords(dictionarySize,  Main.dictionaryPath ));
         }
         catch (IOException e)
         {

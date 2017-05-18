@@ -19,20 +19,12 @@ import static nrnoble.Utilities.getWords;
 
 public class Main
 {
-    private static  String indent = "      ";
-    private static int[] testArray = new int[]{13,20,31,33,44,57,61,90,95,100,120,141,160,180};
 
+    public static String dictionaryPath = nrnoble.Utilities.getPath2() + "\\nrnoble\\dictionary.txt";
 
     public static void main(String[] args) throws IOException
     {
-
         userLoop();
-
-
-//        My my = new My();
-//        My.Node node = my.bsTree(testArray,0,testArray.length-1);
-
-
     }
 
 

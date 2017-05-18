@@ -1,4 +1,10 @@
 package nrnoble;
+/*
+* Neal Noble
+* May 2017
+* Assignment: Trees Part2
+* Instructor: Josh Archer
+*/
 
 import java.util.ArrayList;
 import java.util.List;

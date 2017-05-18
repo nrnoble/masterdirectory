@@ -113,7 +113,7 @@ public class Utilities
     {
         try
         {
-            return getEntriesFromFile( nrnoble.Utilities.getPath2() + "\\nrnoble\\dictionary.txt");
+            return getEntriesFromFile( Main.dictionaryPath);
         } catch (IOException e)
         {
             e.printStackTrace();
