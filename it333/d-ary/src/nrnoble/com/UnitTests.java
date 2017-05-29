@@ -12,7 +12,6 @@ import java.util.Random;
 public class UnitTests<T extends Comparable<T>>
 {
     private String[] stringData = {"z","y","x","w","v","u","t","s","r","q","p","o","n","m", "l", "k", "j", "i", "h", "g", "f", "e", "d", "c", "b", "a"};
-    private T[] stringData1 = null;
     private static Random rand = new Random();
     private MaryHeap data;
 
@@ -22,7 +21,7 @@ public class UnitTests<T extends Comparable<T>>
         String name = new Object(){}.getClass().getEnclosingMethod().getName();
         System.out.println("running: " + name);
 
-         data = new MaryHeap(100,2);
+         data = new MaryHeap(10,3);
 
     }
 
@@ -64,6 +63,20 @@ public class UnitTests<T extends Comparable<T>>
         System.out.println("running test: " + name);
 
         data.clear();
+
+        Assert.assertTrue(name + " test has failed", data.isEmpty());
+        System.out.println();
+    }
+
+
+
+    @Test
+    public void peek() throws Exception
+    {
+        String name = new Object(){}.getClass().getEnclosingMethod().getName();
+        System.out.println("running test: " + name);
+
+        data.peek();
 
         Assert.assertTrue(name + " test has failed", data.isEmpty());
         System.out.println();
@@ -266,7 +279,7 @@ public class UnitTests<T extends Comparable<T>>
     }
 
     @Test
-    public void VerifySortOrder() throws Exception
+    public void VerifySortOrder1MillElements() throws Exception
     {
         String name = new Object(){}.getClass().getEnclosingMethod().getName();
         System.out.println("running test: " + name);
@@ -274,7 +287,9 @@ public class UnitTests<T extends Comparable<T>>
         data.clear();
        // insert10KElements();
 
-        fillData(50);
+        insert1MillElements();
+
+        // verifty that all elements are sorted properly
         T child = (T) data.delMin();
         for (int i = 0; i < data.size() ; i++)
         {
@@ -284,11 +299,11 @@ public class UnitTests<T extends Comparable<T>>
 
             if (parent.compareTo(child) < 0)
             {
-                System.out.println("parent: " + parent + " < " + child + " : child   fail");
+              //  System.out.println("parent: " + parent + " < " + child + " : child   fail");
                 Assert.assertTrue(name + " test has failed", false);
                 return;
             }
-            System.out.println("parent: " + parent + " > " + child + " : child   pass ");
+          //  System.out.println("parent: " + parent + " > " + child + " : child   pass ");
 
             child = parent;
         }
