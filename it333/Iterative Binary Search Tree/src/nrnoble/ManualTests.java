@@ -14,14 +14,14 @@ import static nrnoble.Utilities.getDictionaryData;
 /**
  * Manual and automated tests for the BSTSymbolTable class, Binary Search Tree ckass and Bdictionary class
  */
-public class Tests
+public class ManualTests
 {
     private static  String indent = "      ";
     private static int[] testArray = new int[]{13,20,31,33,44,57,61,90,95,100,120,141,160,180};
 
 
     /**
-     * Tests for the BinarySearch Tree class
+     * ManualTests for the BinarySearch Tree class
      */
     public static void bstTests()
     {
@@ -99,7 +99,7 @@ public class Tests
 
 
     /**
-     * Tests for the BSTSymbolTable class
+     * ManualTests for the BSTSymbolTable class
      */
     public static void bstSymTableTests2()
     {
@@ -189,7 +189,7 @@ public class Tests
     }
 
     /**
-     * Tests for the BSTSymbolTable class
+     * ManualTests for the BSTSymbolTable class
      */
     public static void bstSymTableTests()
     {

@@ -166,7 +166,7 @@ public class UnitTests<T extends Comparable<T>>
         System.out.println("running test: " + name);
 
         data.clear();
-        Object[] randnums = getRandomNumbers(5);
+        Object[] randnums = getRandomNumbers(12);
         this.fillData(randnums);
 
         for (int i = 0; i < randnums.length ; i++)

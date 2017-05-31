@@ -232,7 +232,8 @@ public class MaryHeap<T extends Comparable<T>>
     private void swim(int childIndex)
     {
         T currentChild = data[childIndex];
-        T currentParent = data[getParentIndex (childIndex)];
+        int parentIndex  = getParentIndex (childIndex);
+        T currentParent = data[parentIndex];
         while (childIndex > 0 && currentChild.compareTo(currentParent) < 0)
         {
             data[childIndex] = data[ getParentIndex (childIndex) ];

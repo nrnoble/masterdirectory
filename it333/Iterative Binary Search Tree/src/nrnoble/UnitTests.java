@@ -16,11 +16,11 @@ import static nrnoble.Utilities.getWords;
 import static org.junit.Assert.*;
 
 
-public class DictionaryTest
+public class UnitTests
 {
     private  Dictionary dictionary;
     private static int dictionarySize = 10001;
-    public DictionaryTest()
+    public UnitTests()
     {
 
         try
@@ -65,6 +65,16 @@ public class DictionaryTest
         Assert.assertEquals("dictionary.size() has failed", dictionary.size(), dictionarySize +1);
         Assert.assertEquals("dictionary.hasWord has failed", dictionary.hasWord("Basketball"), true);
         Assert.assertEquals("dictionary.define() has failed", dictionary.define("Basketball"), "a sport");
+    }
+    @Test
+    public void LoadAllDictionaryWords() throws Exception
+    {
+        System.out.println("Before: Dictionary.size(): " + dictionary.size());
+        System.out.print("Loading.....");
+        dictionary = new Dictionary(getWords(-1,  Main.dictionaryPath ));
+        System.out.println("Done!");
+        System.out.println("After: Dictionary.size(): " + dictionary.size());
+
     }
 
 
@@ -139,6 +149,7 @@ public class DictionaryTest
 
         System.out.println("dictionary.define(\"store\"): " + dictionary.hasWord("store"));
         Assert.assertFalse("Store could not be found", dictionary.hasWord("store"));
+        Assert.assertTrue ("Store could not be found", dictionary.hasWord("store"));
     }
 
 
@@ -252,16 +263,6 @@ public class DictionaryTest
         System.out.println("dictionary.define(\"   store\"): " + dictionary.hasWord("    store"));
         System.out.println("dictionary.define(\"\"): " + dictionary.hasWord(""));
         System.out.println("dictionary.define(\"\"): " + dictionary.hasWord(""));
-
-
-
-
-
-
-
-
-
-
 
 
     }

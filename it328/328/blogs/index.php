@@ -19,19 +19,39 @@ $f3 = Base::instance();
 
 //Set debug level
 $f3->set('DEBUG', 2);
-$f3 = Base::instance();
+
 
 
 $f3->route ('GET /',
     function() {
 
+        $view = new View;
+        echo $view->render('/pages/home.php');
+
+    });
 
 
-
+$f3->route ('GET /foo',
+    function()
+    {
         $view = new View;
         echo $view->render('/pages/home.php');
     });
 
 
-?>
+function test()
+{
+    print_r($_SESSION);
+}
+
+
+
+$f3->run();
+
+echo "test";
+
+
+
+
+
 

@@ -149,6 +149,79 @@ public class MarryHeap<T extends Comparable<T>>
         }
     }
 
+    private int getIndexOfSmallestChild(int parentIndex)
+    {
+        int childIndex1 = parentIndex + 1;
+        int childIndex2 = parentIndex + 2;
+        int childIndex3 = parentIndex + 3;
+
+        T child1Value = null;
+        T child2Value = null;
+        T child3Value = null;
+
+        int smallestChildIndex = parentIndex;
+        T smallestValue = (T) data[parentIndex];
+
+        // if parent is the last element, then parent has no children
+        if (parentIndex == size-1)
+        {
+            return parentIndex;
+        }
+
+        // check if first childIndex is less than last index
+        if (childIndex1 < size-2)
+        {
+            child1Value = (T) data[childIndex1];
+            if (child1Value == null)
+            {
+                return parentIndex;
+            }
+
+            if (child1Value.compareTo(smallestValue) < 0)
+            {
+                smallestChildIndex = childIndex1;
+                smallestValue = child1Value;
+            }
+        }
+
+
+        // check if second childIndex is less than last index
+        if (childIndex2 < size-3)
+        {
+            child3Value = (T) data[childIndex2];
+            if (child2Value == null)
+            {
+                return childIndex1;
+
+            }
+            if (child2Value.compareTo(smallestValue) < 0)
+            {
+                smallestChildIndex = childIndex2;
+                smallestValue = child2Value;
+            }
+
+
+        }
+
+        // check if third childIndex is less than last index
+        if (childIndex3 < size-3)
+        {
+            child3Value = (T) data[childIndex3];
+            if (child3Value == null)
+            {
+                return childIndex2;
+            }
+            if (child3Value.compareTo(smallestValue) < 0)
+            {
+                smallestChildIndex = childIndex3;
+                smallestValue = child3Value;
+            }
+        }
+
+        return smallestChildIndex;
+    }
+
+
 
     private void sink(int index)
     {
@@ -160,7 +233,7 @@ public class MarryHeap<T extends Comparable<T>>
 //            int mid = maryNum * index;
 //            int right = maryNum * index + 1;
 
-            int left = maryNum * index + 1;
+            int left = maryNum * index + 1 ;
             int mid = maryNum * index + 2;
             int right = maryNum * index + 3;
             int indexToCheck = left;
@@ -176,7 +249,44 @@ public class MarryHeap<T extends Comparable<T>>
             }
 
             // compare the parent with the smallest child
-            if (data[indexToCheck].compareTo(data[index]) < 0)
+            if (data[indexToCheck].compareTo(data[index])  < 0 )
+            {
+                swap(indexToCheck, index);
+                index = indexToCheck;
+            }
+            else
+            {
+                break;
+            }
+        }
+    }
+    private void sink1(int index)
+    {
+        while (index <= size / maryNum)
+        {
+          //  System.out.print(index + " ");
+
+//            int left = maryNum * index - 1;
+//            int mid = maryNum * index;
+//            int right = maryNum * index + 1;
+
+            int left = maryNum * index + 1 ;
+            int mid = maryNum * index + 2;
+            int right = maryNum * index + 3;
+            int indexToCheck = left;
+            if(mid < data.length && data[mid] != null && data[mid].compareTo(data[left]) < 0)
+            {
+                indexToCheck = mid;
+            }
+            // if there is a right child and it is the smaller child
+            else if (right < data.length && data[right] != null &&
+                    data[right].compareTo(data[left]) < 0)
+            {
+                indexToCheck = right;
+            }
+
+            // compare the parent with the smallest child
+            if (data[indexToCheck].compareTo(data[index])  < 0 )
             {
                 swap(indexToCheck, index);
                 index = indexToCheck;

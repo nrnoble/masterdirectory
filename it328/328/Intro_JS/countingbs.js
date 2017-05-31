@@ -45,8 +45,6 @@ function unitTest(testStr,char)
 }
 
 
-
-
 /**
  * Count the number of uppercase "B" there are in a string.
  * @param str input string.

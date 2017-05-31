@@ -28,7 +28,7 @@
 //    $adminPageHeaderLink= "<span><a href='/328/signup/'>My Dating site</a></span><span class='alignright'><a href=/'328/signup/admin'>Adminstrative</a></span>";
  //   $_SESSION ['adminPageHeaderLink'] = $adminPageHeaderLink;
     $MembersDB = new \DatingSite\MembersDB();
-
+    print_r($_POST);
 
 /**
      * route to default page to Dating site

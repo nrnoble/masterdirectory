@@ -1,23 +1,31 @@
 package nrnoble.com;
 
+import java.util.Random;
+
 /** Class ManualTests **/
 public class ManualTests
 {
+    private static Random rand = new Random();
     public static void main(String[] args)
     {
 
-        MaryHeap dh = new MaryHeap(10,3);
-        //MarryHeap<Integer> dh = new MarryHeap<>();
+        //MaryHeap dh = new MaryHeap(10,3);
+        MarryHeap<Integer> dh = new MarryHeap<>();
 
         // int[] input = {140,130,120,110,100,90,80,70,60,5,40,30,20,10};
         // int[] input = {14,13,12,11,10,9,8,7,6,5,4,3,2,1};
         // int[] input = {13,12,11,10,9,8,7,6,5,4,3,2,1};
-        // int[] input = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
+   //      int[] input = {1,2,3,4,5,6,7,8,9,10,11,12};
+     //    int[] input = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
       //   String [] input = {"a", "c", "b", "a"};
         // int[] input = {6, 22, 5, 77, 12, 11, 42, 150, 11, 11, 11};
 
-       //  int[] input = {12,11,10,9,8,7,6,5,4,3,2,1};
-         int[] input = {25,8,32,9,5,6,14,4,11,12,3, 2, 1};
+       // int[] input = {12,11,10,9,8,7,6,5,4,3,2,1};
+       // int[] input = {13,15,8,7,14,00,6,9};
+       // int[] input = {8,9,0,2,13,11,7};
+        int[] input = {5,3,1,0,4,2};
+       // int[] input = getRandomNumbers(10);
+       //  int[] input = {25,8,32,9,5,6,14,4,11,12,3, 2, 1};
 
             // Broken [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 6, 12, 13, 15, 16, 17, 18, 19, 14, 20, 21, 22, 23, 24, 25]
 
@@ -80,4 +88,44 @@ public class ManualTests
 //        System.out.println();
 
     }
+
+
+    private static int[] getRandomNumbers(int size)
+    {
+        int[] intNumbers = new int[size+1];
+
+        for (Integer i = 1; i <= size; i++)
+        {
+            intNumbers[i] = i;
+        }
+        intNumbers = shuffle(intNumbers,3);
+        return intNumbers;
+    }
+
+
+    private static int[] shuffle(int[] testData, int shuffles)
+    {
+        for (int i = 0; i < shuffles ; i++)
+        {
+            for (int j = 0; j <testData.length ; j++)
+            {
+                int swap1 = randInt(0,testData.length-1);
+                int swap2 = randInt(0,testData.length-1);
+                int element = testData[swap1];
+                testData[swap1] = testData[swap2];
+                testData[swap2] = element;
+            }
+
+        }
+        return testData;
+    }
+
+
+    public static int randInt(int min, int max) {
+
+        int randomNum = rand.nextInt((max - min) + 1) + min;
+        return randomNum;
+    }
+
+
 }

@@ -8,12 +8,7 @@ package nrnoble;
 
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-
-
-import static nrnoble.Utilities.getDictionaryData;
 import static nrnoble.Utilities.getWords;
 
 
@@ -135,11 +130,6 @@ public class Main
         System.out.println("    Instructor: Josh Archer");
         System.out.println();
     }
-
-
-
-
-
 
 
 }

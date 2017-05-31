@@ -12,10 +12,8 @@ var FIZZ_BUZZ = FIZZ + BUZZ;
 var BUZZFACTOR = 5;
 var FIZZFACTOR = 3;
 
-function fizzBuzz()
-{
-    for (var idx = 1; idx <=100 ; idx++)
-    {
+function fizzBuzz() {
+    for (var idx = 1; idx <=100 ; idx++) {
         var line = "<div>" + getFizzBuzz(idx) + "<div>\n\r";
         console.log(getFizzBuzz(idx));
         //document.write(line);
@@ -40,17 +38,14 @@ function getFizzBuzz (num) {
             return FIZZ_BUZZ;
         }
 
-
         if (fizzResult == FIZZ)
         {
             return FIZZ;
         }
 
-
         if (buzzResult == BUZZ)
         {
             return BUZZ;
-
         }
 
         return num;

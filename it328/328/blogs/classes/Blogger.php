@@ -1,11 +1,13 @@
 <?php
-
 /**
- * Created by PhpStorm.
- * User: Neal
- * Date: 5/12/2017
- * Time: 2:54 AM
+ * Neal Noble
+ * Course: IT 328 - Full-Stack Web Development
+ * Assignment: Blogs
+ * May 2017
+ * Instructor: Tina Ostrander
  */
+
+
 class Blogger
 {
 
