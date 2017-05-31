@@ -166,7 +166,7 @@ public class UnitTests<T extends Comparable<T>>
         System.out.println("running test: " + name);
 
         data.clear();
-        Object[] randnums = getRandomNumbers(12);
+        Object[] randnums = getRandomNumbers(5);
         this.fillData(randnums);
 
         for (int i = 0; i < randnums.length ; i++)
@@ -177,6 +177,21 @@ public class UnitTests<T extends Comparable<T>>
                System.out.println("Missing: randnums[" + i + "]: " + randnums[i]);
                Assert.assertTrue(name + " test has failed", false);
            }
+        }
+
+        T value1 = (T)data.delMin();
+        while (data.size() > 0)
+        {
+            System.out.print(value1 + " ");
+
+            T value2 = (T)data.delMin();
+
+            if (value2.compareTo(value1) < 0)
+            {
+                System.out.println("Fail: " + value2 + " < " + value1 );
+                Assert.assertTrue(name + " test has failed", false);
+            }
+            value1 = value2;
         }
 
         System.out.println();
