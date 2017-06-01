@@ -60,6 +60,7 @@ public class MarryHeap<T extends Comparable<T>>
         swap(0, size-1);
         size--;
         sink(0);
+
         return result;
     }
 
@@ -128,8 +129,7 @@ public class MarryHeap<T extends Comparable<T>>
     }
 
 
-
-    private void swim(int index)
+    private void swim2(int index)
     {
     // stop when we reach the root (index 1)
         while (index >0)
@@ -148,6 +148,62 @@ public class MarryHeap<T extends Comparable<T>>
             index = parentIndex;
         }
     }
+
+    private void swim(int index)
+    {
+        while (index >0)
+        {
+            int parentIndex = getParentIndex(index);
+            if (data[index].compareTo(data[parentIndex]) < 0)
+            {
+                swap(index, parentIndex);
+            }
+            if (data[index].compareTo(data[parentIndex]) < 0)
+            {
+                //sink((int) data[index]);
+                sink(index);
+            }
+            index = parentIndex;
+        }
+    }
+
+
+    public void sinkAll()
+    {
+        T[] data2  = (T[]) new Comparable[size];
+
+        int index = 0;
+        while (!this.isEmpty())
+        {
+            T result = delMin();
+            data2[index] = result;
+            index++;
+//            System.out.print(String.format("%03d", ((String)result) )  + " ");
+//            sink((Integer) result);
+//            this.insert(result);
+        }
+
+        data = data2;
+        size = data2.length;
+        this.printHeap();
+
+        index = 0;
+        data2 = (T[]) new Comparable[size];
+        while (!this.isEmpty())
+        {
+            T result = delMin();
+            data2[index] = result;
+            index++;
+        }
+
+        data = data2;
+        size = data2.length;
+        this.printHeap();
+
+
+        this.printHeap();
+    }
+
 
     private int getIndexOfSmallestChild(int parentIndex)
     {
@@ -169,7 +225,7 @@ public class MarryHeap<T extends Comparable<T>>
         }
 
         // check if first childIndex is less than last index
-        if (childIndex1 < size-2)
+        if (childIndex1 <= size-1)
         {
             child1Value = (T) data[childIndex1];
             if (child1Value == null)
@@ -186,12 +242,12 @@ public class MarryHeap<T extends Comparable<T>>
 
 
         // check if second childIndex is less than last index
-        if (childIndex2 < size-3)
+        if (childIndex2 <= size-1)
         {
-            child3Value = (T) data[childIndex2];
+            child2Value = (T) data[childIndex2];
             if (child2Value == null)
             {
-                return childIndex1;
+                return smallestChildIndex;
 
             }
             if (child2Value.compareTo(smallestValue) < 0)
@@ -204,12 +260,12 @@ public class MarryHeap<T extends Comparable<T>>
         }
 
         // check if third childIndex is less than last index
-        if (childIndex3 < size-3)
+        if (childIndex3 <= size-1)
         {
             child3Value = (T) data[childIndex3];
             if (child3Value == null)
             {
-                return childIndex2;
+                return smallestChildIndex;
             }
             if (child3Value.compareTo(smallestValue) < 0)
             {
@@ -233,70 +289,84 @@ public class MarryHeap<T extends Comparable<T>>
 //            int mid = maryNum * index;
 //            int right = maryNum * index + 1;
 
-            int left = maryNum * index + 1 ;
-            int mid = maryNum * index + 2;
+            int left = maryNum  * index + 1 ;
+            int mid = maryNum   * index + 2;
             int right = maryNum * index + 3;
             int indexToCheck = left;
-            if(mid < data.length && data[mid] != null && data[mid].compareTo(data[left]) < 0)
-            {
-                indexToCheck = mid;
-            }
-            // if there is a right child and it is the smaller child
-            else if (right < data.length && data[right] != null &&
-                    data[right].compareTo(data[left]) < 0)
-            {
-                indexToCheck = right;
-            }
 
-            // compare the parent with the smallest child
-            if (data[indexToCheck].compareTo(data[index])  < 0 )
+            int smallestChildIndex = getIndexOfSmallestChild(index);
+
+            if (index != smallestChildIndex)
             {
-                swap(indexToCheck, index);
-                index = indexToCheck;
+                swap(index,smallestChildIndex);
+                index = smallestChildIndex;
+
             }
             else
             {
                 break;
             }
+
+//            if(mid < data.length && data[mid] != null && data[mid].compareTo(data[left]) < 0)
+//            {
+//                indexToCheck = mid;
+//            }
+//            // if there is a right child and it is the smaller child
+//            else if (right < data.length && data[right] != null &&
+//                    data[right].compareTo(data[left]) < 0)
+//            {
+//                indexToCheck = right;
+//            }
+//
+//            // compare the parent with the smallest child
+//            if (data[indexToCheck].compareTo(data[index])  < 0 )
+//            {
+//                swap(indexToCheck, index);
+//                index = indexToCheck;
+//            }
+//            else
+//            {
+//                break;
+//            }
         }
     }
-    private void sink1(int index)
-    {
-        while (index <= size / maryNum)
-        {
-          //  System.out.print(index + " ");
-
-//            int left = maryNum * index - 1;
-//            int mid = maryNum * index;
-//            int right = maryNum * index + 1;
-
-            int left = maryNum * index + 1 ;
-            int mid = maryNum * index + 2;
-            int right = maryNum * index + 3;
-            int indexToCheck = left;
-            if(mid < data.length && data[mid] != null && data[mid].compareTo(data[left]) < 0)
-            {
-                indexToCheck = mid;
-            }
-            // if there is a right child and it is the smaller child
-            else if (right < data.length && data[right] != null &&
-                    data[right].compareTo(data[left]) < 0)
-            {
-                indexToCheck = right;
-            }
-
-            // compare the parent with the smallest child
-            if (data[indexToCheck].compareTo(data[index])  < 0 )
-            {
-                swap(indexToCheck, index);
-                index = indexToCheck;
-            }
-            else
-            {
-                break;
-            }
-        }
-    }
+//    private void sink1(int index)
+//    {
+//        while (index <= size / maryNum)
+//        {
+//          //  System.out.print(index + " ");
+//
+////            int left = maryNum * index - 1;
+////            int mid = maryNum * index;
+////            int right = maryNum * index + 1;
+//
+//            int left = maryNum * index + 1 ;
+//            int mid = maryNum * index + 2;
+//            int right = maryNum * index + 3;
+//            int indexToCheck = left;
+//            if(mid < data.length && data[mid] != null && data[mid].compareTo(data[left]) < 0)
+//            {
+//                indexToCheck = mid;
+//            }
+//            // if there is a right child and it is the smaller child
+//            else if (right < data.length && data[right] != null &&
+//                    data[right].compareTo(data[left]) < 0)
+//            {
+//                indexToCheck = right;
+//            }
+//
+//            // compare the parent with the smallest child
+//            if (data[indexToCheck].compareTo(data[index])  < 0 )
+//            {
+//                swap(indexToCheck, index);
+//                index = indexToCheck;
+//            }
+//            else
+//            {
+//                break;
+//            }
+//        }
+//    }
 
 
     private void swap(int first, int second)

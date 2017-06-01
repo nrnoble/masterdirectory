@@ -22,6 +22,7 @@ public class UnitTests<T extends Comparable<T>>
         System.out.println("running: " + name);
 
          data = new MaryHeap(10,3);
+         //data = new MarryHeap();
 
     }
 
