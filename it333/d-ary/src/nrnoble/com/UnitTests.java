@@ -21,9 +21,7 @@ public class UnitTests<T extends Comparable<T>>
         String name = new Object(){}.getClass().getEnclosingMethod().getName();
         System.out.println("running: " + name);
 
-         data = new MaryHeap(10,3);
-         //data = new MarryHeap();
-
+        data = new MaryHeap(10,3);
     }
 
 

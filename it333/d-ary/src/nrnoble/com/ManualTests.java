@@ -6,10 +6,12 @@ import java.util.Random;
 public class ManualTests
 {
     private static Random rand = new Random();
-    public static void main(String[] args)
+    public static void main(String[] args) throws Exception
     {
 
         MaryHeap dh = new MaryHeap(10,3);
+        UnitTests ut = new UnitTests();
+
        // MarryHeap<Integer> dh = new MarryHeap<>();
 
         //   int[] input = {9,8,7,6,5,4,3,2,1};
@@ -33,6 +35,19 @@ public class ManualTests
 
         maryClassDump(dh);
 
+        System.out.println();
+        System.out.println();
+
+        ut.setup();
+        ut.addTwelveElements();
+
+        System.out.println();
+        ut.setup();
+        ut.deleteLargestElement();
+
+        System.out.println();
+        ut.setup();
+        ut.containsAlphabet();
     }
 
 
@@ -46,17 +61,6 @@ public class ManualTests
         }
         intNumbers = shuffle(intNumbers,3);
         return intNumbers;
-    }
-
-
-    private void listsmallChild(MaryHeap dh2)
-    {
-        for (int i = 0; i < dh2.size()-1 ; i++)
-        {
-            System.out.println(" dh2.getIndexOfSmallestChild(i): " + String.format("%03d", dh2.getIndexOfSmallestChild(i))  +" (" + String.format("%03d", dh2.data[dh2.getIndexOfSmallestChild(i)]  )+ ") ");
-            System.out.println("dh2.getIndexOfSmallestChild2(i): " + String.format("%03d", dh2.getIndexOfSmallestChild2(i)) +" (" + String.format("%03d", dh2.data[dh2.getIndexOfSmallestChild2(i)]  ) + ") ");
-            System.out.println();
-        }
     }
 
 
@@ -86,7 +90,8 @@ public class ManualTests
         return randomNum;
     }
 
-    public static MaryHeap maryClassDump (MaryHeap heap)
+
+    private static MaryHeap maryClassDump (MaryHeap heap)
     {
         System.out.println("heap");
         int lineCount = 0;
