@@ -14,7 +14,7 @@ public class ManualTests
 
         // int[] input = {140,130,120,110,100,90,80,70,60,5,40,30,20,10};
         // int[] input = {14,13,12,11,10,9,8,7,6,5,4,3,2,1};
-        // int[] input = {13,12,11,10,9,8,7,6,5,4,3,2,1};
+         int[] input = {9,8,7,6,5,4,3,2,1};
    //      int[] input = {1,2,3,4,5,6,7,8,9,10,11,12};
      //    int[] input = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
       //   String [] input = {"a", "c", "b", "a"};
@@ -27,7 +27,7 @@ public class ManualTests
        // int[] input = {8,9,0,2,13,11,7};
       //  int[] input = {5,3,1,0,4,2};
        // int[] input = {2,1,4,3,11,17,0};
-         int[] input = getRandomNumbers(25);
+        // int[] input = getRandomNumbers(25);
        //  int[] input = {25,8,32,9,5,6,14,4,11,12,3, 2, 1};
 
             // Broken [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 6, 12, 13, 15, 16, 17, 18, 19, 14, 20, 21, 22, 23, 24, 25]
@@ -41,15 +41,12 @@ public class ManualTests
 
         for (int i = 0; i < input.length; i++)
         {
-           // System.out.print("size (" + (String.format("%03d", dh.size()) + ") " + "inserting input[" + String.format("%02d",i) + "]: " + String.format("%02d",input[i]) + "  "));
+            System.out.print("size (" + (String.format("%03d", dh.size()) + ") " + "inserting input[" + String.format("%02d",i) + "]: " + String.format("%02d",input[i]) + "  "));
             dh.insert(input[i]);
-          //  dh.printHeap();
+            dh.printHeap();
         }
 
-//        System.out.println("Are element in the correct order: " + dh.resortHeap());
-//        System.out.println("Are element in the correct order: " + dh.resortHeap());
-//        System.out.println("Are element in the correct order: " + dh.resortHeap());
-//        System.out.println("Are element in the correct order: " + dh.resortHeap());
+        System.out.println("Are element in the correct order: " + dh.verifyHeapOrder());
 
         MaryHeap dh2 = maryClassDump(dh);
         System.out.println();

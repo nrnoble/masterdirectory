@@ -385,53 +385,43 @@ public class MaryHeap<T extends Comparable<T>>
     }
 
 
-//    public int getIndexOfSmallestChild2(int parentIndex)
-//    {
-////        int child1 =  parentIndex + 1;
-////        int child2 =  parentIndex + 2;
-////        int child3 =  parentIndex + 3;
-//
-//
-//        int child1 = getChildIndex(parentIndex,1);
-//        int child2 = getChildIndex(parentIndex,2);
-//        int child3 = getChildIndex(parentIndex,3);
-//
-//        int smallestChildIndex = parentIndex;
-//
-//        if (data[child1].compareTo(data[smallestChildIndex]) < 0)
-//        {
-//            smallestChildIndex =  child1;
-//        }
-//
-//
-//        if (data[child2].compareTo(data[smallestChildIndex]) < 0)
-//        {
-//            smallestChildIndex =  child2;
-//        }
-//
-//        if (data[child3].compareTo(data[smallestChildIndex]) < 0)
-//        {
-//            smallestChildIndex =  child3;
-//        }
-//
-//
-//        return smallestChildIndex;
-//    }
+
 
     public boolean verifyHeapOrder()
     {
         T previousElement = data[0];
-        for (int i = 1; i < data.length -1 ; i++)
+        for (int parentIndex = 1; parentIndex < data.length -1 ; parentIndex++)
         {
-            getChildIndex(i,1);
-            getChildIndex(i,2);
-            getChildIndex(i,3);
-            T currentElement = data[i];
-            if (previousElement.compareTo(currentElement) > 0)
+
+            int[] childIndex  = new int[numberOfChildren];
+            T[] childElement  = (T[])new Comparable[numberOfChildren];
+
+            T parentElement = data[parentIndex];
+
+            if (parentElement == null)
             {
-                return false;
+                return true;
             }
-            currentElement = previousElement;
+
+
+            for (int i = 0; i < numberOfChildren ; i++)
+            {
+               // System.out.print("verifying parent: " + parentIndex + " child: " + i + " ");
+                childIndex[i] =  getChildIndex(parentIndex,i+1);
+                if (childIndex[i] < this.data.length)
+                {
+                    childElement[i] = this.data[childIndex[i]];
+
+                    if (childElement[i] != null)
+                    {
+                        if (parentElement.compareTo(childElement[i]) > 0)
+                        {
+                            return false;
+                        }
+                    }
+                    //System.out.println();
+                }
+            }
         }
 
         return  true;
