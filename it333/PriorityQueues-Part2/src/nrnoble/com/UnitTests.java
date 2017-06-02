@@ -1,4 +1,10 @@
 package nrnoble.com;
+/*
+* Neal Noble
+* May 2017
+* Assignment: Priority queue
+* Instructor: Josh Archer
+*/
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -6,9 +12,7 @@ import org.junit.Test;
 
 import java.util.Random;
 
-/**
- * Created by Neal on 5/27/2017.
- */
+
 public class UnitTests<T extends Comparable<T>>
 {
     private String[] stringData = {"z","y","x","w","v","u","t","s","r","q","p","o","n","m", "l", "k", "j", "i", "h", "g", "f", "e", "d", "c", "b", "a"};
@@ -21,8 +25,7 @@ public class UnitTests<T extends Comparable<T>>
         String name = new Object(){}.getClass().getEnclosingMethod().getName();
         System.out.println("running: " + name);
 
-         data = new MaryHeap(10,3);
-
+        data = new MaryHeap(10,3);
     }
 
 
@@ -172,11 +175,26 @@ public class UnitTests<T extends Comparable<T>>
         for (int i = 0; i < randnums.length ; i++)
         {
             //System.out.println("randnums[" + i + "] " + randnums[i]);
-           if (!data.contains(i))
-           {
-               System.out.println("Missing: randnums[" + i + "]: " + randnums[i]);
-               Assert.assertTrue(name + " test has failed", false);
-           }
+            if (!data.contains(i))
+            {
+                System.out.println("Missing: randnums[" + i + "]: " + randnums[i]);
+                Assert.assertTrue(name + " test has failed", false);
+            }
+        }
+
+        T value1 = (T)data.delMin();
+        while (data.size() > 0)
+        {
+            System.out.print(value1 + " ");
+
+            T value2 = (T)data.delMin();
+
+            if (value2.compareTo(value1) < 0)
+            {
+                System.out.println("Fail: " + value2 + " < " + value1 );
+                Assert.assertTrue(name + " test has failed", false);
+            }
+            value1 = value2;
         }
 
         System.out.println();
@@ -229,7 +247,9 @@ public class UnitTests<T extends Comparable<T>>
         String name = new Object(){}.getClass().getEnclosingMethod().getName();
         System.out.println("running test: " + name);
         data.clear();
-        fillData(10000);
+        Object[] randnums = getRandomNumbers(10000);
+        this.fillData(randnums);
+        // fillData(10000);
         if (data.size() != 10000)
         {
             Assert.assertTrue(name + " test has failed", false);
@@ -240,11 +260,12 @@ public class UnitTests<T extends Comparable<T>>
 
     // Insert 1 million elements and verify size
     @Test
-    public void insert1MillElements() throws Exception
+    public void MillionElements() throws Exception
     {
         String name = new Object(){}.getClass().getEnclosingMethod().getName();
         System.out.println("running test: " + name);
         data.clear();
+
         fillData(1000000);
         if (data.size() != 1000000)
         {
@@ -285,32 +306,9 @@ public class UnitTests<T extends Comparable<T>>
         System.out.println("running test: " + name);
 
         data.clear();
-       // insert10KElements();
-
-       // insert1MillElements();
-        //shuffle(this.data,3);
-        // verifty that all elements are sorted properly
-
-        T child = (T) data.delMin();
-        for (int i = 0; i < data.size() ; i++)
-        {
-            T parent = (T) data.delMin();
-
-            if (parent.compareTo(child) < 0)
-            {
-              //  System.out.println("parent: " + parent + " < " + child + " : child   fail");
-                Assert.assertTrue(name + " test has failed", false);
-                return;
-            }
-          //  System.out.println("parent: " + parent + " > " + child + " : child   pass ");
-
-            child = parent;
-        }
-
-        System.out.println();
+        MillionElements();
+        data.verifyHeapOrder();
     }
-
-
 
 
     /// Private Test Helpers ///

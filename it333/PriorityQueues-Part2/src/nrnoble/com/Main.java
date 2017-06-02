@@ -2,9 +2,7 @@ package nrnoble.com;
 
 import java.util.Map;
 
-/**
- * Created by Neal on 5/29/2017.
- */
+
 public class Main
 {
     public static void main(String[] args)
@@ -16,11 +14,13 @@ public class Main
 
     public static Huffman showStats()
     {
-        byte[] fileBytes = FileIO.readFile ("E:\\Data\\Github\\it333\\PriorityQueues-Part2\\src\\nrnoble\\com\\war_and_peace.txt");
+        //  byte[] fileBytes = FileIO.readFile ("E:\\Data\\Github\\it333\\PriorityQueues-Part2\\src\\nrnoble\\com\\war_and_peace.txt");
+        byte[] fileBytes = FileIO.readFile ("E:\\Data\\Github\\it333\\PriorityQueues-Part2\\src\\nrnoble\\com\\war_and_peace_(short).txt");
         Huffman huff = new Huffman(fileBytes);
 
         //2,969,955
         System.out.println("Total characters: " + huff.getCharacterCount());
+        System.out.println("Total bits: " + (huff.getCharacterCount() * 8));
         Map map = huff.getMap();
         int[] characters = huff.getFilterCharacters();
 
@@ -37,7 +37,7 @@ public class Main
             value = (float)map.get(key);
             percent = value / huff.getCharacterCount();
             percentageTotal = percentageTotal + percent;
-          //  String ch = String.format ("%07d", characters[i]);
+          //  String ch = Strng.format ("%07d", characters[i]);
             String ch = String.format ("%07d", map.get(key));
 
             System.out.println( key + ": " + ch + "   " + percent * 100 +"%");

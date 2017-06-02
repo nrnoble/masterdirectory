@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
 /*
 * Neal Noble
 * May 2017
-* Assignment: Priority queue
+* Assignment: Priority queue Part 2
 * Instructor: Josh Archer
 */
 
@@ -22,13 +22,13 @@ public class MaryHeap<T extends Comparable<T>>
     private static final int NUM_OF_CHILDREN = 3;
     private int numberOfChildren = NUM_OF_CHILDREN;
     private int heapSize = INITIAL_SIZE;
-    private T[] data;
+    public T[] data;
 
 
     // Constructor
     public MaryHeap(int heapCapacity, int numChild)
     {
-    	// if number of children is less than two, set to default
+        // if number of children is less than two, set to default
         if (numChild < 2)
         {
             numChild = NUM_OF_CHILDREN;
@@ -54,13 +54,13 @@ public class MaryHeap<T extends Comparable<T>>
         return heapSize == data.length;
     }
 
-    
+
     private MaryHeap()
     {
         // Do nothing
     }
 
-    
+
     /**
      * Clear the Heap
      */
@@ -69,7 +69,7 @@ public class MaryHeap<T extends Comparable<T>>
         heapSize = 0;
     }
 
-    
+
     /**
      *  Insert element into Heap
      * @param element to be inserted into the heap
@@ -82,7 +82,7 @@ public class MaryHeap<T extends Comparable<T>>
             resize();
         }
         data[heapSize++] = element;
-        swim(heapSize - 1);
+        swim(heapSize-1);
     }
 
 
@@ -100,7 +100,7 @@ public class MaryHeap<T extends Comparable<T>>
         return data[0];
     }
 
-    
+
     /**
      * Delete and return the top most element in the heap
      * @return T element  top most element
@@ -217,7 +217,8 @@ public class MaryHeap<T extends Comparable<T>>
             return null;
         }
         T element = data[index];
-        data[index] = data[heapSize - 1];
+        T element2 = data[heapSize-1];
+        data[index] = element2;
         heapSize--;
         sink(index);
         return element;
@@ -228,21 +229,38 @@ public class MaryHeap<T extends Comparable<T>>
 
 
     // element will swim up the heap until it finds the correct location
-    private void swim(int childIndex)
+//    private void swim1(int childIndex)
+//    {
+//        T currentChild = data[childIndex];
+//        int parentIndex  = getParentIndex (childIndex);
+//        T currentParent = data[parentIndex];
+//        while (childIndex > 0 && currentChild.compareTo(currentParent) < 0)
+//        {
+//            data[childIndex] = data[ getParentIndex (childIndex) ];
+//            childIndex = getParentIndex (childIndex);
+//        }
+//        data[childIndex] = currentChild;
+//    }
+
+    private void swim(int index)
     {
-        T currentChild = data[childIndex];
-        T currentParent = data[getParentIndex (childIndex)];
-        while (childIndex > 0 && currentChild.compareTo(currentParent) < 0)
+        while (index >0)
         {
-            data[childIndex] = data[ getParentIndex (childIndex) ];
-            childIndex = getParentIndex (childIndex);
+            int parentIndex = getParentIndex(index);
+            if (data[index].compareTo(data[parentIndex]) < 0)
+            {
+                swap(index, parentIndex);
+            }
+            if (data[index].compareTo(data[parentIndex]) < 0)
+            {
+                sink(index);
+            }
+            index = parentIndex;
         }
-        data[childIndex] = currentChild;
     }
 
 
-
-     /**
+    /**
      * element will sink down the heap until it finds the correct location
      * between elements that where the parent is larger, and elements below are smaller.
      */
@@ -264,28 +282,180 @@ public class MaryHeap<T extends Comparable<T>>
 
 
 
+    public int getIndexOfSmallestChild2(int parentIndex)
+    {
+//        int childIndex1 = parentIndex + 1;
+//        int childIndex2 = parentIndex + 2;
+//        int childIndex3 = parentIndex + 3;
+
+        int childIndex1 = getChildIndex(parentIndex,1);
+        int childIndex2 = getChildIndex(parentIndex,2);
+        int childIndex3 = getChildIndex(parentIndex,3);
+
+
+        T child1Value = null;
+        T child2Value = null;
+        T child3Value = null;
+
+        int smallestChildIndex = parentIndex;
+        T smallestValue = (T) data[parentIndex];
+
+        // if parent is the last element, then parent has no children
+        if (parentIndex == heapSize-1)
+        {
+            return parentIndex;
+        }
+
+        // check if first childIndex is less than last index
+        if (childIndex1 <= heapSize-1)
+        {
+            child1Value = (T) data[childIndex1];
+            if (child1Value == null)
+            {
+                return parentIndex;
+            }
+
+            if (child1Value.compareTo(smallestValue) < 0)
+            {
+                smallestChildIndex = childIndex1;
+                smallestValue = child1Value;
+            }
+        }
+
+
+        // check if second childIndex is less than last index
+        if (childIndex2 <= heapSize-1)
+        {
+            child2Value = (T) data[childIndex2];
+            if (child2Value == null)
+            {
+                return smallestChildIndex;
+
+            }
+            if (child2Value.compareTo(smallestValue) < 0)
+            {
+                smallestChildIndex = childIndex2;
+                smallestValue = child2Value;
+            }
+
+
+        }
+
+        // check if third childIndex is less than last index
+        if (childIndex3 <= heapSize-1)
+        {
+            child3Value = (T) data[childIndex3];
+            if (child3Value == null)
+            {
+                return smallestChildIndex;
+            }
+            if (child3Value.compareTo(smallestValue) < 0)
+            {
+                smallestChildIndex = childIndex3;
+                smallestValue = child3Value;
+            }
+        }
+        return smallestChildIndex;
+    }
+
+
+
     /**
      * Get index smallest child of the parent.
      *
      * **/
-    private int getIndexOfSmallestChild(int index)
+    public int getIndexOfSmallestChild(int index)
     {
         int childIndex1 =  getChildIndex(index, 0);
         int childPosition = 1;
         int childIndex2 = getChildIndex(index, childPosition);
-        while ((childPosition <= numberOfChildren) && (childIndex2 < heapSize))
+        while ((childPosition <= numberOfChildren+1) && (childIndex2 < heapSize))
         {
-         // System.out.println("while ((childPosition[" + childPosition +"] <= numberOfChildren [" + numberOfChildren + "]) && (childIndex2[" + childIndex2 + "] < heapSize[" + heapSize+"]))");
+            // System.out.println("while ((childPosition[" + childPosition +"] <= numberOfChildren [" + numberOfChildren + "]) && (childIndex2[" + childIndex2 + "] < heapSize[" + heapSize+"]))");
             if (data[childIndex2].compareTo(data[childIndex1]) < 0)
             {
                 childIndex1 = childIndex2;
             }
             childIndex2 = getChildIndex(index, childPosition++);
-         // System.out.println("returning: " + childIndex1);
+            // System.out.println("returning: " + childIndex1);
         }
-         // System.out.println("returning: " + childIndex1);
-         // printHeap();
+        // System.out.println("returning: " + childIndex1);
+        // printHeap();
         return childIndex1;
+    }
+
+
+
+
+    public boolean verifyHeapOrder()
+    {
+        T previousElement = data[0];
+        for (int parentIndex = 1; parentIndex < data.length -1 ; parentIndex++)
+        {
+
+            int[] childIndex  = new int[numberOfChildren];
+            T[] childElement  = (T[])new Comparable[numberOfChildren];
+
+            T parentElement = data[parentIndex];
+
+            if (parentElement == null)
+            {
+                return true;
+            }
+
+
+            for (int i = 0; i < numberOfChildren ; i++)
+            {
+                // System.out.print("verifying parent: " + parentIndex + " child: " + i + " ");
+                childIndex[i] =  getChildIndex(parentIndex,i+1);
+                if (childIndex[i] < this.data.length)
+                {
+                    childElement[i] = this.data[childIndex[i]];
+
+                    if (childElement[i] != null)
+                    {
+                        if (parentElement.compareTo(childElement[i]) > 0)
+                        {
+                            return false;
+                        }
+                    }
+                    //System.out.println();
+                }
+            }
+        }
+
+        return  true;
+    }
+
+
+    public boolean resortHeap()
+    {
+        // check if heap is already correctly ordered
+        if (verifyHeapOrder())
+        {
+            return true;
+        }
+
+        // create a temp heap
+        MaryHeap dh2 = new MaryHeap(this.heapSize,numberOfChildren);
+        //T[] data2 = (T[])new Comparable[heapSize + 1];
+
+        // remove all element from heap, and add them to tempory heap.
+        // this will force a reorder of elements as they are inserted.
+        while (!this.isEmpty())
+        {
+            //printHeap();
+            dh2.insert(this.delMin());
+        }
+
+        // add elements back into current heap.
+        while (!dh2.isEmpty())
+        {
+            this.insert((T)dh2.delMin());
+        }
+
+        return verifyHeapOrder();
+
     }
 
 
@@ -309,15 +479,15 @@ public class MaryHeap<T extends Comparable<T>>
 
     }
 
-    
-// TODO: Remove 
-//    private void swap(int first, int second)
-//    {
-//    //  System.out.println("Swapping data[" + first + "] " + data[first] + " <--> " + data[second] + " data[" + second + "]");
-//        T temp = data[first];
-//        data[first] = data[second];
-//        data[second] = temp;
-//    }
+
+
+    private void swap(int first, int second)
+    {
+        //  System.out.println("Swapping data[" + first + "] " + data[first] + " <--> " + data[second] + " data[" + second + "]");
+        T temp = data[first];
+        data[first] = data[second];
+        data[second] = temp;
+    }
 
     /**
      * Get the parent index of child
@@ -339,17 +509,36 @@ public class MaryHeap<T extends Comparable<T>>
     }
 
 
-    /**  print data **/
+//    /**  print data **/
+//    public void printHeap()
+//    {
+//        System.out.print("MaryHeap Order: ");
+//        for (int index = 0; index < heapSize-1; index++)
+//        {
+//            System.out.print("[" + index + "]:" + data[index] + ", ");
+//        }
+//        System.out.print("[" + (heapSize-1) + "]:" + data[heapSize-1]);
+//        System.out.println();
+//        return;
+//    }
+
 
     public void printHeap()
     {
+        if (this.isEmpty())
+        {
+            System.out.println("heap size : " + this.size());
+            return;
+        }
+
         System.out.print("MaryHeap Order: ");
         for (int index = 0; index < heapSize-1; index++)
         {
-            System.out.print("[" + index + "]:" + data[index] + ", ");
+            System.out.print("[" + String.format ("%03d", index) + "]:" + String.format ("%03d", data[index])  + ", ");
         }
-        System.out.print("[" + (heapSize-1) + "]:" + data[heapSize-1]);
+        System.out.print("[" + (String.format ("%03d", heapSize-1)) + "]:" +  String.format ("%03d",  data[heapSize-1]) );
         System.out.println();
         return;
     }
+
 }
