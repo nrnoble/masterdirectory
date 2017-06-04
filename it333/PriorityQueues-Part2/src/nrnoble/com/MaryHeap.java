@@ -55,7 +55,7 @@ public class MaryHeap<T extends Comparable<T>>
     }
 
 
-    private MaryHeap()
+    public MaryHeap()
     {
         // Do nothing
     }
@@ -190,7 +190,23 @@ public class MaryHeap<T extends Comparable<T>>
      */
     public T findMax()
     {
-        return data[this.heapSize-1];
+        return this.data[getIndexOfLargest()];
+    }
+
+
+    // searches heap for the largest element and returns
+    // the index of element
+    public int getIndexOfLargest()
+    {
+        int IndexOfLargest  = 0;
+        for (int index = 0; index < this.size() ; index++)
+        {
+            if (this.data[index].compareTo(this.data[IndexOfLargest]) > 0)
+            {
+                IndexOfLargest = index;
+            }
+        }
+        return IndexOfLargest;
     }
 
 
@@ -200,10 +216,14 @@ public class MaryHeap<T extends Comparable<T>>
      */
     public T delMax()
     {
-        return delete(this.heapSize-1);
+        int index = getIndexOfLargest();
+        return delete(index);
     }
 
-
+    public T getElement(int index)
+    {
+         return data[index];
+    }
 
     /**
      * Delete element at a specific index. Heap will reorder itself
