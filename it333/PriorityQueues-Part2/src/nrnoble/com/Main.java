@@ -14,13 +14,15 @@ public class Main
     static private byte[] longVersion, shortVersion;
     static private Huffman huffLongVersion, huffShortVersion = null;
     static private int huffmanBitCount = 0;
+    static private DecimalFormat intFormat = new DecimalFormat("#000,000");
+    static private DecimalFormat percentFormat = new DecimalFormat("#00.00");
 
     public static void main(String[] args) throws IOException
     {
 //        Huffman huff =  frequencyChart();
 //        MaryHeap<HuffmanNode> heap = new MaryHeap(10,2);
 
- //       Map map = huff.getMap();
+ //       Map rawDataStats = huff.getRawDataStats();
   ///      showHuffValues(huff);
 
       //  System.out.println("path: " + path);
@@ -30,10 +32,11 @@ public class Main
     }
 
 
-
-
     public static void showHuffValues(Huffman huff)
     {
+
+        System.out.println("Huffman Values");
+        System.out.println();
     String[] keys = huff.getKeys();
     String[] longVersionkeys = huff.getKeys();
         Map charMap = huff.getCharacterNodeMap();
@@ -51,10 +54,10 @@ public class Main
     }
 
 
-    private static void Comparison()
+    private static void comparison()
     {
         System.out.println();
-        System.out.println("Comparison Bit Output for: " + "\"" + fileName.substring(12) + "\"");
+        System.out.println("comparison Bit Output for: " + "\"" + fileName.substring(12) + "\"");
         System.out.println();
         int charCounter = 0;
         String chars = "";
@@ -69,8 +72,8 @@ public class Main
 
         for (int i = 0; i < asciilines.length ; i++)
         {
-            System.out.println(asciilines[i]);
-            System.out.println(hufflines[i]);
+            System.out.println("  Ascii: " + asciilines[i]);
+            System.out.println("Huffman: " + hufflines[i]);
             System.out.println();
         }
 
@@ -101,6 +104,12 @@ public class Main
 
         System.out.println();
         System.out.println("Total bits: " + huff.getData().length*8);
+
+
+        System.out.println("");
+        huffLongVersion.getTotalHuffmanBits();
+
+    
     }
 
     private static List<String> getaSCIIOutput()
@@ -229,8 +238,8 @@ public class Main
     
     public static Huffman frequencyChartShortVersion()
     {
-        DecimalFormat intFormat = new DecimalFormat("#000,000");
-        DecimalFormat percentFormat = new DecimalFormat("#00.00");
+//        DecimalFormat intFormat = new DecimalFormat("#000,000");
+//        DecimalFormat percentFormat = new DecimalFormat("#00.00");
 
 
         //byte[] fileBytes = FileIO.readFile ("E:\\Data\\Github\\it333\\PriorityQueues-Part2\\src\\nrnoble\\com\\war_and_peace.txt");
@@ -246,7 +255,7 @@ public class Main
         // System.out.println("              Total bits: " +  intFormat.format ((huff.getCharacterCount() * 8)));
 
         huff = huffShortVersion;
-        Map map = huff.getMap();
+        Map map = huff.getRawDataStats();
         int[] characters = huffShortVersion.getCharacters();
 
         Double value = (Double) map.get(" ");
@@ -273,7 +282,7 @@ public class Main
         System.out.println();
         System.out.println("           ASCII characters: " +  intFormat.format (total));
         System.out.println("            ASCII frequency: " +  percentFormat.format (percentageTotal * 100) + "%");
-        System.out.println("      Raw ASCII bits loaded: " +   intFormat.format(fileBytes.length * 8));
+        System.out.println("      Raw ASCII bits loaded: " +   intFormat.format(huff.getData().length * 8));
         System.out.println("Valid bits loaded from file: " +  intFormat.format (huff.getCharacterCount() * 8) + " (invalid bits are new line control characters)");
 
         System.out.println();
@@ -285,20 +294,24 @@ public class Main
     public static Huffman frequencyChartFullVersion()
     {
         DecimalFormat intFormat = new DecimalFormat("#000,000");
-        DecimalFormat percentFormat = new DecimalFormat("#00.00");
+        DecimalFormat percentFormat = new DecimalFormat("#00.00%");
 
-        Map map = huffLongVersion.getMap();
+        huff = huffLongVersion;
+        Map map = huffLongVersion.getRawDataStats();
         int[] characters = huff.getCharacters();
+
         System.out.println();
         System.out.println();
         System.out.println("Frequencies for 'war_and_peace.txt'");
         System.out.println("---------------------------------------------");
 
+
+
         Double value = (Double) map.get(" ");
         double percent = value / huff.getCharacterCount();
         double percentageTotal = percent;
-       // System.out.println("                   space: " +  intFormat.format (map.get(" ")) + "   " +  percentFormat.format(percent * 100) +"%");
-        System.out.println("space: " +  intFormat.format (map.get(" ")) + "   " +  percentFormat.format(percent * 100) +"%");
+       // System.out.println("                   space: " +  intFormat.format (rawDataStats.get(" ")) + "   " +  percentFormat.format(percent * 100) +"%");
+        System.out.println("space: " +  intFormat.format (map.get(" ")) + "   " +  percentFormat.format(percent));
 
         double total = characters[32];
 
@@ -311,14 +324,14 @@ public class Main
             Double keyValue = (Math.floor((Double) map.get(key)));
             String ch = intFormat.format(keyValue);
             //System.out.println("                 " +key + ": " + ch + "   " + percentFormat.format(percent * 100) +"%");
-            System.out.println("    " + key + ": " + ch + "   " + percentFormat.format(percent * 100) +"%");
+            System.out.println("    " + key + ": " + ch + "   " + percentFormat.format(percent));
             total = total + keyValue;
 
         }
 
         System.out.println();
         System.out.println("           ASCII characters: " +  intFormat.format (total));
-        System.out.println("            ASCII frequency: " +  percentFormat.format (percentageTotal * 100) + "%");
+        System.out.println("            ASCII frequency: " +  percentFormat.format (percentageTotal));
         System.out.println("      Raw ASCII bits loaded: " +   intFormat.format(fileBytes.length * 8));
         System.out.println("Valid bits loaded from file: " +  intFormat.format (huff.getCharacterCount() * 8) + " (invalid bits are new line control characters)");
 
@@ -326,9 +339,6 @@ public class Main
         System.out.println();
         return huff;
     }
-
-
-
 
 
     private static void userLoop() throws IOException
@@ -340,26 +350,29 @@ public class Main
 
         assignmentHeader();
 
+//        // Get user selection
+//        int selection = userInput();
+
+        fileName = "nrnoble/com/war_and_peace.txt";
+        longVersion = FileIO.readFile(path + fileName);
+
+        fileName = "nrnoble/com/war_and_peace_(short).txt";
+        shortVersion = FileIO.readFile(path + fileName);
+
+
+        fileName = "nrnoble/com/war_and_peace.txt";
+        huffLongVersion = new Huffman(FileIO.readFile(path + fileName));
+        fileName = "nrnoble/com/war_and_peace_(short).txt";
+        huffShortVersion = new Huffman(FileIO.readFile(path + fileName));
+
+        huff = huffShortVersion;
+
+
         while (exit == false)
         {
 
             // Get user selection
-            int selection = userInput();
-
-            fileName = "nrnoble/com/war_and_peace.txt";
-            longVersion = FileIO.readFile(path + fileName);
-
-            fileName = "nrnoble/com/war_and_peace_(short).txt";
-            shortVersion = FileIO.readFile(path + fileName);
-
-
-            fileName = "nrnoble/com/war_and_peace.txt";
-            huffLongVersion = new Huffman(FileIO.readFile(path + fileName));
-            fileName = "nrnoble/com/war_and_peace_(short).txt";
-            huffShortVersion = new Huffman(FileIO.readFile(path + fileName));
-
-            huff = huffShortVersion;
-
+               int selection = userInput();
 
 
             // Handle loading of data
@@ -402,12 +415,26 @@ public class Main
 
             if (selection == 5)
             {
-                Comparison();
+                comparison();
+            }
+
+            if (selection == 6)
+            {
+                frequencyChart();
+                showHuffValues(huff);
+                aSCIIOutput();
+                huffmanOutput();
+                comparison();
             }
 
 
+            if (selection == 8)
+            {
+                assignment();
+            }
 
-            if (selection == 6)
+
+            if (selection == 7)
             {
                 System.out.println("Exiting");
                 break;
@@ -421,44 +448,23 @@ public class Main
     {
         while (true)
         {
- ///           try
-//           {
-//                System.out.println("1. Load 'War and Peace' (Full version)");
-//                System.out.println("2. Load 'War and Peace' (Sample version)");
-//                if (fileName == "")
-//                {
-//                    System.out.println("   File: No data is currently loaded. Select 1 or 2");
-//                }
-//                else
-//                {
-//                    String name = fileName.substring(12);
-//                    System.out.println("   File: " + name);
-//                }
             System.out.println();
                 System.out.println("1. Frequency Chart");
                 System.out.println("2. Huffman Values");
-                System.out.println("3. ASCII output (short version Only)");
-                System.out.println("4. Huffman output (short version Only)");
+                System.out.println("3. ASCII output");
+                System.out.println("4. Huffman output");
                 System.out.println("5. Compare ASSCII to Huffman");
                 System.out.println("6. All");
                 System.out.println("7. Exit");
                 System.out.println("---------------------------------------------");
                 Scanner scan = new Scanner(System.in);
                 int choice = scan.nextInt();
-                if (choice == 1 || choice == 2 || choice == 3  || choice == 4  || choice == 5  || choice == 6  || choice == 7)
+                if (choice == 1 || choice == 2 || choice == 3  || choice == 4  || choice == 5  || choice == 6  || choice == 7 || choice == 8)
                 {
                     return choice;
                 }
 
             }
-//            catch (Exception err)
-//            {
-//
-//            }
-          //  System.out.println("Select 1 - 6");
-          // System.out.println();
-//        }
-//
     }
 
 
@@ -474,6 +480,32 @@ public class Main
     }
 
 
+    public static void assignment()
+    {
+        System.out.println();
+        System.out.println();
+        System.out.println("Analyzing war and peace(Short).txt");
+        frequencyChartShortVersion();
+        System.out.println();
+        showHuffValues(huff);
+        aSCIIOutput();
+        huffmanOutput();
+        comparison();
+
+        System.out.println("Analyzing war and peace.txt");
+        frequencyChartFullVersion();
+
+
+        System.out.println("ASCII Output");
+        System.out.println();
+        System.out.println("Total Length: " + intFormat.format(huffLongVersion.getData().length));
+        System.out.println();
+        System.out.println("Hufmman Output");
+        System.out.println();
+        System.out.println("Total Length: " + intFormat.format(huffLongVersion.getTotalHuffmanBits()));
+        System.out.println();
+        System.out.println();
+    }
 }
 
 

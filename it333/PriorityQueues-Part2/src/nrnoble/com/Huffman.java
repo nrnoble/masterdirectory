@@ -1,9 +1,6 @@
 package nrnoble.com;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 public class Huffman
@@ -37,16 +34,17 @@ public class Huffman
     private String y = "01111001";
     private String z = "01111010";
 
-    Map<String, Double> map = new HashMap<String,Double>();
+    Map<String, Double> rawDataStats = new HashMap<String,Double>();
     Map<String, String> asciiBitMap = new HashMap<>();
     Map<String,HuffmanNode> characterNodeMap = new HashMap<String,HuffmanNode>();
-//    private byte[] ascii ={space,rtn,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z};
+    Map<String,String> huffmanValues = new HashMap<>();
+
+
     private String[] ascii ={space,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z};
     private byte[] data;
     private byte[] filteredText;
     private int rawCharacterCount;
     public MaryHeap<HuffmanNode> huffNodes= new MaryHeap<HuffmanNode>(10,3);
-    //private String[] keys = new String[]{" ","rtn","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
     private String[] keys = new String[]{" ","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
     private final String NULL = "\\u000";
     private int characterCount = 0;
@@ -54,7 +52,7 @@ public class Huffman
 
     // debug variables
     // list of characters that have been filtered out because they are not part A-Z + space.
-    protected List<Byte> debugSkippedCharacters = new ArrayList<>();
+       protected List<Byte> debugSkippedCharacters = new ArrayList<>();
 
 
 
@@ -101,6 +99,17 @@ public class Huffman
         return result;
     }
 
+    public String HuffmanToAsscii(String huffString)
+    {
+        //String rtnStr = "";
+        for (char ch: huffString.toCharArray())
+        {
+            //rtnStr += this.
+        }
+
+        return "";
+    }
+
     // Create a hashMap that maps ascii characters to 8 bits.
     private void createAsciiBitMap()
     {
@@ -111,7 +120,13 @@ public class Huffman
     }
 
 
-    public void combineNodes()
+    /**
+     * Used to build the Huffman tree. Takes the the two nodes with the lowest
+     * frequency percentage and combines them into one node with the combined
+     * frequency of the two nodes. The new node has the data value of Null.
+     * See public method HuffmanNode combineTwoNodes(HuffmanNode leftNode, HuffmanNode righNode)
+     */
+    private void combineNodes()
     {
         while (this.huffNodes.size() > 1)
         {
@@ -142,15 +157,19 @@ public class Huffman
         return combinedNode;
     }
 
-
+    /**
+     * Returns the Map keys a-z. The keys are uses with Hashmaps to retreive
+     * bit strings representing the key as either ASSCI or Huffman bits.
+     * @return a string of 3-8 characters. such as 000 or101101
+     */
     public String[] getKeys()
     {
         return keys;
     }
 
-    public Map<String, Double> getMap()
+    public Map<String, Double> getRawDataStats()
     {
-        return map;
+        return rawDataStats;
     }
 
 
@@ -166,14 +185,17 @@ public class Huffman
 
     private int[] filterCharacters =  new int[123];
 
-
+    /**
+     * Returns the original file bytes
+     * @return an array of ASCII bytes
+     */
     public byte[] getData()
     {
         return data;
     }
 
 
-    public void setData(byte[] data)
+    private void setData(byte[] data)
     {
         this.data = data;
     }
@@ -188,13 +210,14 @@ public class Huffman
         return getFilterCount();
     }
 
+
     public Map<String, HuffmanNode> getCharacterNodeMap()
     {
         return characterNodeMap;
     }
 
-    // Calculate the probability of each character in the character map
-    // Characters no in the character map are ingored.
+    // Calculate the probability of each character in the character rawDataStats
+    // Characters no in the character rawDataStats are ingored.
     private void calcProbablity()
     {
         this.filteredText = new byte[getFilterCount()];
@@ -202,12 +225,12 @@ public class Huffman
         for (int i = 0; i < this.data.length; i++)
         {
             String key = getKey(data[i]);
-            Double value = map.get(key);
+            Double value = rawDataStats.get(key);
 
 //            if (data[i] == 10 || data[i] == 32 || (data[i] >= 97 && data[i] <= 122) || (data[i] >= 65 && data[i] <= 90))
             if (data[i] == 32 || (data[i] >= 97 && data[i] <= 122) || (data[i] >= 65 && data[i] <= 90))
             {
-                map.put(key, ++value);
+                rawDataStats.put(key, ++value);
                 this.characterCount++;
               //  System.out.println("characterCount: " + characterCount);
             }
@@ -222,16 +245,10 @@ public class Huffman
     }
 
 
-    // get the map key for a specific characters.
+    // get the rawDataStats key for a specific characters.
     // includes spaces and return
     public String getKey(byte ch)
     {
-//        // Handle carriage return
-//        if (ch == 10)
-//        {
-//            return "rtn";
-//        }
-
         return  Character.toString((char)ch).toLowerCase();
     }
 
@@ -243,6 +260,7 @@ public class Huffman
         huffNodes.insert(hNode);
         characterNodeMap.put(key,hNode);
     }
+
 
     public int getTotalHuffmanBits()
     {
@@ -264,38 +282,38 @@ public class Huffman
         return this.totalHuffmanBits;
     }
 
-    // creates all possible nodes bases on the character map
+    // creates all possible nodes bases on the character rawDataStats
     // A-Z is converted to lowercase so all alpha characters are lowercase
-    // character map also includes the space character and return control character.
+    // character rawDataStats also includes the space character and return control character.
     // All other characters are ignored, such as punctuation
     private void createNodes()
     {
         for (String key: this.keys)
         {
            // System.out.println("key: " + key);
-            double value = this.map.get(key);
+            double value = this.rawDataStats.get(key);
             double probability = value / this.getCharacterCount();
             this.addNode(key, probability, value, null, null);
         }
     }
 
 
-    // Init the character map.
+    // Init the character rawDataStats.
     // All values are set to zero.
     private void resetCharMap()
     {
-        map.put(Character.toString((char) 32), 0.0);
-//        map.put("rtn", 0.0);
+        rawDataStats.put(Character.toString((char) 32), 0.0);
+//        rawDataStats.put("rtn", 0.0);
         for (int i = 97; i <= 122; i++)
         {
             String key = Character.toString((char) i);
-            this.map.put(key, 0.0);
+            this.rawDataStats.put(key, 0.0);
         }
     }
 
 
-    // get the character counter of valid characters based character map.
-    // only characters in the character map are counted, punctuation and
+    // get the character counter of valid characters based character rawDataStats.
+    // only characters in the character rawDataStats are counted, punctuation and
     // control characters are ignored, except for return
     private int getFilterCount()
     {
