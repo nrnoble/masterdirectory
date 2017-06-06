@@ -8,7 +8,9 @@ public class HuffmanNode implements Comparable<HuffmanNode>
     private final String key;
     private double characterCount;
     private final double probability;
-
+    private String HuffmanCharacterBitString ="";
+    private String leftRightBit = "";
+    private double totalHuffmanBits = 0;
     private final HuffmanNode left;
     private final HuffmanNode right;
     private HuffmanNode parent;
@@ -81,6 +83,50 @@ public class HuffmanNode implements Comparable<HuffmanNode>
         return right;
     }
 
+    public String getHuffmanCharacterBitString()
+    {
+        return HuffmanCharacterBitString;
+    }
+
+    public void setHuffmanCharacterBitString(String huffmanCharacterBitString)
+    {
+        this.HuffmanCharacterBitString = huffmanCharacterBitString;
+    }
+
+    public String getLeftRightBit()
+    {
+        return leftRightBit;
+    }
+
+    public void setLeftRightBit(String leftRightBit)
+    {
+        this.leftRightBit = leftRightBit;
+    }
+
+    public String getHuffmanBitString()
+    {
+        if (this.HuffmanCharacterBitString.length() >0)
+        {
+            return  this.HuffmanCharacterBitString;
+        }
+        if (parent !=  null)
+        {
+            HuffmanCharacterBitString =  parent.getHuffmanBitString();
+        }
+        this.HuffmanCharacterBitString = HuffmanCharacterBitString + leftRightBit;
+        return this.HuffmanCharacterBitString;
+    }
+
+    public double getHuffmanBitCount()
+    {
+        if (this.totalHuffmanBits > 0)
+        {
+            return this.totalHuffmanBits;
+        }
+        getHuffmanBitString();
+        totalHuffmanBits = this.characterCount * this.HuffmanCharacterBitString.length();
+        return totalHuffmanBits;
+    }
 
     @Override
     public String toString()
