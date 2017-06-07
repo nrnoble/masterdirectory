@@ -19,13 +19,8 @@ public class Main
 
     public static void main(String[] args) throws IOException
     {
-//        Huffman huff =  frequencyChart();
-//        MaryHeap<HuffmanNode> heap = new MaryHeap(10,2);
 
- //       Map rawDataStats = huff.getRawDataStats();
-  ///      showHuffValues(huff);
 
-      //  System.out.println("path: " + path);
         userLoop();
 
 
@@ -345,13 +340,10 @@ public class Main
     {
         boolean exit = false;
         Scanner textscanner = new Scanner(System.in);
-        // Dictionary dictionary = new Dictionary(getWords(1, dictionaryPath));
-        // dictionary.clear();
 
-        assignmentHeader();
 
-//        // Get user selection
-//        int selection = userInput();
+   //     assignmentHeader();
+
 
         fileName = "nrnoble/com/war_and_peace.txt";
         longVersion = FileIO.readFile(path + fileName);
@@ -367,6 +359,8 @@ public class Main
 
         huff = huffShortVersion;
 
+        comparison();
+        assignmentHeader();
 
         while (exit == false)
         {
@@ -415,16 +409,14 @@ public class Main
 
             if (selection == 5)
             {
+                // compare Huffman to ASCII
                 comparison();
             }
 
             if (selection == 6)
             {
-                frequencyChart();
-                showHuffValues(huff);
-                aSCIIOutput();
-                huffmanOutput();
-                comparison();
+                // output formatted according to assignment instructions.
+                assignment();
             }
 
 
@@ -496,13 +488,14 @@ public class Main
         frequencyChartFullVersion();
 
 
+        double xcv = (double) huffLongVersion.getTotalHuffmanBits() / (double)(huffLongVersion.getData().length * 8);
         System.out.println("ASCII Output");
         System.out.println();
-        System.out.println("Total Length: " + intFormat.format(huffLongVersion.getData().length));
+        System.out.println("Total Length: " + intFormat.format(huffLongVersion.getData().length * 8));
         System.out.println();
         System.out.println("Hufmman Output");
         System.out.println();
-        System.out.println("Total Length: " + intFormat.format(huffLongVersion.getTotalHuffmanBits()));
+        System.out.println("Total Length: " + intFormat.format(huffLongVersion.getTotalHuffmanBits()) +  " reduction: " + percentFormat.format(xcv *100)  + "%");
         System.out.println();
         System.out.println();
     }
