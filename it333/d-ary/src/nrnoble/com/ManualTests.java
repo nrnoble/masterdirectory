@@ -10,7 +10,7 @@ public class ManualTests
     {
 
         MaryHeap dh = new MaryHeap(10,3);
-        UnitTests ut = new UnitTests();
+        OldUnitTests ut = new OldUnitTests();
 
        // MarryHeap<Integer> dh = new MarryHeap<>();
 
@@ -36,18 +36,11 @@ public class ManualTests
         maryClassDump(dh);
 
         System.out.println();
-        System.out.println();
-
-        ut.setup();
-        ut.addTwelveElements();
+        System.out.println("Are element in the correct order: " + dh.verifyHeapOrder());
 
         System.out.println();
-        ut.setup();
-        ut.deleteLargestElement();
-
         System.out.println();
-        ut.setup();
-        ut.containsAlphabet();
+
     }
 
 
@@ -77,14 +70,13 @@ public class ManualTests
                 testData[swap1] = testData[swap2];
                 testData[swap2] = element;
             }
-
         }
         return testData;
     }
 
 
-
-    public static int randInt(int min, int max) {
+    public static int randInt(int min, int max)
+    {
 
         int randomNum = rand.nextInt((max - min) + 1) + min;
         return randomNum;
